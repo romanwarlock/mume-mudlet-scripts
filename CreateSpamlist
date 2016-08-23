@@ -1,0 +1,8 @@
+member={}
+memberindex=0
+groupsize=0
+   for newmember in string.gmatch(matches[2], "%a+") do
+     memberindex=memberindex+1 
+     member[memberindex]=newmember
+   end
+groupsize=memberindex
