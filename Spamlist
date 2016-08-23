@@ -1,0 +1,3 @@
+for i=1,groupsize do
+  echo("member[i].." \n")
+end
