@@ -1,0 +1,3 @@
+for memberindex = 1,groupsize do
+  send("tell "..member[memberindex].." "..matches[2].." |GT|")
+end
