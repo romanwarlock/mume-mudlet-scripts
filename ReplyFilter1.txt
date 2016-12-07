@@ -1,0 +1,11 @@
+
+Triggers
+pattern: ^(.*) tells you (.*)   [perl regex]
+code:
+  if string.find(matches[2], " ", 1)==nil then
+    teller_new=matches[2] 
+  end
+ 
+Aliases
+pattern: ^re (.*)$
+code: send("tell "..teller_new.." "..matches[2])
