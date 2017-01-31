@@ -2,7 +2,7 @@
 <!DOCTYPE MudletPackage>
 <MudletPackage version="1.0">
     <HostPackage>
-        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mMapStrongHighlight="no" mLogStatus="yes" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes">
+        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes">
             <name>mume</name>
             <mInstalledPackages>
                 <string>deleteOldProfiles</string>
@@ -133,7 +133,10 @@ enableKey(&quot;FireballKey&quot;)
 disableKey(&quot;LightningboltKey&quot;)
 enableKey(&quot;ShoothKey&quot;)
 disableKey(&quot;BashKey&quot;)
+enableKey(&quot;FireballKey&quot;)
+disableKey(&quot;LightningboltKey&quot;)
 send(&quot; change height 50;inf&quot;)
+
 </script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
@@ -238,10 +241,7 @@ end
 if CharacterName==(&quot;Heava&quot;) then
   disableKey(&quot;ShootKey&quot;)
    enableKey(&quot;BashKey&quot;)
-end
-
-enableKey(&quot;FireballKey&quot;)
-disableKey(&quot;LightningboltKey&quot;)</script>
+end</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -2120,7 +2120,7 @@ resetFormat()</script>
                     <script>selectString(line, 1)
 fg(&quot;white&quot;)
 bg(&quot;blue&quot;)
-replace(&quot;You recover from BASH\n&quot;)
+replace(&quot;        You recover from B A S H\n&quot;)
 resetFormat()</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
@@ -2133,7 +2133,7 @@ resetFormat()</script>
                     <colorTriggerFgColor>#000000</colorTriggerFgColor>
                     <colorTriggerBgColor>#000000</colorTriggerBgColor>
                     <regexCodeList>
-                        <string>Your head stops stinging. </string>
+                        <string>our head stops stinging</string>
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>0</integer>
@@ -3169,6 +3169,29 @@ replace(&quot;notches [wary man]&quot;)</script>
                         </regexCodePropertyList>
                     </Trigger>
                 </TriggerGroup>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>TwistedRock</name>
+                    <script>selectString(line, 1)
+fg(&quot;yellow&quot;)
+--bg(&quot;blue&quot;)
+resetFormat()</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>twisted rock</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>0</integer>
+                    </regexCodePropertyList>
+                </Trigger>
             </TriggerGroup>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>CASTING</name>
@@ -3903,8 +3926,13 @@ echo(&quot;\n\n        H I T T E R\n\n&quot;)
             <regexCodePropertyList/>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>PutArrow</name>
-                <script>--send(&quot;put arrow quiver;look in quiver;get fletched backpack;say     [[[  AAA FFF KKK   ]]];sleep;act     [[[  AAA FFF KKK   ]]]&quot;)
-send(&quot;give arrow galmod;look in quiver;get fletched backpack;say     [[[  AAA FFF KKK   ]]];sleep;act     [[[  AAA FFF KKK   ]]]&quot;)
+                <script>send(&quot;put arrow backpack;get arrow 2.quiver;say &quot;..sayArrowsLeft)
+send(&quot;say     [[[  AAA FFF KKK   ]]];sleep;act     [[[  AAA FFF KKK   ]]]&quot;)
+--send(&quot;sleep&quot;)
+--send(&quot;put arrow quiver;look in quiver;get fletched backpack;
+
+--send(&quot;give arrow nireme&quot;)
+--;look in quiver;get fletched backpack;say     [[[  AAA FFF KKK   ]]];sleep;act     [[[  AAA FFF KKK   ]]]&quot;)
 --send(&quot;put arrow backpack;sleep&quot;)
 
 </script>
@@ -3926,12 +3954,12 @@ send(&quot;give arrow galmod;look in quiver;get fletched backpack;say     [[[  A
                 </regexCodePropertyList>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>AutoWater</name>
-                <script></script>
+                <name>WaterEnchant</name>
+                <script>if string.find(matches[2], &quot;less&quot;, 1)~=nil then send(&quot;wake;stand;cast n 'create w';sleep bed&quot;) end</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
-                <mCommand>wake;stand;cast n 'create w';sleep bed</mCommand>
+                <mCommand></mCommand>
                 <packageName></packageName>
                 <mFgColor>#ff0000</mFgColor>
                 <mBgColor>#ffff00</mBgColor>
@@ -3939,14 +3967,14 @@ send(&quot;give arrow galmod;look in quiver;get fletched backpack;say     [[[  A
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>to feel thirsty</string>
+                    <string>(.* )thirsty.</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>0</integer>
                 </regexCodePropertyList>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>AutoFood</name>
+                <name>FoodEnchant</name>
                 <script></script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
@@ -3959,7 +3987,7 @@ send(&quot;give arrow galmod;look in quiver;get fletched backpack;say     [[[  A
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>to feel hungry</string>
+                    <string>hungry</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>0</integer>
@@ -4028,6 +4056,94 @@ echo((enchantmana))</script>
                     <integer>1</integer>
                 </regexCodePropertyList>
             </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>ScoreOutput</name>
+                <script>local_hits=matches[2];
+local_mana=matches[4];
+local_movs=matches[6];
+maxim_hits=matches[3];
+maxim_mana=matches[5];
+maxim_movs=matches[7];
+if tonumber(local_mana)&gt;enchantmana then send(&quot;wake;look in 2.quiver;stand;cast n 'ench' arrow&quot;) end
+--if tonumber(local_mana)&gt;enchantmana then send(&quot;wake;stand;cast n 'ench' arrow&quot;) end
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(\d+.)/(\d+) hits, (\d+)/(\d+) mana, and (\d+)/(\d+) moves.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>ArrowsLeft</name>
+                <script>if matches[3]==&quot;&quot; then sayArrowsLeft=&quot;one arrow left&quot; else sayArrowsLeft=matches[2]..&quot; arrows left&quot; end</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>(.*) fletched arrow(.*)</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Redecet</name>
+                <script>send(&quot;wake;stand;cast n 'detect m';sleep&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>Your perception of magical auras wears off.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>BackfireEnchant</name>
+                <script>send(&quot;sleep&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>Your spell backfired!</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
         </TriggerGroup>
         <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
             <name>ReportAndLinkdrop</name>
@@ -4062,34 +4178,6 @@ echo((enchantmana))</script>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>0</integer>
-                </regexCodePropertyList>
-            </Trigger>
-            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>ScoreOutput</name>
-                <script>local_hits=matches[2];
-local_mana=matches[4];
-local_movs=matches[6];
-maxim_hits=matches[3];
-maxim_mana=matches[5];
-maxim_movs=matches[7];
---if tonumber(local_mana)&gt;80 then send(&quot;wake;stand;cast n 'ench' arrow&quot;) end
---if tonumber(local_mana)&gt;enchantmana then send(&quot;wake;stand;cast n 'ench' arrow&quot;) end
-</script>
-                <triggerType>0</triggerType>
-                <conditonLineDelta>0</conditonLineDelta>
-                <mStayOpen>0</mStayOpen>
-                <mCommand></mCommand>
-                <packageName></packageName>
-                <mFgColor>#ff0000</mFgColor>
-                <mBgColor>#ffff00</mBgColor>
-                <mSoundFile></mSoundFile>
-                <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                <regexCodeList>
-                    <string>^(\d+.)/(\d+) hits, (\d+)/(\d+) mana, and (\d+)/(\d+) moves.$</string>
-                </regexCodeList>
-                <regexCodePropertyList>
-                    <integer>1</integer>
                 </regexCodePropertyList>
             </Trigger>
         </TriggerGroup>
@@ -4549,7 +4637,7 @@ killTrigger(&quot;A huge tarantula is dead! R.I.P.&quot;)</script>
             </TriggerGroup>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>lootRohirrim</name>
-                <script>send(&quot;get saddle;label rohirrim pa;saddle pa;lead;ride pa&quot;)</script>
+                <script>send(&quot;get saddle;label 1.rohirrim pa;saddle 1.rohirrim;lead;ride pa&quot;)</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -7902,9 +7990,9 @@ enableTrigger(&quot;NoBackpackLeaves&quot;)</script>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>AnarwenTaps</name>
                     <script>target=&quot;mist&quot;
-nuke=&quot; 'colour spray' &quot;
+nuke=nuke_f2
 castspeed=&quot;normal&quot;
-send(&quot;stand;down;down;cast n 'colour spray' mist;cast n 'colour spray' mist;cast n 'colour spray' mist&quot;)</script>
+send(&quot;stand;down;down;cast n &quot;..nuke_f2..&quot; mist;cast n &quot;..nuke_f2..&quot; mist;cast n &quot;..nuke_f2..&quot; mist&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -8624,10 +8712,11 @@ if matches[2]~=&quot;Elrond&quot; then
 if matches[2]~=&quot;Tom&quot; then
 if matches[2]~=&quot;ranger&quot; then
 if matches[2]~=&quot;Rogon&quot; and string.find(matches[3], &quot;vot&quot;, 1)==nil then
-if matches[2]~=&quot;Imago&quot; and string.find(matches[3], &quot;vot&quot;, 1)==nil then
---if matches[2]~=&quot;Shallaya&quot; and string.find(matches[3], &quot;AFK&quot;, 1)==nil then
+--if matches[2]~=&quot;Imago&quot; and string.find(matches[3], &quot;vot&quot;, 1)~=nil then
+--if matches[2]~=&quot;Shallaya&quot; and string.find(matches[3], &quot;AFK&quot;, 1)~=nil then
 if string.find(matches[2], &quot; &quot;, 1)==nil then
   teller_new=matches[2] 
+--end
 --end
 end
 end
@@ -8639,7 +8728,7 @@ end
 end
 end
 end
-end
+--end
 end
 end
 end
@@ -9597,7 +9686,7 @@ disableTrigger(&quot;Set Start MUME Moment (Date Part)&quot;)</script>
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>^(.+), the (.+).. of (.+), Year (.+) of the Third Age\.$</string>
+                    <string>^(.+), the (.+).. of (.+), Year (.+) of the Third Age.$</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>1</integer>
@@ -11198,70 +11287,70 @@ end</script>
                 <command></command>
                 <packageName></packageName>
                 <regex></regex>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram1</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^1$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram2</name>
                     <script>send(&quot;up;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^2$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram3</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^3$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram4</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^4$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram5</name>
                     <script>send(&quot;east;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^5$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram6</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^6$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram7</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^7$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram8</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^8$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram9</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^9$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram10</name>
                     <script>--disablealiasgroup(Linkdrop10)
 send(&quot;north;kill soul;cha linkdrop 0&quot;)
@@ -11270,21 +11359,21 @@ send(&quot;north;kill soul;cha linkdrop 0&quot;)
                     <packageName></packageName>
                     <regex>^10$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram11</name>
                     <script>send(&quot;up;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^11$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram12</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^12$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram13</name>
                     <script>send(&quot;east;kill soul&quot;)
 echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
@@ -11511,91 +11600,91 @@ echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
                 <command></command>
                 <packageName></packageName>
                 <regex></regex>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram1</name>
                     <script>send(&quot;ponder&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^1$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram2</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram3</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram4</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram5</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram6</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram7</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram8</name>
                     <script>send(&quot;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^8$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram9</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^9$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram10</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^10$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram11</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^11$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram12</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^12$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram13</name>
                     <script>echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
                     <command></command>
@@ -11840,8 +11929,7 @@ send(&quot;cast n 'detect m'&quot;)
 send(&quot;list bejewelled&quot;)
 send(&quot;list shining&quot;)
 send(&quot;list hammer&quot;)
-send(&quot;list dagger&quot;)
-send(&quot;list nimble&quot;)
+send(&quot;list pweapon&quot;)
 send(&quot;list sword&quot;)
 send(&quot;list spear&quot;)
 send(&quot;change compact off&quot;)</script>
@@ -14557,7 +14645,7 @@ end</script>
                 <keyCode>43</keyCode>
                 <keyModifier>536870912</keyModifier>
             </Key>
-            <Key isActive="no" isFolder="no">
+            <Key isActive="yes" isFolder="no">
                 <name>QuakeKey</name>
                 <packageName></packageName>
                 <script>nuke=&quot; 'earthquake' &quot;
@@ -14570,7 +14658,7 @@ disableTrigger(&quot;LootCoins&quot;)
                 <keyCode>16777267</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>FireballKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     F I R E B A L L \n&quot;)
@@ -14603,7 +14691,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777264</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>BowSwitchKey</name>
                 <packageName></packageName>
                 <script>send(Draw)</script>
@@ -14611,7 +14699,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777267</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="no" isFolder="no">
+            <Key isActive="yes" isFolder="no">
                 <name>LightningboltKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     L I G H T N I N G   B O L T \n&quot;)
@@ -14666,7 +14754,8 @@ enableTrigger(&quot;LootCoins&quot;)</script>
         <Key isActive="yes" isFolder="no">
             <name>Assist</name>
             <packageName></packageName>
-            <script>send(&quot;change mood ag;assist&quot;)</script>
+            <script>--send(&quot;change mood ag&quot;)
+send(&quot;assist&quot;)</script>
             <command></command>
             <keyCode>46</keyCode>
             <keyModifier>536870912</keyModifier>
