@@ -8511,11 +8511,12 @@ send(&quot;east;north;north;west;open tile;lead pa;down;east;south;give moss dye
                 <regexCodePropertyList/>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>CheliceraEndOfTalk</name>
-                    <script>--tempTimer(3, [[code]])</script>
+                    <script>send(&quot;stand;east;get chelicera all&quot;)
+tempTimer(3, [[send(&quot;west&quot;)]])</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
-                    <mCommand>stand;east;get chelicera all;ponder;train all;west</mCommand>
+                    <mCommand></mCommand>
                     <packageName></packageName>
                     <mFgColor>#ff0000</mFgColor>
                     <mBgColor>#ffff00</mBgColor>
@@ -8531,7 +8532,7 @@ send(&quot;east;north;north;west;open tile;lead pa;down;east;south;give moss dye
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>CheliceraGive</name>
-                    <script>send(&quot;ponder;give chelicera treebeard&quot;)</script>
+                    <script>tempTimer(1, [[send(&quot;give chelicera treebeard&quot;)]])</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -8570,7 +8571,7 @@ send(&quot;east;north;north;west;open tile;lead pa;down;east;south;give moss dye
                     </regexCodePropertyList>
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>Galmod</name>
+                    <name>SpareChelicera</name>
                     <script></script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
