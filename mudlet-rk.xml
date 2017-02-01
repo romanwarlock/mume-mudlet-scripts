@@ -9077,7 +9077,7 @@ disableTrigger(&quot;Fountain&quot;)</script>
                     <integer>0</integer>
                 </regexCodePropertyList>
             </Trigger>
-            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>autoeat</name>
                 <script>send(&quot;eat food&quot;)</script>
                 <triggerType>0</triggerType>
@@ -11358,70 +11358,70 @@ end</script>
                 <command></command>
                 <packageName></packageName>
                 <regex></regex>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram1</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^1$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram2</name>
                     <script>send(&quot;up;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^2$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram3</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^3$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram4</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^4$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram5</name>
                     <script>send(&quot;east;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^5$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram6</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^6$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram7</name>
                     <script>send(&quot;north;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^7$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram8</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^8$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram9</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^9$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram10</name>
                     <script>--disablealiasgroup(Linkdrop10)
 send(&quot;north;kill soul;cha linkdrop 0&quot;)
@@ -11430,21 +11430,21 @@ send(&quot;north;kill soul;cha linkdrop 0&quot;)
                     <packageName></packageName>
                     <regex>^10$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram11</name>
                     <script>send(&quot;up;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^11$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram12</name>
                     <script>send(&quot;west;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^12$</regex>
                 </Alias>
-                <Alias isActive="no" isFolder="no">
+                <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram13</name>
                     <script>send(&quot;east;kill soul&quot;)
 echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
@@ -11671,91 +11671,91 @@ echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
                 <command></command>
                 <packageName></packageName>
                 <regex></regex>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram1</name>
                     <script>send(&quot;ponder&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^1$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram2</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram3</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram4</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram5</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram6</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram7</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex></regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram8</name>
                     <script>send(&quot;kill soul&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^8$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram9</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^9$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram10</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^10$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram11</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^11$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram12</name>
                     <script></script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^12$</regex>
                 </Alias>
-                <Alias isActive="yes" isFolder="no">
+                <Alias isActive="no" isFolder="no">
                     <name>HeavaLibram13</name>
                     <script>echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
                     <command></command>
@@ -14727,7 +14727,7 @@ DisableKey(&quot;AxePriestLordAsteriskKey&quot;)</script>
                 <keyCode>43</keyCode>
                 <keyModifier>536870912</keyModifier>
             </Key>
-            <Key isActive="no" isFolder="no">
+            <Key isActive="yes" isFolder="no">
                 <name>QuakeKey</name>
                 <packageName></packageName>
                 <script>nuke=&quot; 'earthquake' &quot;
@@ -14752,11 +14752,11 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777266</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="no" isFolder="no">
+            <Key isActive="yes" isFolder="no">
                 <name>SprayKey</name>
                 <packageName></packageName>
-                <script>echo(nuke_f2_title)
-nuke=nuke_f2
+                <script>echo(&quot;     C O L O U R   S P R A Y\n&quot;)
+nuke=&quot; 'colour s' &quot;
 enableTrigger(&quot;Detect XP Gain&quot;)
 enableTrigger(&quot;LootCoins&quot;)</script>
                 <command></command>
@@ -14774,7 +14774,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777264</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>BowSwitchKey</name>
                 <packageName></packageName>
                 <script>send(Draw)</script>
@@ -14782,7 +14782,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777267</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="no" isFolder="no">
+            <Key isActive="yes" isFolder="no">
                 <name>LightningBoltKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     L I G H T N I N G   B O L T \n&quot;)
