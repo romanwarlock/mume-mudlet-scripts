@@ -8512,7 +8512,7 @@ send(&quot;east;north;north;west;open tile;lead pa;down;east;south;give moss dye
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>CheliceraEndOfTalk</name>
                     <script>send(&quot;stand;east;get chelicera all&quot;)
-tempTimer(3, [[send(&quot;west&quot;)]])</script>
+tempTimer(10, [[send(&quot;west&quot;)]])</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
