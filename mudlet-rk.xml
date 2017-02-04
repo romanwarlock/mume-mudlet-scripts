@@ -2,7 +2,7 @@
 <!DOCTYPE MudletPackage>
 <MudletPackage version="1.0">
     <HostPackage>
-        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes">
+        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mMapStrongHighlight="no" mLogStatus="yes" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes">
             <name>mume</name>
             <mInstalledPackages>
                 <string>deleteOldProfiles</string>
@@ -168,7 +168,8 @@ send(&quot; change height 50;inf&quot;)
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>Reconnecting</name>
-                <script>send(&quot;change wimpy 100;change heigth 50&quot;)
+                <script>castspeed=&quot;normal&quot;
+send(&quot;change wimpy 100;change heigth 50&quot;)
 echo(&quot;\n\n         !!! R E S E T   C H A R A C T E R !!!\n\n&quot;)
 stat_tracker.reset()</script>
                 <triggerType>0</triggerType>
@@ -4428,7 +4429,7 @@ killTrigger(&quot;A huge tarantula is dead! R.I.P.&quot;)</script>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>CaptainWightGhostly</name>
-                <script>send(&quot;get all;unlock exit east;open exit east;say exit east is opened;east&quot;)</script>
+                <script>send(&quot;get key;unlock exit east;open exit east;get all;east;tell group exit east is opened&quot;)</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -4836,6 +4837,102 @@ killTrigger(&quot;A huge tarantula is dead! R.I.P.&quot;)</script>
                     <integer>0</integer>
                 </regexCodePropertyList>
             </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Scarred</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand>get dagger scarred-corpse</mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>Scarred is dead! R.I.P.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <TriggerGroup isActive="no" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>NecroLoot</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>Necro</name>
+                    <script>send(&quot;get all.amulet all.pouch;put all.amulet sable;put gold sable;drop book;drop ring;drop fang;drop cloak&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>You (.*) the corpse of Necromance(.*)</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>NecroShadows</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>(.*)shadow(.*)corpse(.*)Necro(.*)</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>1</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>New Trigger</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand>close oakendoor;lock oakendoor</mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The Necromancer is dead! R.I.P.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>0</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
         </TriggerGroup>
         <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
             <name>Spell Timer</name>
@@ -7504,7 +7601,12 @@ enableTrigger(&quot;shadow_counter&quot;)
 nuke=nuke_f2
 target=&quot;knight&quot;
 AxePriestLord = &quot;cast n &quot;..nuke..&quot; priest&quot;
-shadow_counter=0</script>
+shadow_counter=0
+enableAlias(&quot;LootInDK&quot;)
+disableAlias(&quot;getall&quot;)
+enableTrigger(&quot;FireplaceLoot1&quot;)
+enableTrigger(&quot;Fireplacechest1&quot;)
+enableTrigger(&quot;Fireplacehest2&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -7634,7 +7736,10 @@ send(&quot;time;open slab;down;close door&quot;)
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>DK_enterMirror</name>
                     <script>send(&quot;say enter mirror;enter mirror&quot;)
-disableTrigger(&quot;shadow_counter&quot;)</script>
+disableTrigger(&quot;shadow_counter&quot;)
+disableAlias(&quot;LootInDK&quot;)
+enableAlias(&quot;getall&quot;)
+</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -7677,7 +7782,7 @@ end</script>
                         <integer>1</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>ShadowBarracks</name>
                     <script>enableTrigger(&quot;Shadow1&quot;)
 enableTrigger(&quot;Shadow2&quot;)
@@ -7726,7 +7831,10 @@ brass_hound=0</script>
                     <script>brass_hound=brass_hound+1
 echo(&quot;\n\n              &quot;..brass_hound..&quot;/7 dead\n\n&quot;)
 send(&quot;say &quot;..tostring(brass_hound)..&quot;/7 dead&quot;)
-if brass_hound==7 then brass_hound=0 end</script>
+if brass_hound==7 then
+  brass_hound=0
+  enableTrigger(&quot;The Long Hallway&quot;)
+end</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -7746,7 +7854,10 @@ if brass_hound==7 then brass_hound=0 end</script>
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Before the Great Hall</name>
-                    <script>if nuke==&quot; 'earthquake' &quot; then nuke=&quot; 'colour s' &quot; end</script>
+                    <script>if nuke==&quot; 'earthquake' &quot; then nuke=&quot; 'colour s' &quot; end
+disableTrigger(&quot;FireplaceLoot1&quot;)
+disableTrigger(&quot;Fireplacechest1&quot;)
+disableTrigger(&quot;Fireplacehest2&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -7767,9 +7878,9 @@ if brass_hound==7 then brass_hound=0 end</script>
                 <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>shadow_counter</name>
                     <script>shadow_counter=shadow_counter+1
-echo(&quot;\n\n              &quot;..brass_hound..&quot;/7 dead\n\n&quot;)
-send(&quot;say &quot;..tostring(shadow_counter)..&quot;/7 dead&quot;)
-if shadow_counter==7 then 
+echo(&quot;\n\n              &quot;..shadow_counter..&quot;/8 dead\n\n&quot;)
+send(&quot;say &quot;..tostring(shadow_counter)..&quot;/8 dead&quot;)
+if shadow_counter==8 then 
 shadow_counter=0
 disableTrigger(&quot;Shadow1&quot;)
 disableTrigger(&quot;Shadow2&quot;)
@@ -7777,7 +7888,10 @@ disableTrigger(&quot;Shadow3&quot;)
 disableTrigger(&quot;RevealShadow&quot;)
 disableTrigger(&quot;ShadowBarracks&quot;)
 disableTrigger(&quot;shadow_counter&quot;)
-end</script>
+enableTrigger(&quot;FireplaceLoot&quot;)
+end
+
+</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -7813,6 +7927,107 @@ end</script>
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>0</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>FireplaceLootGroup</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList/>
+                    <regexCodePropertyList/>
+                    <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>FireplaceLoot1</name>
+                        <script>send(&quot;pick fireplace;open fireplace;east&quot;)
+</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>The Remains of an Armoury</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>fireplacechest1</name>
+                        <script>send(&quot;pick chest;open chest&quot;)</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>A solid ironbound chest is here.</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>fireplacechest2</name>
+                        <script>send(&quot;get all chest&quot;)
+disableTrigger(&quot;FireplaceLoot1&quot;)
+disableTrigger(&quot;Fireplacechest1&quot;)
+disableTrigger(&quot;Fireplacehest2&quot;)</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>A solid ironbound chest is here.</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                </TriggerGroup>
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>The Long Hallway</name>
+                    <script>send(&quot;pick exit south;open exit south;south&quot;)
+disableTrigger(&quot;The Long Hallway&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The Long Hallway</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
                     </regexCodePropertyList>
                 </Trigger>
             </TriggerGroup>
@@ -7951,7 +8166,7 @@ disableTrigger(&quot;DagnirLoot&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
-                    <mCommand>rest;stand;rest;nod hal;stand</mCommand>
+                    <mCommand>nod harle;stand</mCommand>
                     <packageName></packageName>
                     <mFgColor>#ff0000</mFgColor>
                     <mBgColor>#ffff00</mBgColor>
@@ -7959,7 +8174,7 @@ disableTrigger(&quot;DagnirLoot&quot;)</script>
                     <colorTriggerFgColor>#000000</colorTriggerFgColor>
                     <colorTriggerBgColor>#000000</colorTriggerBgColor>
                     <regexCodeList>
-                        <string>says 'Maybe you aree experienced enough</string>
+                        <string>says 'Maybe you are experienced enough</string>
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>0</integer>
@@ -11018,6 +11233,44 @@ reconnect()</script>
                 <packageName></packageName>
                 <regex>^cleric$</regex>
             </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>RESET</name>
+                <script>disableKey(&quot;QuakeKey&quot;)
+disableKey(&quot;FireballKey&quot;)
+disableKey(&quot;SprayKey&quot;)
+disableKey(&quot;DispelEKey&quot;)
+disableKey(&quot;BowSwitchKey&quot;)
+disableKey(&quot;LightningBoltKey&quot;)
+disableKey(&quot;BashKey&quot;)
+disableKey(&quot;ShootKey&quot;)
+disableKey(&quot;AxePriestLordAsteriskKey&quot;)
+disableKey(&quot;HarmKey&quot;)
+disableTrigger(&quot;DwarvenStatue&quot;)
+DwarvenStatue=0
+nuke_f2=&quot; 'dispel evil' &quot;
+enableKey(&quot;BowSwitchKey&quot;)
+enableKey(&quot;ShoothKey&quot;)
+--enableKey(&quot;FireballKey&quot;)
+enableKey(&quot;DispelEKey&quot;)
+brass_hound=0
+nuke=&quot; 'colour spray' &quot;
+target=&quot;mist&quot;
+castspeed=&quot;normal&quot;
+LeadOrRide=&quot;lead pa&quot;
+theRing=&quot;rubyring&quot;
+Draw=&quot;draw bow&quot;
+send(&quot;change wimpy 100;rem shield;wear shield;rem staff;wear staff shield;rem mantle;wear mantle;rem cloak;wear cloak;look&quot;)
+NoblesDead=0
+--send(&quot;tell  Jenkins &quot;..tostring(NoblesDead)..&quot; nobles dead.&quot;)
+--echo(&quot;say &quot;..tostring(NoblesDead)..&quot; nobles dead.&quot;)
+enableTrigger(&quot;Elrond&quot;)
+enableKey(&quot;BowSwitchKey&quot;)
+enableKey(&quot;ShootKey&quot;)
+send(&quot; change height 50;inf&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^reset$</regex>
+            </Alias>
         </AliasGroup>
         <AliasGroup isActive="yes" isFolder="yes">
             <name>Charmie</name>
@@ -11575,6 +11828,13 @@ end</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^dc$</regex>
+            </Alias>
+            <Alias isActive="no" isFolder="no">
+                <name>LootInDK</name>
+                <script>send(&quot;get all.metal all.skeleton;get all.sword all.skeleton;g all.shirt all.skeleton&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^gas$</regex>
             </Alias>
         </AliasGroup>
         <AliasGroup isActive="yes" isFolder="yes">
@@ -12828,14 +13088,26 @@ for line in io.lines(file) do print(line) end</script>
         </AliasGroup>
         <AliasGroup isActive="yes" isFolder="yes">
             <name>SendToClipboard</name>
-            <script></script>
+            <script>--https://goo.gl/fkRv94
+--//import pygtk
+--//pygtk.require('2.0')
+--import gtk
+--clipboard = gtk.clipboard_get()
+--clipboard.set_text('Hello, World')
+--//clipboard.store()
+
+--//import pygtk
+--//pygtk.require('2.0')</script>
             <command></command>
             <packageName></packageName>
             <regex></regex>
             <Alias isActive="no" isFolder="no">
-                <name>Clipboard1</name>
+                <name>javaClipboard1</name>
                 <script>rk_line={}
-file = io.open(&quot;/home/rk/00.sh&quot;, &quot;w&quot;)
+folder=&quot;/tmp/&quot;
+filename=&quot;00&quot;
+fileext=&quot;.java&quot;
+file = io.open(folder..filename..fileext, &quot;w&quot;)
 rk_line[1]=&quot;#!/bin/bash&quot;
 rk_line[2]=&quot;cat &lt;&lt; EOF &gt; pyscript.py&quot;
 rk_line[3]=&quot;#!/usr/bin/python&quot;
@@ -12850,34 +13122,27 @@ for i=1,9 do
   file:write(rk_line[i]..&quot;\n&quot;)
 end
 file:close()
-os.execute('chmod 755 /home/rk/00.sh')
-os.execute('./home/rk/00.sh')
-
-
-
+os.execute('javac -d '..folder..' '..folder..filename..fileext) --set folder
+os.execute('java -cp '..folder..' '..filename)	--include folder in the classpath
+os.execute('rm '..folder..filename..fileext)            --remove source
+os.execute('rm '..folder..filename..'class')           --remove class
 --print(os.date())
 --strCmd = 'echo '..&quot;alias ko cast 'bli' &amp;.s&quot;..' |clip'
  --  os.execute(strCmd)
 --clipboard.addText(&quot;Hello World&quot;)
 
---https://goo.gl/fkRv94
---//import pygtk
---//pygtk.require('2.0')
---import gtk
---clipboard = gtk.clipboard_get()
---clipboard.set_text('Hello, World')
---//clipboard.store()
-
---//import pygtk
---//pygtk.require('2.0')</script>
+</script>
                 <command></command>
                 <packageName></packageName>
-                <regex>^]]$</regex>
+                <regex>^java$</regex>
             </Alias>
             <Alias isActive="yes" isFolder="no">
                 <name>python</name>
                 <script>rk_line={}
-file = io.open(&quot;/tmp/00.py&quot;, &quot;w&quot;)
+folder=&quot;/tmp/&quot;
+filename=&quot;00&quot;
+fileext=&quot;.py&quot;
+file = io.open(folder..filename..fileext, &quot;w&quot;)
 rk_line[1]=&quot;#!/usr/bin/python&quot;
 rk_line[2]=&quot;import gtk&quot;
 rk_line[3]=&quot;import pygtk&quot;
@@ -12888,11 +13153,9 @@ for i=1,6 do
   file:write(rk_line[i]..&quot;\n&quot;)
 end
 file:close()
-os.execute('chmod 755 /tmp/00.py')
-os.execute('python /tmp/00.py')
-os.execute('rm /tmp/00.py')
---ko cast
-</script>
+os.execute('chmod 755 '..folder..filename..fileext)
+os.execute('python '..folder..filename..fileext)
+os.execute('rm '..folder..filename..fileext)</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^]]$</regex>
@@ -12905,27 +13168,26 @@ os.execute('rm /tmp/00.py')
                 <regex>^&quot;$</regex>
             </Alias>
             <Alias isActive="no" isFolder="no">
-                <name>^[[$</name>
+                <name>^--$</name>
                 <script>rk_line={}
-rk_line[1]=&quot;#!/bin/bash&quot;
-rk_line[2]=&quot;echo \&quot;Executing a bash statement\&quot;&quot;
-file = io.open(&quot;/home/rk/0.sh&quot;, &quot;w&quot;)
-rk_line[3]=&quot;export bashvar=100&quot;
-rk_line[4]=&quot;cat &lt;&lt; EOF &gt; pyscript.py&quot;
-rk_line[5]=&quot;#!/usr/bin/python&quot;
-rk_line[6]=&quot;import subprocess&quot;
-rk_line[7]=&quot;print 'Hello python'&quot;
-rk_line[8]=&quot;subprocess.call([\&quot;echo\&quot;,\&quot;$bashvar\&quot;])&quot;
-rk_line[9]=&quot;EOF&quot;
-rk_line[10]=&quot;chmod 755 pyscript.py&quot;
-rk_line[11]=&quot;./pyscript.py&quot;
-rk_line[12]=&quot;rm pyscript.py&quot;
-for i=1,12 do
+folder=&quot;/tmp/&quot;
+filename=&quot;00&quot;
+fileext=&quot;.py&quot;
+file = io.open(folder..filename..fileext, &quot;w&quot;)
+rk_line[1]=&quot;#!/usr/bin/python&quot;
+rk_line[2]=&quot;import gtk&quot;
+rk_line[3]=&quot;import pygtk&quot;
+rk_line[4]=&quot;clipboard = gtk.clipboard_get()&quot;
+rk_line[5]=&quot;clipboard.set_text('alias ko cast \\'bli\\' &amp;.s')&quot;
+rk_line[6]=&quot;clipboard.store()&quot;
+for i=1,6 do
   file:write(rk_line[i]..&quot;\n&quot;)
 end
 file:close()
-os.execute('chmod 755 /home/rk/0.sh')
-os.execute('./home/rk/0.sh')</script>
+os.execute('chmod 755 '..folder..filename..fileext)
+os.execute('python '..folder..filename..fileext)
+os.execute('rm '..folder..filename..fileext)
+--ko cast</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^--$</regex>
