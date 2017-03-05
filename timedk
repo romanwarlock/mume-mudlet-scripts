@@ -1,0 +1,24 @@
+local t0=1488657317--last 3rd DK  
+local p = 34560 -- 9h36m period
+local tc = os.time() -- current time
+local tn=t0+p*(math.floor(os.difftime(tc,t0)/p)+1) --tn=t0+p*n
+--echotest(os.date(1487931537))
+--echotest(1487930519-t0)
+local OpensAt = tostring(os.date('%H:%M',tn))
+if tn-1500>=tc then
+  tn = tn-1500
+  OpensAt = tostring(os.date('%H:%M',tn)).." "..OpensAt
+  if tn - 1500>=tc then
+    tn = tn-1500
+    OpensAt = tostring(os.date('%H:%M',tn)).." "..OpensAt
+  end
+end
+local OpensIn = time.convert_seconds_to_hms(os.difftime(tn,tc),0)
+echotest("........ DK unlocks in "..OpensIn.." at "..OpensAt.." CET")
+--local lastk = LastDK()
+--echotest(os.date('%H:%M',lastk))
+--local dt = {year=2017, month=2, day=20, hour=0, min=56, sec=0}
+--local t0=os.time({year=2017, month=2, day=20, hour=0, min=56, sec=0})
+--local tn=t0+p*(math.floor((os.time()-t0)/p)+1) --tn=t0+p*n
+--☾☾☾☾utf8.char(0X1F315)..
+--echotest("........ DK unlocks at "..os.date('%H:%M:%S',tn).."CET")
