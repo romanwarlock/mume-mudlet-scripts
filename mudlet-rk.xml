@@ -2,7 +2,7 @@
 <!DOCTYPE MudletPackage>
 <MudletPackage version="1.0">
     <HostPackage>
-        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes">
+        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="yes" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="no" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mRawStreamDump="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="no" mEnableMSDP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="yes" mAcceptServerGUI="yes" mMapperUseAntiAlias="no" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="5" mBubbleMode="yes" mShowRoomIDs="yes" mShowPanel="yes" mHaveMapperScript="yes" mDoubleClickIgnore="&quot;'">
             <name>mume</name>
             <mInstalledPackages>
                 <string>deleteOldProfiles</string>
@@ -109,7 +109,11 @@
             <regexCodePropertyList/>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>Logon</name>
-                <script>disableKey(&quot;QuakeKey&quot;)
+                <script>StoredQuake= 285--strori
+FailedStoreQuake=136--strori
+disableKey(&quot;StroriKeys&quot;)
+disableKey(&quot;UmnikKeys&quot;)
+disableKey(&quot;QuakeKey&quot;)
 disableKey(&quot;FireballKey&quot;)
 disableKey(&quot;SprayKey&quot;)
 disableKey(&quot;DispelEKey&quot;)
@@ -133,16 +137,14 @@ castspeed=&quot;normal&quot;
 LeadOrRide=&quot;lead pa&quot;
 theRing=&quot;rubyring&quot;
 Draw=&quot;draw bow&quot;
-send(&quot;change wimpy 100;rem shield;wear shield;rem staff;wear staff shield;rem mantle;wear mantle;rem cloak;wear cloak;look&quot;)
+send(&quot;change wimpy 100;rem shield;wear shield;rem staff;wear staff shield;rem mantle;wear mantle;rem cloak;wear cloak&quot;)
 NoblesDead=0
 --send(&quot;tell  Jenkins &quot;..tostring(NoblesDead)..&quot; nobles dead.&quot;)
 --echo(&quot;say &quot;..tostring(NoblesDead)..&quot; nobles dead.&quot;)
 enableTrigger(&quot;Elrond&quot;)
 enableKey(&quot;BowSwitchKey&quot;)
 enableKey(&quot;ShootKey&quot;)
-send(&quot; change height 50;inf&quot;)
-
-</script>
+send(&quot; change height 50;inf;look&quot;)</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -185,7 +187,13 @@ stat_tracker.reset()</script>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>ServerClosedTheConnection</name>
-                <script>disconnect()</script>
+                <script>disconnect()
+if CharacterName==&quot;Strori&quot; then
+  if FailedStoreQuake+StoredQuake&gt;0 then
+    echotest(&quot;Strori's store quakes statistics is: &quot;..math.floor(StoredQuake/(FailedStoreQuake+StoredQuake)*100)..&quot;\%   &quot;..StoredQuake..&quot; &quot;..FailedStoreQuake)
+  end
+end
+</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -205,49 +213,35 @@ stat_tracker.reset()</script>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>SetCharacter</name>
-                <script>function GetCharacterName(inputstr, sep)
-        if sep == nil then
-                sep = &quot;%s&quot;
-        end
-        local t={} ; i=1
-        for str in string.gmatch(inputstr, &quot;([^&quot;..sep..&quot;]+)&quot;) do
-                t[i] = str
-                i = i + 1
-        end
-        return t[1]
-end
-
-CharacterName=GetCharacterName(matches[2])
-
-for i=1,13 do
-  disableAlias(&quot;UmnikLibram&quot;..tostring(i))
-  disableAlias(&quot;PabrawLibram&quot;..tostring(i))
-  disableAlias(&quot;StroriLibram&quot;..tostring(i))
-  disableAlias(&quot;HeavaLibram&quot;..tostring(i))
-   enableAlias(CharacterName..&quot;Libram&quot;..tostring(i))
-end
-
+                <script>local GetCharacterName=WordsFromLine(matches[2])
+CharacterName=GetCharacterName[1]
+disableKey(&quot;DispelEKey&quot;)
 if CharacterName==&quot;Strori&quot; then
    disableKey(&quot;ShootKey&quot;)
+
+nuke_f2=&quot; 'colour s' &quot;
    disableKey(&quot;BowSwitchKey&quot;)
-   enableKey(&quot;LightningBoltKey&quot;)
-   enableKey(&quot;SprayKey&quot;)
-   enableKey(&quot;QuakeKey&quot;)
-   enableKey(&quot;BashKey&quot;)
+   enableKey(&quot;StroriKeys&quot;)
+-- enableKey(&quot;LightningBoltKey&quot;)
+--   enableKey(&quot;SprayKey&quot;)
+--   enableKey(&quot;QuakeKey&quot;)
+  enableKey(&quot;BashKey&quot;)
   nuke_f2=&quot; 'colour spray' &quot;
    enableTrigger(&quot;DwarvenStatue&quot;)
 elseif CharacterName==&quot;Vidgri&quot; then
    disableKey(&quot;BowSwitchKey&quot;)
    enableKey(&quot;LightningBoltKey&quot;)
    enableKey(&quot;SprayKey&quot;)
+nuke_f2=&quot; 'colour s' &quot;
    enableKey(&quot;QuakeKey&quot;)
    enableKey(&quot;BashKey&quot;)
   nuke_f2=&quot; 'colour spray' &quot;
 elseif CharacterName==&quot;Umnik&quot; then
+nuke_f2=&quot; 'colour s' &quot;
    disableKey(&quot;BowSwitchKey&quot;)
-   enableKey(&quot;FireballKey&quot;)
-   enableKey(&quot;SprayKey&quot;)
-   enableKey(&quot;QuakeKey&quot;)
+   enableKey(&quot;UmnikKeys&quot;)
+--   enableKey(&quot;SprayKey&quot;)
+--   enableKey(&quot;QuakeKey&quot;)
   nuke_f2=&quot; 'colour s' &quot;
    --enableKey(&quot;ShootKey&quot;)
 elseif CharacterName==(&quot;Heava&quot;) then
@@ -258,7 +252,19 @@ else--if CharacterName==(&quot;Pabraw&quot;) then
    enableKey(&quot;DispelEKey&quot;)
 --   enableKey(&quot;QuakeKey&quot;)
    --enableKey(&quot;ShootKey&quot;)
-end</script>
+end
+
+for i=1,13 do
+  disableAlias(&quot;UmnikLibram&quot;..tostring(i))
+  disableAlias(&quot;PabrawLibram&quot;..tostring(i))
+  disableAlias(&quot;StroriLibram&quot;..tostring(i))
+  disableAlias(&quot;HeavaLibram&quot;..tostring(i))
+  enableAlias(CharacterName..&quot;Libram&quot;..tostring(i))
+end
+
+--echotest(CharacterName)
+--echotest(CharacterName)
+--echotest(CharacterName)</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
@@ -270,7 +276,7 @@ end</script>
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>^This ranks you as (.*)</string>
+                    <string>^This ranks you as (.+)</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>1</integer>
@@ -1275,7 +1281,7 @@ enableTrigger(&quot;A Vaulted Corridor&quot;)</script>
                             <integer>0</integer>
                         </regexCodePropertyList>
                     </Trigger>
-                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                         <name>RodFigures</name>
                         <script>RodFigure1=matches[2];
 RodFigure2=matches[3];
@@ -1549,7 +1555,7 @@ elseif VisoredMonth==&quot;Girithron&quot; then VisoredMonth=&quot;Foreyule&quot
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList/>
                 <regexCodePropertyList/>
-                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>LorienCityInside</name>
                     <script>send(&quot;knock greatgates&quot;)
 enableTrigger(&quot;WhyKnock&quot;)</script>
@@ -1570,7 +1576,7 @@ enableTrigger(&quot;WhyKnock&quot;)</script>
                         <integer>3</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>LorienCityOutside</name>
                     <script>send(&quot;knock greatgates&quot;)
 enableTrigger(&quot;WhyKnock&quot;)</script>
@@ -3836,7 +3842,7 @@ resetFormat()</script>
             <regexCodePropertyList/>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>PutArrow</name>
-                <script>send(&quot;put arrow backpack;get arrow 2.quiver&quot;)
+                <script>send(&quot;put arrow backpack;get arrow 1.quiver&quot;)
 echo(&quot;\n\n            &quot;..sayArrowsLeft..&quot;\n\n&quot;)
 send(&quot;say     [[[  AAA FFF KKK   ]]];sleep;act     [[[  AAA FFF KKK   ]]]&quot;)
 --send(&quot;sleep&quot;)
@@ -4130,7 +4136,7 @@ disableTrigger(&quot;ArrowEnchant&quot;)
             <colorTriggerBgColor>#000000</colorTriggerBgColor>
             <regexCodeList/>
             <regexCodePropertyList/>
-            <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>LootCoins</name>
                 <script></script>
                 <triggerType>0</triggerType>
@@ -4822,145 +4828,6 @@ killTrigger(&quot;A huge tarantula is dead! R.I.P.&quot;)</script>
                     <integer>0</integer>
                 </regexCodePropertyList>
             </Trigger>
-            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>NecroLoot</name>
-                <script></script>
-                <triggerType>0</triggerType>
-                <conditonLineDelta>0</conditonLineDelta>
-                <mStayOpen>0</mStayOpen>
-                <mCommand></mCommand>
-                <packageName></packageName>
-                <mFgColor>#ff0000</mFgColor>
-                <mBgColor>#ffff00</mBgColor>
-                <mSoundFile></mSoundFile>
-                <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                <regexCodeList/>
-                <regexCodePropertyList/>
-                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>NecroBackLaboratory</name>
-                    <script>send(&quot; close board;lock board;unlock chest;open chest;get rod chest;get scroll chest;put scroll pouch&quot;)
-local mume_moment = clock_get_mume_moment()
-local text = clock_display_time(mume_moment, false)
-
-if clock_is_set then
-	send(&quot;tel group &quot; .. text)
-else
-	echo(text)
-end
-disableTrigger(&quot;NecroBackLaboratory&quot;)
-</script>
-                    <triggerType>0</triggerType>
-                    <conditonLineDelta>0</conditonLineDelta>
-                    <mStayOpen>0</mStayOpen>
-                    <mCommand></mCommand>
-                    <packageName></packageName>
-                    <mFgColor>#ff0000</mFgColor>
-                    <mBgColor>#ffff00</mBgColor>
-                    <mSoundFile></mSoundFile>
-                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                    <regexCodeList>
-                        <string>Back Laboratory</string>
-                    </regexCodeList>
-                    <regexCodePropertyList>
-                        <integer>3</integer>
-                    </regexCodePropertyList>
-                </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>NecroDead</name>
-                    <script>enableTrigger(&quot;NecroOpenBoard&quot;)
-enableTrigger(&quot;NecroShadowsDead&quot;)
-enableTrigger(&quot;NecroBackLaboratory&quot;)
---enableTrigger(&quot;NecroLoot&quot;)
-send(&quot; close oakendoor;lock oakendoor&quot;)
-local NC=&quot;Necromancer-corpse&quot;
-send(&quot;get pouch &quot;..NC..&quot;;get all.key &quot;..NC..&quot;;get coins &quot;..NC..&quot;;get gold &quot;..NC..&quot;;get cloak &quot;..NC)
-send(&quot;get all.amulet all.pouch;put all.amulet 1.pouch;drop pouch;	p gold 1.pouch;put mottled backpack;put all.key keyring&quot;)
-</script>
-                    <triggerType>0</triggerType>
-                    <conditonLineDelta>0</conditonLineDelta>
-                    <mStayOpen>0</mStayOpen>
-                    <mCommand>close oakendoor;lock oakendoor</mCommand>
-                    <packageName></packageName>
-                    <mFgColor>#ff0000</mFgColor>
-                    <mBgColor>#ffff00</mBgColor>
-                    <mSoundFile></mSoundFile>
-                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                    <regexCodeList>
-                        <string>The Necromancer is dead! R.I.P.</string>
-                    </regexCodeList>
-                    <regexCodePropertyList>
-                        <integer>0</integer>
-                    </regexCodePropertyList>
-                </Trigger>
-                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>NecroShadowsDead</name>
-                    <script>local NC=&quot;Necromancer-corpse&quot;
-send(&quot;get pouch &quot;..NC..&quot;;get all.key &quot;..NC..&quot;;get coins &quot;..NC..&quot;;get gold &quot;..NC..&quot;;get cloak &quot;..NC)
-send(&quot;get all.amulet all.pouch;put all.amulet 1.pouch;drop pouch;	p gold 1.pouch;put mottled backpack;put all.key keyring&quot;)
-</script>
-                    <triggerType>0</triggerType>
-                    <conditonLineDelta>0</conditonLineDelta>
-                    <mStayOpen>0</mStayOpen>
-                    <mCommand></mCommand>
-                    <packageName></packageName>
-                    <mFgColor>#ff0000</mFgColor>
-                    <mBgColor>#ffff00</mBgColor>
-                    <mSoundFile></mSoundFile>
-                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                    <regexCodeList>
-                        <string>A shadow(.+)noth(.+)</string>
-                    </regexCodeList>
-                    <regexCodePropertyList>
-                        <integer>1</integer>
-                    </regexCodePropertyList>
-                </Trigger>
-                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>NecroOpenBoard</name>
-                    <script>send(&quot;unlock board;open board&quot;)
-disableTrigger(&quot;NecroOpenBoard&quot;)</script>
-                    <triggerType>0</triggerType>
-                    <conditonLineDelta>0</conditonLineDelta>
-                    <mStayOpen>0</mStayOpen>
-                    <mCommand></mCommand>
-                    <packageName></packageName>
-                    <mFgColor>#ff0000</mFgColor>
-                    <mBgColor>#ffff00</mBgColor>
-                    <mSoundFile></mSoundFile>
-                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                    <regexCodeList>
-                        <string>You put a small key carved from ebony on your keyring.</string>
-                    </regexCodeList>
-                    <regexCodePropertyList>
-                        <integer>3</integer>
-                    </regexCodePropertyList>
-                </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                    <name>NecrLootStop</name>
-                    <script>disableTrigger(&quot;NecroShadowsDead&quot;)
-</script>
-                    <triggerType>0</triggerType>
-                    <conditonLineDelta>0</conditonLineDelta>
-                    <mStayOpen>0</mStayOpen>
-                    <mCommand></mCommand>
-                    <packageName></packageName>
-                    <mFgColor>#ff0000</mFgColor>
-                    <mBgColor>#ffff00</mBgColor>
-                    <mSoundFile></mSoundFile>
-                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                    <regexCodeList>
-                        <string>(.+) get(.+)from the corpse of the Necromancer.</string>
-                    </regexCodeList>
-                    <regexCodePropertyList>
-                        <integer>1</integer>
-                    </regexCodePropertyList>
-                </Trigger>
-            </TriggerGroup>
         </TriggerGroup>
         <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
             <name>Spell Timer</name>
@@ -6282,7 +6149,7 @@ sanctuary.elapsed_time = sanctuary.stop_time - sanctuary.start_time
 
 local time = time.convert_seconds_to_hms(sanctuary.elapsed_time)
 echo(&quot;\nThe spell lasted &quot; .. time .. &quot;.\n&quot;)
-</script>
+send(&quot;tell group Sanctuary lasted &quot; .. time)</script>
                         <triggerType>0</triggerType>
                         <conditonLineDelta>0</conditonLineDelta>
                         <mStayOpen>0</mStayOpen>
@@ -7556,7 +7423,7 @@ cinsertText(matches[1] .. &quot; (&lt;&quot; .. spell_timer.colour .. &quot;&gt;
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList/>
                 <regexCodePropertyList/>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Shadow1</name>
                     <script>send(&quot;close exit west;close exit north&quot;)</script>
                     <triggerType>0</triggerType>
@@ -7601,7 +7468,7 @@ cinsertText(matches[1] .. &quot; (&lt;&quot; .. spell_timer.colour .. &quot;&gt;
                         <integer>0</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Shadow2</name>
                     <script>send(&quot;close exit west;close exit north&quot;)</script>
                     <triggerType>0</triggerType>
@@ -7623,7 +7490,17 @@ cinsertText(matches[1] .. &quot; (&lt;&quot; .. spell_timer.colour .. &quot;&gt;
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>enterDK</name>
-                    <script>enableTrigger(&quot;RevealShadow&quot;)
+                    <script>print(os.date())
+local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text)
+else
+	echo(text)
+end
+send(&quot;time;open slab;down;close door&quot;)
+enableTrigger(&quot;RevealShadow&quot;)
 enableTrigger(&quot;ShadowBarracks&quot;)
 enableTrigger(&quot;shadow_counter&quot;)
 nuke=nuke_f2
@@ -7654,7 +7531,7 @@ skeleton_counter=0</script>
                         <integer>0</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>RevealShadow</name>
                     <script>send(&quot;reveal q&quot;)</script>
                     <triggerType>0</triggerType>
@@ -7674,7 +7551,7 @@ skeleton_counter=0</script>
                         <integer>0</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Shadow3</name>
                     <script>send(&quot;close exit west;close exit north&quot;)</script>
                     <triggerType>0</triggerType>
@@ -7696,7 +7573,8 @@ skeleton_counter=0</script>
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>MoonOnSlab</name>
-                    <script>local mume_moment = clock_get_mume_moment()
+                    <script>print(os.date())
+local mume_moment = clock_get_mume_moment()
 local text = clock_display_time(mume_moment, false)
 
 if clock_is_set then
@@ -7816,7 +7694,7 @@ end</script>
                         <integer>1</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>ShadowBarracks</name>
                     <script>enableTrigger(&quot;Shadow1&quot;)
 enableTrigger(&quot;Shadow2&quot;)
@@ -7911,7 +7789,7 @@ enableTrigger(&quot;Eibon's Chamber&quot;)
                         <integer>3</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>shadow_counter</name>
                     <script>shadow_counter=shadow_counter+1
 echo(&quot;\n\n              &quot;..shadow_counter..&quot;/8 dead\n\n&quot;)
@@ -8096,21 +7974,20 @@ disableTrigger(&quot;skeleton counter&quot;)
                         <integer>1</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Eibon's Chamber</name>
-                    <script>--uses member from members ... aliasees
-local direction={}
+                    <script>local direction={}
+math.randomseed( os.time() )
 for i=0,groupsize do
 member[0]=&quot;Strori&quot;
 direction[i]=math.random(3)
-if direction[i]==1 then send(&quot;say &quot;..member[i]..&quot; goes to the WEST&quot;)
-elseif direction[i]==2 then send(&quot;say &quot;..member[i]..&quot; goes to the SOUTH&quot;)
-elseif direction[i]==3 then send(&quot;say &quot;..member[i]..&quot; goes to the EAST&quot;)
+if direction[i]==1 then send(&quot;say &quot;..member[i]..&quot; goes to the &lt; &lt; &lt; WEST &lt; &lt; &lt;&quot;)
+elseif direction[i]==2 then send(&quot;say &quot;..member[i]..&quot; goes to the v v v SOUTH v v v&quot;)
+elseif direction[i]==3 then send(&quot;say &quot;..member[i]..&quot; goes to the &gt; &gt; &gt; EAST &gt; &gt; &gt;&quot;)
 end
 end
-disableTrigger(&quot;Eibon's Chamber&quot;)
 enableTrigger(&quot;Before the Sentinel&quot;)
-</script>
+disableTrigger(&quot;Eibon's Chamber&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -8192,7 +8069,8 @@ disableTrigger(&quot;A Cloudy Area&quot;)
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Before the Sentinel</name>
-                    <script>send(&quot; scout west&quot;)
+                    <script>target=&quot;sentinel&quot;
+send(&quot; scout west&quot;)
 disableTrigger(&quot;Before the Sentinel&quot;)
 </script>
                     <triggerType>0</triggerType>
@@ -8210,6 +8088,202 @@ disableTrigger(&quot;Before the Sentinel&quot;)
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>NecroLoot</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList/>
+                    <regexCodePropertyList/>
+                    <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>NecroBackLaboratory</name>
+                        <script>send(&quot; close board;lock board;unlock chest;open chest;get rod chest;get scroll chest;put scroll pouch&quot;)
+local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	send(&quot;tel group &quot; .. text)
+else
+	echo(text)
+end
+
+--local mume_moment = clock_get_mume_moment()
+
+--echo(clock_display_time(mume_moment, true) .. &quot;\n&quot;)
+
+local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text..clock_display_date(mume_moment, false)..&quot;\n&quot;)
+--  cecho(clock_display_date(mume_moment, false) .. &quot;\n&quot;)
+else
+	echo(text..&quot;\n&quot;)
+end
+--local mume_moment = clock_get_mume_moment()
+
+
+disableTrigger(&quot;NecroBackLaboratory&quot;)
+</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>Back Laboratory</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>NecroDead</name>
+                        <script>enableTrigger(&quot;NecroOpenBoard&quot;)
+enableTrigger(&quot;NecroShadowsDead&quot;)
+enableTrigger(&quot;NecroBackLaboratory&quot;)
+--enableTrigger(&quot;NecroLoot&quot;)
+send(&quot; close oakendoor;lock oakendoor&quot;)
+local NC=&quot;Necromancer-corpse&quot;
+send(&quot;get pouch &quot;..NC..&quot;;get all.key &quot;..NC..&quot;;get coins &quot;..NC..&quot;;get gold &quot;..NC..&quot;;get cloak &quot;..NC)
+send(&quot;get all.amulet all.pouch;put all.amulet 1.pouch;drop pouch;	p gold 1.pouch;put mottled backpack;put all.key keyring&quot;)
+</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand>close oakendoor;lock oakendoor</mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>The Necromancer is dead! R.I.P.</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>0</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>NecroShadowsDead</name>
+                        <script>local NC=&quot;Necromancer-corpse&quot;
+send(&quot;get pouch &quot;..NC..&quot;;get all.key &quot;..NC..&quot;;get coins &quot;..NC..&quot;;get gold &quot;..NC..&quot;;get cloak &quot;..NC)
+send(&quot;get all.amulet all.pouch;put all.amulet 1.pouch;drop pouch;	p gold 1.pouch;put mottled backpack;put all.key keyring&quot;)
+</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>A shadow(.+)noth(.+)</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>1</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>NecroOpenBoard</name>
+                        <script>send(&quot;unlock board;open board&quot;)
+disableTrigger(&quot;NecroOpenBoard&quot;)</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>You put a small key carved from ebony on your keyring.</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>NecrLootStop</name>
+                        <script>disableTrigger(&quot;NecroShadowsDead&quot;)
+</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>(.+) get(.+)from the corpse of the Necromancer.</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>1</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                </TriggerGroup>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>NecroCloses</name>
+                    <script>send(&quot; open oakendoor&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The Necromancer closes the oakendoor.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>NecroLocks</name>
+                    <script>send(&quot; unlock oakendoor&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The Necromancer locks the oakendoor.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>0</integer>
                     </regexCodePropertyList>
                 </Trigger>
             </TriggerGroup>
@@ -8653,7 +8727,7 @@ end</script>
                         <integer>0</integer>
                     </regexCodePropertyList>
                 </Trigger>
-                <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>NoBackpackLeaves</name>
                     <script>send(&quot;drop all.athelas&quot;)
 disableTrigger(&quot;NoBackpackLeaves&quot;)</script>
@@ -8696,7 +8770,8 @@ disableTrigger(&quot;NoBackpackLeaves&quot;)</script>
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Bleak</name>
-                    <script>send(&quot;time;lead pa;east&quot;)</script>
+                    <script>send(&quot;time;lead pa;east&quot;)
+CopyString(&quot;ta mist&quot;)</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
@@ -9132,16 +9207,18 @@ tempTimer(10, [[send(&quot;west&quot;)]])</script>
                         <string>A monstrous black spider is dead! R.I.P.</string>
                     </regexCodeList>
                     <regexCodePropertyList>
-                        <integer>0</integer>
+                        <integer>3</integer>
                     </regexCodePropertyList>
                 </Trigger>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>SpareChelicera</name>
-                    <script></script>
+                    <script>if string.find(matches[2], &quot;almo&quot;, 1)~=nil then 
+send(&quot;get chelicera all;give chelicera galmod;give chelicera egalmoth&quot;)
+end</script>
                     <triggerType>0</triggerType>
                     <conditonLineDelta>0</conditonLineDelta>
                     <mStayOpen>0</mStayOpen>
-                    <mCommand>get chelicera all;give chelicera galmod</mCommand>
+                    <mCommand></mCommand>
                     <packageName></packageName>
                     <mFgColor>#ff0000</mFgColor>
                     <mBgColor>#ffff00</mBgColor>
@@ -9261,17 +9338,7 @@ end</script>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>FriendUtters</name>
-                <script>function GetCharacterName(inputstr, sep)
-        if sep == nil then
-                sep = &quot;%s&quot;
-        end
-        local t={} ; i=1
-        for str in string.gmatch(inputstr, &quot;([^&quot;..sep..&quot;]+)&quot;) do
-                t[i] = str
-                i = i + 1
-        end
-        return t[1]
-end
+                <script>
 local spellname=matches[6]
 local friendname=matches[3]
 local friend_counter=friendname..&quot;'s &quot;..spellname
@@ -9296,6 +9363,49 @@ end
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
                     <string>(.+)(eg|ga)(.+)(word|words) '(.+)'</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>RideEagle</name>
+                <script>CopyString(&quot;ride eagle&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>In the sky you see(.+)(Gwaihir|Eagle)(.+)towards you!</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>monstrous black spider</name>
+                <script>target=&quot;monstrous&quot;
+CopyString(&quot;ta monstrous&quot;)
+send(&quot;tell group target monstrous&quot;)
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(.+),(.+)a monstrous black spider (.+)$</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>1</integer>
@@ -9338,20 +9448,12 @@ end
                 </regexCodePropertyList>
                 <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                     <name>Reply2Trigger</name>
-                    <script>function GetCharacterName(inputstr, sep)
-        if sep == nil then
-                sep = &quot;%s&quot;
-        end
-        local t={} ; i=1
-        for str in string.gmatch(inputstr, &quot;([^&quot;..sep..&quot;]+)&quot;) do
-                t[i] = str
-                i = i + 1
-        end
-        return t[1]
-end
+                    <script>local GetCharacterName=WordsFromLine(matches[2])
+local ThatCharacterName=GetCharacterName[1]
 
-raw_teller=matches[2]
-if string.find(matches[2], &quot;tells you&quot;, 1)~=nil then raw_teller=GetCharacterName(matches[2]) end
+local raw_teller=matches[2]
+
+if string.find(matches[2], &quot;tells you&quot;, 1)~=nil then raw_teller=ThatCharacterName end
 
 
 Name=0
@@ -9424,7 +9526,7 @@ end</script>
                     <colorTriggerFgColor>#000000</colorTriggerFgColor>
                     <colorTriggerBgColor>#000000</colorTriggerBgColor>
                     <regexCodeList>
-                        <string>^(.*) tells you (.*)$</string>
+                        <string>^(.+) tells you (.+)$</string>
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>1</integer>
@@ -9453,7 +9555,7 @@ end</script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
                 <mStayOpen>0</mStayOpen>
-                <mCommand>eat plate;get flagon sack;drink flagon;drop flagon</mCommand>
+                <mCommand>eat plate;eat bowl;get flagon sack;drink flagon;drop flagon</mCommand>
                 <packageName></packageName>
                 <mFgColor>#ff0000</mFgColor>
                 <mBgColor>#ffff00</mBgColor>
@@ -9461,7 +9563,7 @@ end</script>
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>^(.*)cook gives you a (plate|bow)(.*)$</string>
+                    <string>^(.*)cook gives you a (plate|bowl)(.*)$</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>1</integer>
@@ -10135,7 +10237,7 @@ end
                     <integer>3</integer>
                 </regexCodePropertyList>
             </Trigger>
-            <Trigger isActive="no" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>Detect XP Gain</name>
                 <script>expandAlias(&quot;exp&quot;, false)
 --send(&quot;change mood wimpy&quot;)</script>
@@ -10395,34 +10497,6 @@ echo(&quot;                 &quot;..hour..&quot;:&quot;..min..&quot; &quot;..ap.
                 </regexCodePropertyList>
             </Trigger>
             <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>moonrises</name>
-                <script>local mume_moment = clock_get_mume_moment()
-local text = clock_display_time(mume_moment, false)
-
-if clock_is_set then
-	echo(text)
-else
-	echo(text)
-end
-send(&quot;time&quot;)</script>
-                <triggerType>0</triggerType>
-                <conditonLineDelta>0</conditonLineDelta>
-                <mStayOpen>0</mStayOpen>
-                <mCommand></mCommand>
-                <packageName></packageName>
-                <mFgColor>#ff0000</mFgColor>
-                <mBgColor>#ffff00</mBgColor>
-                <mSoundFile></mSoundFile>
-                <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                <regexCodeList>
-                    <string>The moon rises</string>
-                </regexCodeList>
-                <regexCodePropertyList>
-                    <integer>0</integer>
-                </regexCodePropertyList>
-            </Trigger>
-            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
                 <name>ExamineClock</name>
                 <script>send(&quot;examine clock&quot;)</script>
                 <triggerType>0</triggerType>
@@ -10478,36 +10552,8 @@ clock_adjust_timer(clock_start_mume_moment.minute)</script>
                     <integer>1</integer>
                 </regexCodePropertyList>
             </Trigger>
-            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>moonrises2</name>
-                <script>local mume_moment = clock_get_mume_moment()
-local text = clock_display_time(mume_moment, false)
-
-if clock_is_set then
-	echo(text)
-else
-	echo(text)
-end
-send(&quot;time&quot;)</script>
-                <triggerType>0</triggerType>
-                <conditonLineDelta>0</conditonLineDelta>
-                <mStayOpen>0</mStayOpen>
-                <mCommand></mCommand>
-                <packageName></packageName>
-                <mFgColor>#ff0000</mFgColor>
-                <mBgColor>#ffff00</mBgColor>
-                <mSoundFile></mSoundFile>
-                <colorTriggerFgColor>#000000</colorTriggerFgColor>
-                <colorTriggerBgColor>#000000</colorTriggerBgColor>
-                <regexCodeList>
-                    <string>A bleak moon casts its pale light over the plains.</string>
-                </regexCodeList>
-                <regexCodePropertyList>
-                    <integer>3</integer>
-                </regexCodePropertyList>
-            </Trigger>
             <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
-                <name>TharbadEntrance</name>
+                <name>Tharbad</name>
                 <script></script>
                 <triggerType>0</triggerType>
                 <conditonLineDelta>0</conditonLineDelta>
@@ -10620,6 +10666,310 @@ end</script>
                     <colorTriggerBgColor>#000000</colorTriggerBgColor>
                     <regexCodeList>
                         <string>A Small Square</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Ingrove</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="yes" isColorizerTrigger="no" isFilterTrigger="yes" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>Living Room of a Large Home Color</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#00b300</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>FG6BG0</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>6</integer>
+                    </regexCodePropertyList>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>Living Room of a Large Home Color</name>
+                        <script>if clock_is_set then
+  disableTrigger(&quot;ExamineClock&quot;)
+end</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>Living Room of a Large Home</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>In a Mirrored Hallway</name>
+                    <script>enableTrigger(&quot;ExamineClock&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>In a Mirrored Hallway</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>Bear's Way</name>
+                    <script>enableTrigger(&quot;ExamineClock&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Bear's Way</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Shire</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="yes" isColorizerTrigger="no" isFilterTrigger="yes" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="yes" isColorTriggerBg="no">
+                    <name>The Green Dragon Color</name>
+                    <script></script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#00b300</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>FG6BG0</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>6</integer>
+                    </regexCodePropertyList>
+                    <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                        <name>The Green Dragon</name>
+                        <script>if clock_is_set then
+  disableTrigger(&quot;ExamineClock&quot;)
+end</script>
+                        <triggerType>0</triggerType>
+                        <conditonLineDelta>0</conditonLineDelta>
+                        <mStayOpen>0</mStayOpen>
+                        <mCommand></mCommand>
+                        <packageName></packageName>
+                        <mFgColor>#ff0000</mFgColor>
+                        <mBgColor>#ffff00</mBgColor>
+                        <mSoundFile></mSoundFile>
+                        <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                        <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                        <regexCodeList>
+                            <string>The Green Dragon</string>
+                        </regexCodeList>
+                        <regexCodePropertyList>
+                            <integer>3</integer>
+                        </regexCodePropertyList>
+                    </Trigger>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>Bywater</name>
+                    <script>enableTrigger(&quot;ExamineClock&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>Bywater</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+            </TriggerGroup>
+            <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Moonris</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList/>
+                <regexCodePropertyList/>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>moonrises</name>
+                    <script>local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text)
+else
+	echo(text)
+end
+send(&quot;time&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The moon rises</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>0</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>moonrises2</name>
+                    <script>local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text)
+else
+	echo(text)
+end
+send(&quot;time&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>A bleak moon casts its pale light over the plains.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>moonrise3</name>
+                    <script>local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text)
+else
+	echo(text)
+end
+send(&quot;time&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>A cool white light rises about the hills, as the moon rises.</string>
+                    </regexCodeList>
+                    <regexCodePropertyList>
+                        <integer>3</integer>
+                    </regexCodePropertyList>
+                </Trigger>
+                <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                    <name>moonrise4</name>
+                    <script>local mume_moment = clock_get_mume_moment()
+local text = clock_display_time(mume_moment, false)
+
+if clock_is_set then
+	echo(text)
+else
+	echo(text)
+end
+send(&quot;time&quot;)</script>
+                    <triggerType>0</triggerType>
+                    <conditonLineDelta>0</conditonLineDelta>
+                    <mStayOpen>0</mStayOpen>
+                    <mCommand></mCommand>
+                    <packageName></packageName>
+                    <mFgColor>#ff0000</mFgColor>
+                    <mBgColor>#ffff00</mBgColor>
+                    <mSoundFile></mSoundFile>
+                    <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                    <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                    <regexCodeList>
+                        <string>The moon graces the Lone-Lands with its pale beauty.</string>
                     </regexCodeList>
                     <regexCodePropertyList>
                         <integer>3</integer>
@@ -10955,6 +11305,149 @@ end</script>
                     </TriggerGroup>
                 </TriggerGroup>
             </TriggerGroup>
+        </TriggerGroup>
+        <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>RecallTeleport</name>
+            <script></script>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand>examine</mCommand>
+            <packageName></packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile></mSoundFile>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList>
+                <string>You slowly regain your bearings as your head clears.</string>
+            </regexCodeList>
+            <regexCodePropertyList>
+                <integer>0</integer>
+            </regexCodePropertyList>
+        </Trigger>
+        <TriggerGroup isActive="no" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>HungryThirstyNovoid</name>
+            <script></script>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand></mCommand>
+            <packageName></packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile></mSoundFile>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList/>
+            <regexCodePropertyList/>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>cast n 'create food';eat food</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand>cast n 'create food';eat food;train all</mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You are hungry</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>thir</name>
+                <script></script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand>cast n 'create w';train all</mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You are th</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
+        </TriggerGroup>
+        <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>StoreStatistics</name>
+            <script></script>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand></mCommand>
+            <packageName></packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile></mSoundFile>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList/>
+            <regexCodePropertyList/>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>QuakeStored</name>
+                <script>StoredQuake=StoredQuake+1
+disableTrigger(&quot;StoredQuake&quot;)
+if FailedStoreQuake+StoredQuake&gt;0 then
+send(&quot;alias quakes  emote has &quot;..math.floor(StoredQuake/(FailedStoreQuake+StoredQuake)*100)..&quot;\%  &quot;..StoredQuake..&quot; &quot;..FailedStoreQuake)
+end
+send(&quot;score&quot;)
+</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You stored it.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>FailedQuake</name>
+                <script>FailedStoreQuake=FailedStoreQuake+1
+disableTrigger(&quot;FailedQuake&quot;)
+if FailedStoreQuake+StoredQuake&gt;0 then
+send(&quot;alias quakes  emote has &quot;..math.floor(StoredQuake/(FailedStoreQuake+StoredQuake)*100)..&quot;\%  &quot;..StoredQuake..&quot; &quot;..FailedStoreQuake)
+end
+send(&quot;score&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You failed.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
         </TriggerGroup>
     </TriggerPackage>
     <TimerPackage>
@@ -11310,34 +11803,27 @@ echo(&quot;   Crown - Funeral\n&quot;)</script>
             <regex></regex>
             <Alias isActive="yes" isFolder="no">
                 <name>target1</name>
-                <script>target1 = matches[2];
-if target1 == ' ' then echo(&quot;/n                 &quot;..target&quot;/n&quot;)
-  else target=target1
-  end</script>
+                <script>if-- space for real targeting
+    string.char(string.byte(matches[2]))==&quot; &quot; then
+    local GetCharacterName=WordsFromLine(matches[2])
+    target=GetCharacterName[1]
+elseif-- report target
+   string.char(string.byte(matches[2]))==&quot;&quot; then echo(&quot;\n               Target is &quot;..target..&quot;\n&quot;)
+else send(matches[1])
+end
+
+--if target=&quot;Necromancer&quot;
+--CopyString(&quot;ta Necromancer&quot;)
+</script>
                 <command></command>
                 <packageName></packageName>
-                <regex>^ta (.*)$</regex>
+                <regex>^ta(.*)$</regex>
             </Alias>
             <Alias isActive="yes" isFolder="no">
                 <name>TargetNecromancer</name>
                 <script>target=&quot;Necromancer&quot;
-local rk_line={}
-local folder=&quot;/tmp/&quot;
-local filename=&quot;00&quot;
-local fileext=&quot;.py&quot;
-local file = io.open(folder..filename..fileext, &quot;w&quot;)
-rk_line[1]=&quot;#!/usr/bin/python&quot;
-rk_line[2]=&quot;import gtk&quot;
-rk_line[3]=&quot;clipboard = gtk.clipboard_get()&quot;
-rk_line[4]=&quot;clipboard.set_text('ta Necromancer')&quot;
-rk_line[5]=&quot;clipboard.store()&quot;
-for i=1,5 do
-  file:write(rk_line[i]..&quot;\n&quot;)
-end
-file:close()
-os.execute('chmod 755 '..folder..filename..fileext)
-os.execute('python '..folder..filename..fileext)
-os.execute('rm '..folder..filename..fileext)</script>
+CopyString(&quot;ta Necromancer&quot;)
+</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^nec$</regex>
@@ -11412,54 +11898,64 @@ os.execute('rm '..folder..filename..fileext)</script>
             <command></command>
             <packageName>Group</packageName>
             <regex></regex>
-            <AliasGroup isActive="yes" isFolder="yes">
-                <name>MUME</name>
-                <script></script>
-                <command></command>
-                <packageName>current</packageName>
-                <regex></regex>
-                <AliasGroup isActive="yes" isFolder="yes">
-                    <name>Group</name>
-                    <script></script>
-                    <command></command>
-                    <packageName></packageName>
-                    <regex></regex>
-                    <Alias isActive="yes" isFolder="no">
-                        <name>autogroup on</name>
-                        <script>enableTrigger(&quot;Autogroup&quot;)
+            <Alias isActive="yes" isFolder="no">
+                <name>autogroup on</name>
+                <script>enableTrigger(&quot;Autogroup&quot;)
 echo(&quot;Autogroup enabled.\n&quot;)</script>
-                        <command></command>
-                        <packageName></packageName>
-                        <regex>^ *autogroup +on *$</regex>
-                    </Alias>
-                    <Alias isActive="yes" isFolder="no">
-                        <name>autogroup off</name>
-                        <script>disableTrigger(&quot;Autogroup&quot;)
-echo(&quot;Autogroup disabled.\n&quot;)</script>
-                        <command></command>
-                        <packageName></packageName>
-                        <regex>^ *autogroup +off *$</regex>
-                    </Alias>
-                    <Alias isActive="yes" isFolder="no">
-                        <name>group help</name>
-                        <script>echo(group.help)</script>
-                        <command></command>
-                        <packageName></packageName>
-                        <regex>^ *group *help *$</regex>
-                    </Alias>
-                </AliasGroup>
-            </AliasGroup>
-            <Alias isActive="no" isFolder="no">
-                <name>membersCreate</name>
-                <script>member={}
-memberindex=0
-repeat
-memberindex=memberindex+1
-member[memberindex]=matches[memberindex+1]
-until (member[memberindex]==&quot;a&quot;)</script>
                 <command></command>
                 <packageName></packageName>
-                <regex>^memberss (.*) (.*) (.*) (.*) (.*)$</regex>
+                <regex>^ *autogroup +on *$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>autogroup off</name>
+                <script>disableTrigger(&quot;Autogroup&quot;)
+echo(&quot;Autogroup disabled.\n&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^ *autogroup +off *$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>group help</name>
+                <script>echo(group.help)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^ *group *help *$</regex>
+            </Alias>
+            <Alias isActive="no" isFolder="no">
+                <name>222</name>
+                <script>for counter = 1, 3 do
+--send(&quot;tell &quot;..members3[#members3]..&quot; &quot;..matches[2]..&quot; |GT&quot;)
+--echo(&quot;            &quot;..groupmember[counter]..&quot;\n&quot;)
+echo(linetr[counter])
+end
+echo(&quot;              last line was &quot;..last_line)
+--display(line_content)
+--echo(&quot;             &quot;..line_content)
+
+--echo(groupmember[4]..&quot;&lt;--last line&quot;)
+</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^222 (.*)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>InputMembersList</name>
+                <script>member={}
+local localmember={}
+   --for newmember in string.gmatch(matches[2], &quot;%a+&quot;) do
+    --memberindex=memberindex+1
+     --member[memberindex]=newmember
+--      echo(newmember..&quot;\n&quot;)
+--     end
+groupsize=WordsAmount(matches[2])
+ localmember=WordsFromLine(matches[2])
+  for i=1,WordsAmount(matches[2]) do
+  member[i]=localmember[i]
+--  echo(&quot;\n&quot;..member[i]..WordsAmount(matches[2])..&quot;\n&quot;)
+end</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^members (.*)$</regex>
             </Alias>
             <Alias isActive="yes" isFolder="no">
                 <name>membersTell</name>
@@ -11481,65 +11977,6 @@ end</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^ggg$</regex>
-            </Alias>
-            <AliasGroup isActive="yes" isFolder="yes">
-                <name>GroupTellAlias</name>
-                <script>echo(&quot;          &quot;..groupsize..&quot;/n&quot;)</script>
-                <command></command>
-                <packageName></packageName>
-                <regex></regex>
-                <Alias isActive="yes" isFolder="no">
-                    <name>NumberOfMembers</name>
-                    <script></script>
-                    <command></command>
-                    <packageName></packageName>
-                    <regex>^size$</regex>
-                </Alias>
-            </AliasGroup>
-            <Alias isActive="yes" isFolder="no">
-                <name>members2</name>
-                <script>member={}
-memberindex=0
-groupsize=0
---repeat
---memberindex=memberindex+1
---member[memberindex]=matches[memberindex+1]
---until (member[memberindex]==&quot;a&quot;)
---s = 
-     for newmember in string.gmatch(matches[2], &quot;%a+&quot;) do
-     memberindex=memberindex+1
-     member[memberindex]=newmember
-      echo(newmember..&quot;\n&quot;)
-     end
-groupsize=memberindex</script>
-                <command></command>
-                <packageName></packageName>
-                <regex>^members (.*)$</regex>
-            </Alias>
-            <Alias isActive="yes" isFolder="no">
-                <name>members3</name>
-                <script>members3 = matches[2]:split(&quot; &quot;)
-echo(members3)</script>
-                <command></command>
-                <packageName></packageName>
-                <regex>^lol (.*)$</regex>
-            </Alias>
-            <Alias isActive="yes" isFolder="no">
-                <name>222</name>
-                <script>for counter = 1, 3 do
---send(&quot;tell &quot;..members3[#members3]..&quot; &quot;..matches[2]..&quot; |GT&quot;)
---echo(&quot;            &quot;..groupmember[counter]..&quot;\n&quot;)
-echo(linetr[counter])
-end
-echo(&quot;              last line was &quot;..last_line)
---display(line_content)
---echo(&quot;             &quot;..line_content)
-
---echo(groupmember[4]..&quot;&lt;--last line&quot;)
-</script>
-                <command></command>
-                <packageName></packageName>
-                <regex>^222 (.*)$</regex>
             </Alias>
         </AliasGroup>
         <AliasGroup isActive="no" isFolder="yes">
@@ -12053,18 +12490,18 @@ if r ~= nil then display(r) end</script>
                     <script>castspeed=&quot;quick&quot;</script>
                     <command></command>
                     <packageName></packageName>
-                    <regex>^qu$</regex>
+                    <regex>^qq$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>CastNorm</name>
                     <script>castspeed=&quot;normal&quot;</script>
                     <command></command>
                     <packageName></packageName>
-                    <regex>^no$</regex>
+                    <regex>^nn$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>BoBNoN</name>
-                    <script>send(&quot;cast n 'breath of b'g&quot;)</script>
+                    <script>send(&quot;cast n 'breath of b'&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^non$</regex>
@@ -12078,8 +12515,7 @@ if r ~= nil then display(r) end</script>
                 <regex></regex>
                 <Alias isActive="yes" isFolder="no">
                     <name>bh</name>
-                    <script>nuke=&quot; 'burning hands' &quot;
-send(&quot;cast &quot;..castspeed..nuke..matches[2])</script>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'burning hands' &quot;..matches[2])</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^bh(.*)$</regex>
@@ -12103,8 +12539,7 @@ nuke=&quot; 'harm' &quot;</script>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>sp</name>
-                    <script>nuke=&quot; 'colour spray' &quot;
-send(&quot;cast &quot;..castspeed..nuke..matches[2])</script>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'colour spray' &quot;..matches[2])</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^sp(.*)$</regex>
@@ -12143,8 +12578,7 @@ end</script>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>fb</name>
-                    <script>nuke=&quot; 'fireball' &quot;
-send(&quot;cast &quot;..castspeed..nuke..matches[2])</script>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'fireball' &quot;..matches[2])</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^fb(.*)$</regex>
@@ -12167,6 +12601,25 @@ end</script>
                     <packageName></packageName>
                     <regex>^cl(.*)$</regex>
                 </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>earthquake</name>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'earthquake'&quot;)
+
+--echo(&quot;     E A R T H Q U A K E \n&quot;)
+disableTrigger(&quot;Detect XP Gain&quot;)
+disableTrigger(&quot;LootCoins&quot;)
+--send(&quot;change mood ag; assist&quot;)
+--eqe
+--[cast n 'earthquake']
+--#action &gt;xp1 XPCOUNTER: &amp;1 &amp;2. is now off.
+--#action &gt;xp2 ^You receive your share of experience. is now off.
+--#action &gt;xp3 ^You feel more experienced. is now off.
+
+</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^ere$</regex>
+                </Alias>
             </AliasGroup>
             <AliasGroup isActive="yes" isFolder="yes">
                 <name>OtherSpells</name>
@@ -12178,16 +12631,20 @@ end</script>
                     <name>StoreSpellAlias</name>
                     <script>--storedspell = Matches[2];
 if  matches[2]==&quot;c&quot; then
-  send(&quot;cast n 'store' colour s&quot;);
+  send(&quot;cast n 'store' colour s&quot;)
   elseif  matches[2]==&quot;f&quot; then
-    send(&quot;cast n 'store' fire&quot;);
+    send(&quot;cast n 'store' fire&quot;)
   elseif  matches[2]==&quot;e&quot; then
-    send(&quot;cast n 'store' earthquake&quot;);
+    send(&quot;cast n 'store' earthquake&quot;)
+        if CharacterName==&quot;Strori&quot; then
+          enableTrigger(&quot;FailedQuake&quot;)
+          enableTrigger(&quot;StoredQuake&quot;)
+      end
   elseif  matches[2]==&quot;s&quot; then
-    send(&quot;cast n 'store' sleep&quot;);
+    send(&quot;cast n 'store' sleep&quot;)
   elseif  matches[2]==&quot;a&quot; then
-    send(&quot;cast n 'store' armour&quot;);
-end;</script>
+    send(&quot;cast n 'store' armour&quot;)
+end</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^sto(.*)</regex>
@@ -12277,6 +12734,16 @@ send(&quot;cast t 'strength'&quot;..matches[2]);
                     <command></command>
                     <packageName></packageName>
                     <regex>^sj$</regex>
+                </Alias>
+                <Alias isActive="no" isFolder="no">
+                    <name>sortedquakes</name>
+                    <script>if FailedStoreQuake+StoredQuake&gt;0 then
+echotest(&quot;Stored :&quot;..math.floor(StoredQuake/(FailedStoreQuake+StoredQuake)*100)..&quot;\%   &quot;..StoredQuake..&quot; &quot;..FailedStoreQuake)
+end
+send(&quot;score&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^quakes$</regex>
                 </Alias>
             </AliasGroup>
         </AliasGroup>
@@ -12396,7 +12863,7 @@ send(&quot;cast n 'create food';eat food&quot;)</script>
                 <packageName></packageName>
                 <regex>^oo$</regex>
             </Alias>
-            <Alias isActive="no" isFolder="no">
+            <Alias isActive="yes" isFolder="no">
                 <name>getall</name>
                 <script>chesttt=matches[2]
 if 
@@ -12429,9 +12896,9 @@ end</script>
                 <packageName></packageName>
                 <regex>^dc$</regex>
             </Alias>
-            <Alias isActive="yes" isFolder="no">
+            <Alias isActive="no" isFolder="no">
                 <name>LootInDK</name>
-                <script>send(&quot;get all.metal all.skeleton;get all.sword all.skeleton;g all.shirt all.skeleton&quot;)</script>
+                <script>send(&quot;get all.coins all.skeleton;get all.metal all.skeleton;get all.sword all.skeleton&quot;)</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^gas$</regex>
@@ -12452,63 +12919,104 @@ end</script>
                 <regex></regex>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram1</name>
-                    <script>send(&quot;west;kill soul&quot;)</script>
+                    <script>send(&quot;west;kill soul;get all&quot;)
+send(&quot;drop 1 copper&quot;)</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^1$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram2</name>
-                    <script>send(&quot;up;kill soul&quot;)</script>
+                    <script>send(&quot;up;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,2 do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^2$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram3</name>
-                    <script>send(&quot;north;kill soul&quot;)</script>
+                    <script>send(&quot;north;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^3$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram4</name>
-                    <script>send(&quot;west;kill soul&quot;)</script>
+                    <script>send(&quot;west;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^4$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram5</name>
-                    <script>send(&quot;east;kill soul&quot;)</script>
+                    <script>send(&quot;east;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^5$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram6</name>
-                    <script>send(&quot;north;kill soul&quot;)</script>
+                    <script>send(&quot;north;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^6$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram7</name>
-                    <script>send(&quot;north;kill soul&quot;)</script>
+                    <script>send(&quot;north;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^7$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram8</name>
-                    <script>send(&quot;west;kill soul&quot;)</script>
+                    <script>send(&quot;west;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^8$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram9</name>
-                    <script>send(&quot;west;kill soul&quot;)</script>
+                    <script>send(&quot;west;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^9$</regex>
@@ -12517,6 +13025,10 @@ end</script>
                     <name>StroriLibram10</name>
                     <script>--disablealiasgroup(Linkdrop10)
 send(&quot;north;kill soul;cha linkdrop 0&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
 </script>
                     <command></command>
                     <packageName></packageName>
@@ -12524,14 +13036,24 @@ send(&quot;north;kill soul;cha linkdrop 0&quot;)
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram11</name>
-                    <script>send(&quot;up;kill soul&quot;)</script>
+                    <script>send(&quot;up;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^11$</regex>
                 </Alias>
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram12</name>
-                    <script>send(&quot;west;kill soul&quot;)</script>
+                    <script>send(&quot;west;kill soul&quot;)
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
+</script>
                     <command></command>
                     <packageName></packageName>
                     <regex>^12$</regex>
@@ -12539,6 +13061,11 @@ send(&quot;north;kill soul;cha linkdrop 0&quot;)
                 <Alias isActive="yes" isFolder="no">
                     <name>StroriLibram13</name>
                     <script>send(&quot;east;kill soul&quot;)
+
+send(&quot;get all&quot;)
+for i=1,tonumber(matches[1]) do
+  send(&quot;drop 1 copper&quot;)
+end
 echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
                     <command></command>
                     <packageName></packageName>
@@ -12864,7 +13391,16 @@ echo(&quot;\n                  go NORTH to the mirror\n&quot;)</script>
             <regex></regex>
             <Alias isActive="yes" isFolder="no">
                 <name>examine</name>
-                <script>if 
+                <script>function ExamineWhat(myobject,myobject2,character)
+  if string.char(string.byte(matches[2],2))==&quot;&quot; then send (&quot;look in 1.&quot;..myobject)
+     elseif string.char(string.byte(matches[2],2))==character then
+        send(&quot;look in &quot;..myobject2)
+     elseif tonumber(string.len(matches[2]))~=nil then
+       send(&quot;look in &quot;..string.char(string.byte(matches[2],2))..&quot;.&quot;..myobject)
+  end
+end
+
+if 
 --examine
 string.len(matches[2])==0 then send(&quot;examine&quot;) 
 elseif--examine &lt;object&gt;
@@ -12872,25 +13408,28 @@ string.char(string.byte(matches[2]))==&quot; &quot; then send(&quot;examine&quot
 
 elseif--examine N.pouch
    string.char(string.byte(matches[2]))==&quot;s&quot; then
-     if string.len(matches[2])==1 then send(&quot;look in 1.pouch&quot;) else
-     send(&quot;look in &quot;..string.char(string.byte(matches[2],2))..&quot;.pouch&quot;)
-     end
-elseif--examine N.backpack
+     ExamineWhat(&quot;pouch&quot;)
+
+elseif--examine N.backpack/pipe
    string.char(string.byte(matches[2]))==&quot;p&quot; then
-     if string.len(matches[2])==1 then send(&quot;look in 1.backpack&quot;) else
-     send(&quot;look in &quot;..string.char(string.byte(matches[2],2))..&quot;.backpack&quot;)
-     end
+     ExamineWhat(&quot;backpack&quot;,&quot;pipe&quot;,&quot;p&quot;)
+
 elseif--examine N.quiver
    string.char(string.byte(matches[2]))==&quot;q&quot; then
-     if string.len(matches[2])==1 then send(&quot;look in 1.quiver&quot;) else
-     send(&quot;look in &quot;..string.char(string.byte(matches[2],2))..&quot;.quiver&quot;)
-     end
+     ExamineWhat(&quot;quiver&quot;)
+
 elseif--examine N.corpse
    string.char(string.byte(matches[2]))==&quot;c&quot; then
-     if string.len(matches[2])==1 then send(&quot;look in 1.corpse&quot;) else
-     send(&quot;look in &quot;..string.char(string.byte(matches[2],2))..&quot;.corpse&quot;)
-     end
+     ExamineWhat(&quot;corpse&quot;)
 
+elseif--examin N.lantern
+   string.char(string.byte(matches[2]))==&quot;l&quot; then
+     ExamineWhat(&quot;lantern&quot;)
+
+elseif--examin N.keyring
+   string.char(string.byte(matches[2]))==&quot;k&quot; then
+     ExamineWhat(&quot;keyring&quot;)
+ --    end
 end
 </script>
                 <command></command>
@@ -12990,20 +13529,6 @@ end
                 <regex>^color$</regex>
             </Alias>
             <Alias isActive="yes" isFolder="no">
-                <name>cja</name>
-                <script>send(&quot;change &quot;..matches[2])</script>
-                <command></command>
-                <packageName></packageName>
-                <regex>^cja (.*)$</regex>
-            </Alias>
-            <Alias isActive="yes" isFolder="no">
-                <name>cah</name>
-                <script>send(&quot;change &quot;..matches[2])</script>
-                <command></command>
-                <packageName></packageName>
-                <regex>^cah (.*)$</regex>
-            </Alias>
-            <Alias isActive="yes" isFolder="no">
                 <name>SeekrRivendell</name>
                 <script>send(&quot;seek rivendell&quot;)</script>
                 <command></command>
@@ -13100,6 +13625,55 @@ send(&quot;change compact off&quot;)</script>
                 <packageName></packageName>
                 <regex>^shop$</regex>
             </Alias>
+            <AliasGroup isActive="yes" isFolder="yes">
+                <name>typos</name>
+                <script></script>
+                <command></command>
+                <packageName></packageName>
+                <regex></regex>
+                <Alias isActive="yes" isFolder="no">
+                    <name>ewar</name>
+                    <script>send(&quot;wear &quot;..matches[2])</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^ewar (.+)</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>lsit(.+)</name>
+                    <script>send(&quot;list&quot;..matches[2])</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^lsit(.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>torp(.*)</name>
+                    <script>send(&quot;troph&quot;..matches[2])</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^torp(.*)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>cja</name>
+                    <script>send(&quot;change &quot;..matches[2])</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^cja (.*)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>cah</name>
+                    <script>send(&quot;change &quot;..matches[2])</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^cah (.*)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>trau</name>
+                    <script>send(&quot;train all&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^trau$</regex>
+                </Alias>
+            </AliasGroup>
         </AliasGroup>
         <AliasGroup isActive="yes" isFolder="yes">
             <name>Clock</name>
@@ -13548,23 +14122,8 @@ os.execute('java -classpath /tmp rkcopy')	--include folder in the classpath
             </Alias>
             <Alias isActive="yes" isFolder="no">
                 <name>python</name>
-                <script>local rk_line={}
-local folder=&quot;/tmp/&quot;
-local filename=&quot;00&quot;
-local fileext=&quot;.py&quot;
-local file = io.open(folder..filename..fileext, &quot;w&quot;)
-rk_line[1]=&quot;#!/usr/bin/python&quot;
-rk_line[2]=&quot;import gtk&quot;
-rk_line[3]=&quot;clipboard = gtk.clipboard_get()&quot;
-rk_line[4]=&quot;clipboard.set_text('alias ko cast \\'bli\\' &amp;.s')&quot;
-rk_line[5]=&quot;clipboard.store()&quot;
-for i=1,5 do
-  file:write(rk_line[i]..&quot;\n&quot;)
-end
-file:close()
-os.execute('chmod 755 '..folder..filename..fileext)
-os.execute('python '..folder..filename..fileext)
-os.execute('rm '..folder..filename..fileext)</script>
+                <script>CopyString(&quot;alias ko cast \\'bli\\' &amp;.s&quot;)
+</script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^]]$</regex>
@@ -13685,24 +14244,69 @@ end</script>
             <command></command>
             <packageName></packageName>
             <regex></regex>
-            <Alias isActive="yes" isFolder="no">
+            <Alias isActive="no" isFolder="no">
                 <name>ip</name>
-                <script>--ip = os.execute(' wget -q -O- http://ipecho.net/plain')
-print (ip)
-
+                <script>--curl -4  icanhazip.com
+--wget icanhazip.com || echo -n 'nonen''
+--ip = os.execute(' wget -q -O- http://ipecho.net/plain')
 local tmpfile = &quot;ip_ext.txt&quot;
 local folder = &quot;/tmp&quot;
-   -- os.execute('wget -q -O- http://ipecho.net/plain &gt; '..tmpfile)
+  --  os.execute('wget -q -O- http://ipecho.net/plain &gt; '..tmpfile)
 os.execute(&quot;cd &quot;..folder..&quot;;aria2c -o &quot;..tmpfile..&quot; http://ipecho.net/plain&quot;)
     local f = io.open(tmpfile)
 --    local ip_ext = &quot;&quot;
     for line in io.lines(folder..&quot;/&quot;..tmpfile) do print(line) end
     f:close()
+os.execute(&quot;rm &quot;..folder..&quot;/&quot;..tmpfile)
 
 </script>
                 <command></command>
                 <packageName></packageName>
                 <regex>^ip$</regex>
+            </Alias>
+        </AliasGroup>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>SystemTime</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <regex></regex>
+            <Alias isActive="yes" isFolder="no">
+                <name>TimeDifference</name>
+                <script>local t0=1488899197--- 2017 March 7  16 06 37  3rd dk
+local p = 34560 -- 9h36m period
+local tc = os.time() -- current time
+local tn=t0+p*(math.floor(os.difftime(tc,t0)/p)+1) --tn=t0+p*n
+--echotest(os.time({year=2017, month=3, day=7, hour=16, minute=06, sec=37})-t0)
+local OpensAt = tostring(os.date('%H:%M',tn))
+if tn-1500&gt;=tc then
+  tn = tn-1500
+  OpensAt = tostring(os.date('%H:%M',tn))..&quot; &quot;..OpensAt
+  if tn - 1500&gt;=tc then
+    tn = tn-1500
+    OpensAt = tostring(os.date('%H:%M',tn))..&quot; &quot;..OpensAt
+  end
+end
+local OpensIn = time.convert_seconds_to_hms(os.difftime(tn,tc),0)
+echotest(&quot;........ DK unlocks in &quot;..OpensIn..&quot; at &quot;..OpensAt..&quot; CET&quot;)
+--local lastk = LastDK()
+--echotest(os.date('%H:%M',lastk))
+--local dt = {year=2017, month=2, day=20, hour=0, min=56, sec=0}
+--local t0=os.time({year=2017, month=2, day=20, hour=0, min=56, sec=0})
+--local tn=t0+p*(math.floor((os.time()-t0)/p)+1) --tn=t0+p*n
+--☾☾☾☾utf8.char(0X1F315)..
+--echotest(&quot;........ DK unlocks at &quot;..os.date('%H:%M:%S',tn)..&quot;CET&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^timedk(.*)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>TimePrint</name>
+                <script>--for k, v in pairs(os.date(&quot;!*t&quot;)) do print(k, v) end
+print(os.date())</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^Time$</regex>
             </Alias>
         </AliasGroup>
     </AliasPackage>
@@ -15216,6 +15820,89 @@ end</script>
                 <eventHandlerList/>
             </Script>
         </ScriptGroup>
+        <Script isActive="yes" isFolder="no">
+            <name>CopyString</name>
+            <packageName></packageName>
+            <script>function CopyString(StirngThetIWantToCopyPaste)
+local rk_line={}
+local folder=&quot;/tmp/&quot;
+local filename=&quot;00&quot;
+local fileext=&quot;.py&quot;
+local file = io.open(folder..filename..fileext, &quot;w&quot;)
+rk_line[1]=&quot;#!/usr/bin/python&quot;
+rk_line[2]=&quot;import gtk&quot;
+rk_line[3]=&quot;clipboard = gtk.clipboard_get()&quot;
+rk_line[4]=&quot;clipboard.set_text(\'&quot;..StirngThetIWantToCopyPaste..&quot;\')&quot;
+rk_line[5]=&quot;clipboard.store()&quot;
+for i=1,5 do
+  file:write(rk_line[i]..&quot;\n&quot;)
+end
+file:close()
+os.execute('chmod 755 '..folder..filename..fileext)
+os.execute('python '..folder..filename..fileext)
+os.execute('rm '..folder..filename..fileext)
+end</script>
+            <eventHandlerList/>
+        </Script>
+        <Script isActive="yes" isFolder="no">
+            <name>WordsFromLine</name>
+            <packageName></packageName>
+            <script>function WordsFromLine(inputstr, sep)
+        if sep == nil then
+                sep = &quot;%s&quot;
+        end
+        local t={} ; i=0
+        for str in string.gmatch(inputstr, &quot;([^&quot;..sep..&quot;]+)&quot;) do
+                i = i + 1
+                t[i] = str
+        end
+        return t
+end</script>
+            <eventHandlerList/>
+        </Script>
+        <Script isActive="yes" isFolder="no">
+            <name>WordsAmount</name>
+            <packageName></packageName>
+            <script>function WordsAmount(inputstr, sep)
+        if sep == nil then
+                sep = &quot;%s&quot;
+        end
+        local t={} ; i=0
+        for str in string.gmatch(inputstr, &quot;([^&quot;..sep..&quot;]+)&quot;) do
+                i = i + 1
+                t[i] = str
+
+        end
+        return i
+end</script>
+            <eventHandlerList/>
+        </Script>
+        <Script isActive="yes" isFolder="no">
+            <name>EchoTest</name>
+            <packageName></packageName>
+            <script>function echotest(test_object)
+  echo(&quot;\n\n&quot;..tostring(test_object)..&quot;\n\n&quot;)
+end</script>
+            <eventHandlerList/>
+        </Script>
+        <Script isActive="yes" isFolder="no">
+            <name>TimeTo3rdDK</name>
+            <packageName></packageName>
+            <script>function LastDK()
+
+--local dt = {year=2017, month=2, day=20, hour=0, min=56, sec=0}
+local t0 = 1455926160 -- unix time &quot;2017 Feb 20(19) 00(23):56:00 CET(UTC)&quot;
+--local t0=os.time({year=2017, month=2, day=20, hour=0, min=56, sec=0})
+local p = 34560 -- 9h36m period
+
+local tn=t0+p*(math.floor((os.time()-t0)/p)+1)+3000 --tn=p*n+t0+3000 waning moon, last night
+--☾☾☾☾utf8.char(0X1F315)..
+return tn
+--echotest(&quot;........ DK unlocks in &quot;..time.convert_seconds_to_hms(tn-os.time(),0)..&quot; at &quot;..os.date('%H:%M',tn)..&quot; CET&quot;)
+--echotest(&quot;........ DK unlocks at &quot;..os.date('%H:%M:%S',tn)..&quot;CET&quot;)
+ end</script>
+            <eventHandlerList/>
+        </Script>
     </ScriptPackage>
     <KeyPackage>
         <KeyGroup isActive="yes" isFolder="yes">
@@ -15332,7 +16019,7 @@ DisableKey(&quot;AxePriestLordAsteriskKey&quot;)</script>
                 <keyCode>43</keyCode>
                 <keyModifier>536870912</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>QuakeKey</name>
                 <packageName></packageName>
                 <script>nuke=&quot; 'earthquake' &quot;
@@ -15340,6 +16027,12 @@ echo(&quot;     E A R T H Q U A K E \n&quot;)
 disableTrigger(&quot;Detect XP Gain&quot;)
 disableTrigger(&quot;LootCoins&quot;)
 --send(&quot;change mood ag; assist&quot;)
+--eqe
+--[cast n 'earthquake']
+--#action &gt;xp1 XPCOUNTER: &amp;1 &amp;2. is now off.
+--#action &gt;xp2 ^You receive your share of experience. is now off.
+--#action &gt;xp3 ^You feel more experienced. is now off.
+
 
 </script>
                 <command></command>
@@ -15357,7 +16050,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777266</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>SprayKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     C O L O U R   S P R A Y\n&quot;)
@@ -15368,7 +16061,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777265</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>BhandsKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     B U R N I N G   H A N D S \n&quot;)
@@ -15387,7 +16080,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777267</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>LightningBoltKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     L I G H T N I N G   B O L T \n&quot;)
@@ -15406,7 +16099,7 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>42</keyCode>
                 <keyModifier>536870912</keyModifier>
             </Key>
-            <Key isActive="yes" isFolder="no">
+            <Key isActive="no" isFolder="no">
                 <name>DispelEKey</name>
                 <packageName></packageName>
                 <script>echo(&quot;     D I S P E L   E V I L\n&quot;)
@@ -15428,6 +16121,164 @@ enableTrigger(&quot;LootCoins&quot;)</script>
                 <keyCode>16777266</keyCode>
                 <keyModifier>0</keyModifier>
             </Key>
+            <KeyGroup isActive="yes" isFolder="yes">
+                <name>StroriKeys</name>
+                <packageName></packageName>
+                <script></script>
+                <command></command>
+                <keyCode>-1</keyCode>
+                <keyModifier>-1</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>killTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;kill &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777264</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>burnTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'burning hands' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777265</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>sprayTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'colour spray' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777266</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>boltTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'lightning bolt' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777267</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="no" isFolder="no">
+                    <name>New Key</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command></command>
+                    <keyCode>-1</keyCode>
+                    <keyModifier>-1</keyModifier>
+                </Key>
+                <Key isActive="no" isFolder="no">
+                    <name>New Key</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command></command>
+                    <keyCode>-1</keyCode>
+                    <keyModifier>-1</keyModifier>
+                </Key>
+                <Key isActive="no" isFolder="no">
+                    <name>New Key</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command></command>
+                    <keyCode>-1</keyCode>
+                    <keyModifier>-1</keyModifier>
+                </Key>
+            </KeyGroup>
+            <KeyGroup isActive="no" isFolder="yes">
+                <name>UmnikKeys</name>
+                <packageName></packageName>
+                <script>--#redefined key: F1 ^['[00~'=kill endragoira
+--#redefined key: F2 ^['[01~'=cast 'burning hands' endragoira
+--#redefined key: F3 ^['[02~'={kill endragoira; cast 'lightning bolt'}
+--#redefined key: F4 ^['[03~'=cast 'lightning bolt' endragoira
+--#redefined key: F5 ^['[04~'=cast 'fireball' endragoira
+
+--#redefined key: KF1 ^[OP=kill endragoira
+--#redefined key: KF2 ^[OQ=cast 'burning hands' endragoira
+--#redefined key: KF3 ^[OR={kill endragoira; cast 'lightning bolt'}
+--#redefined key: F3 ^['[02~'=order two bash
+--#redefined key: KF3 ^[OR=order two bash
+--#redefined key: F6 ^['[05~'=cast n 'magic missile' endragoira
+--#redefined key: KF6 ^[[17~=cast n 'magic missile' endragoira</script>
+                <command></command>
+                <keyCode>-1</keyCode>
+                <keyModifier>-1</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>killTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;kill &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777264</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>burnTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'burning hands' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777265</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>sprayTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'colour spray' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777266</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>boltTarget</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'lightning bolt' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777267</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>UmnikFireballF5</name>
+                    <packageName></packageName>
+                    <script>send(&quot;cast &quot;..castspeed..&quot; 'fireball' &quot;..target)
+enableTrigger(&quot;Detect XP Gain&quot;)
+enableTrigger(&quot;LootCoins&quot;)</script>
+                    <command></command>
+                    <keyCode>16777268</keyCode>
+                    <keyModifier>0</keyModifier>
+                </Key>
+                <Key isActive="no" isFolder="no">
+                    <name>New Key</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command></command>
+                    <keyCode>-1</keyCode>
+                    <keyModifier>-1</keyModifier>
+                </Key>
+                <Key isActive="no" isFolder="no">
+                    <name>New Key</name>
+                    <packageName></packageName>
+                    <script></script>
+                    <command></command>
+                    <keyCode>-1</keyCode>
+                    <keyModifier>-1</keyModifier>
+                </Key>
+            </KeyGroup>
         </KeyGroup>
         <Key isActive="yes" isFolder="no">
             <name>RideLeadMinusKey</name>
@@ -15546,4 +16397,7 @@ send(&quot;get &quot;..AboutBodyWear..&quot; backpack;remove &quot;..AboutBodyRe
             </Key>
         </KeyGroup>
     </KeyPackage>
+    <VariablePackage>
+        <HiddenVariables/>
+    </VariablePackage>
 </MudletPackage>
