@@ -1,0 +1,117 @@
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>east
+A Dense Forest
+*a dreadful Orc* is sleeping here.
+A long-tailed bird watches you from the vegetation.
+Exits: north, east, south, west.
+A trained horse has arrived from the west.
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>east
+A Dense Forest
+A grey wolf is here, snarling aggressively.
+Exits: north, east, south, west.
+A trained horse has arrived from the west.
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>west
+A Dense Forest
+*a dreadful Orc* is sleeping here.
+A long-tailed bird watches you from the vegetation.
+Exits: north, east, south, west.
+A trained horse has arrived from the east.
+
+!f CW HP:Fine Move:Tired>
+A wood partridge leaves vvvv S O U T H vvvv
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>x orc
+examine orc
+You see nothing special about him.
+*a dreadful Orc* is in an excellent condition.
+*a dreadful Orc* is using:
+<wielded two-handed> a bastard sword (flawless)
+<worn on hands>      a fine pair of soft leather gloves (used)
+<worn on legs>       a fine pair of chain mail leggings (well-maintained)
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>cha m a
+Ok.
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>cha s q
+Ok.
+
+!f CW HP:Fine Move:Tired>
+!f CW HP:Fine Move:Tired>ta orc
+b orc
+bas orc
+
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+cast normal 'colour spray' orc
+*a dreadful Orc*   ___ b a s h e d
+You cleave *a dreadful Orc*'s left arm extremely hard.
+
+!f CW HP:Fine *a dreadful Orc*:Fine>
+You start to concentrate...
+
+Egalmoth (eg) begins some strange incantations...
+
+Egalmoth (eg) utters the words 'eugszr zzur'
+
+Egalmoth (eg) begins some strange incantations...
+
+Egalmoth (eg) utters the words 'eugszr zzur'
+*a dreadful Orc* is mortally wounded and will die soon if not aided.
+
+Egalmoth (eg) begins some strange incantations...
+
+Egalmoth (eg) utters the words 'eugszr zzur'
+You feel more experienced.
+Congratulations! This is the first time you've killed it!
+You hear *Khorga the Orc*'s death cry as he collapses.
+*Khorga the Orc* has drawn his last breath! R.I.P.
+Your victim has disappeared!
+
+!f CW HP:Fine>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+Nobody here by that name.
+
+!f CW HP:Fine Mana:Burning>
+!f CW HP:Fine Mana:Burning>trop #
+               *** TROPHY *** (Number Killed, Knowledge, Mobile)
+
+|   1,  0%,  #Khorga                   |   1,  1%,  #Azhot                    |
+|   1,  0%,  #Irulan                   |   1,  0%,  #Ubbe                     |
+|   1,  0%,  #Mulligan                 |   1,  0%,  #Glauron                  |
+|   1,  0%,  #Mathat                   |   1,  0%,  #Arbon                    |
+|   1,  0%,  #Gorkamon                 |   1,  0%,  #Svarten                  |
+|   1,  0%,  #Soart                    |   3,  0%,  #Bomboclat                |
+|   2,  0%,  #Zakuzka                  |   1,  0%,  #Stronk                   |
+|   1,  0%,  #Mosh                     |   1,  0%,  #Praska                   |
+
+Total kills: 19 (16 distinct).
+
