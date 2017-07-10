@@ -1,0 +1,467 @@
+dial
+[ INFO ]  - Looking up the IP address of server:127.0.0.1:4242 ...
+[ INFO ]  - The IP address of 127.0.0.1 has been found. It is: 127.0.0.1
+[ INFO ]  - Trying to connect to 127.0.0.1:4242 ...
+[ INFO ]  - A connection has been established successfully.
+                
+                
+>Welcome to MMapper!   Type _help for help or _vote to vote!
+
+
+                              ***  MUME VIII  ***
+
+                              In progress at FIRE
+                     (Free Internet Roleplay Experiences)
+                      Hosted at HEIG-VD (www.heig-vd.ch)
+
+             Adapted from J.R.R. Tolkien's Middle-earth world and
+                   maintained by CryHavoc, Manwe, and Nada.
+
+              Original code DikuMUD I (help credits), created by:
+       S. Hammer, T. Madsen, K. Nyboe, M. Seifert, and H.H. Staerfeldt.
+
+If you have never played MUME before, type NEW to create a new character,
+or ? for help. Otherwise, type your account or character name.
+
+
+By what name do you wish to be known? Account pass phrase: 
+OK.
+
+Account menu:
+
+  create                         - Create a new character.
+  play <name>                    - Log the character <name> into MUME.
+  time                           - Display the game time.
+  list [<sort>]                  - Lists all your characters.
+  move <name> [up|down] [-]n     - Move a character around in the custom list.
+  password                       - Change your account pass phrase.
+  add <name>                     - Add a character <name> to your account.
+  info <name>                    - Show information about character <name>
+  help                           - Displays help about these commands.
+  menu                           - Displays this menu.
+  bye                            - Leave the account menu (logs you out).
+
+Where <sort> can be one of: side, race, level, alphabetic, and custom.
+
+Account> 
+Account> p strori
+            ~~~
+           ~~         _----|        _ _ __ _ _
+                       ----|_----|  ]-I-II-I-[                 __ _ __ _ __
+   _ _ _/\_ _ _ _---|      | ----|   \ `  ' /                  ]I-I-II-I-I[
+   ]-I-I--I-I-[  ---|      |     |    |. ` |        ~~~         \_`   '__/
+    \_`   '__/      |     / \    |    | /^\|         ~~~         |~_ [],|
+     [&] `__|       ^    / ^ \   ^    | |&||                    _|______|_
+     |__   ,|      / \  / ^ ^`\ / \   | ===|                   <=-=-==-=-=>
+  ___| ___ ,|__   / ^  /=_=_=_=\ ^ \  |, `_|     ~~             \__   _'_/
+  I_I__I_I__I_I  (====(_________)_^___| ___|___    ~~            |.   _ |
+  \-\--|-|--/-/  | .   I  [&]__I   I_I|_I I|I_I                  |   _  |
+   |[] `    '|_  |_   _|`___ ._[  _\ \  | | / /                  |`    '|
+  / \  [] ` .| |-| |-| |_| |_| |_| | []   [] |                   | '    |
+ <===>      .|-=-=-=-=-=-=-=-=-=-=-|        / \                  |[]    |
+ | []|` ` [] |.      _______ .     |-  `   <===>                 |'   __|
+ <===>  `  ' | /|\  |       |  /|\ |  []   <===>-T-T-T-T-T-T-T-T-| '  I-|-T-
+  \T/    1-- | ||| /|Welcome|\ ||| | .  '   \T/    .  |   ..     |     _|
+__/|' v .   .|\|||//|_______|\\|||/|. . Y . .|\_________________/ -  .. .\__
+      ..   .                       . .   .                       . ..
+
+               MUME: Multi Users in Middle-earth, version VIII.
+
+                 Type "news next" for the latest information.
+
+Welcome to the land of Middle-earth. May your visit here be... interesting.
+change wimpy 100;rem mantle;wear mantle;rem cloak;wear cloak;rem shield;wear 
+shield;rem staff;wear staff shield
+change height 50;inf;look
+Never forget! Try to role-play...
+
+Last login 5 minutes ago from 148.56.116.119.
+Lower Flet
+A finely crafted crystal lamp is hanging from a tree branch.
+An elven caretaker is standing here, offering his guests a rest.
+An elven lady is walking around here.
+An elf of the Galadhrim is walking around here.
+Exits: north.
+
+Your default tongue is Westron.
+You feel a change in your physical abilities.
+Free rent.
+
+*f CW HP:Fine>
+Wimpy set to: 100
+
+*f CW HP:Fine>
+You stop using an imposing, golden mantle.
+
+*f CW HP:Fine>
+You wear an imposing, golden mantle about your body.
+
+*f CW HP:Fine>
+You aren't wearing a cloak.
+
+*f CW HP:Fine>
+You don't have a cloak.
+
+*f CW HP:Fine>
+You stop using a bejewelled shield.
+
+*f CW HP:Fine>
+You fasten a bejewelled shield on your arm, becoming very impressive.
+
+         W A R R I O R
+
+
+*f CW HP:Fine>
+You aren't wearing a staff.
+
+*f CW HP:Fine>
+You don't have a staff.
+
+*f CW HP:Fine>
+Ok.
+
+*f CW HP:Fine>
+You are a male Dwarf.
+You are 53 years and 16 days old.
+You have played 1 month, 19 days and 22 hours (real time). Session: 3 secs.
+This ranks you as Strori (level 62).
+You are four feet seven and weigh thirteen stone and five pounds.
+Perception: vision 10, hearing 26, smell -1. Alertness: normal.
+You must have been sent to Arda to free it from the sorrows that weigh upon it.
+You are welcome in the Anduin Vale, the Blue Mountains, Bree, Fornost, the Grey 
+Havens, Lorien, Rivendell, and the Shire.
+Your equipment weighs one hundred sixty-two pounds. That is REALLY heavy!
+Your base abilities are: Str:16 Int:19 Wis:12 Dex:16 Con:17(16) Wil:17(16) 
+Per:11.
+Offensive Bonus: 78%, Dodging Bonus: 16%, Parrying Bonus: 79%.
+Your armour provides an average protection of 90%.
+You have 357/369 hit, 108/108 mana, and 149/150 movement points.
+Your mood is wimpy. You will flee if your hit points go below 100.
+You have scored 56,116,659 experience points and you have 384,296 travel points.
+You have fought many battles for the armies of the West (3 wp).
+You need 1,883,341 exp. points and 0 travel points to reach the next level.
+You have 233 gold coins, 9 silver pennies, and 56 copper pennies.
+You are speaking Westron.
+You will swim if necessary.
+You will try to climb even under unsafe conditions.
+
+You are subjected to the following temporary effects:
+- growth
+- vigour
+
+*f CW HP:Fine>
+Lower Flet
+A finely crafted crystal lamp is hanging from a tree branch.
+An elven caretaker is standing here, offering his guests a rest.
+An elven lady is walking around here.
+An elf of the Galadhrim is walking around here.
+Exits/emulated: north.
+
+*f CW HP:Fine>
+Needed: 1883341 xp, 0 tp.
+Total: 56116659 xp, 384296 tp.
+
+*f CW HP:Fine>
+
+An elf leaves ^^^^ N O R T H ^^^^
+
+*f CW HP:Fine>
+*f CW HP:Fine>re those point in rogge group you can earn on one character and get shining on the other right ?
+tell Nimmeth those point in rogge group you can earn on one character and get 
+shining on the other right ?
+Ok.
+
+*f CW>
+
+The thin veils and draperies sway slowly in the breeze.
+
+*f CW>
+*f CW>st
+stat
+OB: 78%, DB: 16%, PB: 79%, Armour: 90%. Wimpy: 100. Mood: wimpy.
+Needed: 1,883,341 xp, 0 tp. Gold: 233. Alert: normal.
+Affected by:
+- growth
+- vigour
+
+*f CW>
+*f CW>who
+Players
+-------
+      Strori
+      Shaml Walkins
+      Dromm the Elven Apprentice
+      Biron the Man Adventurer
+      Brelgo Silverspear, Outrider of Rohan (Idle)
+ [Mw] Arfang the Nenuial's Fisherman
+      Dilbo the Hobbit Recruit
+      Nimmeth the Subtle
+      Hoplino Apinan Goijari
+      Pastori Jotain Jotain Jotain...
+      Balsam the Elven Adventurer (Linkless)
+      Himdahl - lhadmiH
+      Tua
+      Moug Stonehelm
+      Ninquelote the Noldorin Herbalist
+ [ A] Waba (Idle)
+      Melauriel the Man
+      Barin the Dwarven Apprentice
+ [Mw] Ryalnos is never Wrong, so he always (Idle)
+ [Va] Rogon Rogoff
+
+20 allies and visible Ainur on.
+
+*f CW>
+An elven lady has arrived from the north.
+
+*f CW>
+
+An elven lady leaves ^^^^ N O R T H ^^^^
+*f CW>
+
+Nimmeth tells you 'sorry was afk'
+
+*f CW>
+The evil power begins to regress...
+
+*f CW>
+An elven lady leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+Nimmeth tells you 'yes'
+
+*f CW>
+*f CW>re those point in Durrin's rogge group you can earn on one character and get shining on the other right ?
+tell Nimmeth those point in Durrin's rogge group you can earn on one character 
+and get shining on the other right ?
+Ok.
+
+*f CW>
+
+A grey-clad elf has arrived from the north.
+*f CW>
+
+The thin veils and draperies sway slowly in the breeze.
+*f CW>
+Nimmeth tells you 'but not from same rogge'
+
+*f CW>
+Nimmeth tells you 'u can join 1 week with warrior'
+
+*f CW>
+Nimmeth tells you 'and 2nd week with mage'
+
+*f CW>
+*f CW>re ok
+tell Nimmeth ok
+Ok.
+
+*f CW>
+
+Nimmeth tells you 'and get shining 2nd time'
+*f CW>
+The thin veils and draperies sway slowly in the breeze.
+
+*f CW>
+Nimmeth tells you 'altho we used to do in 9-10 days interval'
+
+*f CW>
+Hoplino narrates 'someone been sleeping thieves in tbad?'
+
+*f CW>
+
+Nimmeth tells you 'me and torstein'
+*f CW>
+A grey-clad elf leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+
+Nimmeth tells you 'durrin tried more often'
+*f CW>
+
+Nimmeth tells you 'but he also had more deaths :P'
+*f CW>
+Nimmeth tells you 'balrog gets weaker if u wait longer'
+
+*f CW>
+*f CW>re you kinda book a place in the next group that way , right ?
+tell Nimmeth you kinda book a place in the next group that way , right ?
+Ok.
+
+*f CW>
+
+Nimmeth tells you 'plus 9 days means u have guarantee on full load even arties'
+*f CW>
+A grey-clad elf has arrived from the north.
+
+*f CW>
+
+The thin veils and draperies sway slowly in the breeze.
+*f CW>
+A grey-clad elf leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+Shaml narrates 'sleeping thieves ,sounds like good holliwood movie name'
+
+*f CW>
+Nimmeth tells you 'its really about asking torstein to organize a balrog'
+
+*f CW>
+Nimmeth tells you 'as i am too lazy to do that myself'
+
+*f CW>
+
+Nimmeth tells you 'i just do the leading'
+*f CW>
+Nimmeth tells you 'and agenda around splitting of eq'
+
+*f CW>
+The thin veils and draperies sway slowly in the breeze.
+
+*f CW>
+
+A grey-clad elf has arrived from the north.
+
+*f CW>
+Nimmeth tells you 'if i had to get ppl online too'
+
+*f CW>
+Nimmeth tells you 'it would be too tiresome :P'
+
+*f CW>
+
+A grey-clad elf leaves ^^^^ N O R T H ^^^^
+*f CW>
+*f CW>re mumemails ?
+tell Nimmeth mumemails ?
+Ok.
+
+*f CW>
+
+An elven scout has arrived from the north.
+
+*f CW>
+
+Nimmeth tells you 'usually u need something faster'
+*f CW>
+Nimmeth tells you 'like skype, msn, phone, etc.'
+
+*f CW>
+An elven scout leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+*f CW>re i see
+tell Nimmeth i see
+Ok.
+
+*f CW>
+Nimmeth tells you 'its lot of time'
+
+*f CW>
+The thin veils and draperies sway slowly in the breeze.
+
+*f CW>
+Nimmeth tells you 'some ppl say they join'
+
+*f CW>
+Nimmeth tells you 'then it turns out they cant'
+
+*f CW>
+
+Nimmeth tells you 'etc'
+*f CW>
+Nimmeth tells you 'so u need replacements'
+
+*f CW>
+Nimmeth tells you 'if u do this job'
+*f CW>
+Nimmeth tells you 'and get sufficient gr online'
+
+*f CW>
+Nimmeth tells you 'i can join and lead it'
+
+*f CW>
+An elven lady has arrived from the north.
+
+*f CW>
+A grey-clad elf has arrived from the north.
+
+*f CW>
+
+The thin veils and draperies sway slowly in the breeze.
+*f CW>
+Nimmeth tells you 'and make it part of my system'
+
+*f CW>
+Nimmeth tells you 'to split the eq'
+
+*f CW>
+An elf has arrived from the north.
+
+*f CW>
+Nimmeth tells you 'i believe its fair'
+
+*f CW>
+Nimmeth tells you 'organizer and leader gets small bonus too'
+
+*f CW>
+
+Nimmeth tells you 'so u wouldnt be doing it for free'
+
+
+Shaml narrates 'hmm, koskenkorva or absolut, what to choose, hard choice'
+*f CW>
+An elf leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+Nimmeth tells you 'and hoary shining is cheaper in points than new shining in my 
+system'
+
+*f CW>
+
+Nimmeth tells you 'much cheaper'
+
+*f CW>
+
+The thin veils and draperies sway slowly in the breeze.
+*f CW>
+
+Himdahl narrates 'eww me not like vodka... barf medicine'
+An elven lady has arrived from the north.
+
+*f CW>
+Nimmeth tells you 'gr that is necessary is 8 warriors and 2 cleric s'
+
+*f CW>
+
+A grey-clad elf leaves ^^^^ N O R T H ^^^^
+
+*f CW>
+Dilbo narrates 'if you mainline it, taste doesnt matter much!'
+
+*f CW>
+Dilbo narrates 'come on! be a rockstar!'
+
+*f CW>
+A grey-clad elf has arrived from the north.
+
+*f CW>
+Nimmeth tells you 'high levels if possible'
+
+*f CW>
+
+Himdahl narrates 'haha'
+*f CW>
+
+Nimmeth tells you 'with anti spirit weapons'
+*f CW>
+The thin veils and draperies sway slowly in the breeze.
+
+*f CW>
+
+An elven lady leaves ^^^^ N O R T H ^^^^
+*f CW>
+
+A grey-clad elf leaves ^^^^ N O R T H ^^^^
+
+*f CW>
