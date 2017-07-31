@@ -104,14 +104,4 @@ Nobody here by that name.
 !f CW HP:Fine Mana:Burning>trop #
                *** TROPHY *** (Number Killed, Knowledge, Mobile)
 
-|   1,  0%,  #Khorga                   |   1,  1%,  #Azhot                    |
-|   1,  0%,  #Irulan                   |   1,  0%,  #Ubbe                     |
-|   1,  0%,  #Mulligan                 |   1,  0%,  #Glauron                  |
-|   1,  0%,  #Mathat                   |   1,  0%,  #Arbon                    |
-|   1,  0%,  #Gorkamon                 |   1,  0%,  #Svarten                  |
-|   1,  0%,  #Soart                    |   3,  0%,  #Bomboclat                |
-|   2,  0%,  #Zakuzka                  |   1,  0%,  #Stronk                   |
-|   1,  0%,  #Mosh                     |   1,  0%,  #Praska                   |
-
-Total kills: 19 (16 distinct).
-
+|   1,  0%,  #Khorga           
