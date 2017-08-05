@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.0">
+    <AliasPackage>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>Rings</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <regex></regex>
+            <Alias isActive="yes" isFolder="no">
+                <name>vble</name>
+                <script>send(&quot;use  quartzite&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^vble$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>vstr</name>
+                <script>UsePowerRing(&quot;topaz-ring&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^vstr</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>giVeRing</name>
+                <script>send(&quot;get topaz-ring all;give topaz-ring &quot;..matches[2])</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^v (.*)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>vcc</name>
+                <script>UsePowerRing(&quot;garnet-ring&quot;)
+</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^vcc$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>vremp</name>
+                <script>UsePowerRing(&quot;emerald-ring&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^vremp$</regex>
+            </Alias>
+        </AliasGroup>
+    </AliasPackage>
+    <ScriptPackage>
+        <ScriptGroup isActive="yes" isFolder="yes">
+            <name>Rings</name>
+            <packageName></packageName>
+            <script>            
+</script>
+            <eventHandlerList/>
+            <Script isActive="yes" isFolder="no">
+                <name>UsePowerRing</name>
+                <packageName></packageName>
+                <script>function UsePowerRing(R)
+send(&quot;get &quot;..R..&quot; pouch;rem &quot;..theRing..&quot;;wear &quot;..R..&quot;;use &quot;..R..&quot;;rem &quot;..R..&quot;;wear &quot;..theRing..&quot;;put &quot;..R..&quot; pouch&quot;)
+end</script>
+                <eventHandlerList/>
+            </Script>
+        </ScriptGroup>
+    </ScriptPackage>
+
+</MudletPackage>
