@@ -1,4 +1,7 @@
+//usage: #scri timedk()
+//can do #alias {timedk} {#scri timedk()} 
 //t0 corresponed to moonrise at 7pm, 3rd night when is unlcoks
+//t0 must be set manually from time to time
 function seconds_to_hms(time_as_seconds, zero){
 	if (zero == null) {
 		zero = "now";
