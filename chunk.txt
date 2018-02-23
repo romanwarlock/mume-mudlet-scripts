@@ -1,0 +1,939 @@
+Underneath the Forest
+Some thick writhing vines whip all around you.
+Some roots lie here waiting to ensnare weary travellers.
+You are trapped by some roots.
+Exits/emulated: east, south, up.
+
+*f CW>
+
+Nimmeth crushes a clump of roots' tip extremely hard.
+*f CW>
+Nimmeth issues the order 'assist Nimmeth'.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula strongly hits a clump of roots' tip.
+A huge tarantula hits a clump of roots' tip.
+A huge tarantula strongly hits a clump of roots' body.
+
+*f CW>
+
+A huge tarantula bites a clump of roots!
+*f CW>
+Egalmoth (eg) joins Nimmeth's fight.
+Egalmoth (eg) pounds a clump of roots' tip extremely hard and shatters it.
+A huge tarantula strongly hits a clump of roots' body and shatters it.
+
+*f CW>
+Pinback (mo) joins Nimmeth's fight.
+Pinback (mo) slashes a clump of roots' body extremely hard and shatters it.
+
+*f CW>
+
+A clump of roots is incapacitated and will slowly die, if not aided.
+A huge tarantula bites a clump of roots!
+
+*f CW>
+A thick tangle of vines fails to hit Nimmeth.
+A huge tarantula hits a clump of roots' tip hard and shatters it.
+You receive your share of experience.
+This is really a genocide...
+A clump of roots is dead! R.I.P.
+get all.coins corpse
+
+*f CW>
+Needed: 97550 xp, 0 tp.
+assist
+Total: 55902450 xp, 383825 tp.
+You gained 263 xp.
+
+*f CW>
+You can't find any coins in the corpse.
+Nimmeth crushes a thick tangle of vines' trunk hard.
+
+*f CW>
+Nimmeth issues the order 'assist Nimmeth'.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+You assist Nimmeth.
+You cleave a thick tangle of vines' branch extremely hard and shatter it.
+Your victim is shocked by your hit!
+A huge tarantula hits a thick tangle of vines' crown hard.
+
+*f CW a thick tangle of vines:Hurt Nimmeth:Healthy>
+
+A huge tarantula bites a thick tangle of vines!
+A huge tarantula hits a thick tangle of vines' crown hard.
+
+*f CW a thick tangle of vines:Hurt Nimmeth:Healthy>
+Pinback (mo) joins Nimmeth's fight.
+A thick tangle of vines barely hits Nimmeth's left hand and tickles it.
+
+*f CW a thick tangle of vines:Hurt Nimmeth:Fine>
+
+A huge tarantula hits a thick tangle of vines' root hard.
+*f CW a thick tangle of vines:Wounded Nimmeth:Fine>
+A huge tarantula hits a thick tangle of vines' trunk hard.
+
+*f CW a thick tangle of vines:Wounded Nimmeth:Fine>
+A huge tarantula hits a thick tangle of vines' branch hard and shatters it.
+
+*f CW a thick tangle of vines:Wounded Nimmeth:Fine>
+A huge tarantula bites a thick tangle of vines!
+Pinback (mo) slashes a thick tangle of vines' leaves extremely hard and shatters 
+it.
+
+*f CW a thick tangle of vines:Awful Nimmeth:Fine>
+
+A thick tangle of vines barely hits Nimmeth's left hand and tickles it.
+*f CW a thick tangle of vines:Awful Nimmeth:Fine>
+
+A thick tangle of vines is incapacitated and will slowly die, if not aided.
+A huge tarantula bites a thick tangle of vines!
+
+*f CW a thick tangle of vines:Awful Nimmeth:Fine>
+
+You cleave a thick tangle of vines' branch extremely hard and shatter it.
+Your victim is shocked by your hit!
+You receive your share of experience.
+This is really a genocide...
+You hear a thick tangle of vines' death cry as it collapses.
+A thick tangle of vines is dead! R.I.P.
+get all.coins corpse
+
+*f CW>
+Needed: 97125 xp, 0 tp.
+Total: 55902875 xp, 383825 tp.
+You gained 425 xp.
+*f CW>
+You can't find any coins in the corpse.
+Nimmeth begins some strange incantations...
+*f CW>
+Nimmeth utters the word 'armour'
+
+*f CW>
+Nimmeth opens the boulders.
+
+*f CW>
+Nimmeth leaves <<<< W E S T <<<<
+Entrance to a Tunnel
+Exits/emulated: north, east, {west}. - w:boulders.
+
+!= CW>
+
+Nimmeth closes the boulder.
+!= CW>
+A horse of the Rohirrim stops following Nimmeth.
+
+!= CW>
+Nimmeth says 'abandon'
+
+!= CW>
+
+Nimmeth issues the order 'sleep'.
+A huge tarantula lies down and falls asleep.
+A huge tarantula lies down and falls asleep.
+A huge tarantula lies down and falls asleep.
+
+!= CW>
+A dales-pony stops following Pinback (mo).
+
+!= CW>
+!= CW>aba
+A mountain mule (pa) stops following you.
+
+!= CW>
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Narrow Tunnel
+A rusty pickaxe with a broken handle lies discarded here.
+A skeleton of some humanoid lies in the dust.
+Exits/emulated: north, {east}. - e:boulder.
+
+!= CW>
+
+Nimmeth leaves vvvv S O U T H vvvv
+Entrance to a Tunnel
+A great dark-grey horse stamps restively.
+A huge tarantula is sleeping here.
+A strong and agile dales-pony is standing here.
+A mountain mule (pa) is standing here.
+A huge tarantula is sleeping here.
+A huge tarantula is sleeping here.
+Exits/emulated: south, west.
+
+!= CW>
+
+Nimmeth says 'abandon'
+!= CW>
+A pack horse stops following Egalmoth (eg).
+
+!= CW>
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Narrow Tunnel
+A rusty pickaxe with a broken handle lies discarded here.
+A skeleton of some humanoid lies in the dust.
+Exits/emulated: north, {east}. - e:boulder.
+
+!= CW>
+Nimmeth says 'w of here is weight based fall'
+
+!= CW>
+Nimmeth gets a jewelled ring from a sable pouch.
+
+!= CW>
+
+Nimmeth stops using a jewelled ring.
+!= CW>
+
+Nimmeth puts a jewelled ring on her finger with delicacy.
+!= CW>
+Nimmeth puts a jewelled ring in a sable pouch.
+Pinback (mo) begins some strange incantations...
+
+!= CW>
+
+Pinback (mo) utters the words 'cure light'
+Pinback (mo)'s spell backfires, and he squeals in surprise!
+
+!= CW>
+
+Nimmeth gets a jewelled ring from a sable pouch.
+!= CW>
+Nimmeth stops using a jewelled ring.
+
+!= CW>
+Nimmeth puts a jewelled ring on her finger with delicacy.
+
+!= CW>
+
+Nimmeth puts a jewelled ring in a sable pouch.
+
+!= CW>
+Nimmeth says 'about 100 damage fall'
+
+!= CW>
+Pinback (mo) begins some strange incantations...
+
+!= CW>
+Pinback (mo) utters the words 'cure light'
+
+!= CW>
+!= CW>ex
+South - You can't distinguish a lot of details.
+West - You can't distinguish a lot of details.
+!= CW>
+!= CW>x n
+examine n
+Nothing special there...
+
+!= CW>
+
+Nimmeth says 'we need to fall through to loot the chunk'
+
+!= CW>
+
+Nimmeth says 'u can usually just bring more mounts'
+!= CW>
+
+Egalmoth (eg) says 'no need now'
+Nimmeth says 'etc'
+
+!= CW>
+
+Nimmeth says 'or drag some corpses'
+!= CW>
+
+Nimmeth says 'its ok'
+!= CW>
+
+Nimmeth leaves <<<< W E S T <<<<
+Collapsed Tunnel
+A large boulder is here, it must be heavy.
+With a great rumble the ground caves in, sending the soil and Egalmoth (eg) to 
+fall down into the dark shaft.
+There are sounds of spines and wood breaking. As the weight increases the edge 
+of the shaft collapses sending you and surrounding soil down into the darkness!
+Abandoned Spider's Nest
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+A giant slug is here, oozing around.
+A giant, strange looking green fungus is here, ready to devour you in seconds.
+Egalmoth the Elf (eg) is standing here.
+Exits: north, west, up.
+Pinback (mo) falls through the shaft, landing with a thud, avoiding the 
+stalagmites by inches.
+Nimmeth falls through the shaft, landing with a thud, avoiding the stalagmites 
+by inches.
+
+!= CW HP:Fine>
+A deafening rumble echoes through the mines!
+
+!= CW HP:Fine>
+Egalmoth (eg) swiftly dodges a giant green fungus' attempt to hit him.
+
+!= CW HP:Fine>
+Egalmoth (eg) panics, and attempts to flee.
+Egalmoth (eg) leaves ^^^^ N O R T H ^^^^
+
+!= CW HP:Fine>
+
+Nimmeth smiles happily.
+!= CW HP:Fine>
+
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Underground Spring
+Egalmoth the Elf (eg) is standing here.
+Exits/emulated: south, west.
+
+!= CW HP:Fine>
+
+Nimmeth leaves vvvv S O U T H vvvv
+Abandoned Spider's Nest
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+A giant slug is here, oozing around.
+A giant, strange looking green fungus is here, ready to devour you in seconds.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+Egalmoth (eg) begins some strange incantations...
+
+!= CW HP:Fine>
+Pinback (mo) intercepts a giant slug's blow.
+A giant slug fails to hit Pinback (mo).
+
+!= CW HP:Fine>
+Pinback (mo) slashes a giant slug's tail extremely hard.
+
+!= CW HP:Fine>
+Egalmoth (eg) utters the word 'pzar'
+Egalmoth (eg) heals himself.
+
+!= CW HP:Fine>
+
+Nimmeth swiftly dodges a giant green fungus' attempt to hit her.
+!= CW HP:Fine>
+
+Nimmeth panics, and attempts to flee.
+Nimmeth leaves ++++ U P ++++
+
+!= CW HP:Fine>
+
+The ceiling of the shaft appear to sway slightly.
+
+!= CW HP:Fine>
+
+Egalmoth (eg) joins Pinback (mo)'s fight.
+Egalmoth (eg) pounds a giant slug's tail extremely hard.
+
+!= CW HP:Fine>
+Nimmeth has arrived from above.
+
+!= CW HP:Fine>
+!= CW HP:Fine>assist
+You assist Pinback (mo).
+Nimmeth begins some strange incantations...
+You cleave a giant slug's body extremely hard.
+
+!= CW HP:Fine a giant slug:Hurt Pinback (mo):Fine>
+A giant slug barely hits Pinback (mo)'s right arm and tickles it.
+
+!= CW HP:Fine a giant slug:Hurt Pinback (mo):Fine>
+!= CW HP:Fine a giant slug:Hurt Pinback (mo):Fine>bash
+Pinback (mo) slashes a giant slug's body extremely hard and shatters it.
+
+!= CW HP:Fine a giant slug:Hurt Pinback (mo):Fine>
+Nimmeth utters the words 'colour spray'
+Nimmeth sprays a giant slug with painfully bright, concentrated rays of light.
+
+Nimmeth begins some strange incantations...
+
+Egalmoth (eg) pounds a giant slug's body hard and shatters it.
+
+Nimmeth utters the words 'colour spray'
+Nimmeth sprays a giant slug with painfully bright, concentrated rays of light.
+
+A giant slug barely hits Pinback (mo)'s body and tickles it.
+
+Nimmeth crushes a giant slug's tail extremely hard and shatters it.
+You receive your share of experience.
+**Yawn** Boring kill, wasn't it?
+You hear a giant slug's death cry as it collapses.
+A giant slug is dead! R.I.P.
+get all.coins corpse
+Your victim has disappeared!
+
+!= CW HP:Fine>
+Needed: 96667 xp, 0 tp.
+Total: 55903333 xp, 383825 tp.
+You gained 458 xp.
+
+!= CW HP:Fine>
+You can't find any coins in the corpse.
+
+!= CW HP:Fine>
+
+A giant green fungus barely hits Pinback (mo)'s body and tickles it.
+!= CW HP:Fine>
+
+Nimmeth joins Pinback (mo)'s fight.
+!= CW HP:Fine>
+
+Pinback (mo) slashes a giant green fungus' branch extremely hard.
+!= CW HP:Fine>
+Egalmoth (eg) says 'i said no need'
+
+!= CW HP:Fine>
+Egalmoth (eg) joins Pinback (mo)'s fight.
+Egalmoth (eg) pounds a giant green fungus' branch extremely hard.
+Nimmeth crushes a giant green fungus' branch extremely hard.
+
+!= CW HP:Fine>
+Pinback (mo) suddenly holds his head with both hands!
+
+!= CW HP:Fine>
+!= CW HP:Fine>bash
+Bash what or whom?
+
+!= CW HP:Fine>
+
+Pinback (mo) slashes a giant green fungus' leaves extremely hard and shatters it.
+!= CW HP:Fine>
+!= CW HP:Fine>assist
+You assist Pinback (mo).
+You cleave a giant green fungus' trunk extremely hard and shatter it.
+Your victim is shocked by your hit!
+
+!= CW HP:Fine a giant green fungus:Bad Pinback (mo):Fine>
+!= CW HP:Fine a giant green fungus:Bad Pinback (mo):Fine>bash
+Egalmoth (eg) pounds a giant green fungus' crown extremely hard and shatters it.
+Nimmeth crushes a giant green fungus' trunk extremely hard and shatters it.
+You receive your share of experience.
+One more death... It seems to be a litany... 
+You hear a giant green fungus' death cry as it collapses.
+A giant green fungus is dead! R.I.P.
+get all.coins corpse
+Your victim has disappeared!
+
+!= CW HP:Fine>
+Needed: 96409 xp, 0 tp.
+Total: 55903591 xp, 383825 tp.
+You gained 258 xp.
+
+!= CW HP:Fine>
+You can't find any coins in the corpse.
+
+!= CW HP:Fine>
+
+Nimmeth begins some strange incantations...
+!= CW HP:Fine>
+Nimmeth utters the words 'remove poison'
+Pinback (mo) looks better.
+
+!= CW HP:Fine>
+!= CW HP:Fine>look
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Pinback (mo) is standing here.
+Egalmoth the Elf (eg) is standing here.
+Nimmeth the Elf is standing here.
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+Nimmeth says 'exa 3.corpse'
+
+!= CW HP:Fine>
+Nimmeth begins some strange incantations...
+
+!= CW HP:Fine>
+!= CW HP:Fine>xc3
+look in 3.corpse
+In the corpse (here):
+a chunk of metal
+a pick
+
+!= CW HP:Fine>
+Nimmeth utters the words 'cure light'
+
+!= CW HP:Fine>
+Nimmeth begins some strange incantations...
+
+!= CW HP:Fine>
+
+Nimmeth utters the words 'cure light'
+!= CW HP:Fine>
+Egalmoth (eg) nods solemnly.
+
+!= CW HP:Fine>
+!= CW HP:Fine>look
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Pinback (mo) is standing here.
+Egalmoth the Elf (eg) is standing here nodding.
+Nimmeth the Elf is standing here.
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+!= CW HP:Fine>i
+You are carrying:
+a black warg fur (well-maintained)
+a black key
+
+!= CW HP:Fine>
+
+Nimmeth gets a chunk of metal from a rotting corpse.
+!= CW HP:Fine>
+Egalmoth (eg) gets a pick from a rotting corpse.
+
+!= CW HP:Fine>
+Nimmeth giggles.
+
+!= CW HP:Fine>
+!= CW HP:Fine>i
+You are carrying:
+a black warg fur (well-maintained)
+a black key
+!= CW HP:Fine>
+Nimmeth gives a chunk of metal to Egalmoth (eg).
+
+!= CW HP:Fine>
+!= CW HP:Fine>p key keys
+You put a black key on your keyring.
+
+!= CW HP:Fine>
+Nimmeth says 'can sell it rd'
+
+!= CW HP:Fine>
+Nimmeth says 'if u not gonna use'
+
+!= CW HP:Fine>
+
+Nimmeth begins some strange incantations...
+!= CW HP:Fine>
+
+Nimmeth utters the words 'cure light'
+!= CW HP:Fine>
+Egalmoth (eg) puts a chunk of metal in a leather backpack.
+
+!= CW HP:Fine>
+Your legs feel heavier.
+The spell lasted 2m46s.
+
+!= CW HP:Fine>
+Nimmeth begins some strange incantations...
+
+!= CW HP:Fine>
+Nimmeth utters the words 'cure light'
+
+!= CW HP:Fine>
+Egalmoth (eg) says 'ingrove too'
+Nimmeth quietly scouts westwards...
+
+!= CW HP:Fine>
+Nimmeth stops scouting westwards.
+
+!= CW HP:Fine>
+
+Nimmeth leaves <<<< W E S T <<<<
+End of a Tunnel
+A giant, strange looking green fungus is here, ready to devour you in seconds.
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+
+Nimmeth leaves >>>> E A S T >>>>
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Exits/emulated: east, down.
+
+!= CW HP:Fine>
+
+Nimmeth nods solemnly.
+!= CW HP:Fine>
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Underground Spring
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+Nimmeth leaves vvvv S O U T H vvvv
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+!= CW HP:Fine>ex
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Underground Spring
+South - You can't distinguish a lot of details.
+~Down~ - You can't distinguish a lot of details.
+
+!= CW HP:Fine>
+
+Nimmeth says 'notice exit e'
+!= CW HP:Fine>
+As Pinback (mo) drinks the black water of Mirkwood, he chokes and looks very 
+sick.
+
+!= CW HP:Fine>
+!= CW HP:Fine>ex
+South - You can't distinguish a lot of details.
+~Down~ - You can't distinguish a lot of details.
+!= CW HP:Fine>
+!= CW HP:Fine>x e
+examine e
+Sharp, protruding stalactites fill the eastern end of the tunnel.
+
+!= CW HP:Fine>
+Pinback (mo) says 'f'
+
+!= CW HP:Fine>
+Nimmeth begins some strange incantations...
+
+!= CW HP:Fine>
+
+Nimmeth utters the words 'remove poison'
+!= CW HP:Fine>
+
+Nimmeth leaves vvvv S O U T H vvvv
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A large boulder is here, it must be heavy.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+Nimmeth says 'to open n e'
+
+!= CW HP:Fine>
+
+Nimmeth says 'u need to push boulder n'
+!= CW HP:Fine>
+
+Nimmeth expends a great amount of effort in an attempt to move a large boulder 
+northwards.
+Nimmeth leaves ^^^^ N O R T H ^^^^
+Underground Spring
+Nimmeth pushes a large boulder into the room from the south.
+The boulder gains more speed at the downward slope, hits the stalactites with a 
+loud crashing sound and sends a rain of sharp, shattered stone fragments flying 
+all around!
+Exits/emulated: north, west, up.
+
+!= CW HP:Fine>
+!= CW HP:Fine>push boulder n
+You see nothing to push here.
+
+!= CW HP:Fine>
+!= CW HP:Fine>look
+Nimmeth quietly scouts eastwards...
+Underground Spring
+Some small rocks have been piled into a mound here.
+Nimmeth the Elf is standing here scouting.
+Pinback (mo) is standing here.
+Egalmoth the Elf (eg) is standing here.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+Nimmeth stops scouting eastwards.
+
+!= CW HP:Fine>
+Nimmeth leaves >>>> E A S T >>>>
+Behind the Stalactites
+A skeleton of some humanoid lies in the dust.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+
+Nimmeth gets a few gold coins from a skeleton.
+Nimmeth gets a lembas wafer from a skeleton.
+
+!= CW HP:Fine>
+
+Nimmeth puts a lembas wafer in a silvan satchel.
+!= CW HP:Fine>
+Nimmeth smiles happily.
+
+!= CW HP:Fine>
+
+Nimmeth says '3 golds'
+!= CW HP:Fine>
+
+Nimmeth begins some strange incantations...
+!= CW HP:Fine>
+Nimmeth utters the word 'fido'
+
+!= CW HP:Fine>
+Nimmeth leaves <<<< W E S T <<<<
+You squeeze through the protruding stalactites.
+
+Underground Spring
+Some small rocks have been piled into a mound here.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+Nimmeth leaves vvvv S O U T H vvvv
+Abandoned Spider's Nest
+The remains of a giant green fungus lie here in a heap of rotting compost.
+The corpse of a giant slug is lying here.
+A half-decayed corpse of a goblin lies rotting on the ground.
+Some small rocks have been piled into a mound here.
+Exits/emulated: south, down.
+
+!= CW HP:Fine>
+Nimmeth says 'u e'
+
+!= CW HP:Fine>
+Egalmoth (eg) leaves ++++ U P ++++
+The ceiling of the shaft appear to sway slightly.
+
+!= CW HP:Fine>
+!= CW HP:Fine>up
+With a great effort, you push through the caved-in rubble.
+
+Collapsed Tunnel
+Exits: east, down.
+The floor sways under your weight.
+
+!= CW HP:Fine>
+!= CW HP:Fine>east
+Narrow Tunnel
+A rusty pickaxe with a broken handle lies discarded here.
+A skeleton of some humanoid lies in the dust.
+Egalmoth the Elf (eg) is standing here.
+Exits: south, west.
+
+!= CW HP:Fine>
+Pinback (mo) has arrived from the west.
+
+!= CW HP:Fine>
+Nimmeth has arrived from the west.
+
+!= CW HP:Fine>
+Nimmeth leaves vvvv S O U T H vvvv
+Entrance to a Tunnel
+A great dark-grey horse stamps restively.
+A huge tarantula is sleeping here.
+A strong and agile dales-pony is standing here.
+A mountain mule (pa) is standing here.
+A huge tarantula is sleeping here.
+A huge tarantula is sleeping here.
+A sturdy pack horse is standing here.
+Exits/emulated: south, west.
+
+!= CW HP:Fine>
+!= CW HP:Fine>x skeleton
+examine skeleton
+You don't see a skeleton.
+
+!= CW HP:Fine>
+Nimmeth issues the order 'wake'.
+A huge tarantula wakes up.
+A huge tarantula wakes up.
+A huge tarantula wakes up.
+
+!= CW HP:Fine>
+Nimmeth issues the order 'stand'.
+A huge tarantula clambers on her feet.
+A huge tarantula clambers on her feet.
+A huge tarantula clambers on her feet.
+
+!= CW HP:Fine>
+!= CW HP:Fine>lead pa
+A mountain mule (pa) starts following you.
+
+!= CW HP:Fine>
+Nimmeth opens the boulder.
+
+!= CW HP:Fine>
+
+A pack horse now follows Egalmoth (eg).
+!= CW HP:Fine>
+Nimmeth leaves >>>> E A S T >>>>
+Underneath the Forest
+The remains of a thick tangle of vines lie here in a heap of rotting compost.
+The remains of a clump of roots lie here in a heap of rotting compost.
+Some ugly blow-flies are buzzing around here.
+Exits/emulated: north, {east}. - e:boulder.
+
+*f CW HP:Fine>
+Nimmeth leaves >>>> E A S T >>>>
+Among the Roots
+Some roots lie here waiting to ensnare weary travellers.
+Massive roots shift uneasily all around you.
+Nimmeth is entangled by some roots.
+Exits/emulated: north, east, {west}. - w:boulders.
+
+*f CW HP:Fine>
+*f CW HP:Fine>look
+Among the Roots
+Some roots lie here waiting to ensnare weary travellers.
+Massive roots shift uneasily all around you.
+Nimmeth the Elf is standing here.
+A huge, poisonous tarantula extends her legs to you.
+Pinback (mo) is standing here.
+A mountain mule (pa) is standing here.
+Egalmoth the Elf (eg) is standing here.
+A sturdy pack horse is standing here.
+A huge, poisonous tarantula extends her legs to you.
+A huge, poisonous tarantula extends her legs to you.
+Exits/emulated: north, west.
+
+*f CW HP:Fine>
+Nimmeth tries to crush a clump of roots, but it parries successfully.
+
+*f CW HP:Fine>
+Nimmeth issues the order 'assist Nimmeth'.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula strongly hits a clump of roots' body.
+A huge tarantula hits a clump of roots' body and tickles it.
+A huge tarantula strongly hits a clump of roots' body.
+
+*f CW HP:Fine>
+
+A huge tarantula bites a clump of roots!
+*f CW HP:Fine>
+Pinback (mo) joins Nimmeth's fight.
+Pinback (mo) slashes a clump of roots' body extremely hard and shatters it.
+A huge tarantula hits a clump of roots' body hard and shatters it.
+
+*f CW HP:Fine>
+*f CW HP:Fine>assist
+You assist Nimmeth.
+You cleave a clump of roots' tip extremely hard and shatter it.
+Your victim is shocked by your hit!
+A huge tarantula hits a clump of roots' body hard and shatters it.
+A clump of roots is incapacitated and will slowly die, if not aided.
+
+*f CW HP:Fine a clump of roots:Dying Nimmeth:Fine>
+
+You receive your share of experience.
+This is really a genocide...
+A clump of roots is dead! R.I.P.
+get all.coins corpse
+
+*f CW HP:Fine>
+*f CW HP:Fine>bash
+Needed: 96082 xp, 0 tp.
+Total: 55903918 xp, 383825 tp.
+You gained 327 xp.
+
+*f CW HP:Fine>
+You can't find any coins in the corpse.
+
+*f CW HP:Fine>
+Bash what or whom?
+
+*f CW HP:Fine>
+A massive tangle of roots swiftly dodges Nimmeth's attempt to crush it.
+
+*f CW HP:Fine>
+Egalmoth (eg) joins Nimmeth's fight.
+Egalmoth (eg) pounds a massive tangle of roots' body hard and tickles it.
+
+*f CW HP:Fine>
+Nimmeth issues the order 'assist Nimmeth'.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula joins Nimmeth's fight.
+A huge tarantula strongly hits a massive tangle of roots' tip and tickles it.
+
+*f CW HP:Fine>
+Pinback (mo) joins Nimmeth's fight.
+
+*f CW HP:Fine>
+
+A huge tarantula hits a massive tangle of roots' tip and tickles it.
+*f CW HP:Fine>
+
+Pinback (mo) slashes a massive tangle of roots' body extremely hard.
+A huge tarantula strongly hits a massive tangle of roots' tip and tickles it.
+
+*f CW HP:Fine>
+Egalmoth (eg) strongly pounds a massive tangle of roots' body.
+
+*f CW HP:Fine>
+A huge tarantula bites a massive tangle of roots!
+A huge tarantula strongly hits a massive tangle of roots' body.
+
+*f CW HP:Fine>
+Nimmeth crushes a massive tangle of roots' tip extremely hard.
+
+*f CW HP:Fine>
+
+A huge tarantula bites a massive tangle of roots!
+*f CW HP:Fine>
+A huge tarantula strongly hits a massive tangle of roots' body.
+
+*f CW HP:Fine>
+
+A huge tarantula strongly hits a massive tangle of roots' body.
+*f CW HP:Fine>
+A huge tarantula bites a massive tangle of roots!
+
+*f CW HP:Fine>
+A huge tarantula strongly hits a massive tangle of roots' body.
+
+*f CW HP:Fine>
+*f CW HP:Fine>sa or drop mounts ?
+Ok.
+A huge tarantula hits a massive tangle of roots' tip hard.
+
+*f CW HP:Fine>
+Egalmoth (eg) pounds a massive tangle of roots' tip extremely hard and shatters 
+it.
+
+*f CW HP:Fine>
+*f CW HP:Fine>assist
+bash
+You assist Nimmeth.
+You cleave a massive tangle of roots' body extremely hard and shatter it.
+Nimmeth crushes a massive tangle of roots' body extremely hard and shatters it.
+A massive tangle of roots is mortally wounded and will die soon if not aided.
+
+*f CW HP:Fine a massive tangle of roots:Dying Nimmeth:Fine>
+Pinback (mo) slashes a massive tangle of roots' tip extremely hard and shatters 
+it.
+You receive your share of experience.
+**Yawn** Boring kill, wasn't it?
+A massive tangle of roots is dead! R.I.P.
+get all.coins corpse
+Your victim has disappeared!
+
+*f CW HP:Fine>
+Needed: 95120 xp, 0 tp.
+Total: 55904880 xp, 383825 tp.
+You gained 962 xp.
+
+*f CW HP:Fine>
+You can't find any coins in the corpse.
+
+*f CW HP:Fine>
+
+Nimmeth leaves <<<< W E S T <<<<
+Underneath the Forest
+The remains of a thick tangle of vines lie here in a heap of rotting compost.
+The remains of a clump of roots lie here in a heap of rotting compost.
+Some ugly blow-flies are buzzing around here.
+Exits/emulated: north, west.
