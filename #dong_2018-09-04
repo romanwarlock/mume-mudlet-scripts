@@ -75,7 +75,6 @@ Idhorien disbands her group.
 
 !# CW Mana:Hot>
 !# CW Mana:Hot>sa break?
-Idhorien raises her hand.
 group Idhorien
 Ok.
 
@@ -854,14 +853,9 @@ Exits: [south], down.
 cast n 'break d' exit s
 You start to concentrate...
 
-Khurmin raises his hand.
-group Khurmin
-
 The door seems to blur for a while.
 
 !# CW HP:Fine Mana:Warm>
-Khurmin is a group leader!
-say Khurmin is a group leader!
 
 !# CW HP:Fine Mana:Warm>
 Ok.
