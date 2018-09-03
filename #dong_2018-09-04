@@ -1,0 +1,1266 @@
+*. CRW Move:Tired>cast 'locate l' Idhorien
+You start to concentrate...
+
+Idhorien                 - Indoors       Far       key: 'aerolduxaj'
+
+*. CRW Mana:Burning>
+*. CRW Mana:Burning>ss
+order followers sleep
+A mother eagle lies down and falls asleep.
+Ok.
+
+*. CRW Mana:Burning>
+*. CRW Mana:Burning>cast 'tele'Burning aerolduxaj
+You start to concentrate...
+
+*. CRW Mana:Burning>
+*. CRW Mana:Burning>cast 'tele' aerolduxaj
+You start to concentrate...
+
+!# CW Mana:Hot>
+
+Rest Room
+There is a wooden pipe carelessly left here.
+An old-looking ring, covered with runes, lies here.
+A large bulletin board, entitled "News of Arda", is mounted here.
+A sturdy bed made from solid oak lies here, covered in warm blankets.
+A fine marble chessboard with ivory and ebony pieces is set here.
+Idhorien the Elf is resting here.
+Your vision is troubled and you feel disoriented.
+Exits/emulated: north, east.
+
+!# CW Mana:Hot>
+
+Idhorien stops resting and clambers to her feet.
+
+!# CW Mana:Hot>
+!# CW Mana:Hot>grin
+
+Idhorien tips her hat.
+
+!# CW Mana:Hot>
+!# CW Mana:Hot>exa
+You slowly regain your bearings as your head clears.
+examine
+
+!# CW Mana:Hot>
+You grin evilly.
+
+!# CW Mana:Hot>
+Rest Room
+You enter a small but well lit room, in fact this is the only room in Tharbad
+where one may rest and recuperate minding always to close the door behind him.
+There is a wooden pipe carelessly left here.
+An old-looking ring, covered with runes, lies here.
+A large bulletin board, entitled "News of Arda", is mounted here.
+A sturdy bed made from solid oak lies here, covered in warm blankets.
+A fine marble chessboard with ivory and ebony pieces is set here.
+Idhorien the Elf, wielding a black runed dagger, is standing here.
+Exits/emulated: north, east.
+
+!# CW Mana:Hot>
+Rest Room
+You enter a small but well lit room, in fact this is the only room in Tharbad
+where one may rest and recuperate minding always to close the door behind him.
+There is a wooden pipe carelessly left here.
+An old-looking ring, covered with runes, lies here.
+A large bulletin board, entitled "News of Arda", is mounted here.
+A sturdy bed made from solid oak lies here, covered in warm blankets.
+A fine marble chessboard with ivory and ebony pieces is set here.
+Idhorien the Elf, wielding a black runed dagger, is standing here.
+Exits/emulated: {north}.
+
+!# CW Mana:Hot>
+Idhorien disbands her group.
+
+!# CW Mana:Hot>
+!# CW Mana:Hot>sa break?
+Idhorien raises her hand.
+group Idhorien
+Ok.
+
+!# CW Mana:Hot>
+Idhorien is now a group member.
+!# CW Mana:Hot>
+!# CW Mana:Hot>brn
+cast n 'break d' exit n
+You start to concentrate...
+
+The door seems to blur for a while.
+
+!# CW Mana:Warm>
+
+Idhorien says 'dont have :('
+
+!# CW Mana:Warm>
+Idhorien opens the door.
+
+!# CW Mana:Warm>
+
+Idhorien leaves ^^^^ N O R T H ^^^^
+!# CW Mana:Warm>
+!# CW Mana:Warm>north
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Exits: (south), down.
+
+!# CW Mana:Warm>
+Idhorien narrates 'come'
+
+!# CW Mana:Warm>
+!# CW Mana:Warm>down
+The Entrance
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+A woman is here, looking for someone to chat with.
+A woman is here, looking for someone to chat with.
+Idhorien the Elf is standing here.
+Exits: [north], south, up.
+
+!# CW Mana:Warm>
+
+*a grim Man* has arrived from the south.
+A horse has arrived from the south.
+A lithe orc has arrived from the south.
+
+!# CW Mana:Warm>
+Idhorien leaves vvvv S O U T H vvvv
+
+!# CW Mana:Warm>
+*a grim Man* gives a lithe orc an order.
+
+!# CW Mana:Warm>
+
+Idhorien has arrived from the south.
+Idhorien swiftly dodges a lithe orc's attempt to hit her.
+
+!# CW Mana:Warm>
+Idhorien begins some strange incantations...
+
+!# CW Mana:Warm>
+
+*a grim Man* gives a lithe orc an order.
+
+!# CW Mana:Warm>
+*a grim Man* leaves vvvv S O U T H vvvv
+A horse leaves vvvv S O U T H vvvv
+
+!# CW Mana:Warm>
+*a grim Man* has arrived from the south.
+A horse has arrived from the south.
+Idhorien begins some strange incantations...
+
+!# CW Mana:Warm>
+*a grim Man* issues the order 'flee'.
+A lithe orc B A S H E S ____Idhorien
+
+!# CW Mana:Warm>
+!# CW Mana:Warm>ta black
+*a grim Man* issues the order 'flee'.
+A lithe orc panics, and attempts to flee.
+A lithe orc leaves vvvv S O U T H vvvv
+
+!# CW Mana:Warm>
+*a grim Man* issues the order 'flee'.
+
+!# CW Mana:Warm>
+!# CW Mana:Warm>fb black
+cast normal 'fireball'  black
+*a grim Man         I S   C A S T I N G
+You start to concentrate...
+
+fb black
+cast normal 'fireball'  black
+*a grim Man* utters the word 'earthquake'
+*a grim Man* makes the earth tremble and shiver.
+You feel more exposed.
+Argh! You cannot concentrate any more...
+You fall, and hit yourself!
+A horse stops following *a grim Man*.
+You hear a horse's death cry as he collapses.
+A horse is dead! R.I.P.
+A woman is mortally wounded and will die soon if not aided.
+You hear a woman's death cry as she collapses.
+A woman is dead! R.I.P.
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine>
+*a grim Man         I S   C A S T I N G
+You start to concentrate...
+
+fb black
+cast normal 'fireball'  black
+*a grim Man* utters the word 'earthquake'
+*a grim Man* makes the earth tremble and shiver.
+You hear a woman's death cry as she collapses.
+A woman is dead! R.I.P.
+   A R M O U R   D O W N
+The spell lasted 15m22s.
+Argh! You cannot concentrate any more...
+That really HURT!
+You fall, and hit yourself!
+You slash *a grim Man*'s left foot and tickle it.
+
+!# CW HP:Hurt Mana:Warm *a grim Man*:Fine>
+!# CW HP:Hurt Mana:Warm *a grim Man*:Fine>fb black
+cast normal 'fireball'  black
+You start to concentrate...
+*a grim Man         I S   C A S T I N G
+
+Idhorien   ___ u n b a s h e d
+
+Idhorien panics, and attempts to flee.
+Idhorien leaves vvvv S O U T H vvvv
+
+Idhorien has arrived from the south.
+
+*a grim Man* utters the word 'earthquake'
+*a grim Man* makes the earth tremble and shiver.
+Argh! You cannot concentrate any more...
+That really HURT!
+You fall, and hit yourself!
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+You start to concentrate...
+You flee head over heels.
+You flee south.
+The Golden Knife Bar
+The corpse of an assassin is lying here.
+The corpse of a barman is lying here.
+A large bulletin board, entitled "Board of the Free Peoples", is mounted here.
+A sturdy pack horse is standing here.
+A shadowy and lithe orc stands here, half-hidden in the darkness.
+Exits: north.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>fb black
+cast normal 'fireball'  black
+Nobody here by that name.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien has arrived from the north.
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* has arrived from the north.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* leaves ^^^^ N O R T H ^^^^
+A lithe orc leaves ^^^^ N O R T H ^^^^
+
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* has arrived from the north.
+A lithe orc has arrived from the north.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* quickly approaches, trying to pierce you.
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+
+*a grim Man* issues the order 'assist'.
+A lithe orc joins *a grim Man*'s fight.
+A lithe orc barely hits your body and tickles it.
+*a grim Man* barely pierces your body and tickles it.
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+
+You flee head over heels.
+PANIC! You couldn't escape!
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+Idhorien utters the words 'diesilla barh'
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+Idhorien leaves ^^^^ N O R T H ^^^^
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>
+!# CW HP:Wounded Mana:Warm *a grim Man*:Fine>f
+You are already attempting to flee!
+You flee head over heels.
+You flee north.
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Idhorien the Elf is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* has arrived from the south.
+A lithe orc has arrived from the south.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien begins some strange incantations...
+Idhorien swiftly dodges *a grim Man*'s attempt to pierce her.
+
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* issues the order 'assist'.
+A lithe orc joins *a grim Man*'s fight.
+A lithe orc barely hits Idhorien's right leg and tickles it.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>south
+Idhorien begins some strange incantations...
+The Golden Knife Bar
+The corpse of an assassin is lying here.
+The corpse of a barman is lying here.
+A large bulletin board, entitled "Board of the Free Peoples", is mounted here.
+A sturdy pack horse is standing here.
+Exits: north.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>north
+fb black
+cast normal 'fireball'  black
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Idhorien the Elf is here, fighting *a grim Man*.
+*a grim Man* is here, fighting Idhorien.
+A lithe orc is here, fighting Idhorien.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Warm>
+You are too afraid.
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* issues the order 'assist'.
+Idhorien panics, and attempts to flee.
+Idhorien leaves ++++ U P ++++
+
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* issues the order 'assist'.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* leaves vvvv S O U T H vvvv
+A lithe orc leaves vvvv S O U T H vvvv
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>south
+Idhorien has arrived from above.
+The Golden Knife Bar
+The corpse of an assassin is lying here.
+The corpse of a barman is lying here.
+A large bulletin board, entitled "Board of the Free Peoples", is mounted here.
+A sturdy pack horse is standing here.
+*a grim Man* is standing here.
+A shadowy and lithe orc stands here, half-hidden in the darkness.
+Exits: north.
+
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* leaves ^^^^ N O R T H ^^^^
+A lithe orc leaves ^^^^ N O R T H ^^^^
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>up
+Alas, you cannot go that way...
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>north
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Idhorien the Elf is here, fighting *a grim Man*.
+*a grim Man* is here, fighting Idhorien.
+A lithe orc is here, fighting Idhorien.
+Exits: [north], south, up.
+Idhorien panics, and attempts to flee.
+Idhorien leaves ++++ U P ++++
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Idhorien the Elf is standing here.
+Exits: (south), down.
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien stops using a black runed dagger.
+Idhorien holds a wooden pipe.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien sits down and rests.
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien makes some impressive smoke rings.
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>sa ouch?
+Ok.
+Idhorien stops resting and clambers to her feet.
+!# CW HP:Wounded Mana:Warm>
+Idhorien removes a wooden pipe.
+Idhorien decisively draws a sharp thorn.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>ar
+cast n 'armour'
+You start to concentrate...
+
+*a grim Man* has arrived from below.
+A lithe orc has arrived from below.
+
+*a grim Man* leaves vvvv S O U T H vvvv
+A lithe orc leaves vvvv S O U T H vvvv
+
+The door closes quietly.
+Idhorien begins some strange incantations...
+
+A blue transparent wall slowly appears around you.
+
+!# CW HP:Wounded Mana:Cold>
+!# CW HP:Wounded Mana:Cold>down
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Cold>
+Idhorien has arrived from above.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien leaves vvvv S O U T H vvvv
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien has arrived from the south.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>south
+The Golden Knife Bar
+The corpse of an assassin is lying here.
+The corpse of a barman is lying here.
+A large bulletin board, entitled "Board of the Free Peoples", is mounted here.
+A sturdy pack horse is standing here.
+Exits: north.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>north
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Idhorien the Elf is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Exits: [south], down.
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien has arrived from below.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>os
+open exit south
+       The door B L O C K E D
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien giggles.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>sco s
+scout s
+The door seems to be closed.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien says 'he blocked in s?'
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>rest
+You sit down and rest your tired bones.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>agr
+You agree.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien grins evilly.
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien says 'well he toast now'
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>stand;lead pa;look;sleep bed
+You stop resting and stand up.
+!# CW HP:Wounded Mana:Warm>
+Lead what?
+
+!# CW HP:Wounded Mana:Warm>
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Idhorien the Elf is standing here grinning.
+Exits/emulated: {south}, down.
+
+!# CW HP:Wounded Mana:Warm>
+You go to sleep.
+Your legs feel heavier.
+The spell lasted 2m45s.
+
+o# CW HP:Wounded Mana:Warm>
+
+You feel bolder.
+
+o# CW HP:Wounded Mana:Warm>
+o# CW HP:Wounded Mana:Warm>,get ppl. block way out i break him
+Ok.
+
+o# CW HP:Wounded Mana:Hot>
+o# CW HP:Wounded Mana:Hot>wake;look;stand;ride pa
+You wake, and sit up.
+
+!# CW HP:Wounded Mana:Hot>
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Exits/emulated: {south}, down.
+
+!# CW HP:Wounded Mana:Hot>
+You stand up.
+
+!# CW HP:Wounded Mana:Hot>
+No one here by that name.
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>wher
+Players in your zone
+--------------------
+Idhorien             - The Entrance
+Umnik                - Tharbad's Reception
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>down
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Idhorien the Elf is resting here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>sa get ppl
+Ok.
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>sa block this and i break shit out of him
+Ok.
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>sa get ppl
+Ok.
+
+!# CW HP:Wounded Mana:Hot>
+Idhorien says 'we 2 should be enough'
+
+!# CW HP:Wounded Mana:Hot>
+!# CW HP:Wounded Mana:Hot>ser
+cast n 'cure s'
+You start to concentrate...
+
+You begin to see scars fade away and a feeling of health comes over you.
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>ser
+cast n 'cure s'
+You start to concentrate...
+
+You begin to see scars fade away and a feeling of health comes over you.
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>wher
+Players in your zone
+--------------------
+Idhorien             - The Entrance
+Umnik                - The Entrance
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>who
+Players
+-------
+      Sauvage the Half-Elf
+      Umnik smart one, yes indeed! Enchanter Mixer
+      Orwinion the Elven Adventurer
+      Hamandur Aurgelmer
+      Aiimhel the silencer
+      Miri the Man Rider
+      Khurmin the Floppy-Eared Homebuilder
+      Rosie the Princess of the Shire
+      Idhorien the Elf
+
+9 allies on.
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>tel Hamandur come tbad reception for bn ass?
+Hamandur can't hear you.
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>beep Hamandur come tbad reception for bn ass?
+Ok.
+
+!# CW HP:Hurt Mana:Hot>
+
+Khurmin narrates 'still need help id?'
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>tel Hamandur come tbad reception for bn ass?
+Hamandur can't hear you.
+
+!# CW HP:Hurt Mana:Hot>
+Idhorien says 'damn playing from raw telnet is hard in pk'
+
+!# CW HP:Hurt Mana:Hot>
+Idhorien giggles.
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>tel Khurmin come tbad reception
+Ok.
+
+!# CW HP:Hurt Mana:Hot>
+
+Hamandur tells you 'yes?'
+
+!# CW HP:Hurt Mana:Hot>
+!# CW HP:Hurt Mana:Hot>ser
+cast n 'cure s'
+You start to concentrate...
+
+You begin to see scars fade away and a feeling of health comes over you.
+
+!# CW HP:Fine Mana:Hot>
+Khurmin tells you 'I may be awnated'
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>re blocks
+tell Khurmin blocks
+Ok.
+
+!# CW HP:Fine Mana:Hot>
+
+Idhorien stops resting and clambers to her feet.
+
+!# CW HP:Fine Mana:Hot>
+
+Idhorien begins some strange incantations...
+
+!# CW HP:Fine Mana:Hot>
+Idhorien utters the words 'judicandus dies'
+
+!# CW HP:Fine Mana:Hot>
+
+Idhorien begins some strange incantations...
+!# CW HP:Fine Mana:Hot>
+Idhorien utters the words 'judicandus dies'
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>re bn is s from shady -
+tell Khurmin bn is s from shady -
+Ok.
+
+!# CW HP:Fine Mana:Hot>
+
+Idhorien says 'he's waaay to quick for me'
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>sa telnet is protocl. you mean win client
+Ok.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>sa bonk
+Ok.
+
+!# CW HP:Fine Mana:Burning>
+Khurmin tells you 'can't get in gate.'
+
+!# CW HP:Fine Mana:Burning>
+
+Idhorien begins some strange incantations...
+!# CW HP:Fine Mana:Burning>
+
+Idhorien utters the words 'judicandus dies'
+!# CW HP:Fine Mana:Burning>
+Idhorien giggles.
+
+!# CW HP:Fine Mana:Burning>
+
+Idhorien says 'well terminal'
+!# CW HP:Fine Mana:Burning>
+
+Idhorien says 'mac client!'
+!# CW HP:Fine Mana:Burning>
+
+Idhorien smiles happily.
+!# CW HP:Fine Mana:Burning>
+!# CW HP:Fine Mana:Burning>re where you? i breaks
+tell Khurmin where you? i breaks
+Ok.
+
+!# CW HP:Fine Mana:Burning>
+
+Khurmin tells you 'any other darkies in tbad?'
+!# CW HP:Fine Mana:Burning>
+
+Idhorien says 'need +3 picks?'
+
+!# CW HP:Fine Mana:Burning>
+Khurmin tells you 'I'm outside gates'
+
+!# CW HP:Fine Mana:Burning>
+Idhorien gets a jewelled ring from a silvan satchel.
+
+!# CW HP:Fine Mana:Burning>
+!# CW HP:Fine Mana:Burning>sa not this char
+Ok.
+
+!# CW HP:Fine Mana:Burning>
+
+Khurmin narrates 'coming'
+!# CW HP:Fine Mana:Burning>
+Idhorien puts a jewelled ring in a silvan satchel.
+
+!# CW HP:Fine Mana:Burning>
+!# CW HP:Fine Mana:Burning>sa Khurmin
+Ok.
+
+!# CW HP:Fine Mana:Burning>
+
+Idhorien carefully examines the ground around her, looking for tracks...
+!# CW HP:Fine Mana:Burning>
+!# CW HP:Fine Mana:Burning>grin
+You grin evilly.
+
+!# CW HP:Fine Mana:Burning>
+
+Idhorien smiles happily.
+!# CW HP:Fine Mana:Burning>
+Khurmin tells you 'I'm here but ovbiously cannot get in'
+
+!# CW HP:Fine Mana:Burning>
+!# CW HP:Fine Mana:Burning>wher
+Players in your zone
+--------------------
+Idhorien             - The Entrance
+Khurmin              - A Small Square
+Umnik                - The Entrance
+
+!# CW HP:Fine>
+
+Idhorien drinks water from a large skin.
+
+!# CW HP:Fine>
+!# CW HP:Fine>on
+open exit north
+       The door B L O C K E D
+
+!# CW HP:Fine>
+
+You hear some loud noise from the door to the north.
+
+!# CW HP:Fine>
+Idhorien says 'should blur any sec'
+
+!# CW HP:Fine>
+!# CW HP:Fine>brn
+cast n 'break d' exit n
+You start to concentrate...
+
+The door seems to blur for a while.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>on
+open exit north
+Ok.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>sco n
+scout n
+You quietly scout northwards...
+
+A Small Square
+A well-crafted white fountain is here, water pouring forth from it.
+Khurmin the Dwarf is here trying to concentrate, riding a dales-pony.
+A little boy is here, running around.
+Exits/emulated: {north}, south, up.
+
+You stop scouting.
+
+!# CW HP:Fine Mana:Hot>
+
+Khurmin has arrived from the north.
+A dales-pony has arrived from the north.
+
+!# CW HP:Fine Mana:Hot>
+The door closes quietly.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>re lead , sa
+tell Khurmin lead , sa
+Ok.
+Khurmin leaves ++++ U P ++++
+A dales-pony leaves ++++ U P ++++
+
+!# CW HP:Fine Mana:Hot>
+Idhorien begins some strange incantations...
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>sa block
+Ok.
+
+!# CW HP:Fine Mana:Hot>
+
+Idhorien utters the words 'block door'
+The exit north seems to blur for a while.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>up
+
+Idhorien leaves ++++ U P ++++
+!# CW HP:Fine Mana:Hot>
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Khurmin the Dwarf is standing here.
+A strong and agile dales-pony is standing here.
+Idhorien the Elf is standing here.
+Exits: [south], down.
+
+!# CW HP:Fine Mana:Hot>
+!# CW HP:Fine Mana:Hot>brs
+cast n 'break d' exit s
+You start to concentrate...
+
+Khurmin raises his hand.
+group Khurmin
+
+The door seems to blur for a while.
+
+!# CW HP:Fine Mana:Warm>
+Khurmin is a group leader!
+say Khurmin is a group leader!
+
+!# CW HP:Fine Mana:Warm>
+Ok.
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>brs
+cast n 'break d' exit s
+You muster all of your concentration...
+
+Idhorien opens the door.
+You can't proceed while the door is in motion.
+
+!# CW HP:Fine Mana:Warm>
+Idhorien leaves vvvv S O U T H vvvv
+
+!# CW HP:Fine Mana:Warm>
+
+Khurmin disbands his group.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>south
+Rest Room
+There is a wooden pipe carelessly left here.
+An old-looking ring, covered with runes, lies here.
+A large bulletin board, entitled "News of Arda", is mounted here.
+A sturdy bed made from solid oak lies here, covered in warm blankets.
+A fine marble chessboard with ivory and ebony pieces is set here.
+*a grim Man* is here, fighting Idhorien.
+A lithe orc is here, fighting Idhorien.
+Idhorien the Elf is here, fighting *a grim Man*.
+Exits: (north).
+
+!# CW HP:Fine Mana:Warm>
+Idhorien begins some strange incantations...
+
+!# CW HP:Fine Mana:Warm>
+*a grim Man* gives a lithe orc an order.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>k man
+*a grim Man* swiftly dodges your attempt to slash him.
+Idhorien utters the words 'diesilla barh'
+*a grim Man* staggers back as the lightning bolt sent by Idhorien hits him.
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine Idhorien:Fine>
+Idhorien closes the door.
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine Idhorien:Fine>
+
+*a grim Man* opens the door.
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine Idhorien:Fine>
+Idhorien panics, and attempts to flee.
+Idhorien leaves ^^^^ N O R T H ^^^^
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine>
+!# CW HP:Fine Mana:Warm *a grim Man*:Fine>fb
+cast normal 'fireball' 
+You start to concentrate...
+
+Idhorien has arrived from the north.
+
+Idhorien closes the door.
+Hamandur tells you 'hello'
+
+*a grim Man* issues the order 'flee'.
+A lithe orc panics, and attempts to flee.
+Idhorien begins some strange incantations...
+
+*a grim Man* opens the door.
+
+Idhorien utters the words 'diesilla barh'
+*a grim Man* staggers back as the lightning bolt sent by Idhorien hits him.
+
+*a grim Man* issues the order 'flee'.
+Idhorien closes the door.
+
+*a grim Man* issues the order 'flee'.
+
+*a grim Man* issues the order 'flee'.
+A lithe orc panics, and attempts to flee.
+
+*a grim Man* opens the door.
+
+*a grim Man* issues the order 'flee'.
+A lithe orc panics, and attempts to flee.
+A lithe orc leaves ^^^^ N O R T H ^^^^
+
+*a grim Man* issues the order 'flee'.
+Ok.
+Your fireball completely envelops *a grim Man* in flames.
+
+!# CW HP:Fine Mana:Warm *a grim Man*:Hurt>
+
+*a grim Man* issues the order 'flee'.
+!# CW HP:Fine Mana:Warm *a grim Man*:Hurt>
+*a grim Man* panics, and attempts to flee.
+*a grim Man* leaves ^^^^ N O R T H ^^^^
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>fb
+cast normal 'fireball' 
+What should the spell be cast upon?
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>north
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+Khurmin the Dwarf is here, fighting a lithe orc.
+A strong and agile dales-pony is standing here.
+A lithe orc is here, fighting Khurmin.
+Exits: (south), down.
+The door closes quietly.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>down
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+*a grim Man* is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Fine Mana:Warm>
+*a grim Man* leaves ++++ U P ++++
+
+!# CW HP:Fine Mana:Warm>
+*a grim Man* has arrived from above.
+
+!# CW HP:Fine Mana:Warm>
+Khurmin has arrived from above.
+
+!# CW HP:Fine Mana:Warm>
+
+*a grim Man* leaves ++++ U P ++++
+
+!# CW HP:Fine Mana:Warm>
+Idhorien has arrived from above.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>fb black
+cast normal 'fireball'  black
+Nobody here by that name.
+
+!# CW HP:Fine Mana:Warm>
+
+Idhorien leaves ++++ U P ++++
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+A strong and agile dales-pony is standing here.
+A shadowy and lithe orc stands here, half-hidden in the darkness.
+Idhorien the Elf is standing here.
+Exits: (south), down.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>down
+
+Idhorien leaves vvvv S O U T H vvvv
+!# CW HP:Fine Mana:Warm>
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+Khurmin the Dwarf is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+A strong and agile dales-pony is standing here.
+A shadowy and lithe orc stands here, half-hidden in the darkness.
+Exits: (south), down.
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>south
+Rest Room
+There is a wooden pipe carelessly left here.
+An old-looking ring, covered with runes, lies here.
+A large bulletin board, entitled "News of Arda", is mounted here.
+A sturdy bed made from solid oak lies here, covered in warm blankets.
+A fine marble chessboard with ivory and ebony pieces is set here.
+*a grim Man* is here, fighting Idhorien.
+Idhorien the Elf is here, fighting *a grim Man*.
+Exits: (north).
+Idhorien begins some strange incantations...
+
+!# CW HP:Fine Mana:Warm>
+!# CW HP:Fine Mana:Warm>fb black
+cast normal 'fireball'  black
+You start to concentrate...
+
+*a grim Man* utters the word 'earthquake'
+*a grim Man* makes the earth tremble and shiver.
+Argh! You cannot concentrate any more...
+You fall, and hit yourself!
+Some debris falls on you from above.
+
+!# CW HP:Hurt Mana:Warm *a grim Man*:Hurt Idhorien:Hurt>
+
+*a grim Man* closes the door.
+Idhorien begins some strange incantations...
+
+!# CW HP:Hurt Mana:Warm *a grim Man*:Hurt Idhorien:Hurt>
+
+*a grim Man         I S   C A S T I N G
+
+!# CW HP:Hurt Mana:Warm *a grim Man*:Hurt Idhorien:Hurt>
+!# CW HP:Hurt Mana:Warm *a grim Man*:Hurt Idhorien:Hurt>flee
+You flee head over heels.
+PANIC! You couldn't escape!
+
+!# CW HP:Hurt Mana:Warm *a grim Man*:Hurt Idhorien:Hurt>
+
+*a grim Man* utters the word 'earthquake'
+*a grim Man* makes the earth tremble and shiver.
+You fall, and hit yourself!
+Some debris falls on you from above.
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Hurt Idhorien:Wounded>
+Idhorien begins some strange incantations...
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Hurt Idhorien:Wounded>
+*a grim Man         I S   C A S T I N G
+PANIC! You can't quit the fight!
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Hurt Idhorien:Wounded>
+Idhorien opens the door.
+
+!# CW HP:Wounded Mana:Warm *a grim Man*:Hurt Idhorien:Wounded>
+
+You flee head over heels.
+You flee north.
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+A strong and agile dales-pony is standing here.
+A lithe orc is here, fighting Khurmin.
+Khurmin the Dwarf is here, fighting a lithe orc.
+Exits: (south), down.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>onb
+Idhorien has arrived from the south.
+
+!# CW HP:Wounded Mana:Warm>
+Arglebargle, glop-glyf!?!
+The earth trembles and shivers.
+
+!# CW HP:Wounded Mana:Warm>
+The door closes quietly.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>on
+open exit north
+You don't see any exit there.
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien opens the door.
+!# CW HP:Wounded Mana:Warm>
+Idhorien leaves vvvv S O U T H vvvv
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>on
+open exit north
+The door closes quietly.
+
+!# CW HP:Wounded Mana:Warm>
+The door is opened from the other side.
+You don't see any exit there.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* has arrived from the south.
+A lithe orc barely hits Khurmin's body and tickles it.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* leaves vvvv S O U T H vvvv
+
+!# CW HP:Wounded Mana:Warm>
+A lithe orc says 'Your geath sill ke jund ize of many!' in Orkish.
+Khurmin B A S H E S ____a lithe orc
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>cs
+close exit south
+Ok.
+The door is opened from the other side.
+
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* has arrived from the south.
+!# CW HP:Wounded Mana:Warm>
+
+*a grim Man* leaves oooo D O W N oooo
+Khurmin cleaves a lithe orc's body extremely hard.
+
+!# CW HP:Wounded Mana:Warm>
+
+Khurmin narrates 'I have lithe'
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>brs
+cast n 'break d' exit s
+Alas, not enough mana flows through you...
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>os
+open exit south
+It's already open!
+
+!# CW HP:Wounded Mana:Warm>
+Khurmin cleaves a lithe orc's body very hard.
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>down
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+*a grim Man* is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* leaves vvvv S O U T H vvvv
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>north
+The door seems to be closed.
+You hear a loud horn, signalling the arrival of a ship.
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here looking you over with shifty eyes.
+A strong and agile dales-pony is standing here.
+A lithe orc is here, fighting Khurmin.
+Khurmin the Dwarf is here, fighting a lithe orc.
+Idhorien the Elf is standing here.
+Exits: (south), down.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien leaves oooo D O W N oooo
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>down
+The Entrance
+The corpse of a woman is lying here.
+The corpse of a woman is lying here.
+The corpse of a horse is lying here.
+The corpse of a trained horse is lying here.
+The corpse of a pack horse is lying here.
+A huge clock is standing here.
+*a grim Man* is standing here.
+Exits: [north], south, up.
+
+!# CW HP:Wounded Mana:Warm>
+*a grim Man* leaves ++++ U P ++++
+
+!# CW HP:Wounded Mana:Warm>
+Idhorien has arrived from the south.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien leaves ++++ U P ++++
+Khurmin narrates 'get him I have lithe'
+
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>up
+Tharbad's Reception
+The shady innkeeper is here, fighting *a grim Man*.
+A strong and agile dales-pony is standing here.
+A lithe orc is sitting here, trying to fight Khurmin.
+Khurmin the Dwarf is here, fighting a lithe orc.
+*a grim Man* is here, fighting the shady innkeeper.
+Idhorien the Elf is standing here.
+Exits: (south), down.
+
+!# CW HP:Wounded Mana:Warm>
+
+The shady innkeeper pierces *a grim Man*'s left foot extremely hard and shatters 
+it.
+
+!# CW HP:Wounded Mana:Warm>
+
+Idhorien begins some strange incantations...
+!# CW HP:Wounded Mana:Warm>
+!# CW HP:Wounded Mana:Warm>fb black
+cast normal 'fireball'  black
+You are too afraid.
+The shady innkeeper pierces *a grim Man*'s right foot extremely hard and 
+shatters it.
+You hear *a grim Man*'s death cry as he collapses.
+*a grim Man* has drawn his last breath! R.I.P.
+A shadow slowly rises above the corpse of *a grim Man*.
