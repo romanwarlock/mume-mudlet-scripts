@@ -71,15 +71,9 @@ Idhorien the Elf, wielding a black runed dagger, is standing here.
 Exits/emulated: {north}.
 
 !# CW Mana:Hot>
-Idhorien disbands her group.
-
-!# CW Mana:Hot>
 !# CW Mana:Hot>sa break?
-group Idhorien
 Ok.
 
-!# CW Mana:Hot>
-Idhorien is now a group member.
 !# CW Mana:Hot>
 !# CW Mana:Hot>brn
 cast n 'break d' exit n
