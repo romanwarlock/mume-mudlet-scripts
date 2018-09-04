@@ -11059,7 +11059,7 @@ clock_adjust_timer(clock_start_mume_moment.minute)</script>
                 <colorTriggerFgColor>#000000</colorTriggerFgColor>
                 <colorTriggerBgColor>#000000</colorTriggerBgColor>
                 <regexCodeList>
-                    <string>^The current time is (.+):(.+) (.+)\.$</string>
+                    <string>^The current time is (.+):(.+)(am|pm)\.$</string>
                 </regexCodeList>
                 <regexCodePropertyList>
                     <integer>1</integer>
