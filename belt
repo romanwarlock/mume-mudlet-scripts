@@ -1,0 +1,4 @@
+selectString( matches[2], 1 )
+setFgColor( 255,215,0 )
+replace(matches[2])
+resetFormat()
