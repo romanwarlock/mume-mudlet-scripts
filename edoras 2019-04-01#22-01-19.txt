@@ -1,0 +1,268 @@
+Log session starting at 22:01:19 on lunes, 1 abril 2019.
+!#~ C Mana:Burning>
+enter coach
+The coach driver takes your ticket and welcomes you aboard.
+Inside the Coach
+Exits: none.
+
+![ C Mana:Burning>
+You see some people loading and unloading packages.
+
+![ C Mana:Burning>
+The coachman closes the doors.
+
+![ C Mana:Burning>st
+stat
+OB: 51%, DB: 51%, PB: 57%, Armour: 77%. Wimpy: 100. Mood: wimpy.
+Needed: 1,268,673 xp, 0 tp. Lauren: 691. Alert: normal.
+Affected by:
+- strength (💪 24s  )
+- detect magic (32m41s/)
+- shield   (⛉ 15m52s  )
+- armour   (🧥 15m54s  )
+- growth
+- vigour
+
+![ C Mana:Burning>
+The coach starts moving towards Edoras.
+Next stop: Edoras.
+
+![ C Mana:Burning>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C Mana:Burning>tel belog coach -P
+Ok.
+
+![ C Mana:Burning>
+The coach slows down crossing the ruins of a long-deserted village.
+
+![ C Mana:Burning>
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+The coach keeps bumping along the decayed road, as it approaches the
+Gap of Rohan.
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>m
+           Map of Nearby Zones
+      -----------------------------
+     |   *~:          *^MM^* **C*: |
+     |     ::%::    ~~~   ^:*:::*a |
+     |      T%::::::~:    :        |
+     |             ::     :        |
+     |             ::     *        |
+     |             *    ***        |
+     |             :^  **          |
+     |             : I *           |
+     |             : :::           |
+     |             :X:             |
+     |               ??            |
+     |               H??           |
+     |                 ??E         |
+     |                   ?         |
+     |                             |
+      -----------------------------
+
+![ C>
+The forbidding lit profile of Isengard looms on the northern horizon.
+
+![ C>
+The coach slows down as it starts fording the Isen river.
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+The coach gathers again its speed and rushes into the green lands of
+Rohan.
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>m
+           Map of Nearby Zones
+      -----------------------------
+     |  *~:          *^MM^* **C*:  |
+     |    ::%::    ~~~   ^:*:::*a  |
+     |     T%::::::~:    :         |
+     |            ::     :         |
+     |            ::     *         |
+     |            *    ***         |
+     |            :^  **           |
+     |            : I *            |
+     |            : :::            |
+     |            :::              |
+     |              X?             |
+     |              H??            |
+     |                ??E          |
+     |                  ?          |
+     |                             |
+      -----------------------------
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>look
+Inside the Coach
+The coach slows down as it rolls past a busy waystation.
+Exits/emulated: {north}, south.
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>m
+           Map of Nearby Zones
+      -----------------------------
+     |*~:          *^MM^* **C*:    |
+     |  ::%::    ~~~   ^:*:::*a    |
+     |   T%::::::~:    :           |
+     |          ::     :           |
+     |          ::     *           |
+     |          *    ***           |
+     |          :^  **             |
+     |          : I *              |
+     |          : :::              |
+     |          :::                |
+     |            ??               |
+     |            H??              |
+     |              X?E            |
+     |                ?            |
+     |                             |
+      -----------------------------
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+The coach bumps slightly and the noise of splashing water is heard.
+
+![ C>
+... clippety-clop ... clippety-clop ... clippety-clop ...
+
+![ C>
+The coach continues its journey east as it approaches the walls of
+Edoras.
+
+![ C>m
+           Map of Nearby Zones
+      -----------------------------
+     |:          *^MM^* **C*:      |
+     |::%::    ~~~   ^:*:::*a      |
+     | T%::::::~:    :             |
+     |        ::     :             |
+     |        ::     *             |
+     |        *    ***             |
+     |        :^  **               |
+     |        : I *                |
+     |        : :::                |
+     |        :::                  |
+     |          ??                 |
+     |          H??                |
+     |            ??X              |
+     |              ?              |
+     |                             |
+      -----------------------------
+
+![ C>
+Suddenly the thumping noise of horse-hoofs thunders from all
+directions.
+
+![ C>ex
+None.
+
+![ C>
+The seventh tribe of the Dalrei approaches from the north, chasing a
+herd of eltor.
+
+![ C>
+A swarm of Mongol cavalry charges from the south.
+
+![ C>
+A horde of screaming Dothraki gallops towards you from the east.
+
+![ C>
+***** MULTIVERSE PORTAL CORRUPTION DETECTED - Attempting recovery...
+*****
+
+![ C>
+The coach has arrived in Edoras.
+
+![ C>na A swarm of Mongol cavalry charges from the south.
+Ok.
+
+![ C>
+The coachman opens the doors.
+
+![ C>
+You see some people loading and unloading packages.
+
+![ C>leave coach
+You step out of the coach.
+Outside the South Gate of Tharbad
+The coach to Tharbad is here.
+Exits/emulated: {north}, south.
+
+!#' C>na A horde of screaming Dothraki gallops towards you from the east
+Ok.
+
+!#' C>ex
+ [North]  - A closed 'gate'
+  South   - You can't distinguish a lot of details.
+
+!#' C>cal
+You call for the gate to be opened.
+
+!#' C>
+You have the uneasy impression that a pair of unseen eyes are
+scrutinising you
+from the closed gate.
+
+You are about to turn away when to your immense surprise, the gate
+opens just a crack. You are almost sure a stealthy sign was made to
+you...
+
+!#' C>un;on
+unlock exit north
+open exit north
+*click*
+
+!#' C>
+Ok.
+
+!#' C>north
+Inside the South Gate of Tharbad
+A guard is here looking suspiciously at everyone passing.
+A guard is here looking suspiciously at everyone passing.
+A guard is here looking suspiciously at everyone passing.
+A guard is here looking suspiciously at everyone passing.
+One of the citizens of Tharbad looks at you from the corner of his
+eye.
+Exits: east, (south).
