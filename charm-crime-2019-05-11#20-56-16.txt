@@ -1,0 +1,37 @@
+!# CW>
+End begins some strange incantations...
+
+!# CW>
+End utters the word 'charm'
+Ena now follows End.
+
+End issues the order 'wa'.
+
+!# CW>
+End issues the order 'st'.
+
+!# CW>
+End issues the order 'wa'.
+
+!# CW>compl
+*** Evidence ***
+
+You may complain, or surrender, at the mayor's office.
+
+!# CW>
+Elohim rargles: uh
+
+!# CW>
+End gives Ena an order.
+
+!# CW>
+End gives Ena an order.
+
+!# CW>wh ena
+whois ena
+Ena is a level twenty Noldorin Adventurer.
+Is playing from *.net.
+
+!# CW>
+End gives Ena an order.
+Ena wakes up.
