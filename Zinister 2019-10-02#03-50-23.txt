@@ -1,0 +1,389 @@
+*: CRW Mana:Burning a majestic brush-lion:Dying a huge stone giant
+(mo):Bad>
+A huge stone giant (aa) hits a majestic brush-lion's head very hard
+and shatters it.
+You receive your share of experience.
+Good job!
+You hear a majestic brush-lion's death cry as it collapses.
+A majestic brush-lion is dead! R.I.P.
+
+*: CRW Mana:Burning>
+Needed: 708150 xp, 0 tp.
+Total: 49291850 xp, 256841 tp.
+You gained 8181 xp.You gained 7 tp.
+
+*: CRW Mana:Burning>of flush t
+order followers flush t
+
+*: CRW Mana:Burning>
+You failed to control a huge stone giant (mo).
+Ok.
+
+*: CRW Mana:Burning>cast n 'heal' mo
+You start to concentrate...
+
+*an Orc* leaves her hiding place.
+A huge stone giant (aa) hits *an Orc*'s right arm extremely hard.
+
+Ok.
+You heal a huge stone giant (mo).
+
+*: CRW Mana:Hot>
+A huge stone giant (aa) hits *an Orc*'s body extremely hard.
+
+*: CRW Mana:Hot>
+*an Orc* seems to avoid the fight.
+
+*: CRW Mana:Hot>de orc
+cast normal 'dispel e'  orc
+You start to concentrate...
+A huge stone giant (aa) hits *an Orc*'s head very hard.
+
+*an Orc* escaped the fight.
+*an Orc* leaves >>>> E A S T >>>>
+Your victim has disappeared!
+
+*: CRW Mana:Hot>east
+In the Brush
+Bodies lie piled on a funeral pyre, the flames consuming the flesh.
+Exits: north, east, south, west.
+
+*: CRW Mana:Hot>east
+In the Brush
+Exits: north, east, south, west.
+
+*: CRW Mana:Hot>west
+In the Brush
+Bodies lie piled on a funeral pyre, the flames consuming the flesh.
+Exits: north, east, south, west.
+
+*: CRW Mana:Hot>west
+In the Brush
+The corpse of a majestic brush-lion is lying here.
+Exits: north, east, south, west.
+
+*: CRW Mana:Hot>west
+Chalk Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>tr orc
+You carefully examine the ground around you, looking for tracks...
+
+You see some plain tracks of *an Orc* leading east, done less than 1
+hour ago.
+
+*. CRW Mana:Hot>east
+In the Brush
+The corpse of a majestic brush-lion is lying here.
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading east, done less than 1
+hour ago.
+
+*: CRW Mana:Hot>east
+In the Brush
+Bodies lie piled on a funeral pyre, the flames consuming the flesh.
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading south, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>south
+In the Brush
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading north, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>north
+In the Brush
+Bodies lie piled on a funeral pyre, the flames consuming the flesh.
+Exits: north, east, south, west.
+
+Aha, you have found *an Orc* hiding here!
+You stop tracking.
+
+*: CRW Mana:Burning>
+*an Orc* leaves south sneaking.
+
+*: CRW Mana:Burning>ta orc
+south
+In the Brush
+Exits: north, east, south, west.
+
+*: CRW Mana:Burning>
+Your legs feel heavier.
+The spell lasted 3m28s.
+
+*: CRW Mana:Burning>north
+In the Brush
+Bodies lie piled on a funeral pyre, the flames consuming the flesh.
+Exits: north, east, south, west.
+
+*: CRW Mana:Burning>tr orc
+You carefully examine the ground around you, looking for tracks...
+
+You see some vague tracks of *an Orc* leading south, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>south
+In the Brush
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading west, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>west
+A Tall Stand of Weeds
+The patch of weeds here shifts strangely in the breeze.
+Exits: north, east, south, west.
+Note: Mob: a patch of weeds x 2
+
+Aha, you have found *an Orc* hiding here!
+You stop tracking.
+
+*. CRW Mana:Burning>
+*an Orc* leaves her hiding place.
+A huge stone giant (aa) hits *an Orc*'s body hard.
+
+*. CRW Mana:Burning>cast normal 'dispel e' orc
+You start to concentrate...
+
+A huge stone giant (mo) hits *an Orc*'s right leg extremely hard.
+
+A patch of weeds hits *an Orc*'s right foot and tickles it.
+
+*an Orc* seems to avoid the fight.
+
+cast normal 'dispel e' orc
+Alas! There was no clear line of sight to her!
+A huge stone giant (aa) hits *an Orc*'s right foot very hard.
+
+*. CRW Mana:Burning>
+You start to concentrate...
+
+cast normal 'dispel e' orc
+*an Orc* escaped the fight.
+*an Orc* leaves ^^^^ N O R T H ^^^^
+Your victim has disappeared!
+
+*. CRW Mana:Burning>
+Nobody here by that name.
+
+*. CRW Mana:Burning>cast normal 'dispel e' orc
+Nobody here by that name.
+
+*. CRW Mana:Burning>north
+In the Brush
+The corpse of a majestic brush-lion is lying here.
+Exits: north, east, south, west.
+
+*: CRW Mana:Burning>look
+In the Brush
+The corpse of a majestic brush-lion is lying here.
+A huge stone giant (mo) is standing here.
+A huge stone giant (aa) is standing here.
+Exits/emulated: north, south, east, west.
+
+*: CRW Mana:Burning>tr orc
+You carefully examine the ground around you, looking for tracks...
+
+ta
+
+               Target is orc
+You see some vague tracks of *an Orc* leading north, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>north
+Thorny Brush
+Exits: [north], east, south, west.
+
+You see some vague tracks of *an Orc* leading west, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>west
+In the Brush
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading south, done less than 1
+hour ago.
+
+*: CRW Mana:Burning>north
+Old East Road
+Exits: north, =east=, south, =west=.
+
+Your blade glows less brightly.
+
+Hmm... you have lost the track.
+
+*+ CRW Mana:Burning>south
+In the Brush
+Exits: north, east, south, west.
+
+*: CRW Mana:Burning>south
+Chalk Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>tr orc
+You carefully examine the ground around you, looking for tracks...
+
+Your blade starts to glow very brightly!
+
+You see some plain tracks of *an Orc* leading south, done less than 1
+hour ago.
+
+*. CRW Mana:Burning>south
+A Tall Stand of Weeds
+Exits: north, east, south, west.
+Note: Mob: a patch of weeds x 2
+
+You see some plain tracks of *an Orc* leading east, done less than 1
+hour ago.
+
+*. CRW Mana:Burning>east
+A Tall Stand of Weeds
+The patch of weeds here shifts strangely in the breeze.
+Exits: north, east, south, west.
+Note: Mob: a patch of weeds x 2
+
+You see some plain tracks of *an Orc* leading north, done less than 1
+hour ago.
+A patch of weeds barely hits your body and tickles it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Healthy>
+You slash a patch of weeds' trunk very hard.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Fine>aa
+order followers assist
+A huge stone giant (mo) joins your fight.
+A huge stone giant (aa) joins your fight.
+Ok.
+A huge stone giant (mo) hits a patch of weeds' branch very hard.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Fine>look
+A Tall Stand of Weeds
+A patch of weeds is here, fighting YOU.
+A huge stone giant (mo) is here, fighting a patch of weeds.
+A huge stone giant (aa) is here, fighting a patch of weeds.
+A huge stone giant (aa) hits a patch of weeds' branch extremely hard.
+Exits/emulated: north, south, east, west.
+Note: Mob: a patch of weeds x 2
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Fine>
+A huge stone giant (mo) hits a patch of weeds' trunk extremely hard.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Hurt>
+You slash a patch of weeds' trunk very hard.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Hurt>
+A huge stone giant (aa) hits a patch of weeds' branch very hard and
+shatters it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Wounded>
+A huge stone giant (mo) hits a patch of weeds' trunk extremely hard
+and shatters it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Wounded>
+You slash a patch of weeds' leaves hard and shatter it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Bad>
+A patch of weeds barely hits your body and tickles it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Bad>
+A huge stone giant (aa) hits a patch of weeds' crown extremely hard
+and shatters it.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Awful>
+A huge stone giant (mo) hits a patch of weeds' trunk extremely hard
+and shatters it.
+A patch of weeds is mortally wounded and will die soon if not aided.
+
+*. CRW HP:Fine Mana:Burning a patch of weeds:Dying>
+You slash a patch of weeds' branch extremely hard and shatter it.
+Your victim is shocked by your hit!
+You receive your share of experience.
+One more death... It seems to be a litany... 
+You hear a patch of weeds' death cry as it collapses.
+A patch of weeds is dead! R.I.P.
+
+*. CRW HP:Fine Mana:Burning>
+Needed: 706788 xp, 0 tp.
+Total: 49293212 xp, 256841 tp.
+You gained 1362 xp.
+
+*. CRW HP:Fine Mana:Burning>east
+In the Brush
+Exits: north, east, south, west.
+
+You see some vague tracks of *an Orc* leading west, done less than 1
+hour ago.
+
+*: CRW HP:Fine Mana:Burning>tr orc
+You stop tracking your victim.
+You carefully examine the ground around you, looking for tracks...
+
+west
+You see some vague tracks of *an Orc* leading west, done less than 1
+hour ago.
+
+*: CRW HP:Fine Mana:Burning>
+A Tall Stand of Weeds
+The remains of a patch of weeds lie here in a heap of rotting compost.
+*an Orc* is standing here.
+Exits: north, east, south, west.
+Note: Mob: a patch of weeds x 2
+Aha, you have found your victim!
+A huge stone giant (mo) hits *an Orc*'s left hand extremely hard and
+shatters it.
+
+*. CRW HP:Fine Mana:Burning>cast normal 'dispel e' orc
+You start to concentrate...
+
+A huge stone giant (mo) hits *an Orc*'s right arm extremely hard and
+shatters it.
+
+Ok.
+As you call upon Elbereth, *an Orc* shivers in pain.
+*an Orc* is incapacitated and will slowly die, if not aided.
+A huge stone giant (aa) hits *an Orc*'s right foot extremely hard and
+shatters it.
+You feel more experienced.
+Congratulations! This is the first time you've killed it!
+You hear *an Orc*'s death cry as she collapses.
+*an Orc* has drawn her last breath! R.I.P.
+A shadow slowly rises above the corpse of *an Orc*.
+
+*. CRW HP:Fine Mana:Burning>
+Needed: 620154 xp, 0 tp.
+Total: 49379846 xp, 256841 tp.
+You gained 86634 xp.
+
+*. CRW HP:Fine Mana:Burning>
+The bluish glow on your blade fades entirely.
+
+*. CRW HP:Fine Mana:Burning>xc
+look in 1.corpse
+In the corpse (here):
+a pile of coins
+a black horn shortbow
+a quiver
+a herbal kit
+a stone
+a water skin
+a black leather belt
+a sacrificial knife (flawless)
+a leather backpack
+a forest green cloak (flawless)
+a gilded round shield (flawless)
+a white pair of sleeves (flawless)
+a black pair of padded boots (flawless)
+a grey pair of pants (flawless)
+a soft cloth cap (flawless)
+a white shirt (flawless)
+two rings
+several needlelike leaves
+
+*. CRW HP:Fine Mana:Burning>trop #
+               *** TROPHY *** (Kills, Knowledge, Name)
+
+|   1,  1%,  #Zinister                                              |
