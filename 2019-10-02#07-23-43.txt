@@ -1,0 +1,7617 @@
+Log session starting at 07:23:43 on miércoles, 2 octubre 2019.
+
+Welcome to the land of Middle-earth. May your visit here be...
+interesting.
+eq
+rem pack;wear pack;change wimpy 100;rem mantle;wear mantle;rem 
+cloak;wear cloak;rem shield;wear shield;rem staff;wear staff shield
+change height 50;inf;look
+Never forget! Try to role-play...
+
+
+Last login 1 hour and 29 minutes ago from 148.56.9.136.
+The Inn's Rooms
+A large bulletin board, entitled "Board of the Free Peoples", is
+mounted here.
+Barliman Butterbur, the innkeeper, offers you a room in his inn.
+A domesticated pony, beast of burden to many, stands here.
+Exits: down.
+
+Your default tongue is Westron.
+Your rent was five lauren, 14 celeb, and 45 busc.
+   S T R E G T H   D O W N
+The spell lasted 1h43m9s.
+   S H I E L D   D O W N
+The spell lasted 1h58m17s.
+   A R M O U R   D O W N
+The spell lasted 1h55m58s.
+
+![ CW HP:Fine>
+You are using:
+<wielded>            the broad Elven blade (flawless)
+<used as shield>     a bejewelled oak staff; it has a soft glowing
+aura
+<worn on head>       a mithril circlet
+<worn on body>       a shining chain mail shirt (flawless)
+<worn about body>    a forest green cloak (flawless)
+<worn on arms>       a fine pair of chain mail sleeves (flawless)
+<worn on hands>      a fine pair of soft leather gloves (used)
+<worn on legs>       a shining pair of chain mail leggings (flawless)
+<worn on feet>       a soft pair of padded boots (flawless)
+<worn around neck>   a pale blue stone
+<worn around neck>   a necklace
+<worn on wrist>      a keyring with a key and a set of lock picks
+<worn on finger>     a golden ruby ring
+<worn on back>       a leather backpack
+<worn across back>   an embellished longbow
+<worn as belt>       a gleaming belt
+<worn on belt>       a butcher knife (flawless)
+<worn on belt>       a laced quiver
+<worn on belt>       a herbal kit
+
+![ CW HP:Fine>
+You stop using a leather backpack.
+
+![ CW HP:Fine>
+You put a leather backpack on your back.
+
+![ CW HP:Fine>
+Wimpy set to: 100
+
+![ CW HP:Fine>ar
+cast n 'armour'
+You aren't wearing a mantle.
+
+![ CW HP:Fine>
+You don't have a mantle.
+
+![ CW HP:Fine>
+You stop using a forest green cloak.
+
+![ CW HP:Fine>
+You wear a forest green cloak about your body.
+
+![ CW HP:Fine>
+You aren't wearing a shield.
+
+![ CW HP:Fine>
+You don't have a shield.
+
+![ CW HP:Fine>
+You stop using a bejewelled oak staff.
+
+![ CW HP:Fine>
+You hold a bejewelled oak staff.
+
+         C A S T E R
+
+
+![ CW HP:Fine>
+Ok.
+
+![ CW HP:Fine>
+You are a female Noldo.
+You are 113 years, 2 months and 25 days old.
+You have played 29 days and 17 hours (real time). Session: 4 secs.
+This ranks you as Iminye (level 58).
+You are six feet tall and weigh ten stone and ten pounds.
+Perception: vision 50, hearing 20, smell 5. Alertness: normal.
+You must have been sent to Arda to free it from the sorrows that weigh
+upon it.
+You are welcome in the Anduin Vale, the Blue Mountains, Bree, Fornost,
+the Grey Havens, Lorien, Rivendell, and the Shire.
+Your equipment weighs ninety-two pounds. Heavy, but we will manage...
+Your base abilities are: Str:11 Int:20 Wis:18 Dex:11 Con:12(11)
+Wil:19(18) Per:10.
+Offensive Bonus: 58%, Dodging Bonus: 17%, Parrying Bonus: 54%.
+Your armour provides an average protection of 44%.
+You have 191/200 hit, 133/133 mana, and 103/104 movement points.
+Your mood is wimpy. You will flee if your hit points go below 100.
+You have scored 49,507,827 experience points and you have 257,345
+travel points.
+Your deeds in battle spur on those who fight by your side (9 wp).
+You need 492,173 exp. points and 0 travel points to reach the next
+level.
+You have 631 lauren coins, 16 celeb pennies, and 29 busc pennies.
+You are speaking Westron.
+You will swim if necessary.
+You will try to climb even under unsafe conditions.
+
+You are subjected to the following temporary effects:
+- vigour
+- growth
+
+![ CW HP:Fine>
+The Inn's Rooms
+A large bulletin board, entitled "Board of the Free Peoples", is
+mounted here.
+Barliman Butterbur, the innkeeper, offers you a room in his inn.
+A domesticated pony, beast of burden to many, stands here.
+Exits/emulated: down.
+
+![ CW HP:Fine>
+Needed: 492173 xp, 0 tp.
+Total: 49507827 xp, 257345 tp.
+
+![ CW HP:Fine>
+You start to concentrate...
+
+A blue transparent wall slowly appears around you.
+
+![ CW HP:Fine Mana:Burning>x sword
+examine sword
+The metal of this sword is white, cold to the touch and yet oddly
+reassuring.
+The runes on the blade are easily recognisable: this weapon was forged
+by the
+highest skilled elves, with the purpose of vanquishing the foul powers
+of evil.
+
+![ CW HP:Fine Mana:Burning>sj
+cast n 'shield'
+You start to concentrate...
+
+who
+You feel protected.
+
+![ CW HP:Fine Mana:Hot>
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+      Helfire ~ Elf on Fire
+      Ashelia
+
+6 allies on.
+
+![ CW HP:Fine Mana:Hot>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+      Helfire ~ Elf on Fire
+      Ashelia
+
+6 allies on.
+
+![ CW HP:Fine Mana:Hot>st
+stat
+OB: 58%, DB: 55%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- shield   (⛉ 4s  )
+- armour   (🧥 9s  )
+- vigour
+- growth
+
+![ CW HP:Fine Mana:Hot>stt
+cast t 'strength' 
+You start to concentrate...
+
+shr
+You feel stronger.
+inf %S
+
+![ CW HP:Fine Mana:Hot>
+cast n 'shr'
+You start to concentrate...
+
+You are surrounded by a misty shroud.
+
+![ CW HP:Fine Mana:Hot>
+13
+
+![ CW HP:Fine Mana:Hot>st
+stat
+OB: 60%, DB: 65%, PB: 55%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- shroud   (1s)
+- strength (💪 3s  )
+- shield   (⛉ 12s  )
+- armour   (🧥 17s  )
+- vigour
+- growth
+
+![ CW HP:Fine Mana:Hot>look
+The Inn's Rooms
+A large bulletin board, entitled "Board of the Free Peoples", is
+mounted here.
+Barliman Butterbur, the innkeeper, offers you a room in his inn.
+A domesticated pony, beast of burden to many, stands here.
+Exits/emulated: down.
+
+![ CW HP:Fine Mana:Hot>la pony pa
+label pony pa
+Ok.
+
+![ CW HP:Fine Mana:Hot>ride pa
+It's too difficult to ride here.
+
+![ CW HP:Fine Mana:Hot>lead pa
+A pony (pa) starts following you.
+
+![ CW HP:Fine Mana:Hot>down
+south
+The Prancing Pony Inn
+The storyteller is sitting here, drinking beer and telling tales.
+A barman watches you calmly, while skilfully mixing a drink.
+Exits: south, west, up.
+A pony (pa) has arrived from above.
+
+*[ CW HP:Fine Mana:Hot>ride pa
+At the Sign of the Prancing Pony
+There is an old street-lamp on the border of the street.
+A large fountain, made from grey stone, pours water from its centre.
+
+drink water;pour water skin
+Janice the guide is here, eager to guide visitors.
+An elite Bree guard stands here stoutly.
+Exits: north, east, south, west.
+A pony (pa) has arrived from the north.
+
+*# CW HP:Fine Mana:Hot>
+A pony (pa) stops following you.
+You pick up a pony (pa)'s reins and start riding him.
+
+*# CRW HP:Fine Mana:Hot>look
+You drink the water.
+
+*# CRW HP:Fine Mana:Hot>
+You can't find a skin.
+
+*# CRW HP:Fine Mana:Hot>south
+At the Sign of the Prancing Pony
+There is an old street-lamp on the border of the street.
+A large fountain, made from grey stone, pours water from its centre.
+
+drink water;pour water skin
+Janice the guide is here, eager to guide visitors.
+An elite Bree guard stands here stoutly.
+Exits/emulated: north, south, east, west.
+
+*# CRW HP:Fine Mana:Hot>south
+Main Street
+There is an old street-lamp on the border of the street.
+Exits: north, east, south, west.
+
+*# CRW HP:Fine Mana:Hot>
+Your stomach can't contain anymore!
+
+*# CRW HP:Fine Mana:Hot>
+You can't find a water.
+
+*# CRW HP:Fine Mana:Hot>south
+Main Street
+There is an old street-lamp on the border of the street.
+Exits: north, [east], south.
+
+*# CRW HP:Fine Mana:Hot>east
+Main Street
+There is an old street-lamp on the border of the street.
+Exits: north, east, [west].
+
+*# CRW HP:Fine Mana:Hot>
+Main Street
+There is an old street-lamp on the border of the street.
+Exits: [north], [east], south, west.
+
+*# CRW HP:Fine Mana:Hot>south
+Bree's South Gate
+There is an old street-lamp on the border of the street.
+A Guard of Bree is here, watching the gate.
+A Guard of Bree is here, watching the gate.
+The gatekeeper stands here.
+Exits: north, (south).
+
+*# CRW HP:Fine Mana:Hot>south
+South of Bree
+Exits: (north), =south=.
+
+*+ CRW HP:Fine Mana:Hot>south
+Junction
+Exits: =north=, =east=, =south=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+east
+Well Kept Road
+Exits: =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>look
+east
+Road out of Bree-land
+Exits: =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>
+Road out of Bree-land
+Exits/emulated: =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =north=, east, south, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Southern Chetwood
+A boar cub is playing here, and exploring the wide world.
+A grey wolf is here, snarling aggressively.
+A sparrow is flapping around on the ground.
+Exits: north, east, south, west.
+
+*f CRW HP:Fine Mana:Hot>east
+Southern Chetwood
+A clear spring babbles as cool water trickles out of the ground.
+Exits: east, west.
+
+*f CRW HP:Fine Mana:Hot>east
+Southern Chetwood
+A brown fox is here, looking for some rabbits to chew up.
+Exits: east, south, west.
+
+*f CRW HP:Fine Mana:Hot>east
+Quiet Glade
+A large thorny branched shrub is growing here.
+On the shrub, there are three piles of blackberries.
+A domesticated pony, beast of burden to many, stands here.
+A sturdy pack horse is standing here.
+Exits: [north], east, south, west.
+Note: Herb: blackberries
+
+*f CRW HP:Fine Mana:Hot>
+Small Path
+Exits: -north-, south, west.
+
+*f CRW HP:Fine Mana:Hot>north
+Old East Road
+Exits: =east=, -south-, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: -north-, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+east
+Old East Road
+Exits: =east=, [south], =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+A boar cub is playing here, and exploring the wide world.
+Exits: -north-, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+A stocky mountain mule is here, waiting to serve.
+Exits: =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>south
+Old East Road
+Exits: north, east, =south=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =north=, =east=. - s:hedge.
+
+*+ CRW HP:Fine Mana:Hot>east
+east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: ~north~, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: ~north~, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Bend by the Hedge
+Exits: =north=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>north
+east
+Bend by the Marshes
+A soft pouch, made from leather, has been left here.
+The corpse of a mean brigand is lying here.
+Exits: north, =east=, =south=, west.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road by a Rock
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+east
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+*+ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Bend by the Plains
+Exits: north, east, =south=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>south
+east
+Bend by the Hedge
+Exits: =north=, =east=.
+
+*+ CRW HP:Fine Mana:Hot>east
+east
+east
+Old East Road
+A grey wolf is here, snarling aggressively.
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>south
+east
+Old East Road
+Exits: =east=, =west=.
+You begin to see some clouds.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =south=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Alas, you cannot go that way...
+
+*+~ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: =north=, =east=.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =east=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =east=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>north
+east
+Old East Road
+A brigand, looking at your nice purse, is sneaking here.
+A brigand, looking at your nice purse, is sneaking here.
+Exits: north, =east=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>north
+east
+east
+Old East Road
+Exits: =east=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>
+Bend in the Road
+Exits: =north=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: -north-, =east=, =south=, west.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Bend in the Road
+Exits: =north=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>east
+Old East Road
+Exits: =east=, =south=, -west-.
+
+*+~ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: =east=, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>
+Old East Road
+Exits: -north-, =east=, south, =west=.
+
+*+~ CRW HP:Fine Mana:Hot>
+The Old East Road
+Exits: north, =east=, =west=.
+The clouds begin to disappear.
+
+*+ CRW HP:Fine Mana:Hot>
+The Old East Road
+Exits: =north=, =west=.
+
+*+ CRW HP:Fine Mana:Hot>north
+The Old East Road
+Exits: -north-, =east=, =south=, west.
+
+*+ CRW Mana:Hot>north
+The Formen-Romen Trail
+Exits: north, -east-, -south-, -west-.
+
+*. CRW Mana:Hot>north
+The Foot of Weathertop
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>north
+north
+A Secluded Dell
+A clear spring babbles as cool water trickles out of the ground.
+Exits: north, south, west. - e:culvert.
+
+*( CRW Mana:Hot>north
+The Trail to Weathertop
+Exits: -north-, -east-, south, west.
+
+*( CRW Mana:Hot>east
+east
+The Trail to Weathertop
+Exits: east, -south-, -west-.
+
+*( CRW Mana:Hot>east
+Southern End of the Weather Hills
+Exits: east, south, west.
+
+*( CRW Mana:Hot>east
+Valley's End
+Shrub of BLACKCURRANT: Healing, Soothing.
+On the shrub, there are two handfuls of berries of BLACKCURRANT:
+Healing, Soothing.
+Exits: east, south, west.
+Note: Herb: 2 x blackcurrant
+
+*( CRW Mana:Hot>
+Mouth of the Valley
+Exits: east, south, west.
+Note: Herb: valerian
+
+*( CRW Mana:Hot>
+The Sparse Land
+A sharp-eyed hawk is here stalking some prey.
+Exits: east, south, west.
+
+*. CRW Mana:Hot>east
+The Sparse Land
+Exits: east, south, west.
+
+*. CRW Mana:Hot>south
+The Sparse Land
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>south
+The Sparse Land
+A brown donkey watches the surroundings, perhaps looking for a chance
+to graze.
+Exits: north, east.
+
+*. CRW Mana:Hot>
+Skyborne tells you 'i died in bbt, lagged otherwise would have won'
+
+*. CRW Mana:Hot>call eagle
+You look up towards the skies and start calling the mighty creatures.
+
+Feeling very exhausted, you complete your singing and pray that
+someone has listened.
+
+*. CRW Mana:Hot Move:Slow>re comf
+tell Skyborne comf
+Ok.
+
+*. CRW Mana:Hot Move:Slow>
+Helfire narrates 'left castle 10'
+
+*. CRW Mana:Hot Move:Slow>bob
+cast n 'breath of b'
+You start to concentrate...
+
+Skyborne tells you 'bad time for link to be crappy'
+
+An energy begins to flow within your legs as your body becomes
+lighter.
+
+*. CRW Mana:Hot>st
+stat
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- breath of briskness (6s)
+- shroud   (1m20s)
+- strength (💪 1m22s  )
+- shield   (⛉ 1m31s  )
+- armour   (🧥 1m36s  )
+- vigour
+- growth
+
+*. CRW Mana:Hot>
+Mirasantika narrates 'bn on trained?'
+
+*. CRW Mana:Hot>
+Skyborne tells you '1 troll dead 2 were bad/awf'
+
+*. CRW Mana:Hot>
+Helfire narrates 'yes'
+
+*. CRW Mana:Hot>
+Mirasantika narrates 'passed lb 8t'
+
+*. CRW Mana:Hot>re u lost all eq ?
+tell Skyborne u lost all eq ?
+Ok.
+
+*. CRW Mana:Hot>
+Skyborne tells you 'corpse is in'
+
+*. CRW Mana:Hot>re are you recovering right now ?
+tell Skyborne are you recovering right now ?
+Ok.
+
+*. CRW Mana:Hot>st
+stat
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- breath of briskness (42s)
+- shroud   (1m56s)
+- strength (💪 1m58s  )
+- shield   (⛉ 2m7s  )
+- armour   (🧥 2m12s  )
+- vigour
+- growth
+
+*. CRW Mana:Hot>
+Skyborne tells you 'i try to go back i guess'
+
+*. CRW Mana:Burning>sc
+200/200 hits, 105/133 mana, and 104/104 moves.
+
+*. CRW Mana:Burning>re gl
+tell Skyborne gl
+Ok.
+
+*. CRW Mana:Burning>xp
+look in 1.pack
+In your backpack (worn on back):
+an engraved warhammer
+a polished white quartzite
+a huge silvery bracer
+a lustrous opal
+a flask of orkish draught
+fifteen man-like roots
+ten tickets
+a grey fluid-sack
+a black candle
+two sturdy ropes
+eleven handfuls of clover
+six handfuls of narrow leaves
+two broad silver belts
+a banded ring
+a lembas wafer
+eleven piles of leaves of THYME: Soothing, Clearthoughts_C
+a strange set of lock picks
+a nimble blade (flawless)
+an amethyst
+a purple scroll
+an ivory scroll
+two golden topaz rings
+a black runed dagger (flawless)
+a blue scroll
+two softly glowing green cups
+eight clusters of berries of Juniper: Clearthoughts_A
+an unfinished band of gold
+a black scroll
+five piles of petals of MAUVE: Clearthoughts_D
+five piles of leaves of SAGE: Healing, Soothing, Clearthoughts_B
+a wooden pipe
+a silver goblet
+
+*. CRW Mana:Burning>
+In the sky you see a Great Eagle descending towards you!
+
+*. CRW Mana:Burning>
+A Great Eagle swoops down from the sky and lands gracefully.
+
+dism;examine
+
+*. CRW Mana:Burning>
+You stop riding a pony (pa).
+
+*. CW Mana:Burning>
+The Sparse Land
+The landscape is scarred by erosion and the plants struggle to grow as
+best
+they can. With no trees or large bushes, the wind blows without
+respite,
+blowing dust across the terrain. There are no pools or dips which
+harbour
+water-everywhere is dry. With this kind of terrain it is obvious why
+these
+plains have never been populated. The Lone-lands indeed!
+A brown donkey watches the surroundings, perhaps looking for a chance
+to graze.
+A pony (pa) is standing here.
+A Great Eagle, mighty descendent of old Thorondor, is here.
+Exits/emulated: north, east.
+
+*. CW Mana:Burning>
+A Great Eagle says 'If you want to go somewhere, ride me and whisper
+the'
+A Great Eagle says 'destination in my ear.'
+A Great Eagle says 'Don't wait too long, others need my help too.'
+
+*. CW Mana:Burning>ost
+stand;lead;ride eagle;whisper eagle ost-in-edhil
+You are already standing.
+
+*. CW Mana:Burning>
+A pony (pa) starts following you.
+
+*. CW Mana:Burning>
+You carefully mount a Great Eagle.
+
+*. CRW Mana:Burning>
+Ok.
+A Great Eagle nods slowly and turns its head towards the sky.
+
+*. CRW Mana:Burning>st
+stat
+A Great Eagle spreads its wings and soars gracefully into the skies.
+Whoosh, you just flew through a white cloud, giving you an eerie
+feeling.
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- breath of briskness (1m16s)
+- shroud   (2m30s)
+- strength (💪 2m32s  )
+- shield   (⛉ 2m41s  )
+- armour   (🧥 2m46s  )
+- vigour
+- growth
+
+*. CRW Mana:Burning>
+Skyborne tells you 'help me whack? 1 troll down'
+
+*. CRW Mana:Burning>
+Skyborne tells you 'my charmies dead'
+
+*. CRW Mana:Burning>
+Whoosh whoosh, you feel the cold air sweep by you.
+
+*. CRW Mana:Burning>m
+           Map of Nearby Zones
+      -----------------------------
+     |         *                   |
+     |         :                   |
+     |         :             W   ~*|
+     |     ~~ :*%%:         ****:*~|
+     |   :::=**B:::~:::::=:~***~R:*|
+     |~::*:::*~:              ::   |
+     |         :              ::   |
+     |        ::    X         ~:   |
+     |        *               *    |
+     |        *               ~    |
+     |        :               ^    |
+     |        ::             ~^^^  |
+     |         *~:          *^MM^* |
+     |           ::%::    ~~~   ^:*|
+     |            T%::::::~:    :  |
+      -----------------------------
+
+*. CRW Mana:Burning>re no
+tell Skyborne no
+Ok.
+
+*. CRW Mana:Burning>
+Whoosh whoosh, you feel the cold air sweep by you.
+
+*. CRW Mana:Burning>
+Whoosh whoosh, you feel the cold air sweep by you.
+
+*. CRW Mana:Burning>st
+stat
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- breath of briskness (1m53s)
+- shroud   (3m7s)
+- strength (💪 3m9s  )
+- shield   (⛉ 3m18s  )
+- armour   (🧥 3m23s  )
+- vigour
+- growth
+
+*. CRW>
+Whoosh, you just flew through a white cloud, giving you an eerie
+feeling.
+
+*. CRW>xp
+look in 1.pack
+You are high in the sky. Below you are lots of clouds, and you cannot
+see the ground.
+
+*. CRW>m
+           Map of Nearby Zones
+      -----------------------------
+     |      :              ::      |
+     |     ::              ~:      |
+     |     *               *       |
+     |     *               ~       |
+     |     :               ^       |
+     |     ::             ~^^^    *|
+     |      *~:          *^MM^* **C|
+     |        ::%:: X  ~~~   ^:*:::|
+     |         T%::::::~:    :     |
+     |                ::     :     |
+     |                ::     *     |
+     |                *    ***     |
+     |                :^  **       |
+     |                : I *        |
+     |                : :::        |
+      -----------------------------
+
+*. CRW>
+You tighten your grip as a Great Eagle starts to descend fast.
+
+*. CRW>
+A Great Eagle swoops down from the sky and lands gracefully.
+
+dism;examine
+Track to the Bog
+Exits/emulated: north, east.
+
+*. CRW>
+You stop riding a Great Eagle.
+
+*. CW>
+Track to the Bog
+This small track was used by the inhabitants of the small village
+which can
+be seen just north of here to go to the peat bog, which is just south
+of
+here, in order to take some peat for their fires. The village itself
+lies 
+in ruins now. The village looks like it has been burnt down and
+molested 
+very recently. A large river, the Glanduin, is flowing just west of
+here.
+A Great Eagle, mighty descendent of old Thorondor, is here.
+Exits/emulated: north, east.
+
+*. CW>dism
+You are not riding.
+
+*. CW>
+A Great Eagle says 'Here we are. It was nice to help you, but now I
+have to head back swiftly, others might be in distress.'
+A Great Eagle waves.
+
+*. CW>south
+A Peat Bog
+Exits: north, ~west~.
+
+*% CW>west
+River Glanduin
+Exits: ~north~, east, west.
+
+*~ CW>west
+Near the Glanduin River
+Exits: ~north~, ~east~, west.
+
+*. CW>west
+north
+An Old Field
+Exits: north, east.
+
+*. CW>west
+Near the Glanduin River
+Exits: ~north~, ~east~, south, west.
+
+*. CW>north
+An Old Field
+A rabbit is here eyeing your presence warily.
+Exits: north, east.
+You feel a hidden presence.
+
+*. CW>north
+The South Bank of the Estelin
+A grey wolf is here, snarling aggressively.
+Exits: ~north~, ~east~, south, west.
+
+*. CW>
+The Estelin
+Exits: ~north~, ~east~, south, ~west~.
+
+*~ CW>north
+Empty Harbour
+A blooming water-lily floats on the surface of the water.
+A large pike is lurking in the mud by the bottom.
+A large pike is lurking in the mud by the bottom.
+An egret is sitting here.
+Exits: east, ~south~, west.
+
+*~ CW>west
+Receding Pier
+A snowy-white egret stands here alertly.
+A snowy-white egret stands here alertly.
+Exits: north, ~east~.
+
+*% CW>north
+north
+Riverbluff Walk
+A black raven flies in the sky searching for flesh to prey upon.
+A tall, dark-haired elf is standing here (glowing).
+Exits: north, -east-, south, -up-.
+
+*( CW>up
+Decaying Ropeworks
+A rotten corpse is hanging here.
+A newborn spider is here.
+A newborn spider is here.
+A newborn spider is here.
+A grey spider is stalking here, preparing to drain you of life.
+Exits: south.
+
+*. CW>
+Alas, you cannot go that way...
+
+*. CW>
+Mirasantika narrates 'who on pack just passed ssc?'
+You feel more exposed.
+A grey spider lightly hits your head and tickles it.
+
+*. CW HP:Fine a grey spider:Healthy>flee
+You flee head over heels.
+You flee south.
+Riverbluff Walk
+A black raven flies in the sky searching for flesh to prey upon.
+A tall, dark-haired elf is standing here (glowing).
+Exits: north, -east-, south, -up-.
+
+*( CW HP:Fine>up
+Riverbluff Walk
+Exits: -north-, -west-, -down-.
+
+*( CW HP:Fine>d
+Riverbluff Walk
+A black raven flies in the sky searching for flesh to prey upon.
+A tall, dark-haired elf is standing here (glowing).
+Exits: north, -east-, south, -up-.
+
+*( CW HP:Fine>up
+Riverbluff Walk
+Exits: -north-, -west-, -down-.
+
+*( CW HP:Fine>shr
+cast n 'shr'
+You start to concentrate...
+
+west
+north
+You are surrounded by a misty shroud.
+
+*( CW HP:Fine Mana:Burning>
+You climb a long flight of granite steps overlooking the Estelin
+river.
+
+Riverbluff Walk
+Exits: -north-, -east-.
+
+*( CW HP:Fine Mana:Burning>
+Riverbluff Walk
+Exits: -east-, -south-, -up-.
+
+*( CW HP:Fine Mana:Burning>up
+Riverbluff Walk
+Exits: -north-, west, -down-.
+
+*( CW HP:Fine Mana:Burning>north
+north
+Southeast Corner of the Cobblestone Street
+Exits: -north-, east, -south-, -west-.
+
+*. CW HP:Fine Mana:Burning>
+Cobblestone Street
+A colony of red ants is here. The ants seem to ignore you.
+Exits: -north-, east, -south-.
+
+*. CW HP:Fine Mana:Burning>north
+Remains of the City Steps
+A tarnished arrowhead lies discarded on the ground.
+Exits: -north-, east, -south-, up.
+
+*. CW HP:Fine Mana:Burning>west
+Alas, you cannot go that way...
+
+*. CW HP:Fine Mana:Burning>south
+Cobblestone Street
+A colony of red ants is here. The ants seem to ignore you.
+Exits: -north-, east, -south-.
+
+*. CW HP:Fine Mana:Burning>north
+Remains of the City Steps
+A tarnished arrowhead lies discarded on the ground.
+Exits: -north-, east, -south-, up.
+
+*. CW HP:Fine>up
+In the Shadow of the Citadel
+A mouse sniffs around, searching for a morsel of food.
+Exits: north, south, west, down.
+
+*. CW HP:Fine>west
+Venerable Rotunda
+A small metal shield is on the ground.
+Exits: east, up, down.
+
+*[ CW HP:Fine>down
+Raided Lower Gallery
+A black spider crawls here, a shiny red spot visible on its belly.
+Exits: up, down.
+
+![ CW HP:Fine>down
+Toppled Stacks
+Exits: up. - n:put amethyst inset.
+
+![ CW HP:Fine>g gem all
+You get a polished white quartzite from a leather backpack.
+
+![ CW HP:Fine>g gem all
+You get a lustrous opal from a leather backpack.
+
+![ CW HP:Fine>gem
+get amethyst all;put amethyst inset
+You get an amethyst from a leather backpack.
+
+![ CW HP:Fine>
+You carefully insert the amethyst into the etched recess.
+
+![ CW HP:Fine>i
+You are carrying:
+a lustrous opal
+a polished white quartzite
+
+![ CW HP:Fine>p all pack
+You put a lustrous opal in a leather backpack.
+You put a polished white quartzite in a leather backpack.
+
+![ CW HP:Fine>
+The amethyst briefly glows a fiery red before fading back to normal.
+
+![ CW HP:Fine>st
+stat
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- shroud   (20s)
+- noquit
+- breath of briskness (2m43s)
+- strength (💪 3m59s  )
+- shield   (⛉ 4m8s  )
+- armour   (🧥 4m13s  )
+- vigour
+- growth
+
+![ CW HP:Fine>
+Two shimmering silvery lines begin to form the intricate outline of an
+arched doorway.
+
+![ CW HP:Fine>x boots
+examine boots
+These boots are made from a supple and pliant material. Soft to the
+touch, they have an elfin feel to them.
+The doors swing silently outward inch by inch until they lay back
+against the wall.
+
+![ CW HP:Fine>north
+Threshold to the House of Mirdain
+Exits: north, (south).
+
+!# CW HP:Fine>west
+Your legs feel heavier.
+The spell lasted 2m53s.
+
+!# CW HP:Fine>north
+Alas, you cannot go that way...
+
+!# CW HP:Fine>
+Step by step you make your way down an elegant flight of stairs.
+
+Hall of the Mirdain
+Exits: north, east, south, west.
+
+!# CW HP:Fine>west
+In the Presence of the Valar
+Exits: north, east.
+
+!# CW HP:Fine>north
+Before the Silvery Doors
+Exits: north, east, south, [west].
+
+!# CW HP:Fine>ow
+open exit west
+Ok.
+No sooner have you opened the silvery doors than they begin swinging
+shut of their own accord.
+
+!# CW HP:Fine>west
+west
+An Ornate Archway
+Exits: (east), west.
+
+!# CW HP:Fine>north
+Inside a Circular Antechamber
+Exits: north, east, south.
+
+!# CW HP:Fine>
+Court of the Mirdain
+Exits: south.
+You have found a silver ferret!
+
+!# CW HP:Fine>rev book
+You begin to search...
+
+south
+south
+north
+east
+rev book
+You didn't find a book hidden here.
+
+!# CW HP:Fine>
+Inside a Circular Antechamber
+Exits: north, east, south.
+
+!# CW HP:Fine>
+Councillors Chamber
+A mouse sniffs around, searching for a morsel of food.
+Exits: north.
+
+!# CW HP:Fine>
+Inside a Circular Antechamber
+Exits: north, east, south.
+
+!# CW HP:Fine>
+An Ornate Archway
+Exits: [east], west.
+
+!# CW HP:Fine>
+You begin to search...
+
+You didn't find a book hidden here.
+
+!# CW>west
+Inside a Circular Antechamber
+Exits: north, east, south.
+You feel a hidden presence.
+
+!# CW>south
+Councillors Chamber
+A mouse sniffs around, searching for a morsel of food.
+Exits: north.
+
+!# CW>rev book
+You begin to search...
+
+north
+east
+You didn't find a book hidden here.
+
+!# CW>
+Inside a Circular Antechamber
+Exits: north, east, south.
+
+!# CW>
+An Ornate Archway
+Exits: [east], west.
+
+!# CW>oe
+open exit east
+Ok.
+No sooner have you opened the silvery doors than they begin swinging
+shut of their own accord.
+
+!# CW>east
+Before the Silvery Doors
+Exits: north, east, south, (west).
+
+!# CW>east
+east
+Concourse Amidst the Spray
+Exits: north, east, south, west. - n:(deathtrap).
+You have found a silver ferret!
+
+!# CW>
+Before the Bronze Doors
+Exits: north, [east], south, west.
+You feel a hidden presence.
+
+!# CW>oe
+open exit east
+Ok.
+No sooner have you opened the bronze doors than they begin swinging
+shut of their own accord.
+
+!# CW>east
+Arch of the Jewelsmiths
+A mouse sniffs around, searching for a morsel of food.
+A sleek silver ferret darts from place to place.
+Exits: east, (west).
+
+!# CW>east
+The East Hall
+A sleek silver ferret darts from place to place.
+Exits: north, south, west.
+
+!# CW>north
+Inside an Engraved Vault
+A black spider crawls here, a shiny red spot visible on its belly.
+Exits: south.
+
+!# CW>rev book
+You begin to search...
+
+You didn't find a book hidden here.
+
+!# CW>south
+south
+The East Hall
+A sleek silver ferret darts from place to place.
+A sleek silver ferret darts from place to place.
+Exits: north, south, west.
+
+!# CW>
+Master Repository
+Exits: north.
+
+!# CW>rev book
+You begin to search...
+
+north
+west
+ow
+open exit west
+You didn't find a book hidden here.
+
+!# CW>
+The East Hall
+A sleek silver ferret darts from place to place.
+A sleek silver ferret darts from place to place.
+Exits: north, south, west.
+
+!# CW>
+Arch of the Jewelsmiths
+A mouse sniffs around, searching for a morsel of food.
+Exits: east, [west].
+
+!# CW>
+Ok.
+No sooner have you opened the bronze doors than they begin swinging
+shut of their own accord.
+
+!# CW>pw
+pick exit west
+You realise that the door is already open.
+
+!# CW>west
+Before the Bronze Doors
+Exits: north, (east), south, west.
+You feel a hidden presence.
+
+!# CW>south
+In the Presence of the Eldar
+Exits: north, west.
+
+!# CW>west
+south
+Hall of the Mirdain
+Exits: north, east, south, west.
+
+!# CW>south
+Step by step you make your way up an elegant flight of granite steps.
+
+Threshold to the House of Mirdain
+Exits: north, (south).
+
+!# CW>
+Toppled Stacks
+Exits: (north), up. - n:put amethyst inset.
+
+![ CW>g gem inset
+You carefully detach the amethyst from the etched recess.
+
+![ CW>i
+You are carrying:
+an amethyst
+
+![ CW>p all pack
+You put an amethyst in a leather backpack.
+
+![ CW>up
+Raided Lower Gallery
+A black spider crawls here, a shiny red spot visible on its belly.
+Exits: up, down.
+
+![ CW>up
+Venerable Rotunda
+A small metal shield is on the ground.
+Exits: east, up, down.
+
+*[ CW>east
+In the Shadow of the Citadel
+A mouse sniffs around, searching for a morsel of food.
+Exits: north, south, west, down.
+
+*. CW>down
+Remains of the City Steps
+A tarnished arrowhead lies discarded on the ground.
+A wild dog bares his yellow fangs at you.
+A wild dog bares his yellow fangs at you.
+A wild dog bares his yellow fangs at you.
+A wild dog bares his yellow fangs at you.
+Exits: -north-, east, -south-, up.
+
+*. CW>north
+Cobblestone Street
+Exits: -north-, east, -south-.
+
+*. CW>north
+Remnants of the City Gate
+Little parts of a broken weapon are lying on the ground.
+A brown snake watches you.
+Exits: -north-, east, -south-, -west-.
+
+*. CW>north
+Ost-in-Edhil's Gate
+Exits: =north=, -south-, =west=. - d:cliff.
+
+*+ CW>north
+Hollin Road
+Exits: =east=, =south=.
+
+*+ CW>east
+east
+Hollin Road
+Exits: =east=, south, =west=.
+
+*+ CW>east
+Hollin Road
+Exits: north, =east=, =west=.
+
+*+ CW>east
+east
+Hollin Road
+Exits: north, =east=, =west=.
+
+*+ CW>
+Hollin Road
+Exits: north, =east=, =west=.
+
+*+ CW>
+Hollin Road
+Exits: north, =east=, ~south~, =west=.
+
+*+ CW>south
+River Sirannon
+Exits: north, ~east~, south, ~west~.
+
+*~ CW Move:Tired>south
+Village Pasture
+A cow stands here, chewing her cud.
+Exits: ~north~, east, west.
+
+*. CW Move:Tired>east
+Riverbank of the Sirannon
+A clean fragrance drifts up from a thick clump of leaves.
+bush of INKBERRIES: Psylonia, Hemlock.
+Partly covered by the bush's green leaves, there are a few INKberries:
+Psylonia, Hemlock.
+Exits: ~north~, east, south, west.
+
+*. CW Move:Tired>east
+Well-tended Wetland
+Exits: ~north~, east, south, west.
+
+*. CW Move:Tired>east
+Beside the Decaying Hut
+Exits: ~north~, east, south, west.
+
+*. CW Move:Tired>east
+Riverbank of the Sirannon
+A fat rabbit is here, chewing on some grass.
+Exits: ~north~, east, south, west.
+
+*. CW Move:Tired>east
+Overgrown Track
+A large beautiful rose bush is blooming here.
+Deep inside the bush, there are two red roses with leaves and thorny
+stems.
+bush of INKBERRIES: Psylonia, Hemlock.
+Partly covered by the bush's green leaves, there are a few INKberries:
+Psylonia, Hemlock.
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+Exits: north, east, [south], west.
+
+*. CW Move:Tired>east
+Riverbank of the Sirannon
+A clean fragrance drifts up from a thick clump of leaves.
+Exits: ~north~, east, south, west.
+
+*. CW Move:Tired>bob
+cast n 'breath of b'
+You start to concentrate...
+
+An energy begins to flow within your legs as your body becomes
+lighter.
+
+*. CW Mana:Burning>east
+Near a Sandy Hill
+Exits: north, east, south, west.
+
+*. CW Mana:Burning>east
+Sandy Hill before a Hut
+A woody evergreen plant grows here, with many stems reaching upward.
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+A porcupine is waddling around here, its tail full of sharp quills.
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, south, west.
+
+*( CW Mana:Burning>east
+Hills South of the Cairn
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, south, west.
+
+*( CW Mana:Burning>east
+A grey wolf has arrived from the south.
+A grey wolf has arrived from the south.
+A brown wolf has arrived from the south.
+
+Northern Dunland Moors
+Exits: north, east, south, west.
+
+*( CW Mana:Burning>east
+Hills of Eregion
+A large beaver is here, gnawing on a piece of wood.
+Exits: north, east, south, west.
+You feel a hidden presence.
+
+*( CW Mana:Burning>east
+Wooded Valley
+A tall, stately, dome-topped tree grows here.
+On the plant, there are two green spiny capsules.
+A placid pond is here, inviting you to take a refreshing drink.
+Exits: north, east, south, west.
+
+*. CW Mana:Burning>east
+Grassland of Eregion
+A wild bull seems ready to charge you.
+Exits: north, east, south, west.
+
+*. CW Mana:Burning>east
+Sloping Grassland
+Exits: north, east, south, west.
+
+*. CW Mana:Burning>east
+Grasslands beside a Palisade
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+A wild bull seems ready to charge you.
+Exits: north, south, west.
+
+*. CW Mana:Burning>north
+east
+Grasslands
+A shallow pond is here, tinted green with algae.
+A bull stands here, calmly looking around.
+A well-fed cow stands here chewing her cud listlessly.
+A well-fed cow stands here chewing her cud listlessly.
+A well-fed cow stands here chewing her cud listlessly.
+A well-fed cow stands here chewing her cud listlessly.
+Exits: north, east, south, west.
+
+*. CW Mana:Burning>
+In Front of a Palisade
+Exits: north, east, [south], west.
+
+*. CW Mana:Burning>os
+open exit south
+Ok.
+
+*. CW Mana:Burning>sco s
+scout s
+You quietly scout southwards...
+
+Entrance to a Village
+A large dog curls his lips back and snarls.
+A swarthy Dunlending warrior is here, guarding his village against
+intruders.
+A sturdy pack horse is standing here.
+Exits/emulated: north, {south}, east, west.
+
+You stop scouting.
+
+*. CW Mana:Burning>alias ko cast n 'bli' &.man
+Ok.
+
+*. CW Mana:Burning>south
+ko 1
+Entrance to a Village
+A large dog curls his lips back and snarls.
+A swarthy Dunlending warrior is here, guarding his village against
+intruders.
+A sturdy pack horse is standing here.
+Exits: (north), [east], south, [west]. - e:corral w:grid.
+
+*# CW Mana:Burning>
+cast n 'bli' 1.man
+You start to concentrate...
+
+Ok.
+A Dunlending warrior   ___ b l i n d 
+
+*# CW Mana:Burning>pe
+pick exit east
+Using your lockpicks, you try to pick the lock...
+
+oe
+open exit east
+e
+The lock finally yields to your skill.
+
+*# CW Mana:Burning>
+Ok.
+
+*# CW Mana:Burning>
+Animal Pen
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+A brown donkey watches the surroundings, perhaps looking for a chance
+to graze.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+Exits: [east], (west).
+
+*. CW Mana:Burning>east
+The gate seems to be closed.
+
+*. CW Mana:Burning>bre
+cast n 'break d' exit e
+You start to concentrate...
+
+*. CW Mana:Burning>ow
+open exit west
+It's already open!
+
+*. CW Mana:Burning>oe
+open exit east
+It seems to be locked.
+
+*. CW Mana:Burning>pe
+pick exit east
+You seem to be unable to pick this lock.
+
+*. CW Mana:Burning>bre
+cast n 'break d' exit e
+You start to concentrate...
+
+The gate is filled with a bright light.
+
+*. CW Mana:Hot>east
+Private Corral
+get saddle;label 1.rohirrim pa;saddle 1.rohirrim;lead;ride pa
+A saddle lies here on the ground.
+A great dark-grey horse stamps restively.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+Exits: [east], #west#.
+
+*[ CW Mana:Hot>
+You get a leather saddle.
+
+*[ CW Mana:Hot>
+Ok.
+
+*[ CW Mana:Hot>
+You put a saddle on a horse of the Rohirrim (pa)'s back.
+
+*[ CW Mana:Hot>
+Lead what?
+
+*[ CW Mana:Hot>
+You pick up a horse of the Rohirrim (pa)'s reins and start riding him.
+
+*[ CRW Mana:Hot>west
+Animal Pen
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+A brown donkey watches the surroundings, perhaps looking for a chance
+to graze.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+Exits: #east#, (west).
+
+*. CRW Mana:Hot>west
+Entrance to a Village
+A large dog curls his lips back and snarls.
+A swarthy Dunlending warrior is here, guarding his village against
+intruders.
+A sturdy pack horse is standing here.
+Exits: (north), (east), south, [west]. - e:corral w:grid.
+
+*# CRW Mana:Hot>north
+Helfire narrates 'he has ow keys'
+
+*# CRW Mana:Hot>
+In Front of a Palisade
+Exits: north, east, (south), west.
+
+*. CRW Mana:Hot>cs
+close exit south
+Ok.
+
+*. CRW Mana:Hot>east
+Outskirts of a Village
+plant of TARRAGON: Travelling.
+A grey wolf is here, snarling aggressively.
+Exits: north, east, south, west.
+Note: Herb: tarragon
+
+*. CRW Mana:Hot>south
+Grasslands beside a Palisade
+Exits: north, east, south.
+
+*. CRW Mana:Hot>east
+Grasslands
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Plains of Hollin
+A goat is here, grazing in the hills.
+A boar cub is playing here, and exploring the wide world.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+east
+Plains of Hollin
+A large elk gazes coldly at you, chewing on a small branch.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Tall Grass
+Some cereals that look like wheat are lying here.
+eat cereals
+A wild bull seems ready to charge you.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Tall Grass in the Plains
+A wild bull seems ready to charge you.
+A tall stag is here, grazing peacefully.
+A fallow deer is grazing peacefully here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>south
+east
+You can't find a cereals.
+
+*. CRW Mana:Hot>
+Lush Grass
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+east
+Lush and Grassy Plains
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A fallow deer is grazing peacefully here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Vast Prairie
+The garden snake slithers harmlessly here.
+A robin is here, carrying small pieces of wood to its nest.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>
+A garden snake leaves <<<< W E S T <<<<
+
+The Vast Prairie
+Exits: north, east, south, west.
+Note: Herb: coneflower
+
+*. CRW Mana:Hot>
+Far into the Vast Prairie
+A beautiful and docile horse is standing here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>
+Plains by the Watering Hole
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+The Watering Hole
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Green Fertile Pasture
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>east
+Green Plains
+The garden snake slithers harmlessly here.
+A beautiful and docile horse is standing here.
+Exits: north, south, west.
+
+*. CRW Mana:Hot>north
+South of a Ridge
+The garden snake slithers harmlessly here.
+Exits: north, south, west.
+
+*. CRW Mana:Hot>west
+South of a Tall Ridge
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>south
+You ride down the ridge towards the wide plains.
+
+Green Fertile Pasture
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+The Watering Hole
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+Plains by the Watering Hole
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+Far into the Vast Prairie
+A beautiful and docile horse is standing here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+The Vast Prairie
+The garden snake slithers harmlessly here.
+Exits: north, east, south, west.
+Note: Herb: coneflower
+
+*. CRW Mana:Hot>west
+Vast Prairie
+A robin is here, carrying small pieces of wood to its nest.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+Lush and Grassy Plains
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A fallow deer is grazing peacefully here.
+The garden snake slithers harmlessly here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>west
+Tall Grass
+Exits: north, east, south, west.
+
+*. CRW Mana:Hot>xp
+look in 1.pack
+In your backpack (worn on back):
+an amethyst
+a polished white quartzite
+a lustrous opal
+an engraved warhammer
+a huge silvery bracer
+a flask of orkish draught
+fifteen man-like roots
+ten tickets
+a grey fluid-sack
+a black candle
+two sturdy ropes
+eleven handfuls of clover
+six handfuls of narrow leaves
+two broad silver belts
+a banded ring
+a lembas wafer
+eleven piles of leaves of THYME: Soothing, Clearthoughts_C
+a strange set of lock picks
+a nimble blade (flawless)
+a purple scroll
+an ivory scroll
+two golden topaz rings
+a black runed dagger (flawless)
+a blue scroll
+two softly glowing green cups
+eight clusters of berries of Juniper: Clearthoughts_A
+an unfinished band of gold
+a black scroll
+five piles of petals of MAUVE: Clearthoughts_D
+five piles of leaves of SAGE: Healing, Soothing, Clearthoughts_B
+a wooden pipe
+a silver goblet
+
+*. CRW Mana:Hot>g purple all
+You get a purple scroll from a leather backpack.
+
+*. CRW Mana:Hot>g hammer all
+You get an engraved warhammer from a leather backpack.
+
+*. CRW Mana:Burning>g banded all
+You get a banded ring from a leather backpack.
+
+*. CRW Mana:Burning>det
+cast n 'detect magic'
+You start to concentrate...
+
+You become sensitive of magical auras.
+
+*. CRW Mana:Hot>
+Mirasantika narrates 'he back to ow?'
+
+*. CRW Mana:Burning>g all.belt all
+You get a broad silver belt from a leather backpack.
+You get a broad silver belt from a leather backpack.
+
+*. CRW Mana:Burning>i
+You are carrying:
+a broad silver belt; it glows blue
+a broad silver belt; it glows blue
+a banded ring; it glows blue
+an engraved warhammer; it glows blue
+a purple scroll; it glows blue
+
+*. CRW Mana:Burning>na who is he?
+Ok.
+
+*. CRW Mana:Burning>west
+In the Tall Grass
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Plains of Hollin
+A beautiful and docile horse is standing here.
+A wild bull seems ready to charge you.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Plains of Hollin
+A large elk gazes coldly at you, chewing on a small branch.
+Exits: north, east, south, west.
+You feel a hidden presence.
+
+*. CRW Mana:Burning>west
+Plains of Hollin
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Grasslands
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>i
+You are carrying:
+a broad silver belt; it glows blue
+a broad silver belt; it glows blue
+a banded ring; it glows blue
+an engraved warhammer; it glows blue
+a purple scroll; it glows blue
+
+*. CRW Mana:Burning>west
+Behind the Village
+A wild bull seems ready to charge you.
+Exits: east, south, west.
+
+*. CRW Mana:Burning>south
+Grassy Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Grassy Plains of Hollin
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Sloping Grassland
+A wild bull seems ready to charge you.
+A Dunlending hunter is here, stalking his prey.
+Exits: north, east, south, west.
+A wild bull leaves vvvv S O U T H vvvv
+
+*. CRW Mana:Burning>west
+Hills of Eregion
+Exits: east, south, west.
+
+*. CRW Mana:Burning>south
+Sloping Hills of Eregion
+Exits: north, east, south, west.
+
+*( CRW Mana:Burning>south
+Grassy Plains
+Exits: north, east, south, ~west~.
+
+*. CRW Mana:Burning>south
+Ford in the River Glanduin
+Exits: north, ~east~, south, ~west~.
+
+*% CRW Mana:Burning>south
+Ruins of a Village
+Exits: north, east, -south-, -west-.
+
+*# CRW Mana:Burning>south
+Dunland Trail
+Exits: -north-, -south-, west.
+
+*. CRW Mana:Burning>south
+Dunlending Trail
+Exits: -north-, east, south, -west-.
+
+*. CRW Mana:Burning>south
+Dunland Plains
+A woodpecker is here, tapping on a tree.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Dunland Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+west
+Dunland Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Dunland Plains
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Dunland Plains
+A fallow deer is grazing peacefully here.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>west
+Sloping Plain
+A black crow flies low to the ground here, looking for carrion to eat.
+Exits: north, east, west.
+
+*. CRW Mana:Burning>
+Dunland Trail
+A grey wolf is here, salivating profusely.
+Exits: -north-, east, south, -west-.
+
+*. CRW Mana:Burning>cti
+Time: 5:44 pm. Dawn: 7 am (13m16s). Dusk: 8 pm (2m16s). Spring 2
+A black crow has arrived from the east.
+
+*. CRW Mana:Burning>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+      Helfire ~ Elf on Fire
+      Ashelia
+
+6 allies on.
+
+*. CRW Mana:Burning>west
+south
+Dunland Trail
+A fallow deer is grazing peacefully here.
+A cute rabbit is here.
+Exits: north, -east-, -south-, west.
+
+*. CRW Mana:Burning>west
+south
+Train beside Some Crumbling Huts
+Exits: -north-, east, -west-.
+
+*( CRW Mana:Burning>south
+south
+Crossing in the Trail
+Exits: north, -east-, -south-, -west-.
+
+*( CRW Mana:Burning>south
+Trail Entering the Hills
+Exits: -north-, -south-, west, down.
+
+*( CRW Mana:Burning>south
+south
+Dunland Trail
+Exits: -north-, east, -south-, west.
+
+*. CRW Mana:Burning>south
+Dunland Trail
+Exits: -north-, east, -south-, west.
+
+*. CRW Mana:Burning>south
+Dunland Trail
+A swallow flies high above the ground.
+Exits: -north-, east, -south-, west.
+
+*. CRW Mana:Burning>
+The trail winds up to some hilltop ruins
+
+Ruins of a Dunlending Settlement
+A mass of dark green leaves clings to a wall.
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: -north-, -east-, -south-, -west-.
+Note: WordOfRecall: whitie
+
+*. CRW Mana:Burning>
+Trail below the Hill
+Exits: -north-, east, -south-, west.
+
+*. CRW Mana:Burning>
+Small Path through the Plains
+Exits: -north-, -south-, west.
+
+*. CRW Mana:Burning>
+Small Dunlending Trail
+Exits: -north-, -east-, south, west.
+
+*. CRW Mana:Burning>east
+Trail along the Brush
+Exits: east, -south-, -west-.
+
+*. CRW Mana:Burning>south
+south
+Worn Trail
+A fallow deer is grazing peacefully here.
+Exits: -north-, east, -south-, west.
+
+*. CRW Mana:Burning>south
+south
+A Natural Bridge over a Fissure
+Exits: -north-, -south-.
+
+*. CRW Mana:Burning>west
+Three Way Crossing
+A rabbit is here eyeing your presence warily.
+Exits: -north-, -east-, -south-, west.
+
+*. CRW Mana:Burning>west
+west
+Path by the Wall
+Exits: -north-, ~south~, -west-.
+
+*. CRW Mana:Burning>west
+Worn Path
+Exits: north, -east-, ~south~, -west-.
+
+*. CRW Mana:Burning>west
+Worn Path through the Fields
+Exits: north, -east-, ~south~, -west-.
+
+*. CRW Mana:Burning>west
+Worn Path by the River
+Exits: north, -east-, ~south~, -west-.
+
+*. CRW Mana:Burning>
+Riverside Path
+Exits: ~north~, -east-, ~south~, -west-.
+
+*. CRW Mana:Burning>
+Small Stone Bridge over the Brook
+Exits: ~north~, -east-, ~south~, -west-.
+
+*. CRW Mana:Burning>
+Well Worn Path
+A boar cub is playing here, and exploring the wide world.
+Exits: north, -east-, -south-.
+
+*. CRW Mana:Burning>south
+south
+A Shallow Ford
+Clusters of slender stems and tall leaves thrive in the mud and
+shallows.
+Exits: -north-, ~east~, -south-.
+Thin white clouds with some hints of yellow trace the sky above the
+shallows.
+
+*%~ CRW Mana:Burning>south
+An Overgrown Trail
+A porcupine is waddling around here, its tail full of sharp quills.
+A rabbit is here eyeing your presence warily.
+Exits: -north-, east, -south-.
+
+*f~ CRW Mana:Burning>east
+south
+Turn in the Trail
+Exits: -north-, -east-, south.
+
+*f~ CRW Mana:Burning>east
+Trail by an Old Cabin
+A brown fox is here, looking for some rabbits to chew up.
+Exits: [east], -south-, -west-.
+
+*f~ CRW Mana:Burning>east
+Bend in the Trail
+Exits: -north-, -east-, south, west.
+
+*f~ CRW Mana:Burning>east
+Fading Trail
+A rabbit is here eyeing your presence warily.
+Exits: -east-, -west-.
+
+*f~ CRW Mana:Burning>south
+south
+Disappearing Trail
+Exits: -east-, south, -west-.
+
+*f~ CRW Mana:Burning>
+At a Corner in the Forest
+A huge, black wolf is here, ready to devour.
+Exits: -south-, -west-. - e:briars.
+
+*f~ CRW Mana:Burning>south
+south
+Slope in the Trail
+Exits: -north-, east, -south-, west.
+
+*f~ CRW Mana:Burning>south
+Path through the Trees
+A Dunlending forester is here gazing up at the tree tops.
+Exits: -north-, east, -south-, west.
+
+*f~ CRW Mana:Burning>
+Bend in the Trail
+Exits: -north-, -east-, south, -west-.
+
+*f~ CRW Mana:Burning>
+Beside the Trail
+A tall stag is here, grazing peacefully.
+A roe deer is standing here, watching the terrain while chewing the
+vegetation.
+Exits: north, east, south.
+
+*f~ CRW Mana:Burning>
+Along a High Palisade
+A rabbit is here eyeing your presence warily.
+Exits: north, west.
+
+*f~ CRW Mana:Burning>west
+south
+Forest Bushes
+A fierce boar is here, making grunting noises.
+A boar cub is playing here, and exploring the wide world.
+A boar cub is playing here, and exploring the wide world.
+Exits: east, south. - w:den.
+
+*f~ CRW Mana:Burning>west
+Light Forest
+Exits: north, east, south, west.
+
+*f~ CRW Mana:Burning>west
+Cluster of Tracks
+Exits: east, ~south~, west. - n:bushes.
+
+*f~ CRW Mana:Burning>west
+Tracks in the Trees
+A gigantic weasel glares at you.
+A gigantic weasel glares at you.
+Exits: east, ~south~, west.
+
+*f~ CRW Mana:Burning>south
+Forest Trail
+A Dunlending forester is here gazing up at the tree tops.
+Exits: -north-, east, -south-.
+You feel a hidden presence.
+
+*f~ CRW Mana:Burning>south
+Ford at a Forest Trail
+Exits: -north-, ~east~, -south-.
+
+*%~ CRW Mana:Burning>
+Trail by a Ruined Tower
+Exits: -north-, -south-.
+
+*.~ CRW Mana:Burning>south
+Bend in the Trail
+Exits: -north-, -east-, south.
+
+*.~ CRW Mana:Burning>east
+Crossing in the Trail
+Exits: [north], -east-, -south-, -west-.
+
+*.~ CRW Mana:Burning>south
+south
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+*.~ CRW Mana:Burning>south
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+*.~ CRW Mana:Burning>south
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+*.~ CRW Mana:Burning>i
+Bend in the Stale Trail
+Exits: -north-, -east-, south, west.
+
+*.~ CRW Mana:Burning>
+You are carrying:
+a broad silver belt; it glows blue
+a broad silver belt; it glows blue
+a banded ring; it glows blue
+an engraved warhammer; it glows blue
+a purple scroll; it glows blue
+
+*.~ CRW Mana:Burning>south
+Old Campsite
+Exits: north, east, south, west.
+
+*.~ CRW>south
+Smooth Plains
+Some cereals that look like wheat are lying here.
+eat cereals
+Exits: north, east, south, west.
+
+*.~ CRW>east
+You eat the cereals.
+
+*.~ CRW>south
+Trail along the Plains
+Exits: -north-, ~east~, -south-, west.
+
+*.~ CRW>south
+Trail along the Plains
+A wild bull seems ready to charge you.
+Exits: -north-, ~east~, south, west.
+
+*.~ CRW>south
+A Small Trail
+Exits: north, east, south, west.
+The clouds begin to disappear.
+
+*. CRW>south
+Wide Plains Bordering Thick Brushwood
+Exits: north, east, south, west.
+
+*. CRW>south
+Fields Bordering the Wilderness
+Exits: north, east, south, west.
+
+*. CRW>south
+south
+Barren Fields
+Exits: north, east, south, west.
+
+*. CRW>south
+Crossing West of a Guardpost
+Exits: north, -east-, -south-, -west-.
+
+*. CRW>west
+south
+Trail South of a Crossing
+Exits: -north-, east, -south-, west.
+
+*. CRW>south
+Traversing Trail across the Plains
+Exits: -north-, -west-.
+
+*. CRW>south
+south
+Traversing Trail across the Plains
+Exits: north, -east-, -south-, west.
+
+*. CRW>south
+Trail Stretching across the Wide Plains
+Exits: -north-, -south-, west.
+
+*. CRW>south
+Swiftly Bending Trail
+Exits: -north-, east, south, -west-.
+
+*. CRW>south
+Gravelly Field
+Exits: north, east, south, west.
+
+*. CRW>north
+Short Sparse Grasslands
+A large elk is standing here, chewing grass and leaves.
+A large elk gazes coldly at you, chewing on a small branch.
+Exits: north, east, south, west.
+
+*. CRW>east
+Fading Remains of a Road
+Exits: north, east, -south-, -west-.
+
+*. CRW>east
+Fading Remains of a Road
+Exits: -north-, east, -south-, west.
+
+*. CRW>
+Remains of a Road
+Exits: -north-, -east-, south, west.
+
+*. CRW>
+Fading Remains of a Road
+Exits: -north-, east, -south-, west.
+
+*. CRW>east
+Grassy Plains
+Exits: north, east, south, west.
+
+*. CRW>east
+east
+Verdant Flatlands
+Exits: north, east, south, west.
+
+*. CRW>east
+east
+east
+Vast Prairie
+A brown furry gopher is here, ready to dive back underground.
+Exits: north, east, south, west.
+
+*. CRW>
+Endless Prairie
+Exits: north, east, south, west.
+
+*. CRW>
+Everlasting Prairie
+Exits: north, east, west.
+
+*. CRW>
+End of the Prairie
+A young colt is frolicking playfully.
+A young filly is just learning to walk.
+A wild mare is watching you warily.
+A wild mare is watching you warily.
+Exits: north, east, south, west.
+
+*. CRW>
+Rocky Flats
+Exits: east, south, west, up.
+
+*. CRW>south
+Below a Rocky Cliff
+Exits: south, west, /up\.
+
+*. CRW>south
+At an Abandoned Farmhouse
+Exits: north, south, west.
+
+*. CRW>south
+An Apple Grove
+An apple tree with bright green leaves grows here.
+On the tree's branches is an apple.
+There is a red, delicious-looking apple here.
+Exits: north, south, west.
+
+*. CRW>south
+A Crop Field
+You see three carrots on the ground.
+On the ground, there are three potatoes.
+On the ground, there are two piles of wild strawberries.
+A black-haired farmhand is here.
+Exits: north, south, west.
+
+*. CRW>south
+south
+Fields of Hay, Barley and Oats
+A large mother hawk is here looking for a prey to feed her young.
+Exits: north, south.
+
+*. CRW>south
+Grazing Land
+A black-haired farmhand is here.
+A beautiful and docile horse is standing here.
+A sturdy pack horse is standing here.
+Exits: north, south, [west].
+
+*. CRW>south
+Abandoned Fields
+A black and white skunk is scuttling about here, searching for food.
+Exits: north, south, west.
+
+*. CRW>
+An Elevated Point in the Plains
+Exits: north, south, west.
+
+*. CRW>south
+Crumbling Remains of the South Road
+Exits: north, east, -south-, -west-.
+
+*. CRW>east
+Long-Broken Remnants of a Road
+Exits: -north-, -east-, south, west.
+
+*. CRW>south
+east
+Great South Road
+Exits: north, east, =south=, -west-.
+
+*+ CRW>east
+Bend in the Great South Road
+Exits: =north=, =east=, -south-, west.
+
+*+ CRW>east
+Great South Road
+Exits: north, =east=, =west=.
+
+*+ CRW>north
+Remains of a Road
+Exits: north, =east=, =west=.
+
+*+ CRW>
+Great South Road
+Exits: north, =east=, =west=.
+
+*+ CRW>
+A Rock by the Road
+Exits: north, east, south, west.
+
+*. CRW>west
+A Field of Straw
+Exits: north, east, south, west.
+
+*. CRW>north
+east
+Wild Eorna Field
+A young colt is frolicking playfully.
+A wild mare is watching you warily.
+Exits: east, south, west.
+A raccoon has arrived from the east.
+
+*. CRW>
+Rocky Footing
+Exits: east, south, west.
+
+*. CRW>east
+Stony Ground
+Exits: east, south, west.
+
+*. CRW>east
+Barren Flatland
+Exits: east, south, west.
+
+*. CRW>south
+Desolate Plains
+Exits: north, east, south, west.
+
+*. CRW>south
+east
+A Curving Decrepit Road
+Exits: north, east, =south=, =west=.
+
+*+ CRW>north
+A Small Hill
+Exits: north, east, south, west.
+
+*. CRW>east
+Flowing Grasses
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: north, east, south, west.
+
+*. CRW>
+Lush Greenery
+Exits: north, east, south, west.
+
+*. CRW>tr
+You carefully examine the ground around you, looking for tracks...
+
+Your legs feel heavier.
+The spell lasted 2m55s.
+
+You see:
+   - a faint track of a large rabbit leading west done less than 1
+hour ago
+   - a faint track of a Dunlending huntsman leading east done less
+than 4 hours ago
+
+north
+You stop searching, you don't seem to find anything else.
+
+*. CRW>
+A Rabbit Patch
+Exits: east, south, west.
+
+*. CRW>east
+Trampled Grass
+Exits: east, south, west.
+
+*. CRW>east
+Western Plains
+Exits: east, south, west.
+
+*. CRW>east
+Western Plains
+Prickly, white-stemmed plants, with blue flower heads grow in
+abundance.
+A Rohir cavalier stands vigilant, ready for battle.
+A small black cricket is here, chirping loudly.
+A small black cricket is here, chirping loudly.
+Exits: north, east, south, west.
+
+*. CRW>east
+Western Plains
+A badger is here, exploring for food.
+Exits: north, east, south, west.
+
+*. CRW>south
+Western Plains
+Yellow flowers, with grey-green foliage, grow in clusters here.
+Exits: north, east, south, west.
+You feel a hidden presence.
+
+*. CRW>west
+Western Plains
+Exits: north, east, south, west.
+
+*. CRW>west
+Western Plains
+Exits: north, east, south, west.
+
+*. CRW>west
+A Natural Dais
+A Dunlending huntsman is here.
+A furry, striped raccoon is here, nosing around for some berries or
+roots.
+Exits: north, east, south, west.
+You feel a hidden presence.
+
+*. CRW>west
+Lush Greenery
+Exits: north, east, south, west.
+
+*. CRW>west
+Flowing Grasses
+Exits: north, east, south, west.
+
+*. CRW>west
+Desolate Plains
+Exits: north, east, south, west.
+
+*. CRW>west
+A Dry Water Hole
+Exits: north, east, south, west.
+
+*. CRW>west
+west
+A Rock by the Road
+Exits: north, east, south, west.
+
+*. CRW>west
+A Field of Straw
+Exits: north, east, south, west.
+
+*. CRW>west
+Plains by the Road
+A furry, striped raccoon is here, nosing around for some berries or
+roots.
+Exits: north, east, south, west.
+
+*. CRW>
+Great South Road
+Exits: north, east, =south=, -west-.
+
+*+ CRW>south
+Bend in the Great South Road
+Exits: =north=, =east=, -south-, west.
+
+*+ CRW>east
+Great South Road
+Exits: north, =east=, =west=.
+
+*+ CRW>east
+east
+Remains of a Road
+Exits: north, =east=, =west=.
+
+*+ CRW>east
+Great South Road
+Exits: north, =east=, =west=.
+
+*+ CRW>east
+Great South Road
+Exits: north, =east=, =west=.
+
+*+ CRW>east
+A Curving Decrepit Road
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: north, east, =south=, =west=.
+
+*+ CRW>east
+A Small Hill
+Exits: north, east, south, west.
+
+*. CRW>east
+At a Slope
+Exits: north, east, south, west.
+
+*. CRW>east
+Plains by a Road
+A blue dragonfly is circling around.
+Exits: north, east, south, west.
+
+*. CRW>east
+Dry Grassy Plains
+Exits: north, east, south, west.
+
+*. CRW>east
+Grassy Plains
+Exits: north, east, south, west.
+
+*. CRW>east
+Pebbled Field
+Yellow flowers, with grey-green foliage, grow in clusters here.
+Exits: north, east, south, west.
+You feel a hidden presence.
+
+*. CRW>
+The moon's shimmering form begins its journey across the sky.
+
+south
+Trampled Plains
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A small black cricket is here, chirping loudly.
+A tiny firefly flits around the foliage.
+A tiny firefly flits around the foliage.
+A tiny firefly flits around the foliage.
+Exits: north, east, south, west.
+
+*. CRW>
+Great South Road
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, =east=, =south=, =west=.
+
+*+ CRW>north
+Trampled Plains
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A small black cricket is here, chirping loudly.
+A tiny firefly flits around the foliage.
+A tiny firefly flits around the foliage.
+A tiny firefly flits around the foliage.
+Exits: north, east, south, west.
+
+*. CRW>east
+Road to Isengard
+A colourful butterfly is fluttering around here.
+Exits: =north=, east, =south=, west.
+
+*+ CRW>south
+Road to Isengard
+Exits: =north=, east, =south=, =west=.
+
+*+ CRW>west
+Great South Road
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, =east=, =south=, =west=.
+
+*+ CRW>west
+Great South Road
+A tiny firefly flits around the foliage.
+Exits: north, =east=, south, =west=.
+
+*+ CRW>west
+Great South Road
+A tiny firefly flits around the foliage.
+Exits: north, =east=, south, =west=.
+
+*+ CRW>south
+A firefly leaves >>>> E A S T >>>>
+
+Rough Brush
+Exits: north, east, south, west.
+
+*: CRW>south
+Gap of Rohan
+A field lark stands here, focused on finding food.
+Exits: north, east, south, west.
+
+*. CRW>south
+Widespread Plains
+A tiny firefly flits around the foliage.
+A field lark stands here, focused on finding food.
+Exits: north, east, south, west.
+
+*. CRW>south
+Western Bank
+A field lark stands here, focused on finding food.
+Exits: north, east, south, west.
+
+*. CRW>south
+Steep Western Bank
+Exits: north, ~\east/~, ~\south/~, west.
+
+*. CRW>west
+An Ancient Oxbow
+Exits: north, east, south, west.
+
+*. CRW>south
+A Strange Monolith
+A stocky mountain mule is here, waiting to serve.
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: north, ~\east/~, west.
+
+*. CRW>west
+Grassy Plains
+Exits: north, east, west.
+
+*. CRW>north
+Grazed Pasture
+A blue dragonfly is circling around.
+Exits: north, east, south, west.
+
+*. CRW>north
+Wildflower Meadow
+Exits: north, east, south, west.
+
+*. CRW>north
+north
+Dried-out Plains
+A brown cow is here, contemplating a higher reality whilst chewing
+slowly.
+A brown cow is here, contemplating a higher reality whilst chewing
+slowly.
+Exits: north, east, south, west.
+
+*. CRW>
+A Bloody Field
+The burnt and blackened skeletal remains of a human are here.
+Exits: north, east, south, west.
+
+*. CRW>north
+A Ring of Spears
+Exits: north, east, south, west. - d:mound.
+
+*. CRW>west
+Flattened Grasses
+A goat is here, grazing in the hills.
+Exits: north, east, south, west.
+
+*. CRW>south
+Weeds and Orchids
+An orchid of light violet petals blossoms nearby.
+Exits: north, east, south, west.
+
+*. CRW>south
+Parched Earth
+Exits: north, east, south, west.
+
+*. CRW>re
+You sit down and rest your tired bones.
+
+*. CRW>sa
+Yes, but WHAT do you want to say?
+
+*. CRW>sta
+You stop resting and stand up.
+
+*. CRW>tr
+You carefully examine the ground around you, looking for tracks...
+
+south
+You see:
+   - a faint track of a brown fox leading north done less than 2 hours
+ago
+
+south
+You stop searching, you don't seem to find anything else.
+
+*. CRW>
+Dried Grasses
+A goat is here, grazing in the hills.
+A young goat playfully charges and hops away.
+A young goat playfully charges and hops away.
+Exits: north, east, south, west.
+
+*. CRW>
+A Sward of Anthills
+plant of THYME: Clearthoughts, Soothing.
+A colony of red ants is here. The ants seem to ignore you.
+Exits: north, east, south, west.
+Note: Herb: thyme
+
+*. CRW>south
+An Ancient Meadow
+Exits: north, east, west.
+
+*. CRW>west
+A Field of Dandelions
+Exits: north, east, west.
+
+*. CRW>north
+Short Grasses
+Exits: north, east, south, west.
+
+*. CRW>north
+Heather Grassland
+Exits: north, east, south, west.
+
+*. CRW>north
+Fired Earth
+A wild bull seems ready to charge you.
+Exits: north, east, south, west.
+
+*. CRW>west
+north
+A Dry Pond
+A goat is here, grazing in the hills.
+Exits: north, east, south, west.
+
+*. CRW>north
+Ruins of a Stable
+Exits: north, east, south, west.
+
+*. CRW>west
+At a Ruined Waystation
+Exits: (north), south, west. - d:brokentrap.
+
+*. CRW>
+An Overgrown Path
+Exits: north, east, south, west.
+
+*. CRW>north
+Weeds and Wildflowers
+A bee flies around here, collecting nectar from the flowers.
+A drone bee flies around here, angrily buzzing.
+A bee flies around here, collecting nectar from the flowers.
+A bee flies around here, collecting nectar from the flowers.
+Exits: south, west.
+
+*. CRW>west
+Wild Meadows
+Exits: east, south, west.
+
+*. CRW Move:Tired>south
+An Overgrown Garden
+A woody evergreen plant grows here, with many stems reaching upward.
+Exits: north, east, south, west.
+Note: Herb: rosemary
+
+*. CRW Move:Tired>south
+Disturbed Ground
+Exits: north, east, south, west.
+
+*. CRW Move:Tired>south
+A Faint Trail
+Exits: north, east, -south-, west.
+
+*. CRW Move:Tired>south
+A Hunting Trail
+A wild bull seems ready to charge you.
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: -north-, east, south, -west-.
+A wild bull leaves >>>> E A S T >>>>
+
+*. CRW Move:Tired>south
+Hawthorn Scrub
+Exits: north, east, south, west.
+
+*. CRW Move:Tired>south
+An Abandoned Wagon
+Exits: north, east, west. - d:wagon.
+
+*. CRW Move:Tired>west
+A Muddy Watering Hole
+A pig is here, covered in mud.
+Exits: -north-, east, -west-.
+
+*. CRW Move:Tired>north
+Rear of a Palisade
+Exits: -north-, east, -south-, [west].
+
+*. CRW Move:Tired>north
+A Hunting Trail
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, -east-, -south-, -west-.
+
+*. CRW Move:Tired>north
+Well Grazed Grassland
+Exits: north, east, south, west.
+
+*. CRW Move:Tired>tr
+You carefully examine the ground around you, looking for tracks...
+
+You see:
+   - a clear track of a wild bull leading north done less than 1 hour
+ago
+
+bob
+cast n 'breath of b'
+   - a faint track of a raccoon leading south done less than 1 hour
+ago
+   - a faint track of a wild bull leading west done less than 6 hours
+ago
+
+You stop searching, you don't seem to find anything else.
+
+*. CRW Move:Tired>
+You start to concentrate...
+
+east
+east
+An energy begins to flow within your legs as your body becomes
+lighter.
+
+*. CRW Mana:Burning>
+A Faint Trail
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, -south-, west.
+
+*. CRW Mana:Burning>east
+Scraggly Heathland
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+A Dry Pond
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+east
+Fired Earth
+A wild bull seems ready to charge you.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Parched Earth
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Dried-out Plains
+A brown cow is here, contemplating a higher reality whilst chewing
+slowly.
+A brown cow is here, contemplating a higher reality whilst chewing
+slowly.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Overlooking the Gap of Rohan
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Widespread Plains
+A field lark stands here, focused on finding food.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Slight Depression
+A field lark stands here, focused on finding food.
+A tiny firefly flits around the foliage.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Boxed-in Plains
+Exits: north, east, south, west.
+Note: WordOfRecall: whitie
+
+*. CRW Mana:Burning>
+Boxed-in Plains
+An orchid of light violet petals blossoms nearby.
+Exits: north, ~\east/~, ~\south/~, west.
+
+*. CRW Mana:Burning>
+You cannot ride there.
+
+*. CRW Mana:Burning>north
+Road at the West Bank
+Exits: =north=, east, south, west.
+
+*+ CRW Mana:Burning>east
+You cannot ride there.
+
+*+ CRW Mana:Burning>east
+You cannot ride there.
+
+*+ CRW Mana:Burning>lead pa
+You stop riding a horse of the Rohirrim (pa).
+A horse of the Rohirrim (pa) starts following you.
+
+*+ CW Mana:Burning>east
+Fording the Isen
+A salmon swims here.
+A bass swims here.
+A trout swims here.
+A brook trout is here, swimming in the current.
+A colourful butterfly is fluttering around here.
+Exits: ~north~, east, ~south~, west.
+A horse of the Rohirrim (pa) has arrived from the west.
+
+*% CW Mana:Burning>east
+Eyot in the Isen
+A foot-soldier of Rohan is here.
+A foot-soldier of Rohan is here.
+An elite Rohir knight appears alert.
+An elite Rohir knight appears alert.
+Haldin, a Rohir field marshal, is here.
+Exits: (north), east, (south), west.
+A horse of the Rohirrim (pa) has arrived from the west.
+
+*+ CW Mana:Burning>east
+Fording the Isen
+A Rohir marksman surveys the landscape, targeting would-be
+adversaries.
+A foot-soldier of Rohan is here.
+A bass swims here.
+A trout swims here.
+A salmon swims here.
+A brook trout is here, swimming in the current.
+Exits: ~north~, east, ~south~, west. - n:(oneway).
+A horse of the Rohirrim (pa) has arrived from the west.
+
+*% CW Mana:Burning>east
+Road at the East Bank
+Exits: ~\north/~, east, =south=, west.
+A horse of the Rohirrim (pa) has arrived from the west.
+
+*+ CW Mana:Burning>
+As the red sun dips beyond the horizon, a warm glow bathes the land.
+
+*+ CW Mana:Burning>ride pa
+A horse of the Rohirrim (pa) stops following you.
+You pick up a horse of the Rohirrim (pa)'s reins and start riding him.
+
+*+ CRW Mana:Burning>east
+At a Rohirrim Camp
+A sturdy target for arrows, made out of thatch, stands here.
+A weapons rack stands against the wall.
+In the rack is a longspear.
+A stout Rohir lieutenant is here.
+An archer of the Mark is here.
+A Rohir marksman surveys the landscape, targeting would-be
+adversaries.
+A foot-soldier of Rohan is here.
+A tiny firefly flits around the foliage.
+Exits: [north], [east], south, west.
+
+*. CRW Mana:Burning>south
+The West Road
+Exits: north, east, =south=, =west=.
+
+*+ CRW Mana:Burning>east
+Verdant Plains
+A tiny firefly flits around the foliage.
+Exits: north, east, south, west.
+A grasshopper has arrived from the south.
+
+*. CRW Mana:Burning>north
+Rolling Plains
+You see two piles of wild strawberries on the ground.
+Exits: north, east, south.
+
+*. CRW Mana:Burning>north
+Eastern Trail
+Exits: -north-, east, south, -west-.
+
+*. CRW Mana:Burning>north
+Eastern Trail
+A small black cricket is here, chirping loudly.
+Exits: north, -east-, -south-, west.
+
+*. CRW Mana:Burning>east
+Eastern Trail
+Exits: -north-, east, south, -west-.
+
+*. CRW Mana:Burning>north
+Eastern Trail
+Exits: north, -east-, -south-, west.
+
+*. CRW Mana:Burning>north
+Fields of Calenardhon
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Western Plains
+There are two piles of wild strawberries here.
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>east
+Rolling Meads
+There are two prickly plants with blue flower heads here.
+Exits: north, south, west.
+
+*. CRW Mana:Burning>north
+Plains of Rohan
+A lone hawk soars high above you.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>tr
+You carefully examine the ground around you, looking for tracks...
+
+You see:
+   - a faint track of a pack horse leading south done less than 7
+hours ago
+   - a faint track of a pack horse leading north done less than 9
+hours ago
+
+You stop searching, you don't seem to find anything else.
+
+*. CRW Mana:Burning>east
+Amidst the Wild Wheat
+Exits: north, east, west.
+
+*. CRW Mana:Burning>north
+Grassy Mead beside the Ridge
+A fierce boar is here, making grunting noises.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Lush Fields
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Rocky Mead
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Flourishing Grassland near the Outcroppings
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Secluded Glen beside the Trail
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Meandering Path
+Exits: -north-, -east-, south, west.
+
+*. CRW Mana:Burning>north
+Well-trodden Pathway through the Grasslands
+A field mouse noses about hungrily, searching for food.
+A colourful butterfly is fluttering around here.
+Exits: north, east, -south-, west.
+
+*. CRW Mana:Burning>north
+Sunken Plains beside the Foothills
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Withered Grassland
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A fierce boar is here, making grunting noises.
+Exits: east, south, west.
+
+*. CRW Mana:Burning>east
+Rising Steppes
+Some small rocks have been piled into a mound here.
+Exits: east, south, west.
+Note: In the rocks (here):
+a torch
+
+*( CRW Mana:Burning>south
+Jagged Plains beside the Foothills
+A snake slithers towards you.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Atop the Rolling Prairie
+A field mouse noses about hungrily, searching for food.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Twisting Trail through the Plains
+A snake slithers towards you.
+Exits: north, east, -south-, -west-.
+
+*. CRW Mana:Burning>south
+Bumpy Trail over the Prairie
+Exits: -north-, -east-, south, west.
+
+*. CRW Mana:Burning>south
+Bush-laden Plains
+A sharp-eyed hawk is here stalking some prey.
+Exits: north, east, south, west.
+
+*: CRW Mana:Burning>south
+Leafy, Fragrant Countryside
+An opossum stands here, sniffing around the ground.
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Untamed Wildflower Fields
+A field mouse noses about hungrily, searching for food.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Among Deep Grasses
+A fierce boar is here, making grunting noises.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>south
+Grey-green Mead
+Exits: north, east, west.
+
+*. CRW Mana:Burning>east
+Entrance to Derelict Village
+Exits: north, east, west.
+
+*. CRW Mana:Burning>north
+north
+Rich Countryside
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Treeless Dip on the Prairie
+A small campfire burns here, its low flames giving off only a little
+light.
+Exits: north, east, south, west.
+
+*. CRW Mana:Burning>north
+Shrub-covered Fields
+Exits: north, east, south, west.
+
+*. CRW>
+A Meager Copse
+A colossal tree, its trunk as wide as a small cottage, stands here.
+Exits: north, east, south, west.
+
+*. CRW>south
+south
+Shrub-covered Fields
+Exits: north, east, south, west.
+
+*. CRW>
+Treeless Dip on the Prairie
+A small campfire burns here, its low flames giving off only a little
+light.
+Exits: north, east, south, west.
+
+*. CRW>tr ols
+You carefully examine the ground around you, looking for tracks...
+
+You stop searching.
+
+*. CRW>tr ols
+You carefully examine the ground around you, looking for tracks...
+
+You stop searching.
+
+*. CRW>tr old
+You carefully examine the ground around you, looking for tracks...
+
+Hmm... It seems there is no sign of Old here.
+
+*. CRW>north
+Shrub-covered Fields
+Exits: north, east, south, west.
+
+*. CRW>north
+A Meager Copse
+A colossal tree, its trunk as wide as a small cottage, stands here.
+Exits: north, east, south, west.
+
+*. CRW>north
+Vegetation-cloaked Trail
+Exits: north, -east-, south, -west-.
+
+*. CRW>north
+Gently Sloping Flatlands
+Exits: north, east, south, west.
+
+*. CRW>north
+Tangled Thistles on the Prairie
+Prickly, white-stemmed plants, with blue flower heads grow in
+abundance.
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: north, east, south, west.
+
+*. CRW>north
+Emaciated Grassland along the Rise
+Exits: east, south, west, up.
+
+*. CRW>west
+north
+Jagged Plains beside the Foothills
+A snake slithers towards you.
+Exits: north, east, south, west.
+
+*. CRW>
+Rising Steppes
+Some small rocks have been piled into a mound here.
+A fierce boar is here, making grunting noises.
+Exits: east, south, west.
+Note: In the rocks (here):
+a torch
+
+*( CRW>east
+You ride slowly up the small incline.
+
+Crest in the Hills
+Exits: east, west, down.
+
+*( CRW>east
+Your mount carefully traverses the rocky incline.
+
+Foreboding Hillside
+Exits: east, south, west.
+Mirasantika narrates 'troll near caravan'
+
+*( CRW>south
+Amid the Tapering Knolls
+A field mouse noses about hungrily, searching for food.
+Exits: north, east, south, west.
+
+*. CRW>south
+Among Thriving Grasses
+Exits: north, east, south, west.
+
+*. CRW>south
+Green Flowing Grassland
+A gigantic weasel glares at you.
+A furry, striped raccoon is here, nosing around for some berries or
+roots.
+Exits: north, east, south, west.
+
+*. CRW>south
+Zig-zagging Path through the Plains
+A large mother hawk is here looking for a prey to feed her young.
+Exits: north, east, -south-, -west-.
+
+*. CRW>south
+Winding Trail
+Exits: -north-, -east-, south, west.
+
+*. CRW>south
+You carefully manoeuvre your mount down gradient and make sure to
+avoid the most hazardous pebbles.
+
+Pebbled Incline beside the Road
+Exits: north, east, south, west.
+
+*. CRW>south
+Withered Plains
+Exits: north, east, south, west.
+
+*. CRW>east
+Luxuriant Grasses
+Exits: north, east, south, west.
+
+*. CRW>west
+south
+Withered Plains
+Exits: north, east, south, west.
+
+*. CRW>
+Helfire narrates 'roger that'
+
+east
+Near the Decrepit Quarters
+Exits: north, east, south, west.
+
+*. CRW>
+Thinning Grasslands
+Exits: north, east, south, west.
+
+*. CRW>north
+You continue onward into the profuse grassland.
+
+Luxuriant Grasses
+Exits: north, east, south, west.
+
+*. CRW>north
+Bountiful Plains
+A junebug buzzes slowly through the air.
+Exits: north, east, south, west.
+
+*. CRW>north
+The night has begun.
+
+!. CRW>
+Straight Trail through the Prairie
+Exits: north, -east-, south, -west-.
+
+!. CRW>north
+Fields of Clover
+A small cluster of clover grows here.
+A swarm of hornets is coming out of its nest.
+Exits: north, east, south, west.
+Note: Herb: clover
+
+!. CRW>north
+Pleasant Grassland
+A brown furry gopher is here, ready to dive back underground.
+Exits: north, east, south, west.
+
+!. CRW>north
+Tall Fertile Grass
+A snake slithers towards you.
+Exits: north, east, south, west.
+A slithering snake leaves vvvv S O U T H vvvv
+
+!. CRW>north
+Surrounded by Wildflowers
+A small campfire burns here, its low flames giving off only a little
+light.
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+Exits: north, east, south, west.
+
+!. CRW>north
+Gaunt Grass Adjoining the Ridge
+Exits: east, south, west.
+Note: Herb: milkweed
+
+!. CRW>south
+Surrounded by Wildflowers
+A small campfire burns here, its low flames giving off only a little
+light.
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+Exits: north, east, south, west.
+
+!. CRW>gi all old
+give all old
+No one by that name around here.
+
+!. CRW>look
+Surrounded by Wildflowers
+A small campfire burns here, its low flames giving off only a little
+light.
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+Exits/emulated: north, ^south^, east, ^west^.
+
+!. CRW>tr old
+You carefully examine the ground around you, looking for tracks...
+
+Hmm... It seems there is no sign of Old here.
+
+!. CRW>north
+Gaunt Grass Adjoining the Ridge
+Exits: east, south, west.
+Note: Herb: milkweed
+
+!. CRW>south
+Surrounded by Wildflowers
+A small campfire burns here, its low flames giving off only a little
+light.
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A buck runs swiftly from place to place, looking about warily as it
+grazes.
+Exits: north, east, south, west.
+
+!. CRW>south
+Tall Fertile Grass
+Exits: north, east, south, west.
+
+!. CRW>south
+Pleasant Grassland
+A brown furry gopher is here, ready to dive back underground.
+Exits: north, east, south, west.
+
+!. CRW>south
+Fields of Clover
+A small cluster of clover grows here.
+A snake slithers towards you.
+Exits: north, east, south, west.
+Note: Herb: clover
+
+!. CRW>south
+Straight Trail through the Prairie
+Exits: north, -east-, south, -west-.
+
+!. CRW>south
+Bountiful Plains
+Exits: north, east, south, west.
+
+!. CRW>south
+Luxuriant Grasses
+Exits: north, east, south, west.
+
+!. CRW>south
+Thinning Grasslands
+Exits: north, east, south, west.
+
+!. CRW>east
+Green Undergrowth near a Trail
+Exits: north, east, south, west.
+
+!. CRW>south
+Profuse Underbrush
+A large shrub grows here, its branches loosely spreading.
+On the shrub, there are two piles of cherries.
+Exits: north, east, west.
+
+!: CRW>north
+Green Undergrowth near a Trail
+Exits: north, east, south, west.
+
+!. CRW>north
+Plains alongside the Trail
+A gigantic weasel glares at you.
+Exits: north, east, south, west.
+
+!. CRW>north
+Along the Roughly-surfaced Trail
+A brown fox is here, looking for some rabbits to chew up.
+A black and white skunk is scuttling about here, searching for food.
+A snake slithers towards you.
+Exits: -north-, -east-, south, west.
+
+!. CRW>north
+Intersection of the Trails
+Exits: -north-, east, -south-, -west-.
+
+!. CRW>north
+north
+Winding Trail on the Prairie
+Exits: north, -east-, -south-, west.
+
+!. CRW>north
+Rough Grassland near the Trails
+Some small rocks have been piled into a mound here.
+Exits: north, east, south, west.
+
+!. CRW>north
+Thriving Prairie beside the Wildflowers
+A finch flies low above the ground.
+Exits: north, east, south, west.
+
+!. CRW>
+Bountiful Wildflowers
+Yellow flowers, with grey-green foliage, grow in clusters here.
+A field mouse noses about hungrily, searching for food.
+Exits: north, east, south, west.
+
+!. CRW>north
+A Depression on the Plains
+Exits: east, south, west.
+A field vole has arrived from the east.
+
+!. CRW>east
+Veiled Sparkling Fishpond
+A catfish is standing here.
+A heron is stalking the area, looking for fish.
+Exits: east, south, west.
+
+!. CRW>south
+Craggy Fields atop the Plains
+plant of MILKWEED atop its stem.
+Exits: north, east, south, west.
+Note: Hebr: milkweed
+
+!. CRW>south
+Milkweed among Arid Fields
+Exits: north, east, south, west.
+Note: Herb: milkweed
+
+!. CRW>south
+You ride through the profuse grassland towards the bumpy trail.
+
+Rough Trail
+Exits: north, -east-, -south-, west.
+
+!. CRW>south
+Trail across the Plains
+Exits: -north-, east, south, -west-.
+
+!. CRW>south
+Skyborne tells you 'i got stuff back'
+Beside the Intersection of Trails
+Exits: north, east, south, west.
+
+!. CRW>south
+Narrowing Trail
+A very large lion with a dark mane watches you lazily.
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, -south-, -west-.
+
+!. CRW>south
+Sunken Trail
+Exits: -north-, east, -south-, west.
+
+!. CRW>south
+Bending Trail through the Plains
+An old man, swathed in a great light-coloured cloak, is standing here.
+Exits: -north-, -east-, south, west. - e:(oneway).
+
+!. CRW>south
+You brush aside bushes and depart the trail.
+
+Shrub-covered Grasses
+A large thorny branched shrub is growing here.
+On the shrub, there are a number of blackberries.
+A boar cub is playing here, and exploring the wide world.
+Exits: north, east, west.
+Note: Herb: blackberries
+
+!: CRW>east
+Lush Grasslands
+Exits: north, east, west.
+
+!. CRW>west
+Shrub-covered Grasses
+A large thorny branched shrub is growing here.
+On the shrub, there are a number of blackberries.
+A boar cub is playing here, and exploring the wide world.
+Exits: north, east, west.
+Note: Herb: blackberries
+
+!: CRW>north
+Cutting through the shrubs, you emerge onto a trail.
+
+Bending Trail through the Plains
+An old man, swathed in a great light-coloured cloak, is standing here.
+Exits: -north-, -east-, south, west. - e:(oneway).
+
+!. CRW>gi all old
+give all old
+Ok.
+Ok.
+Ok.
+Ok.
+Ok.
+An old man looks at a purple scroll thoughtfully, then stores it away
+in the folds of his clothes.
+An old man takes a note and a quill out of the folds of his robe,
+scribbles a few words on the note, and puts away the quill.
+An old man gives you a white folded note.
+An old man looks at an engraved warhammer thoughtfully, then stores it
+away in the folds of his clothes.
+An old man takes a note and a quill out of the folds of his robe,
+scribbles a few words on the note, and puts away the quill.
+An old man gives you a white folded note.
+An old man looks at a banded ring thoughtfully, then stores it away in
+the folds of his clothes.
+An old man takes a note and a quill out of the folds of his robe,
+scribbles a few words on the note, and puts away the quill.
+An old man gives you a white folded note.
+An old man looks at a broad silver belt thoughtfully, then stores it
+away in the folds of his clothes.
+An old man takes a note and a quill out of the folds of his robe,
+scribbles a few words on the note, and puts away the quill.
+An old man gives you a white folded note.
+An old man looks at a broad silver belt thoughtfully, then stores it
+away in the folds of his clothes.
+An old man takes a note and a quill out of the folds of his robe,
+scribbles a few words on the note, and puts away the quill.
+An old man gives you a white folded note.
+An old man says 'Indeed, this is a powerful artefact that will help'
+
+!. CRW>
+Mirasantika narrates 'just out bbt'
+An old man tells you 'You have done a great service to us all and our
+cause.'
+
+!. CRW>
+An old man tells you 'You have done a great service to us all and our
+cause.'
+An old man tells you 'You have done a great service to us all and our
+cause.'
+
+!. CRW>
+An old man tells you 'You have done a great service to us all and our
+cause.'
+
+!. CRW>
+An old man tells you 'If you bring this small token of gratitude to
+the Sage at Isengard, he will reward you handsomely.'
+An old man tells you 'If you bring this small token of gratitude to
+the Sage at Isengard, he will reward you handsomely.'
+
+!. CRW>
+An old man tells you 'If you bring this small token of gratitude to
+the Sage at Isengard, he will reward you handsomely.'
+An old man tells you 'If you bring this small token of gratitude to
+the Sage at Isengard, he will reward you handsomely.'
+An old man says 'the White Council in its quest for knowledge.'
+
+!. CRW>u
+Alas, you cannot go that way...
+
+!. CRW>i
+You are carrying:
+a white folded note
+a white folded note
+a white folded note
+a white folded note
+a white folded note
+
+!. CRW>
+An old man smiles at you.
+
+!. CRW>re good
+tell Skyborne good
+Ok.
+
+!. CRW>
+An old man says 'You have done a great service to us all and our
+cause.'
+
+!. CRW>
+An old man says 'I do not normally carry things that can sufficiently
+reward you'
+
+!. CRW>
+An old man says 'but if you bring this small token of gratitude to the
+Sage'
+
+!. CRW>
+Skyborne tells you 'was risky but i am low level mobrip no biggie'
+
+!. CRW>
+An old man says 'at Isengard, he will reward you handsomely.'
+
+!. CRW>re seems there is troll nearby
+tell Skyborne seems there is troll nearby
+Ok.
+
+!. CRW>
+An old man says 'Should you encounter any other powerful magical
+artefacts,'
+
+!. CRW>
+An old man says 'please bring them to me also.'
+
+!. CRW>west
+You plunge off the trail into a thick sea of green.
+
+Green Undergrowth near a Trail
+Exits: north, east, south, west.
+
+!. CRW>west
+Thinning Grasslands
+Exits: north, east, south, west.
+
+!. CRW>west
+Near the Decrepit Quarters
+Exits: north, east, south, west.
+
+!. CRW>west
+Rich Countryside
+Exits: north, east, south, west.
+
+!. CRW>west
+Skyborne tells you 'he running from me'
+Among Deep Grasses
+Exits: north, east, south, west.
+
+!. CRW>west
+west
+Grassy Mead beside the Ridge
+Exits: north, east, south, west.
+
+!. CRW>
+Ridge through the Plains of Rohan
+Exits: north, east, south, down.
+
+!. CRW>south
+You move down the ridge towards vast plains.
+
+Plains of Rohan
+Exits: north, east, south, west.
+
+!. CRW>south
+Rolling Meads
+On the ground, there are two prickly plants with blue flower heads.
+A tiny firefly flits around the foliage.
+Exits: north, south, west.
+
+!. CRW>south
+Green Meads
+Exits: north, south, west.
+
+!. CRW>south
+south
+Eastbound Trail
+Exits: north, south, -west-.
+
+!. CRW>west
+High Plains of Rohan
+On the ground, there are two prickly plants with blue flower heads.
+Exits: north, south, west.
+
+!. CRW>south
+west
+south
+Eastern Trail
+Exits: -north-, east, south, -west-.
+
+!. CRW>west
+The earth begins to drop into a large, shallow depression.
+
+Verdant Fields
+A small animal, all covered in spines, snuffles amongst the
+undergrowth.
+Exits: north, east, south, west.
+
+!. CRW>south
+west
+west
+Eastern Trail
+A sly cat prepares to pounce from its grassy hiding place.
+Exits: -north-, east, south, -west-.
+
+!. CRW>north
+Rolling Plains
+You see two piles of wild strawberries on the ground.
+Exits: north, east, south.
+
+!. CRW>
+Alas, you cannot go that way...
+
+!. CRW>
+Verdant Plains
+Exits: north, east, south, west.
+
+!. CRW>
+The West Road
+Exits: north, east, =south=, =west=.
+
+!+ CRW>
+The West Road
+Exits: =north=, =east=, -south-, ~\west/~.
+
+!+ CRW>
+Road at the East Bank
+Exits: ~\north/~, east, =south=, west.
+
+!+ CRW>lead pa
+You stop riding a horse of the Rohirrim (pa).
+A horse of the Rohirrim (pa) starts following you.
+
+!+ CW>west
+Fording the Isen
+A Rohir marksman surveys the landscape, targeting would-be
+adversaries.
+A foot-soldier of Rohan is here.
+A bass swims here.
+A trout swims here.
+A salmon swims here.
+A brook trout is here, swimming in the current.
+Exits: ~north~, east, ~south~, west. - n:(oneway).
+A horse of the Rohirrim (pa) has arrived from the east.
+
+!% CW>west
+Eyot in the Isen
+A foot-soldier of Rohan is here.
+A foot-soldier of Rohan is here.
+An elite Rohir knight appears alert.
+An elite Rohir knight appears alert.
+Haldin, a Rohir field marshal, is here.
+Exits: (north), east, (south), west.
+A horse of the Rohirrim (pa) has arrived from the east.
+
+!+ CW>west
+Fording the Isen
+A salmon swims here.
+A bass swims here.
+A trout swims here.
+A brook trout is here, swimming in the current.
+Exits: ~north~, east, ~south~, west.
+A horse of the Rohirrim (pa) has arrived from the east.
+
+!% CW>west
+Road at the West Bank
+A tiny firefly flits around the foliage.
+Exits: =north=, east, south, west.
+A horse of the Rohirrim (pa) has arrived from the east.
+
+!+ CW>west
+ride pa
+Plains near the Road
+Exits: north, east, south, west.
+A horse of the Rohirrim (pa) has arrived from the east.
+
+!. CW>
+A horse of the Rohirrim (pa) stops following you.
+You pick up a horse of the Rohirrim (pa)'s reins and start riding him.
+
+!. CRW>look
+Plains near the Road
+Exits/emulated: north, south, east, west.
+
+!. CRW>north
+Great South Road
+Exits: =north=, =east=, south, west.
+
+!+ CRW>north
+east
+north
+Great South Road
+A tiny firefly flits around the foliage.
+A colourful butterfly is fluttering around here.
+A small grasshopper clings to a blade of grass, ready to spring.
+Exits: north, =east=, =south=, =west=.
+
+!+ CRW>north
+east
+north
+Road to Isengard
+Exits: =north=, east, =south=, =west=.
+
+!+ CRW>
+Your legs feel heavier.
+The spell lasted 2m30s.
+
+Road to Isengard
+Exits: =north=, east, =south=, west.
+
+!+ CRW>
+Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>north
+Road to Isengard
+Exits: =north=, ~\east/~, south, =west=.
+
+!+ CRW>north
+Road to Isengard
+Exits: =north=, ~\east/~, =south=, west.
+
+!+ CRW>north
+north
+Road to Isengard
+A long-bodied animal with thick brown fur bounds through the trees.
+Exits: =north=, east, =south=, up.
+
+!+ CRW>
+A marten leaves ^^^^ N O R T H ^^^^
+
+Road to Isengard
+A long-bodied animal with thick brown fur bounds through the trees.
+Exits: =north=, east, =south=, /up\.
+
+!+ CRW>st
+stat
+Road to Isengard
+Exits: =north=, east, =south=, /up\.
+
+!+ CRW>
+Bend in the Road to Isengard
+A blue dragonfly is circling around.
+Exits: =east=, =south=, west.
+
+!+ CRW>
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- detect magic (5m19s/)
+- shroud   (8m7s)
+- strength (💪 11m46s  )
+- shield   (⛉ 11m55s  )
+- armour   (🧥 12m  )
+- vigour
+- growth
+
+!+ CRW>east
+north
+Curve in the Road to Isengard
+Exits: =north=, ~east~, south, =west=.
+
+!+ CRW>north
+Road to Isengard
+A snake slithers towards you.
+Exits: =north=, ~east~, =south=, /up\.
+
+!+ CRW>north
+Road to Isengard
+A sturdy pack horse is standing here.
+Exits: =north=, ~east~, =south=, /west\.
+
+!+ CRW>
+The Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>east
+north
+Bend in the Road to Isengard
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW>north
+Road to Isengard
+A swallow flies high above the ground.
+Exits: =north=, east, =south=, west.
+
+!+ CRW>north
+Road to Isengard
+Exits: =north=, -east-, =south=.
+
+!+ CRW>north
+east
+Road to Isengard
+A swallow flies high above the ground.
+Exits: =north=, =south=.
+
+!+ CRW>north
+Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>north
+east
+Road to Isengard
+Exits: =north=, ~east~, =west=.
+
+!+ CRW>north
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>north
+Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>north
+Soft Bend in the Road to Isengard
+A snake slithers towards you.
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW>north
+Skyborne narrates 'troll slept'
+Road to Isengard
+A fierce boar is here, making grunting noises.
+A boar cub is playing here, and exploring the wide world.
+A boar cub is playing here, and exploring the wide world.
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>
+Road to Isengard
+Exits: =north=, ~\east/~, =south=, west.
+
+!+ CRW>north
+Bend in the Road to Isengard
+Exits: north, ~\east/~, =south=, =west=.
+
+!+ CRW>west
+Before the Gates of Isengard
+Exits: [north], =east=, west.
+
+!+ CRW>
+Mirasantika narrates 'where>?'
+
+!+ CRW>
+Skyborne narrates 'at dip'
+
+!+ CRW>cti
+Time: 10:44 pm. Dawn: 7 am (8m16s). Dusk: 8 pm (21m16s). Spring 2
+west
+Bushy and Rocky Plains
+On the ground, there are three bales of wheat.
+Exits: [north], east, west.
+
+!. CRW>na do we have basher?
+Ok.
+
+!. CRW>
+Skyborne narrates 'basher come?'
+
+!. CRW>on
+open exit north
+Ok.
+
+!. CRW>lead pa
+You stop riding a horse of the Rohirrim (pa).
+A horse of the Rohirrim (pa) starts following you.
+
+!. CW>north
+Guardpost along the Wall
+A heavy desk, made of solid oak, stands here.
+A large bookshelf sits against the wall.
+On the bookshelf, there are two pieces of paper.
+An old sage, clad in white, is standing here.
+An Isengard guard is standing here, alert for trouble-makers.
+An Isengard guard is standing here, alert for trouble-makers.
+Exits: [north], [east], (south), west, /up\.
+A horse of the Rohirrim (pa) has arrived from the south.
+
+![ CW>cs
+close exit south
+Ok.
+
+![ CW>i
+You are carrying:
+a white folded note
+a white folded note
+a white folded note
+a white folded note
+a white folded note
+
+![ CW>gi note sage
+give note sage
+Ok.
+Yerik the Sage unfolds the note and reads it carefully.
+
+![ CW>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+      Helfire ~ Elf on Fire
+      Ashelia
+
+6 allies on.
+
+![ CW>
+Yerik the Sage says 'Thank you for your assistance.'
+
+![ CW>
+Yerik the Sage smiles.
+
+![ CW>
+Yerik the Sage says 'Lord Saruman never leaves anyone empty-handed.'
+
+![ CW>re then you have to sun that troll
+tell Skyborne then you have to sun that troll
+Ok.
+Yerik the Sage knocks on the rockface in a strange pattern.
+
+![ CW>acco
+Characters in account "romanwarlock"
+Name      Rce Lvl   Logon Area     Rent    Delete Host
+Delondol  h-e  03  7 days Bree    11 yrs  12 days 148.56.9.136
+Drulgo    hob  30  5 mths Lorien   1 yr     never 148.56.11.95
+Findis    elf  25  6 mths Valinor    free retired 148.56.11.62
+Hornnindo h-e  10  1 day  GH      21 yrs   2 mths 148.56.9.136
+Iminye    elf C58 playing         unknown   never 148.56.9.136
+Irorts    dwa  15  3 days BM       2 yrs   4 mths 148.56.9.136
+Mancendil elf  10  1 day  Valinor    free retired 148.56.9.136
+Moro      hob M12  3 hrs  GH       1 yr    3 mths 148.56.9.136
+Orgulas   hob  01  1 day  Valinor unknown 13 days 148.56.9.136
+Pabraw    h-e C45  4 days Valinor    free retired 148.56.9.136
+Salgant   elf M26  8 hrs  GH       1 yr     never 148.56.9.136
+Strori    dwa  60  3 mths BM       5 yrs    never 148.56.16.9
+Umnik     h-e M36  3 mths Rivendl 11 yrs    never 148.56.16.184
+Vidgri    dwa  34  5 mths Valinor    free retired 148.56.11.62
+
+![ CW>
+Some reply knocks are heard.
+
+![ CW>
+The clatter of rusty hinges is heard as the sturdy metal door swings
+open.
+
+![ CW>
+Skyborne narrates 'sunning is mean '
+
+![ CW>
+Yerik the Sage passes the note into the opening, and unseen hands take
+it.
+
+![ CW>
+Skyborne narrates 'rather bash and fireball'
+
+![ CW>
+Yerik the Sage reaches into the opening to accept a red ruby.
+
+![ CW>
+Yerik the Sage gives you a red ruby.
+
+![ CW>i
+You are carrying:
+a red ruby; it glows blue
+a white folded note
+a white folded note
+a white folded note
+a white folded note
+
+![ CW>nti
+narrate Time: 11:51 pm. Dawn: 7 am (7m9s). Dusk: 8 pm (20m9s).
+Ok.
+
+![ CW>
+The sturdy metal door swings shut.
+
+![ CW>na 7 mins to sun
+Ok.
+Yerik the Sage waves.
+
+![ CW>
+Yerik the Sage says 'Come again!'
+give note sage
+
+![ CW>
+Ok.
+Yerik the Sage unfolds the note and reads it carefully.
+
+![ CW>gi note sage
+give note sage
+Ok.
+Yerik the Sage tells you 'Wait a moment. I am busy.'
+Yerik the Sage gives you a white folded note.
+
+![ CW>
+Helfire narrates 'where is dip'
+
+![ CW>
+Yerik the Sage says 'Thank you for your assistance.'
+
+![ CW>
+An Isengard guard has arrived from the west.
+An Isengard guard has arrived from the west.
+
+![ CW>
+Yerik the Sage smiles.
+
+![ CW>
+Yerik the Sage walks over to the bookcase, pulls out a book, and
+begins reading.
+
+![ CW>
+Helfire narrates 'have basher'
+
+![ CW>
+Skyborne narrates 'near bbt on road'
+
+![ CW>
+Yerik the Sage says 'Lord Saruman never leaves anyone empty-handed.'
+
+![ CW>na give us room name
+Ok.
+
+![ CW>
+Helfire narrates 'coming'
+
+![ CW>
+Yerik the Sage knocks on the rockface in a strange pattern.
+
+![ CW>
+Some reply knocks are heard.
+
+![ CW>
+Skyborne narrates 'dip in road'
+
+![ CW>tel Skyborne shroud troll, 
+Ok.
+
+![ CW>
+An Isengard guard leaves ++++ U P ++++
+An Isengard guard leaves ++++ U P ++++
+
+![ CW>
+The clatter of rusty hinges is heard as the sturdy metal door swings
+open.
+
+![ CW>re i think he has pig
+tell Skyborne i think he has pig
+Ok.
+
+![ CW>
+Yerik the Sage passes the note into the opening, and unseen hands take
+it.
+
+![ CW>
+Skyborne narrates 'troll shoruded'
+
+![ CW>
+Yerik the Sage reaches into the opening to accept a strange set of
+lock picks.
+
+![ CW>
+Yerik the Sage gives you a strange set of lock picks.
+
+![ CW>i
+You are carrying:
+a strange set of lock picks
+a white folded note
+a red ruby; it glows blue
+a white folded note
+a white folded note
+
+![ CW>x picks
+examine picks
+There is a variety of tools, including slim, flat pieces and long,
+thin pieces, as well as strangely hooked and flattened pieces.
+protrusion [Kraksh]
+white hand [Saruman]
+
+![ CW>
+The sturdy metal door swings shut.
+
+![ CW>
+Yerik the Sage waves.
+
+![ CW>na want to wait for me ?
+Ok.
+
+![ CW>os
+open exit south
+Ok.
+
+![ CW>
+An Isengard guard has arrived from above.
+An Isengard guard has arrived from above.
+
+![ CW>
+An Isengard guard snuffs a lantern.
+An Isengard guard snuffs a lantern.
+
+![ CW>
+Yerik the Sage says 'Come again!'
+give note sage
+
+![ CW>
+Ok.
+Yerik the Sage unfolds the note and reads it carefully.
+
+![ CW>
+Skyborne narrates 'come'
+
+![ CW>
+Yerik the Sage says 'Thank you for your assistance.'
+
+![ CW>
+Yerik the Sage smiles.
+
+![ CW>
+Yerik the Sage says 'Lord Saruman never leaves anyone empty-handed.'
+
+![ CW>na from rohan /
+Ok.
+
+![ CW>i
+You are carrying:
+a strange set of lock picks
+a red ruby; it glows blue
+a white folded note
+a white folded note
+
+![ CW>
+Yerik the Sage knocks on the rockface in a strange pattern.
+
+![ CW>p all.note pack
+You put a white folded note in a leather backpack.
+You put a white folded note in a leather backpack.
+
+![ CW>
+Skyborne narrates 'lol'
+
+![ CW>i
+You are carrying:
+a strange set of lock picks
+a red ruby; it glows blue
+
+![ CW>
+Some reply knocks are heard.
+
+![ CW>
+Mirasantika narrates '2 w from fordable'
+
+![ CW>
+The clatter of rusty hinges is heard as the sturdy metal door swings
+open.
+
+![ CW>
+Yerik the Sage passes the note into the opening, and unseen hands take
+it.
+
+![ CW>na soon..
+Ok.
+
+![ CW>
+Yerik the Sage reaches into the opening to accept a lustrous green
+emerald.
+
+![ CW>st
+stat
+Yerik the Sage gives you a lustrous green emerald.
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- detect magic (8m29s/)
+- shroud   (11m17s)
+- strength (💪 14m56s  )
+- shield   (⛉ 15m5s  )
+- armour   (🧥 15m10s  )
+- vigour
+- growth
+
+![ CW>
+The sturdy metal door swings shut.
+
+![ CW>
+Yerik the Sage waves.
+
+![ CW>i
+Yerik the Sage says 'Come again!'
+give note sage
+
+![ CW>
+You are carrying:
+a lustrous green emerald
+a strange set of lock picks
+a red ruby; it glows blue
+
+![ CW>
+You don't have a note.
+
+![ CW>south
+Bushy and Rocky Plains
+There are three bales of wheat here.
+Exits: (north), east, west.
+A horse of the Rohirrim (pa) has arrived from the north.
+
+!. CW>south
+Alas, you cannot go that way...
+
+!. CW>ride pa
+A horse of the Rohirrim (pa) stops following you.
+You pick up a horse of the Rohirrim (pa)'s reins and start riding him.
+
+!. CRW>east
+Before the Gates of Isengard
+Exits: [north], =east=, west.
+
+!+ CRW>east
+south
+Bend in the Road to Isengard
+Exits: north, ~\east/~, =south=, =west=.
+
+!+ CRW>south
+south
+Road to Isengard
+Exits: =north=, ~\east/~, =south=, west.
+
+!+ CRW>south
+west
+south
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>west
+south
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>
+Road to Isengard
+A snake slithers towards you.
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>east
+Rocky Plains
+Exits: north, east, south, west.
+
+!. CRW>south
+Mirasantika narrates 'so stop at fordable if u had charmie'
+
+west
+Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>south
+south
+Barren Roadside
+A black crow flies low to the ground here, looking for carrion to eat.
+Exits: north, east, south, west.
+
+!. CRW>
+Rocky Plains
+Exits: north, east, south, west.
+
+!. CRW>
+Road to Isengard
+Exits: =north=, ~east~, =south=, west.
+
+!+ CRW>
+Road to Isengard
+Exits: =north=, ~east~, =west=.
+
+!+ CRW>
+Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>west
+Road to Isengard
+A swallow flies high above the ground.
+A swallow flies high above the ground.
+Exits: =north=, =south=.
+
+!+ CRW>south
+south
+Road to Isengard
+Exits: =north=, -east-, =south=.
+
+!+ CRW>south
+Alas, you cannot go that way...
+
+!+ CRW>west
+Road to Isengard
+Exits: =north=, east, =south=, west.
+
+!+ CRW>
+Bend in the Road to Isengard
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW>
+You can't go into deep water!
+
+!+ CRW>west
+west
+The Road to Isengard
+Exits: north, =east=, =south=, west.
+
+!+ CRW>south
+south
+Flat Grasslands
+A young colt is frolicking playfully.
+A sturdy pack horse is standing here.
+Exits: north, east, south, west.
+
+!. CRW>west
+west
+west
+Tall Grass
+A sharp-eyed hawk is here stalking some prey.
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, east, south.
+
+!. CRW>west
+south
+Travelling south you soon find yourself on a small peak in the plains.
+
+High Point in the Grasslands
+A robin is here, carrying small pieces of wood to its nest.
+Exits: north, east, south, west.
+
+!. CRW>south
+A robin leaves ^^^^ N O R T H ^^^^
+
+south
+south
+From the rolling fields you descend to a rough ridgeline cutting its
+way from the west to the northeast.
+
+Atop a Running Ridgeline
+A long-bodied animal with thick brown fur bounds through the trees.
+Exits: north, east, west.
+
+!. CRW>south
+Elevated Plains
+A young colt is frolicking playfully.
+A sturdy pack horse is standing here.
+Exits: east, south, west.
+
+!. CRW>
+Crest of a Ridge
+A young colt is frolicking playfully.
+A sturdy pack horse is standing here.
+Exits: north, east, south, west.
+
+!. CRW>
+Skyborne narrates 'troll shrouded'
+Your mount carefully treads down the ridge.
+
+Burnt Area below a Ridge
+Exits: north, east, south.
+
+!. CRW>
+Alas, you cannot go that way...
+
+!. CRW>ta troll
+Small Trail
+A young colt is frolicking playfully.
+A sharp-eyed hawk is here stalking some prey.
+Exits: north, east, -south-.
+
+!. CRW>
+Intersection of the Trails
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: -north-, -east-, -south-.
+
+!. CRW>west
+Disused Path
+A restless rabbit bounces around.
+A wild bull seems ready to charge you.
+A wild bull seems ready to charge you.
+Exits: -north-, east, south.
+
+!. CRW>west
+west
+Western Plains
+Exits: north, east, south.
+
+!. CRW>west
+west
+west
+Western Plains
+Prickly, white-stemmed plants, with blue flower heads grow in
+abundance.
+A badger is here, exploring for food.
+Exits: north, east, south, west.
+
+!. CRW>west
+west
+Western Plains
+Exits: east, south, west.
+You feel a hidden presence.
+
+!. CRW>
+Trampled Grass
+Exits: east, south, west.
+
+!. CRW>
+A Rabbit Patch
+Exits: east, south, west.
+
+!. CRW>
+Sparse Grassland
+Exits: east, south, west.
+
+!. CRW>
+Barren Flatland
+Exits: east, south, west.
+
+!. CRW>
+Stony Ground
+Exits: east, south, west.
+
+!. CRW>
+Rocky Footing
+Exits: east, south, west.
+
+!. CRW>
+Wild Eorna Field
+A young colt is frolicking playfully.
+A wild mare is watching you warily.
+Exits: east, south, west.
+
+!. CRW>na i can blind when i come
+Ok.
+
+!. CRW>west
+Grassy Plains
+A colourful butterfly is fluttering around here.
+Exits: east, south, west.
+
+!. CRW>west
+west
+Arid Plains
+Exits: east, south, west.
+
+!. CRW>north
+Crumbling Remains of the South Road
+Exits: north, east, -south-, -west-.
+
+!. CRW>north
+An Elevated Point in the Plains
+Exits: north, south, west.
+
+!. CRW>north
+north
+Abandoned Fields
+A black and white skunk is scuttling about here, searching for food.
+A fallow deer is grazing peacefully here.
+Exits: north, south, west.
+
+!. CRW>north
+Grazing Land
+A black-haired farmhand is here.
+A beautiful and docile horse is standing here.
+A sturdy pack horse is standing here.
+Exits: north, south, [west].
+
+!. CRW>north
+Fields of Hay, Barley and Oats
+A large mother hawk is here looking for a prey to feed her young.
+Exits: north, south.
+
+!. CRW>north
+A Crop Field
+There are three carrots here.
+On the ground, there are three potatoes.
+There are two piles of wild strawberries here.
+A black-haired farmhand is here.
+Exits: north, south, west.
+
+!. CRW>north
+An Apple Grove
+An apple tree with bright green leaves grows here.
+On the tree's branches is an apple.
+There is a red, delicious-looking apple here.
+Exits: north, south, west.
+
+!. CRW>west
+At an Abandoned Farmhouse
+Exits: north, south, west.
+
+!. CRW>west
+Below a Rocky Cliff
+Exits: south, west, /up\.
+
+!. CRW>west
+Rocky Flats
+Exits: east, south, west, up.
+
+!. CRW>west
+End of the Prairie
+A young colt is frolicking playfully.
+A young filly is just learning to walk.
+A wild mare is watching you warily.
+A wild mare is watching you warily.
+Exits: north, east, south, west.
+
+!. CRW>
+Helfire narrates 'charmie is boar wont see troll'
+
+Everlasting Prairie
+Exits: north, east, west.
+
+!. CRW>
+Endless Prairie
+Exits: north, east, south, west.
+
+!. CRW>west
+Vast Prairie
+A brown furry gopher is here, ready to dive back underground.
+Exits: north, east, south, west.
+
+!. CRW>west
+Verdant Flatlands
+Exits: north, east, south, west.
+
+!. CRW>north
+Teeming Grassland
+Exits: north, east, south, west.
+
+!. CRW>west
+north
+Short Grasslands along the Road
+A large wild horse is here, protecting his herd.
+Exits: north, east, south, west.
+
+!. CRW>west
+north
+Before Some Small Hills
+Exits: north, east, south, west.
+
+!. CRW>north
+Short Sparse Grasslands
+Exits: north, east, south, west.
+
+!. CRW>north
+north
+Gravelly Field
+Exits: north, east, south, west.
+
+!. CRW>north
+Swiftly Bending Trail
+Exits: -north-, east, south, -west-.
+
+!. CRW>north
+Trail Stretching across the Wide Plains
+A swallow flies high above the ground.
+Exits: -north-, -south-, west.
+
+!. CRW>east
+Traversing Trail across the Plains
+Exits: north, -east-, -south-, west.
+
+!. CRW>north
+north
+Brushy Grasslands
+A small brown snake is slithering around here.
+Exits: north, east, south, west.
+
+!. CRW>north
+Bleak Trail
+Exits: north, -east-, south, -west-.
+
+!. CRW>north
+Crossing West of a Guardpost
+Exits: north, -east-, -south-, -west-.
+
+!. CRW>
+Barren Fields
+Exits: north, east, south, west.
+
+!. CRW>north
+Fields Bordering the Wilderness
+Exits: north, east, south, west.
+
+!. CRW>north
+north
+Wide Plains Bordering Thick Brushwood
+Exits: north, east, south, west.
+
+!. CRW>north
+A Small Trail
+Exits: north, east, south, west.
+
+!. CRW>
+Trail along the Plains
+A fierce boar is here, making grunting noises.
+Exits: -north-, ~east~, south, west.
+You begin to see some clouds.
+
+!.~ CRW>
+Trail along the Plains
+Exits: -north-, ~east~, -south-, west.
+
+!.~ CRW>
+Trail along the Plains
+Exits: -north-, ~east~, -south-, west.
+
+!.~ CRW>
+A Crossing of Trails
+Exits: ~north~, -east-, -south-, -west-.
+
+!.~ CRW>gr pa
+Mirasantika narrates 'left behind ur eagle'
+A horse of the Rohirrim (pa) is now a group member.
+
+!.~ CRW>west
+Bend in the Stale Trail
+Exits: -north-, -east-, south, west.
+
+!.~ CRW>north
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+!.~ CRW>north
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+!.~ CRW>north
+Along a Stale Trail
+Exits: -north-, ~east~, -south-, west.
+
+!.~ CRW>north
+west
+north
+Crossing in the Trail
+Exits: [north], -east-, -south-, -west-.
+
+!.~ CRW>north
+north
+Bend in the Trail
+Exits: -north-, -east-, south.
+
+!.~ CRW>east
+Trail by a Ruined Tower
+Exits: -north-, -south-.
+
+!.~ CRW>east
+east
+Ford at a Forest Trail
+Exits: -north-, ~east~, -south-.
+
+!%~ CRW>north
+east
+north
+Forest Trail
+Exits: -north-, east, -south-.
+
+!f~ CRW>north
+north
+Tracks in the Trees
+A gigantic weasel glares at you.
+A gigantic weasel glares at you.
+Exits: east, ~south~, west.
+
+!f~ CRW Move:Tired>north
+north
+Cluster of Tracks
+Exits: east, ~south~, west. - n:bushes.
+
+!f~ CRW Move:Tired>
+Light Forest
+Exits: north, east, south, west.
+
+!f~ CRW Move:Tired>
+Forest Bushes
+Exits: east, south. - w:den.
+
+!f~ CRW Move:Tired>
+Along a High Palisade
+Exits: north, west.
+
+!f~ CRW Move:Tired>
+Beside the Trail
+Exits: north, east, south.
+
+!f~ CRW Move:Tired>
+Bend in the Trail
+Exits: -north-, -east-, south, -west-.
+
+!f~ CRW Move:Tired>
+Path through the Trees
+A Dunlending forester is here gazing up at the tree tops.
+Exits: -north-, east, -south-, west.
+
+!f~ CRW Move:Tired>
+Slope in the Trail
+Exits: -north-, east, -south-, west.
+
+!f~ CRW Move:Tired>
+At a Corner in the Forest
+Exits: -south-, -west-. - e:briars.
+
+!f~ CRW Move:Tired>
+Skyborne narrates 'basher?'
+
+!f~ CRW Move:Tired>west
+Disappearing Trail
+A bear is here, covered with coarse black fur.
+Exits: -east-, south, -west-.
+
+!f~ CRW Move:Tired>west
+Fading Trail
+Exits: -east-, -west-.
+
+!f~ CRW Move:Tired>west
+Bend in the Trail
+Exits: -north-, -east-, south, west.
+
+!f~ CRW Move:Tired>north
+west
+north
+Trail by an Old Cabin
+A huge, black wolf is here, ready to devour.
+Exits: [east], -south-, -west-.
+
+!f~ CRW Move:Tired>north
+north
+Turn in the Trail
+Exits: -north-, -east-, south.
+
+!f~ CRW Move:Tired>north
+north
+An Overgrown Trail
+Exits: -north-, east, -south-.
+
+!f~ CRW Move:Tired>east
+north
+A Shallow Ford
+Clusters of slender stems and tall leaves thrive in the mud and
+shallows.
+Exits: -north-, ~east~, -south-.
+
+!%~ CRW Move:Tired>north
+Well Worn Path
+Exits: north, -east-, -south-.
+The clouds begin to disappear.
+
+!. CRW Move:Tired>
+Sloping Grassland
+A sharp-eyed hawk is here stalking some prey.
+Exits: north, ~east~, south.
+
+!. CRW Move:Tired>
+Desolate Plains
+Exits: north, east, south.
+
+!. CRW Move:Tired>
+Plains by the Ridge
+Exits: north, west.
+
+!. CRW Move:Tired>
+Vast Grasslands
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: north, ~east~, south, west.
+
+!. CRW Move:Tired>north
+A large rabbit leaves <<<< W E S T <<<<
+
+north
+Vast Grasslands
+Exits: north, ~east~, south, west.
+You feel a hidden presence.
+
+!. CRW Move:Tired>east
+north
+Verdant Grasslands
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>east
+north
+Dunland Path
+Exits: north, -east-, south, -west-.
+
+!. CRW Move:Tired>east
+north
+Overgrown Trail
+Exits: -north-, east, south, -west-.
+
+!. CRW Move:Tired>east
+north
+Dunland Trail
+Exits: north, -east-, -south-, west.
+
+!. CRW Move:Tired>north
+Old Trail along the Fields
+Exits: north, -east-, south, -west-.
+
+!. CRW Move:Tired>north
+Rolling Plains
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>
+Dunland Flats
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>bob
+cast n 'breath of b'
+Rocky Flats
+A rock lizard is here, motionless as it observes you.
+A boar cub is playing here, and exploring the wide world.
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>
+Dunland Trail
+Exits: -north-, east, -south-, west.
+
+!. CRW Move:Tired>
+Dunland Trail
+Exits: -north-, east, -south-, west.
+
+!. CRW Move:Tired>
+Helfire narrates 'someon com get me caravan in 20'
+
+Trail Entering the Hills
+Exits: -north-, -south-, west, down.
+
+!( CRW Move:Slow>
+Crossing in the Trail
+Exits: north, -east-, -south-, -west-.
+You feel a hidden presence.
+
+!( CRW Move:Slow>
+You start to concentrate...
+
+na is it pig ?
+Skyborne narrates 'boar wont be able to bash it?'
+An energy begins to flow within your legs as your body becomes
+lighter.
+
+!( CRW Mana:Burning>
+Ok.
+
+!( CRW Mana:Burning>north
+Sloping Grassland
+A cute rabbit is here.
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>
+Helfire narrates 'yes'
+
+!. CRW Mana:Burning>na wait me, i will blind
+Ok.
+
+!. CRW Mana:Burning>west
+Dunland Trail
+A cute rabbit is here.
+Exits: -north-, east, -south-, west.
+
+!. CRW Mana:Burning>north
+north
+Dunland Trail
+Exits: -north-, east, -south-, west.
+
+!. CRW Mana:Burning>west
+Dunland Trail
+Exits: north, east, -south-, -west-.
+
+!. CRW Mana:Burning>north
+Dunland Trail
+Exits: -north-, -east-, south, west.
+
+!. CRW Mana:Burning>north
+north
+Dunland Trail
+A large rabbit looks peacefully at you, ready to dart away.
+Exits: -north-, east, -south-, west.
+
+!. CRW Mana:Burning>
+Dunland Trail
+A large rabbit looks peacefully at you, ready to dart away.
+A grey wolf is here, snarling aggressively.
+A large rabbit looks peacefully at you, ready to dart away.
+A beautiful and docile horse is standing here.
+Exits: -north-, east, -south-, west.
+A large rabbit leaves vvvv S O U T H vvvv
+
+!. CRW Mana:Burning>north
+Dunland Trail
+A cute rabbit is here.
+Exits: -north-, east, -south-, west.
+
+!. CRW Mana:Burning>north
+Dunland Trail
+A fallow deer is grazing peacefully here.
+Exits: north, -south-, west, -/up\-.
+
+!. CRW Mana:Burning>east
+Hills of Dunland
+A squirrel is sleeping here.
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>north
+east
+Hills of Dunland
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>
+Track Leading to a Camp
+Exits: [north], east, south, west.
+
+!. CRW Mana:Burning>
+West of a Dark Dell
+Exits: north, south, west.
+You have found a Dunlending trapper!
+
+!( CRW Mana:Burning>north
+Low Hills of Dunland
+A porcupine is waddling around here, its tail full of sharp quills.
+Exits: north, east, south.
+
+!( CRW Mana:Burning>north
+Riverbank of the Sirannon
+A clean fragrance drifts up from a thick clump of leaves.
+Exits: ~north~, east, south, west.
+
+!. CRW Mana:Burning>east
+Near a Sandy Hill
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>north
+east
+Moorland on the Bank of the Riverbed
+Exits: ~north~, east, south, ~west~.
+
+!. CRW Mana:Burning>east
+north
+Rocky Hollin Moor
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>east
+A Large Cairn
+Exits: north, east, south, west. - d:cairn.
+You feel a hidden presence.
+
+!. CRW Mana:Burning>north
+east
+Bog in the Moor
+Clusters of slender stems and tall leaves thrive in the mud and
+shallows.
+A grey wolf is here, snarling aggressively.
+A large brown wolf stands here, its teeth partly bared.
+Exits: north, east, south, west.
+Note: Herb: milkweed
+
+!. CRW Mana:Burning>
+Wooded Hills
+A fallow deer is grazing peacefully here.
+A fallow deer is grazing peacefully here.
+A wild dog bares his yellow fangs at you.
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>
+Rolling Moorland
+Exits: ~north~, east, south, west.
+
+!. CRW Mana:Burning>east
+Hills of Eregion
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>east
+north
+north
+Hills of Eregion
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are two piles of
+hollyberries.
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>east
+Low Hills
+A great black and silver wolf is standing here, at the head of the
+pack.
+A huge, black wolf is here, ready to devour.
+A huge, black wolf is here, ready to devour.
+The mother wolf stands here, protecting her young cubs.
+A grey wolf is here, snarling aggressively.
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>
+Sirannon Plain
+Exits: ~north~, east, south, west.
+
+!. CRW Mana:Burning>
+You can't go into deep water!
+
+!. CRW Mana:Burning>
+Trail Among the Plains
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>north
+Ford in the Sirannon
+Clusters of slender stems and tall leaves thrive in the mud and
+shallows.
+A heron is stalking the area, looking for fish.
+Exits: north, ~east~, south, ~west~.
+
+!% CRW Mana:Burning Move:Tired>north
+Lonely Hill
+Exits: north, south, west.
+
+!( CRW Mana:Burning Move:Tired>north
+Hollin Road
+Exits: =north=, ~east~, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>north
+east
+Bend in Hollin Road
+A boar cub is playing here, and exploring the wide world.
+Exits: north, =east=, =south=.
+You have found a mean brigand!
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+A cute rabbit is here.
+Exits: north, =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>north
+Hollin Road
+Exits: =north=, east, south, =west=.
+You feel a hidden presence.
+
+!+ CRW Mana:Burning Move:Tired>east
+Bend in the Road
+Exits: east, =south=, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+east
+Dried-up Ford on the Stream
+A giant rat patters against you, squeaking maliciously.
+A small rat runs about, oblivious to your presence.
+Exits: north, east, south, west.
+
+!% CRW Mana:Burning Move:Tired>north
+east
+Hollin Road
+Exits: =north=, =east=, west.
+
+!+ CRW Mana:Burning Move:Tired>north
+Hollin Road
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+Exits: north, =east=, =south=, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+bush of INKBERRIES: Psylonia, Hemlock.
+Partly covered by the bush's green leaves, there are a few INKberries:
+Psylonia, Hemlock.
+A tall stag is here, grazing peacefully.
+A bear is here, covered with coarse black fur.
+A robin is here, carrying small pieces of wood to its nest.
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+Exits: =east=, =south=, west.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: north, =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: =north=, ~east~, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>north
+east
+Hollin Road
+A furry, striped raccoon is here, nosing around for some berries or
+roots.
+Exits: north, =east=, =south=.
+
+!+ CRW Mana:Burning Move:Tired>north
+east
+Hollin Road
+Exits: =north=, ~east~, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: north, =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>north
+east
+Hollin Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+north
+east
+Hollin Road
+A statue of a troll is posed in a moment of flight yet forever frozen
+in stone.
+Exits: =north=, east, ~south~, =west=.
+
+!+ CRW Mana:Burning Move:Tired>north
+Hollin Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are two piles of
+hollyberries and a torch.
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+A boar cub is playing here, and exploring the wide world.
+Exits: =north=, east, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>east
+Hollin Road
+Exits: =east=, =south=, west.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are three piles of
+hollyberries.
+Exits: =north=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Bend in Road
+Exits: north, =east=, =south=.
+
+!+ CRW Mana:Burning Move:Tired>bob
+cast n 'breath of b'
+Hollin Road
+Exits: =east=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+Exits: =east=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+Hollin Road
+Exits: =north=, south, =west=.
+
+!+ CRW Mana:Burning Move:Tired>
+You start to concentrate...
+
+The energy in your legs is refreshed.
+
+!+ CRW Mana:Burning>north
+Hollin Road
+Exits: =north=, east, =south=.
+
+!+ CRW Mana:Burning>north
+north
+Hollin Road
+Exits: =north=, east, =south=, west.
+
+!+ CRW Mana:Burning>north
+Hollin Road
+A restless rabbit bounces around.
+Exits: =north=, =south=, west.
+
+!+ CRW Mana:Burning>east
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+A sparrow is flapping around on the ground.
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning>north
+north
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+Exits: =north=, east, =west=.
+
+!+ CRW Mana:Burning>
+Hollin Road
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are some
+hollyberries.
+Exits: =north=, east, =south=.
+
+!+ CRW Mana:Burning>east
+Bend in the Hollin Road
+Exits: north, =east=, =south=.
+
+!+ CRW Mana:Burning>east
+east
+A Crossing
+A brown fox is here, looking for some rabbits to chew up.
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>east
+A Stone Bridge
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>east
+Hollin Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>north
+Hollin Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>east
+Hollin Road
+A huge warg is here, moving in for the kill.
+A huge warg is here, moving in for the kill.
+Exits: =north=, east, south, =west=.
+You begin to see some clouds.
+The tip of your blade shows a faint bluish glow.
+
+!+~ CRW Mana:Burning>east
+Helfire narrates 'invis self'
+
+Hollin Road
+A huge warg is here, moving in for the kill.
+A huge warg is here, moving in for the kill.
+Exits: north, =east=, =south=, west.
+
+!+~ CRW Mana:Burning>
+Hollin Road
+Exits: north, =east=, south, =west=.
+
+!+~ CRW Mana:Burning>north
+Fork in the Hollin Road
+Exits: =north=, east, south, =west=.
+
+!+~ CRW Mana:Burning>north
+An Ancient Road
+A huge warg is here, moving in for the kill.
+A huge warg is here, moving in for the kill.
+Exits: =north=, east, =south=, west.
+
+!+~ CRW Mana:Burning>north
+north
+An Ancient Road
+Exits: =north=, east, =south=.
+
+!+~ CRW Mana:Burning>north
+An Ancient Road
+Exits: =north=, east, =south=.
+
+!+~ CRW Mana:Burning>north
+An Ancient Road
+Exits: =north=, east, =south=, west.
+
+!+~ CRW Mana:Burning>
+An Ancient Road
+Exits: =north=, =south=, west.
+The bluish glow on your blade fades entirely.
+
+!+~ CRW Mana:Burning>
+An Ancient Road
+Exits: =north=, east, =south=, west.
+
+!+~ CRW Mana:Burning>east
+Among the Trees
+Exits: north, east, west.
+
+!.~ CRW Mana:Burning>north
+The Barren Plains
+A sturdy pack horse is standing here.
+Exits: north, east, south, west.
+
+!.~ CRW Mana:Burning>north
+east
+The Barren Plains
+A sturdy pack horse is standing here.
+Exits: north, east, south, west.
+
+!.~ CRW Mana:Burning>east
+east
+A Faint Trail
+Exits: north, =east=, south, west.
+
+!+~ CRW Mana:Burning>east
+A Faint Trail
+Exits: north, =east=, south, =west=.
+
+!+~ CRW Mana:Burning>north
+east
+A Faint Trail
+Exits: north, =east=, south, =west=.
+
+!+~ CRW Mana:Burning>east
+A Secret Trail
+Exits: =north=, east, south, =west=.
+
+!+~ CRW Mana:Burning>
+A Secret Trail
+Exits: north, =east=, =south=, west.
+
+!+~ CRW Mana:Burning>
+A Secret Mountain Path
+Exits: north, =east=, south, =west=.
+
+!+~ CRW Mana:Burning>
+A Bend in the Path
+Exits: =north=, south, =west=.
+
+!+~ CRW Mana:Burning>north
+A Secret Mountain Path
+Exits: =north=, east, =south=, west.
+
+!+~ CRW Mana:Burning>north
+A Secret Mountain Path
+Exits: north, =east=, =south=, west.
+
+!+~ CRW Mana:Burning>east
+east
+Secret Path
+Exits: north, =east=, south, =west=.
+
+!+~ CRW Mana:Burning>east
+Secret Path through the Mountains
+Exits: =east=, =west=.
+
+!+~ CRW Mana:Burning>north
+Secret Path through the Mountains
+Exits: north, =west=.
+Your whole blade now glows with a pale blue light.
+
+!+~ CRW Mana:Burning>
+Narrow River in the Mountain
+A crayfish is here, snapping its claws at you.
+A crayfish is here, snapping its claws at you.
+Exits: east, south, west. - n:bushes.
+
+!%~ CRW Mana:Burning>
+The bluish glow on your blade fades entirely.
+
+!%~ CRW Mana:Burning>o bushes
+Ok.
+
+!%~ CRW Mana:Burning>north
+Secret Path in the Plain
+A bright green holly bush is growing here.
+Partly covered by the bush's green leaves, there are two piles of
+hollyberries.
+Exits: =east=, (south).
+
+!+~ CRW Mana:Burning>east
+Secret Trail in the Plain
+Exits: [east], =west=.
+
+!+~ CRW Mana:Burning>east
+The thornbushes seem to be closed.
+
+!+~ CRW Mana:Burning>oe
+open exit east
+Ok.
+
+!+~ CRW Mana:Burning>east
+Bushy Plains
+Exits: =east=, south, =(west)=. - w:thornbushes.
+
+!+~ CRW Mana:Burning>east
+Bushy Plains
+Exits: =north=, east, =west=.
+
+!+~ CRW Mana:Burning>north
+A Small Hill
+Exits: =north=, =south=.
+It starts to rain.
+
+!+' CRW Mana:Burning>north
+Trail in the Hills
+Exits: north, =south=.
+
+!+' CRW Mana:Burning>north
+A Hill near the Mountains
+Exits: north, east, south, west.
+
+!(' CRW Mana:Burning>north
+A Small Hill
+Exits: south, west.
+
+!+' CRW Mana:Burning>west
+north
+Trail through the Mountain Foothills
+Exits: north, east.
+
+!<' CRW Mana:Burning>
+Your blade starts to glow very brightly!
+
+north
+High Mountain Pass
+Exits: north, east, south, up.
+
+!<' CRW Mana:Burning>north
+A Narrow Trail in the Misty Mountains
+Exits: north, south. - w:boulder.
+
+!<' CRW Mana:Burning>
+Fordable Stream
+Exits: [north], south.
+
+!+' CRW Mana:Burning>om
+Arglebargle, glop-glyf!?!
+
+!+' CRW Mana:Burning>on
+open exit north
+Mirasantika narrates 'how long to sun?'
+
+!+' CRW Mana:Burning>
+Ok.
+
+!+' CRW Mana:Burning>north
+Winding Trail across the Knoll
+A ferocious warg is here, snarling angrily.
+A ferocious warg is here, snarling angrily.
+Exits: =north=, east, =(south)=. - s:thorns.
+
+!+' CRW Mana:Burning>north
+A Hill near the Mountains
+Exits: =north=, east, =south=, -west-.
+
+!+' CRW Mana:Burning>north
+A Grassy Hill
+Exits: north, east, =south=, west.
+
+!+' CRW Mana:Burning>west
+Low Hill
+A small centipede is here scurrying about.
+A small centipede is here scurrying about.
+Exits: north, east, south, west.
+
+!(' CRW Mana:Burning>
+Mirasantika narrates 'solenya here'
+
+!(' CRW Mana:Burning>ntu
+Arglebargle, glop-glyf!?!
+
+!(' CRW Mana:Burning>
+The bluish glow on your blade fades entirely.
+
+!(' CRW>
+A sparrow has arrived from the south.
+
+!(' CRW>bti
+Arglebargle, glop-glyf!?!
+
+!(' CRW>nti
+narrate Time: 4:22 am. Dawn: 7 am (2m38s). Dusk: 8 pm (15m38s).
+Ok.
+
+!(' CRW>
+Helfire narrates 'troll coming'
+
+!(' CRW>na less that 3
+Ok.
+
+!(' CRW>west
+A Gentle Hill
+Exits: north, east, south, west.
+
+!(' CRW>north
+Hill
+Exits: north, south.
+
+!(' CRW>north
+west
+north
+Valley
+A tall stag is here, grazing peacefully.
+Exits: south, west.
+
+!.' CRW>east
+north
+High Hill
+Exits: north, east.
+
+!(' CRW>north
+north
+Hills
+A black wolf pads restlessly, looking for its next prey.
+Exits: north, east, south.
+
+!(' CRW>west
+A Green Hill
+A dove rests near one of the flowers.
+Exits: north, east, west.
+
+!(' CRW>west
+High Hill
+A black wolf pads restlessly, looking for its next prey.
+Exits: north, east, south.
+
+!(' CRW>north
+The tip of your blade shows a faint bluish glow.
+
+Green Hills
+Exits: north, east, south.
+
+!(' CRW>north
+Hills
+A colourful butterfly is fluttering around here.
+Exits: east, south, west.
+
+!(' CRW>north
+north
+Hills
+Exits: north, east, west.
+
+!(' CRW>north
+Hills
+Exits: north, east.
+
+!(' CRW>east
+Hills
+Exits: north, south.
+
+!(' CRW>
+Hills
+Exits: north, east, south.
+
+!(' CRW>east
+Grassy Field
+A fallow deer is grazing peacefully here.
+A fallow deer is grazing peacefully here.
+Exits: north, east, south.
+
+!.' CRW>north
+An Ancient Broken Road
+Exits: =north=, east, south.
+
+!+' CRW>
+Helfire narrates 'bah he woke?'
+The bluish glow on your blade fades entirely.
+
+east
+An Ancient Broken Road
+Exits: =east=, =south=.
+The rain has stopped.
+
+!+~ CRW>
+An Ancient Broken Road
+Exits: =east=, =west=.
+
+!+~ CRW>
+A Bend in the Road
+A ferocious warg is here, snarling angrily.
+Exits: =north=, [east], =west=.
+
+!+~ CRW>east
+A Bend in the Road
+Exits: =east=, =south=.
+
+!+~ CRW>north
+An Ancient Broken Road
+Exits: =east=, =west=, ~down~.
+
+!+~ CRW>north
+An Ancient Broken Road
+Exits: north, =west=.
+
+!+~ CRW>east
+A Ford through the River
+On the ground, there are two canoes.
+A raft has been left here.
+Exits: north, ~east~, south, ~west~.
+
+!%~ CRW>north
+north
+An Ancient Broken Road
+Exits: =east=, south.
+
+!+~ CRW>north
+An Ancient Broken Road
+Exits: =north=, =west=, ~down~.
+
+!+~ CRW>north
+An Ancient Broken Road
+A ferocious warg is here, snarling angrily.
+Exits: =north=, =south=, west.
+
+!+~ CRW>north
+An Ancient Broken Road
+Exits: =north=, =south=, west.
+
+!+~ CRW>north
+An Ancient Broken Road
+A ferocious warg is here, snarling angrily.
+Exits: =north=, east, =south=.
+
+!+~ CRW>east
+An Ancient Broken Road
+Exits: north, =east=, =south=.
+
+!+~ CRW>up
+Mirasantika narrates 'solenya hit'
+
+In the Bed of a Dried out River
+Exits: north, south, west, up.
+
+!(~ CRW>
+Along the Dry River
+Exits: ~north~, east, south, west.
+
+!(~ CRW>
+Along the Dry River
+A fat rabbit is here, chewing on some grass.
+Exits: ~north~, west, up.
+
+!(~ CRW>
+Skyborne narrates 'bn woke'
+An Ancient Broken Road
+Exits: north, =south=, down.
+
+!+~ CRW>north
+Fording a Tributary
+Exits: north, ~east~, south, ~west~.
+Clouds light up as lightning strikes from within, showering its long
+and thin branches of bright light down across the shallows.
+
+!%" CRW>north
+An Ancient Broken Road
+Exits: -north-, ~east~, south.
+
+!." CRW>north
+An Ancient Broken Road
+Exits: -north-, -south-, -west-.
+
+!." CRW>north
+An Ancient Broken Road
+Exits: -north-, east, -south-, west.
+
+!." CRW>north
+north
+An Ancient Broken Road
+Exits: -north-, [east], -south-, [west].
+Your blade starts to glow very brightly!
+
+!." CRW>north
+An Ancient Broken Road
+Exits: -north-, east, -south-, west.
+
+!." CRW>north
+An Ancient Broken Road
+Exits: -north-, -east-, -south-, west.
+
+!." CRW>north
+Helfire narrates 'and how did that happen'
+Tiny Path
+Exits: north, -east-, -south-, -west-.
+
+!+" CRW>east
+north
+Desolate Plains
+Exits: north, east, south, west.
+
+!." CRW>north
+An Ancient Broken Road
+Exits: -north-, east, -south-, west.
+
+!." CRW>east
+north
+An Ancient Broken Road
+Exits: north, -east-, -south-, west.
+
+!." CRW>
+Grassy Plateau
+An orkish warg-rider is here, riding a hungry warg.
+An orkish warg-rider is here, riding a hungry warg.
+Exits: north, east, south, west.
+The clouds suddenly disappear.
+
+!. CRW>
+Abandoned Broken Road
+Exits: =north=, east, -south-, west.
+
+!+ CRW>
+Abandoned Broken Road
+Exits: =north=, east, =south=, west.
+
+!+ CRW>na cheaters?
+Ok.
+
+!+ CRW>north
+Abandoned Broken Road
+Exits: =north=, east, =south=, west.
+
+!+ CRW>north
+east
+Abandoned Broken Road
+Exits: =north=, east, =south=, -west-.
+Helfire narrates 'thats cheating'
+
+!+ CRW>east
+Plains by the Road
+Exits: north, east, south, west.
+
+!. CRW>
+Grassy Plain
+Exits: north, east, south, west.
+
+!. CRW>east
+An Old, Overgrown Field
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>east
+An Old Field
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>east
+Ruins of a Farmhouse
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>north
+Remnants of a Farm
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>north
+east
+An Old Trail
+Exits: -north-, -east-, south, -west-.
+
+!. CRW Move:Tired>
+Helfire narrates 'for sure wtf'
+
+east
+An Overgrown Trail
+Exits: north, -east-, south, -west-.
+
+!. CRW Move:Tired>
+A Forgotten Trail
+Exits: -north-, east, south, -west-.
+
+!. CRW Move:Tired>north
+An Ancient Trail in the Plains
+Exits: north, east, -south-, west.
+
+!. CRW Move:Tired>
+The glow on your blade is now just a faint glimmer.
+
+!. CRW Move:Tired>north
+A Shallow and Marshy Part of the River
+A small leech is here, floating in the water.
+Exits: north, ~east~, south, ~west~.
+
+!% CRW Move:Tired>north
+A Sunken Trail
+A small leech is here, floating in the water.
+Exits: -north-, east, south, west.
+
+!% CRW Move:Tired>west
+The passage up the hill makes you breathe harder.
+
+A Hill by the River
+Exits: north, east, ~south~, west.
+
+!( CRW Move:Tired>west
+north
+Grasslands
+Exits: north, east, ~south~, west.
+
+!. CRW Move:Tired>north
+The Grassy Plains
+A swarm of midges is here, humming around you.
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>north
+A Golden Field
+An orkish warg-rider is here, riding a hungry warg.
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>north
+Red Flower Field
+An orkish warg-rider is here, riding a hungry warg.
+An orkish warg-rider is here, riding a hungry warg.
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>north
+Yellow Flower Field
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>
+Your blade starts to glow very brightly!
+
+bob
+cast n 'breath of b'
+A Fertile Field
+Exits: north, east, south, west.
+
+!. CRW Move:Tired>
+You start to concentrate...
+Helfire narrates 'no way they know'
+
+Skyborne narrates 'nod'
+
+The energy in your legs is refreshed.
+
+!. CRW Mana:Burning>north
+A Grassy Field
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>north
+north
+north
+Mixed Flower Field
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>east
+north
+A Flower Field
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>east
+north
+Trail at Mixed Fields
+Exits: =north=, east, south, =west=.
+
+!+ CRW Mana:Burning>north
+A Supplementary Pasture
+Exits: north, east, south, west.
+Note: Herb: hemlock
+
+!. CRW Mana:Burning>north
+Bend in the Trail
+Exits: =north=, east, south, =west=.
+
+!+ CRW Mana:Burning>north
+Flood Plain
+Exits: north, east, south, west.
+
+!. CRW Mana:Burning>
+Ancient Trail
+A restless rabbit bounces around.
+Exits: -north-, east, south, =west=.
+
+!+ CRW Mana:Burning>
+Trail Approaching the River
+Exits: north, -east-, -south-, west.
+The bluish glow on your blade fades entirely.
+
+!. CRW Mana:Burning>
+A Rock-bristled Riverside
+Exits: north, east, south, ~west~.
+
+!. CRW Mana:Burning>west
+A Path along a Steep, Brown Bank
+A partridge attempts to hide in the undergrowth.
+Exits: north, -east-, south, -west-.
+
+!. CRW Mana:Burning>west
+A Ford in the River Bruinen
+Exits: ~north~, -east-, ~south~, -west-.
+
+!% CRW Mana:Burning>north
+West of the Ford in the Bruinen
+Exits: =north=, -east-, ~south~, west.
+
+!+ CRW Mana:Burning>west
+The bending road ascends a steep hillside.
+
+Bend in the Great East Road
+Exits: -north-, =south=, =west=.
+
+!+ CRW Mana:Burning>west
+Great East Road through a Rocky Gully
+Exits: =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Helfire narrates 'man this game stinks'
+
+Great East Road West of a Gully
+Exits: =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Great East Road
+Exits: north, =east=, south, =west=.
+Your blade starts to glow very brightly!
+
+!+ CRW Mana:Burning>
+Great East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Bend in the Road
+Exits: =north=, =east=, south.
+
+!+ CRW Mana:Burning>north
+Old East Road
+Exits: east, =south=, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Your blade glows less brightly.
+
+Bend in the Road
+Exits: =north=, =east=, south, ~west~.
+
+!+ CRW Mana:Burning>north
+Old East Road
+Exits: north, =south=, =west=. - e:hillside.
+
+!+ CRW Mana:Burning>west
+Small Stream Crossing
+Exits: ~north~, =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: ~north~, =east=, =west=.
+
+!+ CRW Mana:Burning>wher
+Players in your zone
+--------------------
+Iminye               - Old East Road
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning>south
+west
+A Bend in the Road
+Exits: =north=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+!+ CRW Mana:Burning>wher
+west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>
+Players in your zone
+--------------------
+Iminye               - Old East Road
+
+!+ CRW Mana:Burning>
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning>south
+west
+A Bend in the Road
+Exits: =north=, east, south, =west=.
+
+!+ CRW Mana:Burning>
+The bluish glow on your blade fades entirely.
+
+west
+Old East Road
+The remains of a swarm of blow-flies lie here.
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Some ugly blow-flies are buzzing around here.
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>wher
+Old East Road
+A swarm of midges is here, humming around you.
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>
+Players in your zone
+--------------------
+Iminye               - Old East Road
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Bend in the Old East Road
+Mirasantika is here, riding a trained horse.
+A mother eagle flies high above, looking for prey.
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning>south
+west
+Mirasantika leaves east riding a trained horse.
+A mother eagle leaves >>>> E A S T >>>>
+Bend in the Old East Road
+Exits: =north=, =west=. - e:thornyhedge.
+
+!+ CRW Mana:Burning>
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>wher
+Players in your zone
+--------------------
+Mirasantika          - Old East Road
+Iminye               - Old East Road
+
+!+ CRW Mana:Burning>west
+Crossing in the Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>west
+The Old East Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW Mana:Burning>south
+west
+Ashelia narrates 'power of skype :P'
+The Old East Road
+Exits: =north=, east, south, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>
+Old East Road
+Helfire is here, riding a horse of the Rohirrim.
+A sturdy trained horse is standing here.
+A great, wild boar with large tusks is here, ready to charge.
+A mother eagle flies high above, looking for prey.
+A mother eagle flies high above, looking for prey.
+Exits: north, =east=, =west=.
+
+!+ CRW Mana:Burning>west
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+!+ CRW Mana:Burning>west
+Fordable Creek
+Exits: north, =east=, ~south~, =west=.
+
+!+ CRW Mana:Burning>west
+*Solenya the Black Numenorean* has arrived from the north riding a
+trained horse.
+A mother eagle has arrived from the north.
+A mother eagle has arrived from the north.
+
+!+ CRW Mana:Burning>
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW Mana:Burning>de man
+cast normal 'dispel e'  man
+Nobody here by that name.
+
+!+ CRW Mana:Burning>east
+Fordable Creek
+Exits: north, =east=, ~south~, =west=.
+*Solenya the Black Numenorean* has arrived from the east riding a
+trained horse.
+A mother eagle has arrived from the east.
+A mother eagle has arrived from the east.
+
+!+ CRW Mana:Burning>de man
+cast normal 'dispel e'  man
+You start to concentrate...
+Your victim has disappeared!
+*Solenya the Black Numenorean* leaves north riding a trained horse.
+A mother eagle leaves ^^^^ N O R T H ^^^^
+A mother eagle leaves ^^^^ N O R T H ^^^^
+
+!+ CRW Mana:Burning>north
+Source of the Creek
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>de man
+cast normal 'dispel e'  man
+Nobody here by that name.
+
+!( CRW Mana:Burning>north
+Scattered Clumps of Trees
+Exits: north, east, south, west.
+
+!f CRW Mana:Burning>north
+Dreary Woodlands
+A swift and agile forest cat moves silently through the vegetation.
+Exits: north, south, west.
+
+!f CRW Mana:Burning>wher
+Players in your zone
+--------------------
+Iminye               - Dreary Woodlands
+
+!f CRW Mana:Burning>
+Helfire narrates 'someone please report this'
+
+!f CRW Mana:Burning>south
+Scattered Clumps of Trees
+Exits: north, east, south, west.
+
+!f CRW Mana:Burning>
+Beata narrates 'skype is sooo 2004'
+
+!f CRW Mana:Burning>south
+Source of the Creek
+Exits: north, east, south, west.
+
+!( CRW Mana:Burning>south
+Fordable Creek
+Exits: north, =east=, ~south~, =west=.
+
+!+ CRW>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+      Helfire ~ Elf on Fire
+      Ashelia
+
+6 allies on.
+
+!+ CRW>
+Skyborne has arrived from the north riding a trained horse.
+
+!+ CRW>na i am logging this sesion
+Ok.
+
+!+ CRW>
+You begin to see some clouds.
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>east
+Helfire narrates 'thanks'
+
+!+~ CRW>
+The Old East Road
+Exits: =north=, east, south, =west=.
+
+!+~ CRW>north
+The Old East Road
+Exits: north, =east=, =south=, west.
+
+!+~ CRW>east
+Crossing in the Road
+A rabid raccoon stands here, frothing at the mouth.
+Exits: north, =east=, south, =west=.
+
+!+~ CRW>
+A rabid raccoon leaves <<<< W E S T <<<<
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>east
+Bend in the Old East Road
+Exits: =north=, =west=. - e:thornyhedge.
+
+!+~ CRW>north
+Bend in the Old East Road
+Exits: north, =east=, =south=, west.
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>east
+Old East Road
+A swarm of midges is here, humming around you.
+Exits: north, =east=, =west=.
+The clouds begin to disappear.
+
+!+ CRW>na what is troll name ?
+Ok.
+
+!+ CRW>st
+stat
+OB: 58%, DB: 65%, PB: 54%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 631. Alert: normal.
+Affected by:
+- novoid
+- breath of briskness (1m16s)
+- detect magic (13m12s/)
+- shroud   (16m)
+- strength (💪 19m39s  )
+- shield   (⛉ 19m48s  )
+- armour   (🧥 19m53s  )
+- vigour
+- growth
+
+!+ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW>east
+Old East Road
+Some ugly blow-flies are buzzing around here.
+Exits: north, =east=, south, =west=.
+Helfire narrates 'noname'
+
+!+ CRW>east
+Old East Road
+The remains of a swarm of blow-flies lie here.
+Exits: north, =east=, south, =west=.
+
+!+ CRW>
+A swarm of blow-flies has arrived from the west.
+
+!+ CRW>north
+A Rocky Incline
+Exits: north, east, south, west.
+
+!. CRW>east
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+
+!+ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW>east
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+!+ CRW>
+Your blade starts to glow very brightly!
+
+!+ CRW>
+Mirasantika narrates 'noname to me'
+
+!+ CRW>time
+According to the Sindarin calendar, it is:
+Orithil, the 15th of Lothron, year 2951 of the Third Age.
+It should be the end of the night soon.
+You can see a Three-Quarter Moon (waning) in the western part of the
+sky.
+Real time is Wed Oct  2 05:43:52 2019 UTC.
+Last reboot after an automatic reboot at Sat Sep 28 04:02:51 2019 UTC.
+
+!+ CRW>whre
+where
+Players in your zone
+--------------------
+Skyborne             - Deep in the Woods
+Iminye               - Old East Road
+
+!+ CRW>
+Skyborne narrates 'me too'
+
+!+ CRW>
+Skyborne narrates 'but i have no wps'
+
+!+ CRW>tr
+You carefully examine the ground around you, looking for tracks...
+
+You see:
+   - a plain track of a horse of the Rohirrim leading east done less
+than 1 hour ago
+
+Helfire narrates 'bns name'
+
+Beata tells you 'fyi someone asked em to go to bbt right before all
+this went down '
+
+   - a vague track of a great, wild boar leading east done less than 1
+hour ago
+   - a vague track of a trained horse leading east done less than 1
+hour ago
+   - a vague track of a horse of the Rohirrim leading west done less
+than 2 hours ago
+   - a vague track of a trained horse leading west done less than 7
+hours ago
+
+Your blade glows less brightly.
+
+You stop searching, you don't seem to find anything else.
+
+!+ CRW>
+Skyborne narrates 'solenya'
+
+!+ CRW>
+Beata tells you 'and lo and behold'
+
+!+ CRW>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW>west
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+The bluish glow on your blade fades entirely.
+
+!+ CRW>south
+A Bend in the Road
+Exits: =north=, east, south, =west=.
+
+!+ CRW>west
+Old East Road
+The remains of a swarm of blow-flies lie here.
+Exits: north, =east=, south, =west=.
+
+!+ CRW>west
+Old East Road
+Exits: north, =east=, south, =west=.
+
+!+ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+ CRW>west
+Old East Road
+A swarm of midges is here, humming around you.
+Exits: north, =east=, =west=.
+
+!+ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+You begin to see some clouds.
+
+!+~ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>west
+Bend in the Old East Road
+Exits: north, =east=, =south=, west.
+
+!+~ CRW>south
+west
+Bend in the Old East Road
+Exits: =north=, =west=. - e:thornyhedge.
+
+!+~ CRW>
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>west
+Crossing in the Road
+Exits: north, =east=, south, =west=.
+
+!+~ CRW>west
+south
+The Old East Road
+A rabid raccoon stands here, frothing at the mouth.
+Exits: north, =east=, =south=, west.
+
+!+~ CRW>west
+The Old East Road
+Exits: =north=, east, south, =west=.
+
+!+~ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+
+!+~ CRW>west
+Old East Road
+Exits: north, =east=, =west=.
+The sun appears above the horizon cloaked in a nimbus of golden
+colours.
+
+*+~ CRW>
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+*+~ CRW>trop #
+               *** TROPHY *** (Kills, Knowledge, Name)
+
+|   1,  1%,  #Zinister                                              |
+|   1,  0%,  #Slabrog                                               |
+|   1,  0%,  #Katse                                                 |
+|   2,  1%,  #Tyrion                                                |
+|   1,  0%,  #Murahornargh                                          |
+|   1,  0%,  #Troth                                                 |
+|   1,  0%,  #Aenaeas                                               |
+|   1,  0%,  #Khugh                                                 |
+|   2,  0%,  #Katniss                                               |
+|   1,  0%,  #Iltz                                                  |
+|   1,  0%,  #Trolgar                                               |
+|   1,  0%,  #Kut                                                   |
+|   1,  0%,  #Tickle                                                |
+|   1,  0%,  #Yaul                                                  |
+|   1,  0%,  #Boddah                                                |
+|   1,  0%,  #Zorg                                                  |
+|   2,  1%,  #Gringoire                                             |
+|   1,  0%,  #Nugs                                                  |
+|   1,  0%,  #Boaz                                                  |
+|   1,  0%,  #Namir                                                 |
+|   1,  0%,  #Horast                                                |
+|   2,  0%,  #Svarten                                               |
+
+*** Return: continue, b: back, r: redisplay, q: quit (89%) *** 
+
+|   1,  0%,  #Arzorex                                               |
+|   1,  0%,  #Zakuzka                                               |
+
+Total matching kills: 28 (24 distinct)
+
+*+~ CRW>west
+Fordable Creek
+Exits: north, =east=, ~south~, =west=.
+
+*+~ CRW>tr Slabrog
+You carefully examine the ground around you, looking for tracks...
+
+You stop searching.
+
+*+~ CRW>tr
+You carefully examine the ground around you, looking for tracks...
+
+You see:
+   - a vague track of a trained horse leading east done less than 2
+hours ago
+   - a vague track of a horse of the Rohirrim leading east done less
+than 2 hours ago
+   - a vague track of a horse of the Rohirrim leading north done less
+than 2 hours ago
+   - a vague track of a trained horse leading north done less than 2
+hours ago
+   - a vague track of a horse of the Rohirrim leading west done less
+than 2 hours ago
+   - a vague track of a great, wild boar leading east done less than 2
+hours ago
+   - two vague tracks of a trained horse leading west done less than 3
+hours ago
+   - a vague track of *a Troll* leading east done less than 3 hours
+ago
+   - a vague track of *a Troll* coming from the west done less than 4
+hours ago
+
+   - a faint track of *a Troll* leading west done less than 9 hours
+ago
+
+tr Slabrog
+You stop searching, you don't seem to find anything else.
+
+*+~ CRW>
+You carefully examine the ground around you, looking for tracks...
+
+Hmm... It seems there is no sign of Slabrog here.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>east
+The Old East Road
+Exits: =north=, east, south, =west=.
+
+*+~ CRW>north
+The Old East Road
+Exits: north, =east=, =south=, west.
+
+*+~ CRW>east
+Crossing in the Road
+Exits: north, =east=, south, =west=.
+
+*+~ CRW>east
+east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>north
+Bend in the Old East Road
+Exits: =north=, =west=. - e:thornyhedge.
+
+*+~ CRW>look
+Bend in the Old East Road
+Exits: north, =east=, =south=, west.
+
+*+~ CRW>
+Bend in the Old East Road
+Exits/emulated: north, =south=, =east=, west.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+The clouds begin to disappear.
+
+*+ CRW>east
+east
+Old East Road
+The elongated shape of a stoat can be seen darting across the terrain.
+Exits: north, =east=, =west=.
+
+*+ CRW>
+Old East Road
+Exits: north, =east=, =west=.
+
+*+ CRW>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+ [Mw] Jahara the Hobbit Cartographer [MMapper Dev]
+      Helfire ~ Elf on Fire
+      Ashelia
+
+7 allies and visible Ainur on.
+
+*+ CRW>
+Your legs feel heavier.
+The spell lasted 2m56s.
+
+*+ CRW>
+The day has begun.
+The moon disappears in the west.
+You begin to feel hungry.
+
+*+ CRW>tel jahara we consider troll and bn are cheating
+Ok.
+
+*+ CRW>oo
+cast n 'create food';eat food
+You start to concentrate...
+
+A magic mushroom suddenly appears.
+eat food
+
+*+ CRW Mana:Burning>
+You eat the mushroom.
+You are full.
+
+*+ CRW Mana:Burning>
+You can't find a food.
+
+*+ CRW Mana:Burning>tel jahara noway bn could know troll slept
+Ok.
+
+*+ CRW>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+ [Mw] Jahara the Hobbit Cartographer [MMapper Dev]
+      Helfire ~ Elf on Fire
+      Ashelia
+
+7 allies and visible Ainur on.
+
+*+ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+*+ CRW>east
+Old East Road
+The remains of a swarm of blow-flies lie here.
+Exits: north, =east=, south, =west=.
+
+*+ CRW>east
+A Bend in the Road
+Exits: =north=, east, south, =west=.
+
+*+ CRW>north
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+
+*+ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+*+ CRW>east
+Old East Road
+Exits: north, =east=, -south-, =west=.
+
+*+ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+*+ CRW>east
+A Bend in the Road
+Exits: =north=, south, =west=.
+
+*+ CRW>north
+Your blade starts to glow very brightly!
+
+*+ CRW>
+A Bend in the Road
+Exits: north, =east=, =south=, west.
+
+*+ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+You begin to see some clouds.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: ~north~, =east=, =west=.
+
+*+~ CRW>east
+Small Stream Crossing
+Exits: ~north~, =east=, ~south~, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =south=, =west=. - e:hillside.
+
+*+~ CRW>south
+Bend in the Road
+Exits: =north=, =east=, south, ~west~.
+
+*+~ CRW>east
+east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, =west=.
+
+*+~ CRW>
+Old East Road
+Exits: east, =south=, =west=.
+
+*+~ CRW>south
+east
+Bend in the Road
+Exits: =north=, =east=, south.
+
+*+~ CRW>east
+Old East Road
+Exits: north, =east=, south, =west=.
+
+*+~ CRW>east
+Old East Road
+Exits: =east=, south, =west=.
+
+*+~ CRW>east
+Great East Road
+Exits: north, =east=, south, =west=.
+The clouds begin to disappear.
+
+*+ CRW>east
+Great East Road
+Exits: north, =east=, south, =west=.
+
+*+ CRW>east
+Great East Road West of a Gully
+Exits: =east=, =west=.
+
+*+ CRW>east
+Great East Road through a Rocky Gully
+Exits: =east=, =west=.
+
+*+ CRW>
+Bend in the Great East Road
+Exits: -north-, =south=, =west=.
+
+*+ CRW>south
+east
+The bending road descends along a steep hillside.
+
+West of the Ford in the Bruinen
+Exits: =north=, -east-, ~south~, west.
+
+*+ CRW>east
+A Ford in the River Bruinen
+Exits: ~north~, -east-, ~south~, -west-.
+
+*% CRW>east
+A Path along a Steep, Brown Bank
+Exits: north, -east-, south, -west-.
+
+*. CRW>east
+Junction in the Path
+Exits: north, -east-, -south-, -west-.
+
+*. CRW>east
+Path to the Misty Mountains
+Exits: north, -east-, south, -west-.
+The bluish glow on your blade fades entirely.
+
+*. CRW>north
+east
+Bend in the Path to the Misty Mountains
+Exits: -north-, east, south, -west-.
+
+*. CRW>east
+Bend in the Path to the Misty Mountains
+Exits: north, -east-, -south-, west.
+
+*. CRW>east
+Path to the Misty Mountains
+Exits: north, -east-, south, -west-.
+
+*. CRW>
+Path to the Misty Mountains
+Exits: north, -east-, -west-.
+
+*. CRW>
+Path to the Misty Mountains
+Exits: north, -east-, south, -west-.
+
+*. CRW>east
+Path to the Misty Mountains
+Exits: -north-, -east-, south, -west-.
+
+*. CRW>north
+High Moors
+Exits: -north-, east, -south-, west.
+
+*: CRW>sr
+seek rivendell
+You bend close to the ground, seeking the path to Rivendell...
+
+Skyborne has suddenly arrived riding a trained horse.
+
+Skyborne leaves south riding a trained horse.
+
+A tiny pile of white mossy stones suggests the right way to follow...
+Top of a Steeply Sloping Path
+Exits: -south-, =down=.
+At last Rivendell is within sight!
+
+*+ CRW>lead pa
+You stop riding a horse of the Rohirrim (pa).
+A horse of the Rohirrim (pa) starts following you.
+
+*+ CW>down
+Steeply Sloping Path
+An elf is here walking around.
+Exits: =up=, =down=.
+
+*+ CW>down
+Bottom of a Steep Path
+An elf is here walking around.
+Exits: =east=, =up=.
+
+*+ CW>east
+Meeting of the Paths
+Exits: =north=, =west=, =up=.
+
+*+ CW>north
+north
+Gracefully Arched Bridge
+Exits: =north=, =south=.
+
+*+ CW>
+Meeting of the Trails
+Exits: =north=, east, =south=, =west=.
+
+*+ CW>east
+north
+Entrance to the Last Homely Home
+A graceful and slender tree grows here.
+Exits: north, east, south, west, up.
+
+*# CW>
+A Large Field
+A sturdy target for arrows, made out of thatch, stands here.
+Exits: north, east, south, west.
+
+*. CW>east
+The Rivendell Stables
+A domesticated pony, beast of burden to many, stands here.
+A sturdy pack horse is standing here.
+A sturdy pack horse is standing here.
+A domesticated pony, beast of burden to many, stands here.
+A stocky mountain mule is here, waiting to serve.
+An elven youth is busy attending to the animals.
+A sturdy pack horse is standing here.
+Exits: west.
+
+*# CW>rent pa
+The keeper of Elrond's stable tells you 'It will cost you 13 celeb to
+get your pet back.'
+The keeper of Elrond's stable gives you a ticket.
+The keeper of Elrond's stable takes a horse of the Rohirrim away.
+
+*# CW>i
+You are carrying:
+a ticket for a horse of the Rohirrim
+a lustrous green emerald
+a strange set of lock picks
+a red ruby; it glows blue
+
+*# CW>p all pack
+You put a ticket for a horse of the Rohirrim in a leather backpack.
+You put a lustrous green emerald in a leather backpack.
+You put a strange set of lock picks in a leather backpack.
+You put a red ruby in a leather backpack.
+
+*# CW>g all.gem all
+You get a red ruby from a leather backpack.
+You get a lustrous green emerald from a leather backpack.
+You get an amethyst from a leather backpack.
+You get a polished white quartzite from a leather backpack.
+You get a lustrous opal from a leather backpack.
+
+*# CW>i
+You are carrying:
+a lustrous opal
+a polished white quartzite
+an amethyst
+a lustrous green emerald
+a red ruby; it glows blue
+
+*# CW>p amethyst pack
+You put an amethyst in a leather backpack.
+
+*# CW>g all.huge all
+You get a huge silvery bracer from a leather backpack.
+
+*# CW>i
+You are carrying:
+a huge silvery bracer
+a lustrous opal
+a polished white quartzite
+a lustrous green emerald
+a red ruby; it glows blue
+
+*# CW>west
+A Large Field
+A sturdy target for arrows, made out of thatch, stands here.
+Exits: north, east, south, west.
+
+*. CW>south
+Entrance to the Last Homely Home
+A graceful and slender tree grows here.
+Exits: north, east, south, west, up.
+
+*# CW>
+An elf has arrived from above.
+
+*# CW>east
+The Courtyard
+A graceful and slender tree grows here.
+Exits: north, east, south, west.
+
+*# CW>
+Skyborne narrates 'was flawed plan anyway pig cant bash shrouded troll
+:P'
+
+*# CW>south
+The Courtyard
+A graceful and slender tree grows here.
+Exits: north, east, south, west.
+
+*# CW>west
+Jeweller
+An elven guard is wandering here, keeping the peace.
+A noble Elf stands here, proudly displaying his valuable assets.
+Exits: east.
+
+*# CW>i
+You are carrying:
+a huge silvery bracer
+a lustrous opal
+a polished white quartzite
+a lustrous green emerald
+a red ruby; it glows blue
+
+*# CW>sel all.gem
+An elven shopkeeper tells you 'That's nice! Here's 93 lauren, 11
+celeb, and 50 busc for it.'
+You sell a lustrous green emerald, a lustrous opal, a polished white
+quartzite, and a red ruby.
+
+*# CW>sel bracer
+An elven shopkeeper tells you 'That's nice! Here's one lauren and 19
+celeb for it.'
+You sell a huge silvery bracer.
+
+*# CW>i
+You are carrying:
+Nothing.
+
+*# CW>st
+stat
+OB: 72%, DB: 65%, PB: 63%, Armour: 76%. Wimpy: 100. Mood: wimpy.
+Needed: 492,173 xp, 0 tp. Lauren: 727. Alert: normal.
+Affected by:
+- novoid
+- detect magic (16m19s/)
+- shroud   (19m7s)
+- strength (💪 22m46s  )
+- shield   (⛉ 22m55s  )
+- armour   (🧥 23m  )
+- vigour
+- growth
+
+*# CW>na true
+Ok.
+
+*# CW>who
+Helfire narrates 'doh'
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+ [Mw] Jahara the Hobbit Cartographer [MMapper Dev]
+      Helfire ~ Elf on Fire
+      Ashelia
+
+7 allies and visible Ainur on.
+
+*# CW>i
+You are carrying:
+Nothing.
+
+*# CW>xp
+look in 1.pack
+In your backpack (worn on back):
+an amethyst
+two sets of lock picks
+eleven tickets
+two white folded notes
+a flask of orkish draught
+fifteen man-like roots
+a grey fluid-sack
+a black candle; it glows blue
+two sturdy ropes
+eleven handfuls of clover
+six handfuls of narrow leaves
+a lembas wafer; it glows blue
+eleven piles of leaves of THYME: Soothing, Clearthoughts_C
+a nimble blade (flawless); it glows blue
+an ivory scroll; it glows blue
+two golden topaz rings
+a black runed dagger (flawless); it glows blue
+a blue scroll; it glows blue
+two softly glowing green cups
+eight clusters of berries of Juniper: Clearthoughts_A
+an unfinished band of gold
+a black scroll; it glows blue
+five piles of petals of MAUVE: Clearthoughts_D
+five piles of leaves of SAGE: Healing, Soothing, Clearthoughts_B
+a wooden pipe
+a silver goblet
+
+*# CW>na haha
+Ok.
+
+*# CW>east
+The Courtyard
+A graceful and slender tree grows here.
+Elrond the Master of Rivendell is standing here (glowing).
+Exits: north, east, south, west.
+
+*# CW>north
+The Courtyard
+A graceful and slender tree grows here.
+An elven guard is wandering here, keeping the peace.
+Exits: north, east, south, west.
+
+*# CW>west
+Entrance to the Last Homely Home
+A graceful and slender tree grows here.
+An elf is here walking around.
+Exits: north, east, south, west, up.
+
+*# CW>g gem all
+You get an amethyst from a leather backpack.
+
+*# CW>
+An elven guard has arrived from the east.
+
+*# CW>p all pack
+You put an amethyst in a leather backpack.
+
+*# CW>wher
+Players in your zone
+--------------------
+Iminye               - Entrance to the Last Homely Home
+
+*# CW>up
+Stairway
+Exits: north, east, south, up, down.
+
+!# CW>east
+Grand Hallway
+An elf is here walking around.
+Exits: north, east, south, west.
+
+!# CW>south
+Imladris Private Guest Rooms
+A large bulletin board, entitled "Board of the Free Peoples", is
+mounted here.
+An elven guard is standing here at his post.
+Erienal, the host to guests of Imladris is standing here.
+Exits: north.
+
+!# CW>wher
+Players in your zone
+--------------------
+Iminye               - Imladris Private Guest Rooms
+
+!# CW>prac
+You have 0 practice sessions left.
+Skill / Spell         Knowledge  Difficulty  Class       Mana  Casting
+time
+Bandage               Poor       Easy        None       
+Climb                 Good       Very easy   None       
+Command               Superb     Normal      None       
+Leadership            Good       Normal      None       
+Ride                  Fair       Very easy   None       
+Swim                  Good       Very easy   None       
+Track                 Superb     Normal      None       
+Wilderness            Average    Normal      None       
+Armour                Excellent  Hard        Magic User    25  Very
+short
+Block door            Good       Normal      Magic User    25  Very
+short
+Burning hands         Average    Normal      Magic User     6  Very
+short
+Charm                 Excellent  Hard        Magic User    17  Very
+short
+Detect magic          Average    Easy        Magic User     4  Very
+short
+Shield                Excellent  Hard        Magic User    25  Very
+short
+Shroud                Average    Hard        Magic User     4  Very
+short
+Bless                 Fair       Normal      Cleric         4  Very
+short
+Blindness             Superb     Hard        Cleric         8  Very
+short
+Break door            Excellent  Normal      Cleric        42  Very
+short
+Breath of briskness   Excellent  Hard        Cleric        21  Very
+short
+Create food           Fair       Normal      Cleric         4  Very
+short
+Create water          Fair       Normal      Cleric         4  Very
+short
+Cure blindness        Average    Normal      Cleric         4  Very
+short
+
+*** Return: continue, b: back, r: redisplay, q: quit (62%) *** 
+
+Cure critic           Fair       Normal      Cleric        17  Very
+short
+Cure serious          Average    Normal      Cleric        13  Very
+short
+Dispel evil           Superb     Hard        Cleric        17  Very
+short
+Heal                  Superb     Hard        Cleric        42  Very
+short
+Remove curse          Average    Normal      Cleric         9  Very
+short
+Remove poison         Fair       Normal      Cleric         4  Very
+short
+Sanctuary             Superb     Very hard   Cleric        42  Very
+short
+Strength              Superb     Hard        Cleric        17  Very
+short
+Word of recall        Fair       Very hard   Cleric         4  Very
+short
+Attack                Awful      Normal      Thief      
+Dodge                 Awful      Hard        Thief      
+Pick                  Poor       Normal      Thief      
+Search                Bad        Normal      Thief      
+Endurance             Awful      Very hard   Warrior    
+
+!# CW>north
+east
+Grand Hallway
+An elf is here walking around.
+Exits: north, east, south, west.
+
+!# CW>
+Grand Hallway
+Exits: (north), east, south, west.
+
+!# CW>south
+Cleric Guild
+A large bulletin board, entitled "Clerics' Guild", is mounted here.
+A venerable elven priest is here, willing to teach his art.
+Exits: north, [south], [up].
+
+!# CW>prac
+You have no practice sessions left.
+An elven priest can teach you the spells below.
+
+                     Sessions Knowl. Diffic.   Advice
+bless                    2/ 3    61% Normal    Easy to improve
+blindness               18/ 3   101% Hard      You should be teaching
+                                               me!
+breath of briskness     12/ 4    94% Hard      You should be teaching
+                                               me!
+cure blindness           1/12    45% Normal    Easy to improve
+cure critic              2/12    61% Normal    Easy to improve
+cure disease             0/ 4     0% Easy      You could learn easily
+cure light               0/12     0% Easy      You could learn easily
+cure serious             1/12    45% Normal    Easy to improve
+curse                    0/ 2     0% Normal    You could learn easily
+detect evil              0/ 8     0% Easy      You could learn easily
+detect poison            0/ 6     0% Easy      You could learn easily
+dispel evil             18/ 8   101% Hard      You should be teaching
+                                               me!
+divination               0/ 2     0% Hard      Takes some time to
+                                               learn
+fear                     0/18     0% Hard      Takes some time to
+                                               learn
+heal                    18/18   104% Hard      You know as much as I
+
+*** Return: continue, b: back, r: redisplay, q: quit (67%) *** 
+
+                                               do
+poison                   0/ 2     0% Normal    You could learn easily
+protection from evil     0/ 3     0% Normal    You could learn easily
+remove curse             2/ 6    57% Normal    Easy to improve
+remove poison            3/12    69% Normal    Easy to improve
+sanctuary               25/15   104% Very hard You should be teaching
+                                               me!
+sense life               0/ 3     0% Normal    You could learn easily
+strength                18/18   104% Hard      You know as much as I
+                                               do
+word of recall           5/12    63% Very hard Easy to improve
+
+!# CW>north
+Grand Hallway
+Exits: (north), east, south, west.
+
+!# CW>east
+Grand Hallway
+Exits: north, east, south, west.
+
+!# CW>south
+Mage Guild
+A large bulletin board, entitled "Mages' Guild", is mounted here.
+A grey haired elf is standing here, ready to share his knowledge.
+Exits: north, [south]. - u:hatchdoor.
+
+!# CW>prac
+You have no practice sessions left.
+A grey-haired elf can teach you the spells below.
+
+                    Sessions Knowl. Diffic. Advice
+armour                 16/12    97% Hard    You should be teaching
+                                            me!
+burning hands           2/11    53% Normal  Easy to improve
+call lightning          0/ 8     0% Hard    Takes some time to learn
+colour spray            0/16     0% Hard    Takes some time to learn
+control weather         0/ 3     0% Hard    You could learn easily
+create light            0/ 8     0% Easy    You could learn easily
+detect invisibility     0/11     0% Normal  You could learn easily
+find the path           0/ 3     0% Normal  You could learn easily
+fireball                0/16     0% Hard    Takes some time to learn
+lightning bolt          0/16     0% Hard    You could learn easily
+locate life             0/ 3     0% Hard    You could learn easily
+magic missile           0/ 8     0% Easy    You could learn easily
+night vision            0/11     0% Normal  You could learn easily
+scry                    0/ 5     0% Hard    Takes some time to learn
+shield                 16/12    97% Hard    You should be teaching
+                                            me!
+shocking grasp          0/11     0% Normal  You could learn easily
+shroud                  2/ 3    51% Hard    Easy to improve
+sleep                   0/ 3     0% Hard    Takes some time to learn
+
+*** Return: continue, b: back, r: redisplay, q: quit (95%) *** 
+
+teleport                0/16     0% Hard    You could learn easily
+
+!# CW>north
+Grand Hallway
+Exits: north, east, south, west.
+
+!# CW>east
+The Great Library
+A huge clock is standing here.
+A large bookshelf sits against the wall.
+On the bookshelf, there are an ancient parchment, a Grey Havens map, a
+silvery-green leaf and a map of Rivendell.
+Erestor the High Mage of Rivendell is studying here (glowing).
+A domesticated pony, beast of burden to many, stands here.
+Exits: [north], east, [south], west, up.
+
+!# CW>prac
+You have no practice sessions left.
+Erestor can teach you the spells below.
+
+             Sessions Knowl. Diffic.   Advice
+block door       4/11    74% Normal    Learning more could help you
+detect magic     1/ 8    46% Easy      Easy to improve
+dispel magic     0/22     0% Very hard Takes some time to learn
+earthquake       0/16     0% Hard      You could learn easily
+enchant          0/22     0% Very hard Takes some time to learn
+identify         0/16     0% Hard      Takes some time to learn
+locate           0/ 3     0% Hard      You could learn easily
+locate magic     0/12     0% Normal    You could learn easily
+portal           0/22     0% Very hard Takes some time to learn
+silence          0/11     0% Normal    Takes some time to learn
+store            0/16     0% Hard      You could learn easily
+
+!# CW>
+Helfire narrates 'this game fucking stinks'
+
+!# CW>west
+Grand Hallway
+Exits: north, east, south, west.
+
+!# CW>west
+Grand Hallway
+Exits: (north), east, south, west.
+
+!# CW>west
+Grand Hallway
+Exits: north, east, south, west.
+
+!# CW>south
+Imladris Private Guest Rooms
+A large bulletin board, entitled "Board of the Free Peoples", is
+mounted here.
+An elven guard is standing here at his post.
+Erienal, the host to guests of Imladris is standing here.
+An elf is here walking around.
+Exits: north.
+
+!# CW>who
+Players
+-------
+      Iminye
+      Skyborne
+      Beata the helf (Linkless)
+      Mirasantika Ma book Lagee Ahhh...
+ [Mw] Jahara the Hobbit Cartographer [MMapper Dev]
+      Helfire ~ Elf on Fire
+      Ashelia
+
+7 allies and visible Ainur on.
+
+!# CW>
+Helfire narrates 'so much cheating'
+
+!# CW>trau
+train all
+You start refreshing all of your skills...
+
+rent
+Helfire narrates 'and immortals do nothing'
+
+You refresh your training in 'climb'.
+
+Helfire narrates 'which'
+
+You mentally recite the 'burning hands' spell.
+No more skills need refreshing.
+
+!# CW Mana:Burning>
+Erienal tells you 'It will cost you 16 lauren coins, 6 celeb pennies,
+and 21 busc pennies per day.'
+You have enough money for at least seven years!
+Erienal stores your stuff in the safe, and helps you into your
+chamber.
+
+
+Log session ending at 07:48:13 on miércoles, 2 octubre 2019.
