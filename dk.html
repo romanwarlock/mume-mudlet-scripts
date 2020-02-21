@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2></h2>
+
+<p id="demo"></p>
+
+<script>
+//  var t0 = new Date("Feb 18, 2020 19:55:32").getTime()/1000;
+var t0 = new Date("Feb 18, 2020 19:55:32");
+var tc = new Date();
+
+//var tx = new Date(toCelsius(77));
+var diff = tc.getTime()-t0.getTime();
+//document.getElementById("demo").innerHTML = "The temperature is " + toCelsius(77) + " Celsius"+t0+;
+
+var p = 34560000;
+  var tn=  Math.floor(t0.getTime()+p*(Math.floor((tc.getTime()-t0.getTime())/p)+1));
+  var OpensAtdate = new Date(tn);
+  var OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes();
+  if (tn-1500000>=tc.getTime()){tn=tn-1500000;
+                                   OpensAtdate = new Date(tn);
+                                   OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes()+" "+OpensAt;
+                                   if (tn-1500000>=tc.getTime()){tn=tn-1500000;
+                                                                  OpensAtdate = new Date(tn);
+                                                                  OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes()+" "+OpensAt;
+                                    }
+
+  }
+  var OpensIn=tn-tc.getTime();
+  var OpensIndate = new Date(OpensIn);
+//  var OpensInstr = OpensIndate.getHours(OpensIn)+":"+OpensIndate.getMinutes(OpensIn);
+//document.getElementById("demo").innerHTML = "tn " + tn+"  tntime="+OpensAt.getHours()+":"+OpensAt.getMinutes();
+document.getElementById("demo").innerHTML = "DK unlocks in "+OpensIndate.getHours()+"h"+OpensIndate.getMinutes()+"m at"+OpensAt+" UTC";
+//document.getElementById("demo").innerHTML = "DK unlocks in at"+OpensAt+" UTC";
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+
+</body>
+</html>
