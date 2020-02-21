@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+}
+</style>
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+// / / /   S E T   M A N U A L L Y   \ \ \ \\
+/////////////////////////////////////////////
+var TimeZoneCorrection = 1;                //
+var t0 = new Date("Feb 18, 2020 19:55:32");//
+/////////////////////////////////////////////
+var tc = new Date();
+var diff = tc.getTime()-t0.getTime();
+var p = 34560000;
+  var tn=  Math.floor(t0.getTime()+p*(Math.floor((tc.getTime()-t0.getTime())/p)+1));
+  var OpensAtdate = new Date(tn);
+  var OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes();
+  if (tn-1500000>=tc.getTime()){tn=tn-1500000;
+                                   OpensAtdate = new Date(tn);
+                                   OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes()+" "+OpensAt;
+                                   if (tn-1500000>=tc.getTime()){tn=tn-1500000;
+                                                                  OpensAtdate = new Date(tn);
+                                                                  OpensAt = OpensAtdate.getHours()+":"+OpensAtdate.getMinutes()+" "+OpensAt;
+                                    }
+
+  }
+  var OpensIn=tn-tc.getTime();
+  var OpensIndate = new Date(OpensIn);
+//document.getElementById("demo").innerHTML = "DK unlocks in "+OpensIndate.getHours()+"h"+OpensIndate.getMinutes()+"m at "+OpensAt+" UTC";
+var addMyTimeZone = TimeZoneCorrection*3600000;
+var countDownDate = OpensAtdate.getTime()+addMyTimeZone;
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+//  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = "DK unlocks in " +hours + "h "
+  + minutes + "m " + seconds + "s at "+OpensAt+" UCT";
+
+}, 100);
+</script>
+
+</body>
+</html>
