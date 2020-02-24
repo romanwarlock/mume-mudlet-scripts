@@ -1,20 +1,27 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+}
+</style>
+</head>
 <body>
-
-<h2></h2>
-
 <p id="demo"></p>
-
 <script>
-//  var t0 = new Date("Feb 18, 2020 19:55:32").getTime()/1000;
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+// / / /   S E T   M A N U A L L Y   \ \ \ \\
+
 var t0 = new Date("Feb 18, 2020 19:55:32");
+//------------------------------------------\\
 var tc = new Date();
-
-//var tx = new Date(toCelsius(77));
-var diff = tc.getTime()-t0.getTime();
-//document.getElementById("demo").innerHTML = "The temperature is " + toCelsius(77) + " Celsius"+t0+;
-
+//var diff = tc.getTime()-t0.getTime();
 var p = 34560000;
   var tn=  Math.floor(t0.getTime()+p*(Math.floor((tc.getTime()-t0.getTime())/p)+1));
   var OpensAtdate = new Date(tn);
@@ -30,14 +37,8 @@ var p = 34560000;
   }
   var OpensIn=tn-tc.getTime();
   var OpensIndate = new Date(OpensIn);
-//  var OpensInstr = OpensIndate.getHours(OpensIn)+":"+OpensIndate.getMinutes(OpensIn);
-//document.getElementById("demo").innerHTML = "tn " + tn+"  tntime="+OpensAt.getHours()+":"+OpensAt.getMinutes();
-document.getElementById("demo").innerHTML = "DK unlocks in "+OpensIndate.getHours()+"h"+OpensIndate.getMinutes()+"m at"+OpensAt+" UTC";
-//document.getElementById("demo").innerHTML = "DK unlocks in at"+OpensAt+" UTC";
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
-} 
+document.getElementById("demo").innerHTML = "DK unlocks in "+OpensIndate.getHours()+":"+OpensIndate.getMinutes()+":"+OpensIndate.getSeconds()+" at "+OpensAt+" UTC";
+}, 100);
 </script>
-
 </body>
 </html>
