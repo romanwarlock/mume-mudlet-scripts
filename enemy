@@ -1,3 +1,4 @@
+--^\*(.+)(Orc|Troll|an)\*(.+)$
 local enemy = matches[2]..matches[3]
 selectString("*"..enemy.."*", 1 ) 
 fg("red")
