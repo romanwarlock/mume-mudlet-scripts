@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<ScriptGroup isActive="yes" isFolder="yes">
+			<name>Reply</name>
+			<packageName>Reply</packageName>
+			<script></script>
+			<eventHandlerList />
+			<Script isActive="yes" isFolder="no">
+				<name>mob_name</name>
+				<packageName></packageName>
+				<script>mob_name = {
+"Thelion",
+"Anak",
+"Amanrandil",
+"Anarwen",
+"Angdil",
+"Barliman",
+"Celeborn",
+"Ciryariel",
+"Curundil",
+"Celebrindal ",
+"Daegil",
+"Ecthelion",
+"Erestor",
+"Erienal",
+"Elrond",
+"Galadriel",
+"Nordri",
+"Orophin",
+"Sarion",
+"Sauron",
+"Tom",
+"ranger",
+"Katerine",
+"Quenaire",
+"Drom",
+"Sigismond",
+"Janice",
+"Arandir",
+"Isadora",
+"Monchhichi",
+"Thrakghash"
+}</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>contains</name>
+				<packageName></packageName>
+				<script>function contains(tbl, item)
+    for key, value in pairs(tbl) do
+        if value == item then return true end
+    end
+    return false
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>WordsFromLine</name>
+				<packageName></packageName>
+				<script>function WordsFromLine(inputstr, sep)
+        if sep == nil then
+                sep = "%s"
+        end
+        local t={} ; i=0
+        for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+                i = i + 1
+                t[i] = str
+        end
+        return t
+end</script>
+				<eventHandlerList />
+			</Script>
+			<Script isActive="yes" isFolder="no">
+				<name>findnth</name>
+				<packageName></packageName>
+				<script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+function findnth(str, nth)
+  local t={} ; i=0
+  for word in string.gmatch(str, "%a+") do
+    i = i + 1 
+    t[i] = word
+  end
+  return t[nth]
+end</script>
+				<eventHandlerList />
+			</Script>
+		</ScriptGroup>
+	</ScriptPackage>
+</MudletPackage>
