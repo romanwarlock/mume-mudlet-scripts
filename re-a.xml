@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Reply</name>
+			<script></script>
+			<command></command>
+			<packageName>Reply</packageName>
+			<regex></regex>
+			<AliasGroup isActive="yes" isFolder="yes">
+				<name>Reply</name>
+				<script></script>
+				<command></command>
+				<packageName></packageName>
+				<regex></regex>
+				<Alias isActive="yes" isFolder="no">
+					<name>tell Voiinskreiz</name>
+					<script>send("tell Voiinskreiz "..matches[2])</script>
+					<command></command>
+					<packageName></packageName>
+					<regex>^tv (.*)$</regex>
+				</Alias>
+				<Alias isActive="yes" isFolder="no">
+					<name>Reply2Alias</name>
+					<script>send("tell "..teller_new.." "..matches[2])</script>
+					<command></command>
+					<packageName></packageName>
+					<regex>^re (.*)$</regex>
+				</Alias>
+				<Alias isActive="yes" isFolder="no">
+					<name>TelEgalmoth</name>
+					<script>send("tell egalmoth "..matches[2])
+--^et (.*)$</script>
+					<command></command>
+					<packageName></packageName>
+					<regex>^et (.*)$</regex>
+				</Alias>
+				<Alias isActive="yes" isFolder="no">
+					<name>telGalmod</name>
+					<script>send("tell galmod "..matches[2])
+</script>
+					<command></command>
+					<packageName></packageName>
+					<regex>^tg (.*)$</regex>
+				</Alias>
+				<Alias isActive="yes" isFolder="no">
+					<name>tell Fastolph</name>
+					<script>send("tell Fastolph "..matches[2])</script>
+					<command></command>
+					<packageName></packageName>
+					<regex>^tf (.*)$</regex>
+				</Alias>
+			</AliasGroup>
+			<Alias isActive="yes" isFolder="no">
+				<name>Mops</name>
+				<script>send("whois Aranaeth;whois Limper;whois Moyere;whois Soulcatcher;whois Wheezer;whois Mops")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^Mops$</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+</MudletPackage>
