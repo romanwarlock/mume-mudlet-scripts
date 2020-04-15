@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage>
+		<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+			<name>Reply</name>
+			<script></script>
+			<triggerType>0</triggerType>
+			<conditonLineDelta>0</conditonLineDelta>
+			<mStayOpen>0</mStayOpen>
+			<mCommand></mCommand>
+			<packageName>Reply</packageName>
+			<mFgColor>#ff0000</mFgColor>
+			<mBgColor>#ffff00</mBgColor>
+			<mSoundFile></mSoundFile>
+			<colorTriggerFgColor>#000000</colorTriggerFgColor>
+			<colorTriggerBgColor>#000000</colorTriggerBgColor>
+			<regexCodeList />
+			<regexCodePropertyList />
+			<TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="yes" isPerlSlashGOption="yes" isColorizerTrigger="no" isFilterTrigger="yes" isSoundTrigger="no" isColorTrigger="yes" isColorTriggerFg="no" isColorTriggerBg="no">
+				<name>ReplyColorFilter</name>
+				<script>--Color filter in order to avoid "tells you" pattern in whois </script>
+				<triggerType>0</triggerType>
+				<conditonLineDelta>0</conditonLineDelta>
+				<mStayOpen>0</mStayOpen>
+				<mCommand></mCommand>
+				<packageName></packageName>
+				<mFgColor>#ff0000</mFgColor>
+				<mBgColor>#ffff00</mBgColor>
+				<mSoundFile></mSoundFile>
+				<colorTriggerFgColor>#00b300</colorTriggerFgColor>
+				<colorTriggerBgColor>#000000</colorTriggerBgColor>
+				<regexCodeList>
+					<string>ANSI_COLORS_F{002}_B{DEFAULT}</string>
+				</regexCodeList>
+				<regexCodePropertyList>
+					<integer>6</integer>
+				</regexCodePropertyList>
+				<Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+					<name>ReplyWithArray</name>
+					<script>local GetCharacterName=WordsFromLine(matches[2])
+local ThatCharacterName=GetCharacterName[1]
+
+local raw_teller=matches[2]
+
+if string.find(matches[2], "tells you", 1)~=nil then raw_teller=ThatCharacterName end
+
+
+Name=0
+Vote=0
+--echo("\n"..matches[2].."\n")
+--echo("\n"..matches[3].."\n")
+if string.find(matches[3], "Vot", 1)~=nil then Vote=1
+ elseif string.find(matches[3], "VOT", 1)~=nil then Vote=1
+ elseif string.find(matches[3], "vot", 1)~=nil then Vote=1
+end
+--  if string.find(raw_teller, "Rogon", 1)~=nil then Name=1
+--  elseif string.find(raw_teller, "Imago", 1)~=nil then Name=1
+if string.find(matches[2], "Rogon", 1)~=nil then Name=1
+  elseif string.find(matches[2], "Imago", 1)~=nil then Name=1
+  elseif string.find(matches[3], "SELLING", 1)~=nil then Name=1 Vote=1
+  elseif string.find(matches[3], "AFK", 1)~=nil then Name=1 Vote=1
+end
+CustomFilter=Name*Vote
+--echo("\n"..CustomFilter.."\n")
+
+if contains(Friend_name, raw_teller) then
+  CustomFilter=1
+  if string.find(matches[3], "cheli", 1)~=nil then
+    send("get chelicera all;give chelicera "..matches[2])
+  end
+end
+
+if not contains(mob_name, raw_teller) then
+if CustomFilter==0 then
+if string.find(raw_teller, " ", 1)==nil then
+  teller_new=raw_teller 
+--   echo("\n\n\_________________"..teller_new.."\n\n")
+end
+end
+end
+</script>
+					<triggerType>0</triggerType>
+					<conditonLineDelta>0</conditonLineDelta>
+					<mStayOpen>0</mStayOpen>
+					<mCommand></mCommand>
+					<packageName></packageName>
+					<mFgColor>#ff0000</mFgColor>
+					<mBgColor>#ffff00</mBgColor>
+					<mSoundFile></mSoundFile>
+					<colorTriggerFgColor>#000000</colorTriggerFgColor>
+					<colorTriggerBgColor>#000000</colorTriggerBgColor>
+					<regexCodeList>
+						<string>(.+) tells you (.+)</string>
+					</regexCodeList>
+					<regexCodePropertyList>
+						<integer>1</integer>
+					</regexCodePropertyList>
+				</Trigger>
+			</TriggerGroup>
+		</TriggerGroup>
+	</TriggerPackage>
+</MudletPackage>
