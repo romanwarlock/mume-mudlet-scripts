@@ -24,13 +24,6 @@ end
 CustomFilter=Name*Vote
 --echo("\n"..CustomFilter.."\n")
 
-if contains(Friend_name, raw_teller) then
-  CustomFilter=1
-  if string.find(matches[3], "cheli", 1)~=nil then
-    send("get chelicera all;give chelicera "..matches[2])
-  end
-end
-
 if not contains(mob_name, raw_teller) then
 if CustomFilter==0 then
 if string.find(raw_teller, " ", 1)==nil then
