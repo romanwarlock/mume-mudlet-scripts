@@ -1,0 +1,51 @@
+local GetCharacterName=WordsFromLine(matches[2])
+local ThatCharacterName=GetCharacterName[1]
+
+local raw_teller=matches[2]
+
+if string.find(matches[2], "tells you", 1)~=nil then raw_teller=ThatCharacterName end
+
+
+Name=0
+Vote=0
+--echo("\n"..matches[2].."\n")
+--echo("\n"..matches[3].."\n")
+if string.find(matches[3], "Vot", 1)~=nil then Vote=1
+ elseif string.find(matches[3], "VOT", 1)~=nil then Vote=1
+ elseif string.find(matches[3], "vot", 1)~=nil then Vote=1
+end
+--  if string.find(raw_teller, "Rogon", 1)~=nil then Name=1
+--  elseif string.find(raw_teller, "Imago", 1)~=nil then Name=1
+if string.find(matches[2], "Rogon", 1)~=nil then Name=1
+  elseif string.find(matches[2], "Imago", 1)~=nil then Name=1
+  elseif string.find(matches[3], "SELLING", 1)~=nil then Name=1 Vote=1
+  elseif string.find(matches[3], "AFK", 1)~=nil then Name=1 Vote=1
+end
+CustomFilter=Name*Vote
+--echo("\n"..CustomFilter.."\n")
+
+if contains(Friend_name, raw_teller) then
+  CustomFilter=1
+  if string.find(matches[3], "cheli", 1)~=nil then
+    send("get chelicera all;give chelicera "..matches[2])
+  end
+end
+
+if not contains(mob_name, raw_teller) then
+if CustomFilter==0 then
+if string.find(raw_teller, " ", 1)==nil then
+  teller_new=raw_teller  
+TellsTime = getTime(true, "HH:mm")
+TellsLine = matches[3]
+-- selectCurrentLine()
+-- copy()
+-- TellsWindow:appendBuffer()
+-- cecho("mumeCommTells", "<green>"..TellsTime.." <DarkOrange>"..ReplyTarget.."<reset> tells you <yellow>"..TellsLine.."<reset>\n", true)
+tellsWindow:cecho("<green>"..TellsTime.." <DarkOrange>"..teller_new.."<reset> tells you <yellow>"..TellsLine.."<reset>\n")
+-- tellsLabel:cecho("<red>Testcecho.\n")
+-- tellsLabel:echo("testecho\n")
+-- cecho("tellsLabel", "<green>"..TellsTime.." <DarkOrange>"..ReplyTarget.."<reset> tells you <yellow>"..TellsLine.."<reset>\n", true) 
+--   echo("\n\n\_________________"..teller_new.."\n\n")
+end
+end
+end
