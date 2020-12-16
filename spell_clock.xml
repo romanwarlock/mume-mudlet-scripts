@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TimerPackage>
+		<Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+			<name>spellclock</name>
+			<script>CommTime = getTime(true, "HH:mm")
+CommLine = matches[3]
+-- selectCurrentLine()
+-- copy()
+-- TellsWindow:appendBuffer()
+-- cecho("mumeCommOthers", "&lt;green&gt;"..CommTime.." &lt;SandyBrown&gt;"..Communicator.."&lt;reset&gt; sings &lt;gold&gt;"..CommLine.."&lt;reset&gt;\n", true)
+clearWindow("commWindow")
+if armboo~=nil then
+  local tarm=time.convert_seconds_to_hms(time_get_time() - armour.start_time)  
+  commWindow:cecho("&lt;"..armclr.."&gt;   armour    "..tarm.."&lt;reset&gt;\n")
+end
+if shiboo~=nil then
+if shiboo&gt;-1 then
+  local tshi = time.convert_seconds_to_hms(time_get_time() - shield.start_time)
+  commWindow:cecho("&lt;"..shieldcolor.."&gt;   shield    "..tshi.."&lt;reset&gt;\n")
+end
+end
+if strboo~=nil then
+if strboo&gt;0 then
+  local tstr= time.convert_seconds_to_hms(time_get_time() - strength.start_time)
+  commWindow:cecho("&lt;"..strclr.."&gt;   strength  "..tstr.."&lt;reset&gt;\n")
+end
+end
+if sanboo~=nil then
+if sanboo&gt;0 then
+  local tsan= time.convert_seconds_to_hms(time_get_time() - sanctuary.start_time)
+  commWindow:cecho("&lt;yellow&gt;   sanctuary  "..tsan.."&lt;reset&gt;\n")
+end
+end
+if bleboo~=nil then
+if bleboo&gt;0 then
+  local tble = time.convert_seconds_to_hms(time_get_time()-bless.start_time)
+  commWindow:cecho("&lt;grey&gt;   bless     "..tble.."&lt;reset&gt;\n")
+end
+end
+--commWindow:cecho("&lt;"..bleclr.."&gt;   bless  "..tble.."&lt;reset&gt;\n")
+if tirboo~=nil then
+if tirboo&gt;0 then
+  local ttir=time.convert_seconds_to_hms(time_get_time() - tiredness.start_time)
+  commWindow:cecho("&lt;grey&gt;   tiredness     "..ttur.."&lt;reset&gt;\n")
+end
+end
+if hagboo~=nil then
+if hagboo&gt;0 then
+  local thag=time.convert_seconds_to_hms(time_get_time() - haggardness.start_time)
+  commWindow:cecho("&lt;grey&gt;   tiredness     "..thag.."&lt;reset&gt;\n")
+end
+end
+if letboo~=nil then
+if letboo&gt;0 then
+  local tlet=time.convert_seconds_to_hms(time_get_time() - lethargy.start_time)
+  commWindow:cecho("&lt;grey&gt;   lethargy     "..tlet.."&lt;reset&gt;\n")
+end
+end
+</script>
+			<command></command>
+			<packageName></packageName>
+			<time>00:00:01.000</time>
+		</Timer>
+	</TimerPackage>
+</MudletPackage>
