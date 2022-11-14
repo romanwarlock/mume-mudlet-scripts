@@ -1,1 +1,1 @@
-echo(package.cpath:match("%p[\\|/]?%p(%a+)"))
+print(package.cpath:match("%p[\\|/]?%p(%a+)"))
